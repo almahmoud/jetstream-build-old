@@ -37,7 +37,7 @@ def write_logs_and_delete(job_name, namespace, logfile):
     with open(logfile, 'w') as f:
         f.write(get_logs(job_name, namespace))
     api_response = batch_v1.delete_namespaced_job(
-        name=f'{args.package}-build',
+        name=f'{args.package.lower()}-build',
         namespace=args.namespace,
         body=client.V1DeleteOptions(
             propagation_policy='Foreground',
@@ -46,18 +46,18 @@ def write_logs_and_delete(job_name, namespace, logfile):
 
 
 api_response = batch_v1.read_namespaced_job_status(
-    name=f'{args.package}-build',
+    name=f'{args.package.lower()}-build',
     namespace=args.namespace)
 if api_response.status.succeeded is not None:
     with open(args.statusfile, 'w') as f:
         f.write("built")
-    write_logs_and_delete(job_name=f'{args.package}-build',
+    write_logs_and_delete(job_name=f'{args.package.lower()}-build',
                           namespace=args.namespace,
                           logfile=args.logfile)
 elif api_response.status.failed is not None:
     with open(args.statusfile, 'w') as f:
         f.write("failedbuild")
-    write_logs_and_delete(job_name=f'{args.package}-build',
+    write_logs_and_delete(job_name=f'{args.package.lower()}-build',
                           namespace=args.namespace,
                           logfile=args.logfile)
 

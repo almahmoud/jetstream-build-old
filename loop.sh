@@ -28,6 +28,8 @@ function dispatch_job {
         python dispatch_build_job.py -p $pkg -n $namespace -c $claim -m "manifests/$pkg"
     else
         python check_job_status.py -p $pkg -n $namespace -s manifests/$pkg/status -l manifests/$pkg/log
+        grep -ir "built" manifests/$pkg | awk -F'/' '{print $2}' >> lists/done;
+        grep -ir "failedbuild" manifests/$pkg | awk -F'/' '{print $2}' >> lists/failed;
     fi
 }
 
@@ -43,7 +45,3 @@ python update_lists.py -j packages.json -t lists/todo -d lists/done -r lists/rem
 while IFS= read -r pkg; do
     dispatch_job
 done < lists/todo
-
-grep -ir "built" manifests | awk -F'/' '{print $2}' >> lists/done;
-grep -ir "failedbuild" manifests | awk -F'/' '{print $2}' >> lists/failed;
-
