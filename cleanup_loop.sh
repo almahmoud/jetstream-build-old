@@ -27,8 +27,12 @@ function dispatch_job {
         python check_job_status.py -p $pkg -n $namespace -s manifests/$pkg/status -l manifests/$pkg/log
         grep -ir "built" manifests/$pkg | awk -F'/' '{print $2}' >> lists/done;
         grep -ir "failedbuild" manifests/$pkg | awk -F'/' '{print $2}' >> lists/failed;
+        git add "manifests/$pkg" || true
     fi
 }
+
+git config --local user.email "action@github.com"
+git config --local user.name "GitHub Action"
 
 #Rscript deps_json.R packages.json
 mkdir -p lists
@@ -41,6 +45,7 @@ touch lists/skipped
 
 while [ -s lists/todo ]; do
     python update_lists.py -j packages.json -t lists/todo -d lists/done -r lists/removed -f lists/failed -s lists/skipped
+    git add lists || true
     grep -v "^$" lists/todo > lists/tmptodocleanup
     while IFS= read -r pkg; do
         dispatch_job
