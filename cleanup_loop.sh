@@ -1,5 +1,4 @@
 #!/bin/bash
-set -e
 while getopts "n:c:" flag
 do
     case "${flag}" in
@@ -44,7 +43,6 @@ touch lists/skipped
 
 
 while [ -s lists/todo ]; do
-    python update_lists.py -j packages.json -t lists/todo -d lists/done -r lists/removed -f lists/failed -s lists/skipped
     git add lists || true
     grep -v "^$" lists/todo > lists/tmptodocleanup
     while IFS= read -r pkg; do
