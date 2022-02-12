@@ -51,10 +51,4 @@ echo "Waiting"
 
 grep -ir "built" manifests | awk -F'/' '{print $2}' >> lists/done;
 grep -ir "failedbuild" manifests | awk -F'/' '{print $2}' >> lists/failed;
-cat tmpdone > lists/done;
-rm tmpdone;
-sleep 30;
-
-
-
 

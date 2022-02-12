@@ -24,11 +24,10 @@ core_v1 = client.CoreV1Api()
 def get_logs(job_name, namespace):
     job_def = batch_v1.read_namespaced_job(name=job_name, namespace=namespace)
     controllerUid = job_def.metadata.labels["controller-uid"]
-    pod_label_selector = 
     pods_list = core_v1.list_namespaced_pod(namespace=namespace, label_selector=f'controller-uid={controllerUid}', timeout_seconds=10)
     pod_name = pods_list.items[0].metadata.name
     try:
-        pod_log_response = core_v1.read_namespaced_pod_log(name=pod_name, namespace=JOB_NAMESPACE, _return_http_data_only=True, _preload_content=False)
+        pod_log_response = core_v1.read_namespaced_pod_log(name=pod_name, namespace=namespace, _return_http_data_only=True, _preload_content=False)
         return pod_log_response.data.decode("utf-8")
     except client.rest.ApiException as e:
         print("Exception when calling CoreV1Api->read_namespaced_pod_log: %s\n" % e)
