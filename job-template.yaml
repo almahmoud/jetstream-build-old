@@ -15,12 +15,12 @@ spec:
             claimName: LIBRARIESCLAIM
       containers:
       - name: build
-        image: bioconductor/bioconductor_docker:devel
+        image: bioconductor/bioconductor_docker:RELEASE_3_14
         command:
           - /bin/bash
           - -c
         args:
-          - Rscript -e 'BiocManager::install("PACKAGENAME", INSTALL_opts = "--build", update = FALSE, quiet = TRUE, force = TRUE, keep_outputs = TRUE)'
+          - cd /mnt/libs/R && Rscript -e 'BiocManager::install("PACKAGENAME", INSTALL_opts = "--build", update = FALSE, quiet = TRUE, force = TRUE, keep_outputs = TRUE)'
         env:
           - name: R_LIBS_USER
             value: "/mnt/libs/R"
