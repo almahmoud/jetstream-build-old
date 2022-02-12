@@ -1,0 +1,31 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: entropyexplorer-build
+  namespace: testbuild
+spec:
+  template:
+    spec:
+      securityContext:
+        runAsUser: 1000
+        fsGroup: 1000
+      volumes:
+        - name: libraries
+          persistentVolumeClaim:
+            claimName: rstudio-r-libraries-pvc
+      containers:
+      - name: build
+        image: bioconductor/bioconductor_docker:RELEASE_3_14
+        command:
+          - /bin/bash
+          - -c
+        args:
+          - cd /mnt/libs/R && Rscript -e 'if(BiocManager::install("EntropyExplorer", INSTALL_opts = "--build", update = FALSE, quiet = TRUE, force = TRUE, keep_outputs = FALSE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+        env:
+          - name: R_LIBS_USER
+            value: "/mnt/libs/R"
+        volumeMounts:
+          - name: libraries
+            mountPath: "/mnt/libs/R"
+      restartPolicy: OnFailure
+  backoffLimit: 4
