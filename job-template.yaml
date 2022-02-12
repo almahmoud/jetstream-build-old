@@ -1,0 +1,31 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: PACKAGENAMELOWER-build
+  namespace: NAMESPACE
+spec:
+  template:
+    spec:
+      securityContext:
+        runAsUser: 1000
+        fsGroup: 1000
+      volumes:
+        - name: libraries
+          persistentVolumeClaim:
+            claimName: LIBRARIESCLAIM
+      containers:
+      - name: build
+        image: bioconductor/bioconductor_docker:devel
+        command:
+          - /bin/bash
+          - -c
+        args:
+          - Rscript -e 'BiocManager::install("PACKAGENAME", INSTALL_opts = "--build", update = FALSE, quiet = TRUE, force = TRUE, keep_outputs = TRUE)'
+        env:
+          - name: R_LIBS_USER
+            value: "/mnt/libs/R"
+        volumeMounts:
+          - name: libraries
+            mountPath: "/mnt/libs/R"
+      restartPolicy: OnFailure
+  backoffLimit: 4

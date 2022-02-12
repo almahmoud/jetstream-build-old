@@ -1,0 +1,51 @@
+image:
+  repository: bioconductor/bioconductor_docker
+  tag: RELEASE_3_14
+  pullPolicy: Always
+
+ingress:
+  enabled: false
+
+service:
+  type: NodePort
+
+persistence:
+  enabled: true
+  name: rstudio-pvc
+  # annotations: {}
+  storageClass: "nfs"
+  # existingClaim:
+  accessMode: ReadWriteMany
+  size: 10Gi
+  mountPath: /home/rstudio
+
+libraries:
+  persistence:
+    # If you disable persistence for R libraries, you likely want 
+    # to remove the default .Renviron from `mutableConfigs`
+    enabled: true
+    # If separateClaim is false, will default to using the general
+    # persistence volume with mountPath: {{.Values.persistence.mountPath}}/persisted-library/R
+    separateClaim: 
+      enabled: true
+      name: r-libraries-pvc
+      # annotations: {}
+      storageClass: "nfs"
+      # existingClaim:
+      accessMode: ReadWriteMany
+      size: 100Gi
+      mountPath: /home/rstudio/persisted-library/R
+
+extraEnv:
+  - name: PASSWORD
+    value: "spicychange"
+
+mutableConfigs:
+  - fileName: ".Renviron"
+    subPath: ""
+    contents: |
+      {{- if .Values.libraries.persistence.separateClaim.enabled }}
+      R_LIBS={{ .Values.libraries.persistence.separateClaim.mountPath }}
+      {{- else }}
+      R_LIBS={{.Values.persistence.mountPath}}/persisted-library/R
+      {{- end }}
