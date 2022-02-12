@@ -25,9 +25,9 @@ function dispatch_job {
     if [ ! -f "manifests/$pkg/$pkg.yaml" ]
     then
         mkdir -p "manifests/$pkg"
-        python3 dispatch_build_job.py -p $pkg -n $namespace -c $claim -m "manifests/$pkg"
+        python dispatch_build_job.py -p $pkg -n $namespace -c $claim -m "manifests/$pkg"
     else
-        python3 check_job_status.py -p $pkg -n $namespace -s manifests/$pkg/status -l manifests/$pkg/log
+        python check_job_status.py -p $pkg -n $namespace -s manifests/$pkg/status -l manifests/$pkg/log
     fi
 }
 
@@ -39,15 +39,10 @@ touch lists/removed
 touch lists/failed
 touch lists/skipped
 
-python3 update_lists.py -j packages.json -t lists/todo -d lists/done -r lists/removed -f lists/failed -s lists/skipped
+python update_lists.py -j packages.json -t lists/todo -d lists/done -r lists/removed -f lists/failed -s lists/skipped
 while IFS= read -r pkg; do
     dispatch_job
 done < lists/todo
-
-ls lists
-sleep 10
-echo "Waiting"
-
 
 grep -ir "built" manifests | awk -F'/' '{print $2}' >> lists/done;
 grep -ir "failedbuild" manifests | awk -F'/' '{print $2}' >> lists/failed;
