@@ -24,7 +24,7 @@ jobs:
         shell: bash
         run: mkdir -p ~/.kube && echo "${{ secrets.KUBECONFIG}}" > ~/.kube/config
       - shell: bash
-        run: bash loop.sh -n $NAMESPACE -c $PVC
+        run: bash -c "bash dispatch_loop.sh -n $NAMESPACE -c $PVC & sleep 30 && bash cleanup_loop.sh -n $NAMESPACE -c $PVC & sleep 30 && bash commit.sh"
       - shell: bash
         run: |
           git config --local user.email "action@github.com"

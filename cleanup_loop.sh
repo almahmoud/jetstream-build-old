@@ -22,12 +22,8 @@ fi
 
 
 function dispatch_job {
-    if [ ! -f "manifests/$pkg/$pkg.yaml" ]
+    if [ -f "manifests/$pkg/$pkg.yaml" ]
     then
-        mkdir -p "manifests/$pkg"
-        python dispatch_build_job.py -p $pkg -n $namespace -c $claim -m "manifests/$pkg"
-        echo "Dispatched pkg: $pkg"
-    else
         python check_job_status.py -p $pkg -n $namespace -s manifests/$pkg/status -l manifests/$pkg/log
         grep -ir "built" manifests/$pkg | awk -F'/' '{print $2}' >> lists/done;
         grep -ir "failedbuild" manifests/$pkg | awk -F'/' '{print $2}' >> lists/failed;
@@ -42,10 +38,12 @@ touch lists/removed
 touch lists/failed
 touch lists/skipped
 
-#python update_lists.py -j packages.json -t lists/todo -d lists/done -r lists/removed -f lists/failed -s lists/skipped
-grep -v "^$" lists/todo > lists/tmptodo
-while IFS= read -r pkg; do
-    dispatch_job
-done < lists/tmptodo
 
-rm lists/tmptodo
+while [ -s lists/todo ]; do
+    python update_lists.py -j packages.json -t lists/todo -d lists/done -r lists/removed -f lists/failed -s lists/skipped
+    grep -v "^$" lists/todo > lists/tmptodocleanup
+    while IFS= read -r pkg; do
+        dispatch_job
+    done < lists/tmptodocleanup
+    rm lists/tmptodocleanup
+done
