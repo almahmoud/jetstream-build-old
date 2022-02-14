@@ -6,7 +6,7 @@ touch lists/todo
 git config --local user.email "action@github.com"
 git config --local user.name "GitHub Action"
 
-while [ -s lists/todo ]; do
+while true; do
     git commit -m "Periodic commit" || true
     git add packages.json || true
     git add lists || true
