@@ -24,7 +24,7 @@ function dispatch_job {
     if [ ! -f "manifests/$pkg/$pkg.yaml" ]
     then
         mkdir -p "manifests/$pkg"
-        python dispatch_build_job.py -p $pkg -n $namespace -c $claim -m "manifests/$pkg"
+        python dispatch_build_job.py -p $pkg -n $namespace -c $claim -m "manifests/$pkg" -w "$(kubectl get nodes | grep $(kubectl get nodes | grep etcd | awk '{print $1}')- | awk '{print "\""$1"\""}' | paste -sd, -)"
         echo "Dispatched pkg: $pkg"
         git add "manifests/$pkg" || true
     fi

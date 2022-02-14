@@ -12,21 +12,23 @@ parser.add_argument("-n", "--namespace", dest="namespace",
                     help="Namespace in which to dispatch job")
 parser.add_argument("-m", "--manifest-dir", dest="manifest",
                     help="Directory in which to output manifest of deployed job")
+parser.add_argument("-w", "--worker-nodes", dest="workers",
+                    help="""List of worker node names in format: -w '"node1","node2"')""")
 
 args = parser.parse_args()
 
-def create_build_job(package, libraries_pvc, namespace="default"):
+def create_build_job(package, libraries_pvc, workers, namespace="default"):
     config.load_kube_config()
     k8s_client = client.ApiClient()
     with open("job-template.yaml", "r") as f:
         tpl = f.read()
-    tpl = tpl.replace("PACKAGENAMELOWER", package.lower()).replace("PACKAGENAME", package).replace("LIBRARIESCLAIM", libraries_pvc).replace("NAMESPACE", namespace)
+    tpl = tpl.replace("PACKAGENAMELOWER", package.lower()).replace("PACKAGENAME", package).replace("LIBRARIESCLAIM", libraries_pvc).replace("NAMESPACE", namespace).replace("WORKERNODES", workers)
     with open(f'{args.manifest}/{package}.yaml', "w") as f:
         f.write(tpl)
     utils.create_from_yaml(k8s_client, f'{args.manifest}/{package}.yaml')
 
 
-create_build_job(args.package, args.claim, args.namespace)
+create_build_job(args.package, args.claim, args.workers, args.namespace)
 
 
 # JOB_NAME = "build"
