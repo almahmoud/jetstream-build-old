@@ -24,7 +24,7 @@ jobs:
         shell: bash
         run: mkdir -p ~/.kube && echo "${{ secrets.KUBECONFIG}}" > ~/.kube/config
       - shell: bash
-        run: bash -c "bash dispatch_loop.sh -n $NAMESPACE -c $PVC & sleep 30 && bash cleanup_loop.sh -n $NAMESPACE -c $PVC & sleep 60 && bash commit.sh"
+        run: bash -c "bash dispatch_loop.sh -n $NAMESPACE -c $PVC & sleep 30 && bash cleanup_loop.sh -n $NAMESPACE -c $PVC & sleep 60 && bash commit.sh & sleep 60 && bash update_lists.sh -n $NAMESPACE -c $PVC"
         continue-on-error: true
       - shell: bash
         run: |

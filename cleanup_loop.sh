@@ -23,7 +23,7 @@ fi
 function dispatch_job {
     if [ -f "manifests/$pkg/$pkg.yaml" ]
     then
-        python check_job_status.py -p $pkg -n $namespace -s manifests/$pkg/status -l manifests/$pkg/log
+        #python check_job_status.py -p $pkg -n $namespace -s manifests/$pkg/status -l manifests/$pkg/log
         grep -ir "built" manifests/$pkg | awk -F'/' '{print $2}' >> lists/done;
         grep -ir "failedbuild" manifests/$pkg | awk -F'/' '{print $2}' >> lists/failed;
         git add "manifests/$pkg" || true
