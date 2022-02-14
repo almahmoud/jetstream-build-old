@@ -7,11 +7,12 @@ git config --local user.email "action@github.com"
 git config --local user.name "GitHub Action"
 
 while true; do
-    git commit -m "Periodic commit" || true
-    git add packages.json || true
-    git add lists || true
-    git add manifests || true
-    git push || true
+    rm .git/index.lock || true && sleep 1;
+    git add packages.json || true && sleep 1;
+    git add lists || true && sleep 1;
+    git add manifests || true && sleep 1;
+    git commit -m "Periodic commit" || true && sleep 1;
+    git push || true;
     sleep 300
 done
 
