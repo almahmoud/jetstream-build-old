@@ -31,26 +31,26 @@ done = []
 failed = []
 skipped = []
 if os.path.exists(args.donefile):
-    os.rename(args.donefile, 'tmpdone.txt')
-    with open('tmpdone.txt', 'r') as f:
+    os.rename(args.donefile, 'tmpupdlsdone.txt')
+    with open('tmpupdlsdone.txt', 'r') as f:
         done = f.read().splitlines()
-    os.remove('tmpdone.txt')
+    os.remove('tmpupdlsdone.txt')
     with open(args.removedfile, 'a+') as f:
         f.writelines("\n".join(done) + "\n")
 
 if os.path.exists(args.failedfile):
-    os.rename(args.failedfile, 'tmpfailed.txt')
-    with open('tmpfailed.txt', 'r') as f:
+    os.rename(args.failedfile, 'tmpupdlsfailed.txt')
+    with open('tmpupdlsfailed.txt', 'r') as f:
         failed = f.read().splitlines()
-    os.remove('tmpfailed.txt')
+    os.remove('tmpupdlsfailed.txt')
     with open(args.removedfile, 'a+') as f:
         f.writelines("\n".join(failed) + "\n")
 
 if os.path.exists(args.skippedfile):
-    os.rename(args.skippedfile, 'tmpskipped.txt')
-    with open('tmpskipped.txt', 'r') as f:
+    os.rename(args.skippedfile, 'tmpupdlsskipped.txt')
+    with open('tmpupdlsskipped.txt', 'r') as f:
         skipped = f.read().splitlines()
-    os.remove('tmpskipped.txt')
+    os.remove('tmpupdlsskipped.txt')
     with open(args.removedfile, 'a+') as f:
         f.writelines("\n".join(skipped) + "\n")
 

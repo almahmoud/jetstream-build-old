@@ -44,10 +44,10 @@ touch lists/skipped
 python update_lists.py -j packages.json -t lists/todo -d lists/done -r lists/removed -f lists/failed -s lists/skipped
 
 while [ -s lists/todo ]; do
-    grep -v "^$" lists/todo > lists/tmptodo;
+    grep -v "^$" lists/todo > lists/tmpdsplooptodo;
     while IFS= read -r pkg; do
         dispatch_job
-    done < lists/tmptodo
+    done < lists/tmpdsplooptodo
 
-    rm lists/tmptodo
+    rm lists/tmpdsplooptodo
 done

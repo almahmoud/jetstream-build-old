@@ -45,9 +45,9 @@ touch lists/skipped
 
 while [ -s lists/todo ]; do
     git add lists || true
-    grep -v "^$" lists/todo > lists/tmptodocleanup
+    grep -v "^$" lists/todo > lists/tmpclnlptodocleanup
     while IFS= read -r pkg; do
         dispatch_job
-    done < lists/tmptodocleanup
-    rm lists/tmptodocleanup
+    done < lists/tmpclnlptodocleanup
+    rm lists/tmpclnlptodocleanup
 done

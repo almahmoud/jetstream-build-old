@@ -25,10 +25,10 @@ with open(args.inputjson, 'r') as f:
     deps = json.load(f)
 done = []
 if os.path.exists(args.donefile):
-    os.rename(args.donefile, 'tmpdone.txt')
-    with open('tmpdone.txt', 'r') as f:
+    os.rename(args.donefile, 'tmpmntrpkgdone.txt')
+    with open('tmpmntrpkgdone.txt', 'r') as f:
         done = f.read().splitlines()
-    os.remove('tmpdone.txt')
+    os.remove('tmpmntrpkgdone.txt')
     with open(args.removedfile, 'a+') as f:
         f.writelines("\n".join(done) + "\n")
 
@@ -64,10 +64,10 @@ while(len(deps) > 0):
         time.sleep(10)
     deps = newdeps
     done = []
-    os.rename(args.donefile, 'tmpdone.txt')
-    with open('tmpdone.txt', 'r') as f:
+    os.rename(args.donefile, 'tmpmntrpkgdone.txt')
+    with open('tmpmntrpkgdone.txt', 'r') as f:
         done = f.read().splitlines()
-    os.remove('tmpdone.txt')
+    os.remove('tmpmntrpkgdone.txt')
     with open(args.removedfile, 'a+') as f:
         f.writelines("\n".join(done) + "\n")
     print("out")
