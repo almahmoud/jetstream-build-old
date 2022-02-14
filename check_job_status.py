@@ -42,7 +42,7 @@ def write_logs_and_delete(job_name, namespace, logfile):
         body=client.V1DeleteOptions(
             propagation_policy='Foreground',
             grace_period_seconds=5))
-    print("Job deleted. status='%s'" % str(api_response.status))
+    print(f'Job "{args.package.lower()}-build" deleted. status="{str(api_response.status)}"')
 
 
 api_response = batch_v1.read_namespaced_job_status(
@@ -64,6 +64,7 @@ elif api_response.status.failed is not None:
 else:
     with open(args.statusfile, 'w') as f:
         f.write("runningbuild")
+    print(f'Job "{args.package.lower()}-build" incomplete. status="{str(api_response.status)}"')
 
 
 
