@@ -26,12 +26,8 @@ function dispatch_job {
         mkdir -p "manifests/$pkg"
         python dispatch_build_job.py -p $pkg -n $namespace -c $claim -m "manifests/$pkg" -w "$(kubectl get nodes | grep $(kubectl get nodes | grep etcd | awk '{print $1}')- | awk '{print "\""$1"\""}' | paste -sd, -)"
         echo "Dispatched pkg: $pkg"
-        git add "manifests/$pkg" || true
     fi
 }
-
-git config --local user.email "action@github.com"
-git config --local user.name "GitHub Action"
 
 #Rscript deps_json.R packages.json
 mkdir -p lists
