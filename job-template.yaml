@@ -35,12 +35,12 @@ spec:
         volumeMounts:
           - name: libraries
             mountPath: "/mnt/libs/R"
-              resources:
-        requests:
-          memory: 700Mi
-          cpu: 500m
-        limits:
-          memory: 2Gi
-          cpu: 1700m
+        resources:
+          requests:
+            memory: 700Mi
+            cpu: 500m
+          limits:
+            memory: 2Gi
+            cpu: 1700m
       restartPolicy: OnFailure
   backoffLimit: 4
