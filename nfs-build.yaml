@@ -1,0 +1,21 @@
+persistence:
+  enabled: true
+  storageClass: "ebs"
+  size: "120Gi"
+storageClass:
+  name: "nfs-build"
+  create: true
+  defaultClass: false
+  allowVolumeExpansion: true
+  reclaimPolicy: "Retain"
+  mountOptions:
+    - vers=4.2
+    - noatime
+affinity:
+  nodeAffinity:
+    requiredDuringSchedulingIgnoredDuringExecution:
+      nodeSelectorTerms:
+      - matchExpressions:
+        - key: "kubernetes.io/hostname"
+          operator: "In"
+          values: ["am-scalable-k8s"]

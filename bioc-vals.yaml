@@ -13,7 +13,7 @@ persistence:
   enabled: true
   name: rstudio-pvc
   # annotations: {}
-  storageClass: "nfs"
+  storageClass: "nfs-build"
   # existingClaim:
   accessMode: ReadWriteMany
   size: 10Gi
@@ -30,7 +30,7 @@ libraries:
       enabled: true
       name: r-libraries-pvc
       # annotations: {}
-      storageClass: "nfs"
+      storageClass: "nfs-build"
       # existingClaim:
       accessMode: ReadWriteMany
       size: 100Gi
