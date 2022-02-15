@@ -32,18 +32,13 @@
         "lambda.r",
         "futile.options"
     ],
-    "ADaCGH2": [
-        "snapCGH"
-    ],
     "ADAM": [
         "GO.db"
     ],
     "ADAMgui": [
         "ADAM",
         "GO.db",
-        "ggpubr",
-        "data.table",
-        "rstatix"
+        "data.table"
     ],
     "ADImpute": [
         "BiocParallel",
@@ -176,9 +171,6 @@
         "lambda.r",
         "futile.options"
     ],
-    "AMARETTO": [
-        "curatedTCGAData"
-    ],
     "amplican": [
         "data.table",
         "ShortRead",
@@ -213,7 +205,6 @@
         "DESeq2",
         "caret",
         "plotly",
-        "GUniFrac",
         "ModelMetrics",
         "recipes",
         "BiocParallel",
@@ -814,10 +805,7 @@
     ],
     "BiocOncoTK": [
         "GenomicFeatures",
-        "curatedTCGAData",
-        "ggpubr",
         "rtracklayer",
-        "rstatix",
         "Rsamtools",
         "GenomicAlignments",
         "BiocParallel",
@@ -891,12 +879,10 @@
         "sva",
         "ggnetwork",
         "intergraph",
-        "ggpubr",
         "BiocParallel",
         "futile.logger",
         "network",
         "sna",
-        "rstatix",
         "Hmisc",
         "GO.db",
         "lambda.r",
@@ -952,7 +938,6 @@
         "futile.options"
     ],
     "biscuiteer": [
-        "biscuiteerData",
         "bsseq",
         "Rsamtools",
         "data.table",
@@ -1211,7 +1196,6 @@
         "sva",
         "ggnetwork",
         "intergraph",
-        "ggpubr",
         "BiocParallel",
         "Hmisc",
         "biovizBase",
@@ -1226,7 +1210,6 @@
         "futile.logger",
         "network",
         "sna",
-        "rstatix",
         "data.table",
         "GO.db",
         "lambda.r",
@@ -1281,7 +1264,6 @@
         "multcomp",
         "CytoML",
         "flowWorkspace",
-        "ggpubr",
         "scuttle",
         "BiocNeighbors",
         "BiocSingular",
@@ -1291,12 +1273,10 @@
         "ggcyto",
         "aws.s3",
         "aws.signature",
-        "rstatix",
         "TH.data",
         "lambda.r",
         "futile.options",
         "flowStats",
-        "flowClust",
         "R.utils",
         "R.oo",
         "R.methodsS3"
@@ -1413,7 +1393,6 @@
     ],
     "cellmigRation": [
         "FME",
-        "FactoMineR",
         "Hmisc",
         "minpack.lm",
         "data.table"
@@ -1468,7 +1447,6 @@
         "TH.data",
         "CytoML",
         "flowWorkspace",
-        "ggpubr",
         "lambda.r",
         "futile.options",
         "openCyto",
@@ -1476,9 +1454,7 @@
         "ggcyto",
         "aws.s3",
         "aws.signature",
-        "rstatix",
         "flowStats",
-        "flowClust",
         "R.utils",
         "R.oo",
         "R.methodsS3"
@@ -1495,7 +1471,6 @@
         "GenomicTools",
         "GenomicTools.fileHandler",
         "ggnetwork",
-        "ggpubr",
         "network",
         "DOSE",
         "enrichplot",
@@ -1505,7 +1480,6 @@
         "BiocParallel",
         "data.table",
         "sna",
-        "rstatix",
         "statnet.common",
         "futile.logger",
         "DO.db",
@@ -2194,7 +2168,6 @@
         "futile.options"
     ],
     "conclus": [
-        "factoextra",
         "scran",
         "scater",
         "GEOquery",
@@ -2204,8 +2177,6 @@
         "GO.db",
         "GOSemSim",
         "yulab.utils",
-        "FactoMineR",
-        "ggpubr",
         "data.table",
         "R.utils",
         "scuttle",
@@ -2218,7 +2189,6 @@
         "fgsea",
         "aplot",
         "ggtree",
-        "rstatix",
         "R.oo",
         "R.methodsS3",
         "ggplotify",
@@ -2253,7 +2223,6 @@
     "CONFESS": [
         "contrast",
         "data.table",
-        "flowClust",
         "flowMerge",
         "rms",
         "Hmisc",
@@ -2545,7 +2514,6 @@
     ],
     "cyanoFilter": [
         "flowDensity",
-        "flowClust",
         "flowWorkspace",
         "data.table",
         "aws.s3",
@@ -2565,7 +2533,6 @@
         "CytoGLMM",
         "diffcyt",
         "BiocParallel",
-        "factoextra",
         "mbest",
         "caret",
         "FlowSOM",
@@ -2573,8 +2540,6 @@
         "futile.logger",
         "ModelMetrics",
         "recipes",
-        "FactoMineR",
-        "ggpubr",
         "CytoML",
         "flowWorkspace",
         "bigmemory",
@@ -2587,11 +2552,9 @@
         "aws.signature",
         "lambda.r",
         "futile.options",
-        "rstatix",
         "ipred",
         "prodlim",
         "flowStats",
-        "flowClust",
         "R.utils",
         "lava",
         "R.oo",
@@ -2600,19 +2563,15 @@
     ],
     "CytoGLMM": [
         "BiocParallel",
-        "factoextra",
         "mbest",
         "caret",
         "futile.logger",
         "ModelMetrics",
         "recipes",
-        "FactoMineR",
-        "ggpubr",
         "bigmemory",
         "bigmemory.sri",
         "lambda.r",
         "futile.options",
-        "rstatix",
         "data.table",
         "ipred",
         "prodlim",
@@ -2640,7 +2599,6 @@
         "aws.s3",
         "aws.signature",
         "flowStats",
-        "flowClust",
         "R.utils",
         "R.oo",
         "R.methodsS3"
@@ -2656,18 +2614,15 @@
         "knn.covertree",
         "CytoML",
         "flowWorkspace",
-        "ggpubr",
         "futile.logger",
         "openCyto",
         "data.table",
         "ggcyto",
         "aws.s3",
         "aws.signature",
-        "rstatix",
         "lambda.r",
         "futile.options",
         "flowStats",
-        "flowClust",
         "R.utils",
         "R.oo",
         "R.methodsS3"
@@ -2702,7 +2657,6 @@
         "EDASeq",
         "sva",
         "Hmisc",
-        "FactoMineR",
         "caret",
         "ModelMetrics",
         "recipes",
@@ -2730,14 +2684,12 @@
         "BiocParallel",
         "data.table",
         "GenomicFeatures",
-        "ggpubr",
         "megadepth",
         "plyranges",
         "rtracklayer",
         "dir.expiry",
         "basilisk.utils",
         "futile.logger",
-        "rstatix",
         "cmdfun",
         "GenomicAlignments",
         "Rsamtools",
@@ -3104,16 +3056,13 @@
         "multcomp",
         "CytoML",
         "flowWorkspace",
-        "ggpubr",
         "TH.data",
         "openCyto",
         "data.table",
         "ggcyto",
         "aws.s3",
         "aws.signature",
-        "rstatix",
         "flowStats",
-        "flowClust",
         "R.utils",
         "R.oo",
         "R.methodsS3"
@@ -3402,10 +3351,8 @@
         "futile.options"
     ],
     "easier": [
-        "easierData",
         "DESeq2",
         "BiocParallel",
-        "rstatix",
         "coin",
         "futile.logger",
         "multcomp",
@@ -3517,9 +3464,7 @@
         "TCGAbiolinks",
         "Gviz",
         "plotly",
-        "ggpubr",
         "rtracklayer",
-        "rstatix",
         "ensembldb",
         "BSgenome",
         "biovizBase",
@@ -3635,7 +3580,6 @@
         "motifmatchr",
         "TFBSTools",
         "R.utils",
-        "ggpubr",
         "clusterProfiler",
         "Rsamtools",
         "DOSE",
@@ -3643,7 +3587,6 @@
         "GO.db",
         "GOSemSim",
         "yulab.utils",
-        "rstatix",
         "R.oo",
         "R.methodsS3",
         "GenomicAlignments",
@@ -3698,8 +3641,6 @@
     ],
     "epidecodeR": [
         "rtracklayer",
-        "rstatix",
-        "ggpubr",
         "Rsamtools",
         "GenomicAlignments",
         "BiocParallel",
@@ -3719,10 +3660,8 @@
         "rtracklayer",
         "Rsamtools",
         "csaw",
-        "ggpubr",
         "GreyListChIP",
         "BiocParallel",
-        "rstatix",
         "GenomicAlignments",
         "BSgenome",
         "futile.logger",
@@ -4150,9 +4089,6 @@
         "lambda.r",
         "futile.options"
     ],
-    "flowBin": [
-        "flowFP"
-    ],
     "flowcatchR": [
         "BiocParallel",
         "plotly",
@@ -4177,24 +4113,18 @@
     "flowGraph": [
         "data.table"
     ],
-    "flowMerge": [
-        "flowClust"
-    ],
     "flowPloidy": [
         "minpack.lm"
     ],
     "FlowSOM": [
         "CytoML",
         "flowWorkspace",
-        "ggpubr",
         "openCyto",
         "data.table",
         "ggcyto",
         "aws.s3",
         "aws.signature",
-        "rstatix",
         "flowStats",
-        "flowClust",
         "R.utils",
         "R.oo",
         "R.methodsS3"
@@ -4210,9 +4140,6 @@
         "data.table",
         "aws.s3",
         "aws.signature"
-    ],
-    "flowTrans": [
-        "flowClust"
     ],
     "flowVS": [
         "flowStats",
@@ -4265,9 +4192,6 @@
         "R.methodsS3",
         "lambda.r",
         "futile.options"
-    ],
-    "frenchFISH": [
-        "NHPoisson"
     ],
     "FunChIP": [
         "GenomicAlignments",
@@ -4342,7 +4266,6 @@
         "EDASeq",
         "sva",
         "Hmisc",
-        "FactoMineR",
         "caret",
         "VennDiagram",
         "ModelMetrics",
@@ -4365,9 +4288,6 @@
         "prodlim",
         "lava",
         "future.apply"
-    ],
-    "GateFinder": [
-        "flowFP"
     ],
     "gcapc": [
         "BSgenome",
@@ -4401,14 +4321,12 @@
         "yulab.utils",
         "DO.db",
         "fgsea",
-        "ggpubr",
         "survMisc",
         "aplot",
         "ggtree",
         "data.table",
         "lambda.r",
         "futile.options",
-        "rstatix",
         "km.ci",
         "ggplotify",
         "tidytree",
@@ -4425,10 +4343,6 @@
         "futile.logger",
         "lambda.r",
         "futile.options"
-    ],
-    "GeneAccord": [
-        "ggpubr",
-        "rstatix"
     ],
     "geneAttribution": [
         "org.Hs.eg.db",
@@ -4462,7 +4376,6 @@
     ],
     "GeneGeneInteR": [
         "Rsamtools",
-        "FactoMineR",
         "data.table",
         "BiocParallel",
         "futile.logger",
@@ -4616,11 +4529,9 @@
         "futile.options"
     ],
     "GenomicSuperSignature": [
-        "ggpubr",
         "plotly",
         "flextable",
-        "data.table",
-        "rstatix"
+        "data.table"
     ],
     "GenomicTuples": [
         "data.table"
@@ -4658,15 +4569,11 @@
     ],
     "GEOexplorer": [
         "plotly",
-        "factoextra",
         "heatmaply",
         "shinyHeatmaply",
         "GEOquery",
-        "FactoMineR",
-        "ggpubr",
         "data.table",
         "R.utils",
-        "rstatix",
         "R.oo",
         "R.methodsS3"
     ],
@@ -4685,9 +4592,6 @@
         "R.utils",
         "R.oo",
         "R.methodsS3"
-    ],
-    "gespeR": [
-        "cellHTS2"
     ],
     "ggbio": [
         "Hmisc",
@@ -4784,9 +4688,7 @@
         "loose.rock",
         "lambda.r",
         "futile.options",
-        "ggpubr",
         "survMisc",
-        "rstatix",
         "data.table",
         "km.ci"
     ],
@@ -5351,9 +5253,6 @@
         "DescTools",
         "data.table"
     ],
-    "imageHTS": [
-        "cellHTS2"
-    ],
     "IMAS": [
         "GenomicFeatures",
         "IVAS",
@@ -5428,8 +5327,6 @@
     ],
     "InTAD": [
         "rtracklayer",
-        "ggpubr",
-        "rstatix",
         "Rsamtools",
         "GenomicAlignments",
         "BiocParallel",
@@ -5457,11 +5354,7 @@
     ],
     "InterCellar": [
         "data.table",
-        "factoextra",
-        "plotly",
-        "FactoMineR",
-        "ggpubr",
-        "rstatix"
+        "plotly"
     ],
     "IntEREst": [
         "Rsamtools",
@@ -5500,10 +5393,8 @@
     ],
     "iPath": [
         "BiocParallel",
-        "ggpubr",
         "survminer",
         "futile.logger",
-        "rstatix",
         "survMisc",
         "lambda.r",
         "futile.options",
@@ -5516,7 +5407,6 @@
         "DEsingle",
         "Seurat",
         "clusterProfiler",
-        "ggpubr",
         "scater",
         "scran",
         "DOSE",
@@ -5526,7 +5416,6 @@
         "yulab.utils",
         "gamlss",
         "BiocParallel",
-        "rstatix",
         "scuttle",
         "BiocNeighbors",
         "BiocSingular",
@@ -5605,9 +5494,7 @@
         "survminer",
         "plotly",
         "data.table",
-        "ggpubr",
         "survMisc",
-        "rstatix",
         "km.ci"
     ],
     "karyoploteR": [
@@ -5709,10 +5596,8 @@
         "futile.options"
     ],
     "LinkHD": [
-        "ggpubr",
         "rio",
-        "data.table",
-        "rstatix"
+        "data.table"
     ],
     "lipidr": [
         "data.table",
@@ -6176,7 +6061,6 @@
     "MetaboSignal": [
         "EnsDb.Hsapiens.v75",
         "org.Hs.eg.db",
-        "MWASTools",
         "mygene",
         "ensembldb",
         "GenomicFeatures",
@@ -6194,15 +6078,12 @@
         "FlowSOM",
         "CytoML",
         "flowWorkspace",
-        "ggpubr",
         "openCyto",
         "data.table",
         "ggcyto",
         "aws.s3",
         "aws.signature",
-        "rstatix",
         "flowStats",
-        "flowClust",
         "R.utils",
         "R.oo",
         "R.methodsS3"
@@ -6326,11 +6207,6 @@
         "lambda.r",
         "futile.options"
     ],
-    "MethReg": [
-        "ggpubr",
-        "sesameData",
-        "rstatix"
-    ],
     "methrix": [
         "data.table",
         "rtracklayer",
@@ -6385,9 +6261,7 @@
     "methylclock": [
         "methylclockData",
         "tidyverse",
-        "ggpubr",
         "minfi",
-        "rstatix",
         "ExperimentHubData",
         "bumphunter",
         "data.table",
@@ -7091,10 +6965,6 @@
         "lambda.r",
         "futile.options"
     ],
-    "MQmetrics": [
-        "ggpubr",
-        "rstatix"
-    ],
     "MsBackendMassbank": [
         "Spectra",
         "BiocParallel",
@@ -7181,11 +7051,7 @@
         "MSstatsConvert",
         "data.table",
         "MSstatsPTM",
-        "factoextra",
-        "ggpubr",
         "tidyverse",
-        "FactoMineR",
-        "rstatix",
         "MSstatsTMT",
         "dtplyr"
     ],
@@ -7290,7 +7156,6 @@
     ],
     "multiSight": [
         "caret",
-        "biosigner",
         "mixOmics",
         "DESeq2",
         "clusterProfiler",
@@ -7355,7 +7220,6 @@
     ],
     "muscat": [
         "BiocParallel",
-        "blme",
         "data.table",
         "DESeq2",
         "scater",
@@ -7383,16 +7247,12 @@
         "deconstructSigs",
         "decompTumor2Sig",
         "plotly",
-        "factoextra",
         "maftools",
         "TCGAbiolinks",
         "rtracklayer",
         "Rsamtools",
-        "FactoMineR",
-        "ggpubr",
         "R.utils",
         "TCGAbiolinksGUI.data",
-        "rstatix",
         "R.oo",
         "R.methodsS3",
         "BiocParallel",
@@ -7701,7 +7561,6 @@
     "ODER": [
         "dasper",
         "derfinder",
-        "ggpubr",
         "rtracklayer",
         "data.table",
         "megadepth",
@@ -7714,7 +7573,6 @@
         "GenomicFiles",
         "Hmisc",
         "Rsamtools",
-        "rstatix",
         "cmdfun",
         "dir.expiry",
         "basilisk.utils",
@@ -7742,7 +7600,6 @@
         "rexposome",
         "sva",
         "SmartSVA",
-        "FactoMineR",
         "Hmisc",
         "BiocParallel",
         "futile.logger",
@@ -7759,17 +7616,13 @@
     "OMICsPCA": [
         "HelloRanges",
         "rtracklayer",
-        "factoextra",
-        "FactoMineR",
         "data.table",
-        "ggpubr",
         "BSgenome",
         "GenomicFeatures",
         "VariantAnnotation",
         "Rsamtools",
         "GenomicAlignments",
         "BiocParallel",
-        "rstatix",
         "futile.logger",
         "lambda.r",
         "futile.options"
@@ -7784,7 +7637,6 @@
     "openCyto": [
         "flowWorkspace",
         "flowStats",
-        "flowClust",
         "data.table",
         "R.utils",
         "aws.s3",
@@ -7871,10 +7723,8 @@
         "homologene",
         "gprofiler2",
         "data.table",
-        "ggpubr",
         "Matrix.utils",
         "repmis",
-        "rstatix",
         "plotly",
         "R.utils",
         "R.cache",
@@ -7922,9 +7772,6 @@
         "futile.logger",
         "lambda.r",
         "futile.options"
-    ],
-    "padma": [
-        "FactoMineR"
     ],
     "PADOG": [
         "hgu133plus2.db",
@@ -8054,11 +7901,9 @@
         "fgsea",
         "prodlim",
         "ipred",
-        "ggpubr",
         "survMisc",
         "lambda.r",
         "futile.options",
-        "rstatix",
         "lava",
         "km.ci",
         "future.apply"
@@ -8201,9 +8046,7 @@
         "ggplotify"
     ],
     "PhosR": [
-        "ggpubr",
         "network",
-        "rstatix",
         "statnet.common"
     ],
     "PhyloProfile": [
@@ -8337,9 +8180,7 @@
         "futile.options"
     ],
     "plotGrouper": [
-        "ggpubr",
         "Hmisc",
-        "rstatix",
         "data.table"
     ],
     "plyranges": [
@@ -9162,7 +9003,6 @@
         "GO.db"
     ],
     "rexposome": [
-        "FactoMineR",
         "Hmisc",
         "data.table"
     ],
@@ -9348,7 +9188,6 @@
         "rtracklayer",
         "VennDiagram",
         "ggplotify",
-        "RLHub",
         "aws.s3",
         "aws.signature",
         "data.table",
@@ -9432,9 +9271,6 @@
         "lambda.r",
         "futile.options"
     ],
-    "RNAinteract": [
-        "cellHTS2"
-    ],
     "RNAmodR": [
         "BiocParallel",
         "GenomicFeatures",
@@ -9510,8 +9346,6 @@
         "pathview",
         "Rsamtools",
         "ballgown",
-        "FactoMineR",
-        "factoextra",
         "DESeq2",
         "systemPipeR",
         "systemPipeRdata",
@@ -9528,14 +9362,12 @@
         "BiocParallel",
         "DO.db",
         "fgsea",
-        "ggpubr",
         "ShortRead",
         "GenomicFeatures",
         "futile.logger",
         "aplot",
         "ggtree",
         "data.table",
-        "rstatix",
         "GenomicAlignments",
         "ggplotify",
         "lambda.r",
@@ -9631,9 +9463,7 @@
     "RTCGA": [
         "data.table",
         "survminer",
-        "ggpubr",
         "survMisc",
-        "rstatix",
         "km.ci"
     ],
     "RTCGAToolbox": [
@@ -10345,7 +10175,6 @@
         "operator.tools"
     ],
     "sesame": [
-        "sesameData",
         "BiocParallel",
         "fgsea",
         "futile.logger",
@@ -10526,7 +10355,6 @@
     "singleCellTK": [
         "batchelor",
         "BiocParallel",
-        "celldex",
         "data.table",
         "DESeq2",
         "ggplotify",
@@ -10547,7 +10375,6 @@
         "R.utils",
         "zinbwave",
         "scRNAseq",
-        "TENxPBMCData",
         "scDblFinder",
         "metap",
         "BiocNeighbors",
@@ -11029,10 +10856,6 @@
         "futile.options",
         "data.table"
     ],
-    "ssPATHS": [
-        "MESS",
-        "ggformula"
-    ],
     "ssviz": [
         "Rsamtools",
         "BiocParallel",
@@ -11056,9 +10879,6 @@
         "data.table",
         "lambda.r",
         "futile.options"
-    ],
-    "staRank": [
-        "cellHTS2"
     ],
     "StarBioTrek": [
         "SpidermiR",
@@ -11156,9 +10976,7 @@
     ],
     "survtype": [
         "survminer",
-        "ggpubr",
         "survMisc",
-        "rstatix",
         "data.table",
         "km.ci"
     ],
@@ -11250,8 +11068,6 @@
     ],
     "TADCompare": [
         "HiCcompare",
-        "ggpubr",
-        "rstatix",
         "data.table",
         "BiocParallel",
         "QDNAseq",
@@ -11342,10 +11158,8 @@
         "ELMER.data",
         "GenomicFeatures",
         "Gviz",
-        "ggpubr",
         "rtracklayer",
         "org.Hs.eg.db",
-        "sesameData",
         "BiocParallel",
         "fgsea",
         "R.utils",
@@ -11353,7 +11167,6 @@
         "DO.db",
         "aplot",
         "ggtree",
-        "rstatix",
         "ensembldb",
         "BSgenome",
         "biovizBase",
@@ -11545,8 +11358,6 @@
     "TNBC.CMS": [
         "GSVA",
         "R.utils",
-        "ggpubr",
-        "rstatix",
         "BiocParallel",
         "BiocSingular",
         "R.oo",
@@ -11689,14 +11500,11 @@
         "ggplotify",
         "CytoML",
         "flowWorkspace",
-        "ggpubr",
         "openCyto",
         "ggcyto",
         "aws.s3",
         "aws.signature",
-        "rstatix",
         "flowStats",
-        "flowClust",
         "R.utils",
         "R.oo",
         "R.methodsS3"
@@ -12310,9 +12118,6 @@
     ],
     "R.oo": [
         "R.methodsS3"
-    ],
-    "ggpubr": [
-        "rstatix"
     ],
     "Hmisc": [
         "data.table"
@@ -12978,11 +12783,6 @@
     "rio": [
         "data.table"
     ],
-    "factoextra": [
-        "FactoMineR",
-        "ggpubr",
-        "rstatix"
-    ],
     "Ecume": [
         "spatstat.geom",
         "spatstat",
@@ -13068,23 +12868,9 @@
     "VIM": [
         "data.table"
     ],
-    "cp4p": [
-        "MESS",
-        "ggformula"
-    ],
-    "imp4p": [
-        "missMDA",
-        "FactoMineR"
-    ],
     "tidyverse": [
         "dtplyr",
         "data.table"
-    ],
-    "MESS": [
-        "ggformula"
-    ],
-    "missMDA": [
-        "FactoMineR"
     ],
     "dtplyr": [
         "data.table"
@@ -13191,9 +12977,7 @@
         "R.methodsS3"
     ],
     "survminer": [
-        "ggpubr",
         "survMisc",
-        "rstatix",
         "data.table",
         "km.ci"
     ],
