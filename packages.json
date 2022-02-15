@@ -1278,9 +1278,6 @@
         "Rsamtools",
         "GenomicAlignments"
     ],
-    "DeepPINCS": [
-        "ttgsea"
-    ],
     "deepSNV": [
         "VariantAnnotation",
         "Rsamtools",
@@ -1983,10 +1980,6 @@
     "GeneGeneInteR": [
         "Rsamtools"
     ],
-    "GENESIS": [
-        "GWASTools",
-        "SeqVarTools"
-    ],
     "GeneStructureTools": [
         "BSgenome.Mmusculus.UCSC.mm10",
         "Gviz",
@@ -2213,7 +2206,6 @@
         "GenomicAlignments"
     ],
     "gwasurvivr": [
-        "GWASTools",
         "VariantAnnotation",
         "Rsamtools",
         "rtracklayer",
@@ -2590,9 +2582,6 @@
         "Rsamtools",
         "GenomicAlignments",
         "R.utils"
-    ],
-    "mBPCR": [
-        "GWASTools"
     ],
     "mCSEA": [
         "Homo.sapiens",
@@ -5127,7 +5116,6 @@
     "VAExprs": [
         "scater",
         "DeepPINCS",
-        "ttgsea",
         "scuttle",
         "BiocNeighbors",
         "BiocSingular"
@@ -5151,9 +5139,6 @@
         "BSgenome",
         "GenomicFeatures",
         "GenomicAlignments"
-    ],
-    "VariantExperiment": [
-        "SeqVarTools"
     ],
     "VariantFiltering": [
         "VariantAnnotation",
@@ -5191,7 +5176,6 @@
         "GenomicFeatures"
     ],
     "velociraptor": [
-        "zellkonverter",
         "scuttle",
         "BiocSingular"
     ],
