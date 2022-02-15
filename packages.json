@@ -124,9 +124,7 @@
         "caret",
         "recipes",
         "BiocParallel",
-        "futile.logger",
-        "ipred",
-        "prodlim"
+        "futile.logger"
     ],
     "annmap": [
         "Rsamtools",
@@ -521,8 +519,7 @@
         "enrichplot",
         "BiocParallel",
         "fgsea",
-        "futile.logger",
-        "ggtree"
+        "futile.logger"
     ],
     "BiocNeighbors": [
         "BiocParallel",
@@ -559,7 +556,6 @@
     ],
     "BioMM": [
         "BiocParallel",
-        "rms",
         "futile.logger"
     ],
     "biomvRCNS": [
@@ -591,7 +587,6 @@
         "R.oo"
     ],
     "biotmle": [
-        "drtmle",
         "BiocParallel",
         "futile.logger"
     ],
@@ -690,9 +685,7 @@
         "Rsamtools",
         "GenomicAlignments",
         "BiocParallel",
-        "ipred",
-        "futile.logger",
-        "prodlim"
+        "futile.logger"
     ],
     "breakpointR": [
         "Rsamtools",
@@ -931,8 +924,7 @@
         "DOSE",
         "enrichplot",
         "BiocParallel",
-        "futile.logger",
-        "ggtree"
+        "futile.logger"
     ],
     "censcyt": [
         "diffcyt",
@@ -961,8 +953,7 @@
         "enrichplot",
         "BiocParallel",
         "futile.logger",
-        "fgsea",
-        "ggtree"
+        "fgsea"
     ],
     "CexoR": [
         "Rsamtools",
@@ -1019,9 +1010,7 @@
         "Rsamtools",
         "recipes",
         "BiocParallel",
-        "futile.logger",
-        "ipred",
-        "prodlim"
+        "futile.logger"
     ],
     "chimeraviz": [
         "Gviz",
@@ -1056,7 +1045,6 @@
     ],
     "chipenrich": [
         "chipenrich.data",
-        "rms",
         "rtracklayer",
         "Rsamtools",
         "GenomicAlignments",
@@ -1115,7 +1103,6 @@
         "rtracklayer",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "DOSE",
-        "ggtree",
         "Rsamtools",
         "GenomicAlignments",
         "BiocParallel",
@@ -1146,7 +1133,6 @@
     "ChIPXpress": [
         "ChIPXpressData",
         "GEOquery",
-        "biganalytics",
         "R.utils",
         "R.oo"
     ],
@@ -1275,7 +1261,6 @@
         "enrichplot",
         "BiocParallel",
         "fgsea",
-        "ggtree",
         "futile.logger"
     ],
     "clusterSeq": [
@@ -1449,7 +1434,6 @@
         "bluster",
         "futile.logger",
         "fgsea",
-        "ggtree",
         "R.oo"
     ],
     "condiments": [
@@ -1463,13 +1447,7 @@
         "spatstat.data",
         "spatstat.core",
         "spatstat.linnet",
-        "ipred",
-        "spatstat.sparse",
-        "prodlim"
-    ],
-    "CONFESS": [
-        "contrast",
-        "rms"
+        "spatstat.sparse"
     ],
     "consensusDE": [
         "BiocParallel",
@@ -1495,9 +1473,7 @@
         "survcomp",
         "BiocParallel",
         "BiocSingular",
-        "futile.logger",
-        "prodlim",
-        "ipred"
+        "futile.logger"
     ],
     "consensusSeekeR": [
         "BiocParallel",
@@ -1686,7 +1662,6 @@
         "CytoGLMM",
         "diffcyt",
         "BiocParallel",
-        "mbest",
         "caret",
         "FlowSOM",
         "futile.logger",
@@ -1696,20 +1671,15 @@
         "openCyto",
         "ggcyto",
         "aws.s3",
-        "ipred",
-        "prodlim",
         "flowStats",
         "R.utils",
         "R.oo"
     ],
     "CytoGLMM": [
         "BiocParallel",
-        "mbest",
         "caret",
         "futile.logger",
-        "recipes",
-        "ipred",
-        "prodlim"
+        "recipes"
     ],
     "cytoKernel": [
         "BiocParallel",
@@ -1730,7 +1700,6 @@
     ],
     "CytoTree": [
         "FlowSOM",
-        "destiny",
         "sva",
         "BiocNeighbors",
         "BiocParallel",
@@ -1777,9 +1746,7 @@
         "R.utils",
         "futile.logger",
         "rtracklayer",
-        "ipred",
-        "GenomicAlignments",
-        "prodlim"
+        "GenomicAlignments"
     ],
     "dasper": [
         "basilisk",
@@ -1795,10 +1762,6 @@
         "Rsamtools",
         "R.utils",
         "R.oo"
-    ],
-    "dce": [
-        "metap",
-        "mutoss"
     ],
     "dcGSA": [
         "BiocParallel",
@@ -1823,7 +1786,6 @@
         "enrichplot",
         "BiocParallel",
         "fgsea",
-        "ggtree",
         "futile.logger"
     ],
     "deco": [
@@ -1878,10 +1840,8 @@
     ],
     "DeepPINCS": [
         "ttgsea",
-        "text2vec",
         "textstem",
         "koRpus.lang.en",
-        "lexicon",
         "textclean"
     ],
     "deepSNV": [
@@ -2172,9 +2132,6 @@
         "sva",
         "futile.logger"
     ],
-    "Doscheda": [
-        "prodlim"
-    ],
     "DOSE": [
         "BiocParallel",
         "fgsea",
@@ -2234,7 +2191,6 @@
     "easier": [
         "DESeq2",
         "BiocParallel",
-        "coin",
         "futile.logger"
     ],
     "easyRNASeq": [
@@ -2275,8 +2231,7 @@
         "BiocParallel",
         "fgsea",
         "R.oo",
-        "futile.logger",
-        "ggtree"
+        "futile.logger"
     ],
     "EGAD": [
         "GEOquery",
@@ -2286,10 +2241,8 @@
     "EGSEA": [
         "PADOG",
         "GSVA",
-        "metap",
         "BiocParallel",
         "BiocSingular",
-        "mutoss",
         "hgu133plus2.db",
         "hgu133a.db",
         "futile.logger"
@@ -2328,7 +2281,6 @@
         "R.oo"
     ],
     "EnMCB": [
-        "rms",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "minfi",
         "bumphunter",
@@ -2357,7 +2309,6 @@
     ],
     "enrichplot": [
         "DOSE",
-        "ggtree",
         "BiocParallel",
         "fgsea",
         "futile.logger"
@@ -2378,8 +2329,7 @@
         "BiocParallel",
         "CNEr",
         "futile.logger",
-        "fgsea",
-        "ggtree"
+        "fgsea"
     ],
     "ensembldb": [
         "GenomicFeatures",
@@ -2437,7 +2387,6 @@
         "enrichplot",
         "BiocParallel",
         "fgsea",
-        "ggtree",
         "futile.logger"
     ],
     "EpiTxDb": [
@@ -2535,8 +2484,7 @@
         "GenomicAlignments",
         "CNEr",
         "futile.logger",
-        "fgsea",
-        "ggtree"
+        "fgsea"
     ],
     "escape": [
         "GSVA",
@@ -2554,7 +2502,6 @@
     "EventPointer": [
         "SGSeq",
         "GenomicFeatures",
-        "prodlim",
         "BSgenome",
         "rtracklayer",
         "Rsamtools",
@@ -2610,7 +2557,6 @@
         "enrichplot",
         "BiocParallel",
         "fgsea",
-        "ggtree",
         "futile.logger"
     ],
     "FastqCleaner": [
@@ -2639,7 +2585,6 @@
         "enrichplot",
         "BiocParallel",
         "fgsea",
-        "ggtree",
         "futile.logger"
     ],
     "fcScan": [
@@ -2753,10 +2698,7 @@
         "RecordLinkage",
         "textclean",
         "BiocParallel",
-        "ipred",
-        "lexicon",
-        "futile.logger",
-        "prodlim"
+        "futile.logger"
     ],
     "FRASER": [
         "BiocParallel",
@@ -2836,9 +2778,7 @@
         "R.oo",
         "R.utils",
         "rtracklayer",
-        "ipred",
-        "GenomicAlignments",
-        "prodlim"
+        "GenomicAlignments"
     ],
     "gcapc": [
         "BSgenome",
@@ -2860,8 +2800,7 @@
         "BiocParallel",
         "futile.logger",
         "enrichplot",
-        "fgsea",
-        "ggtree"
+        "fgsea"
     ],
     "genbankr": [
         "GenomicFeatures",
@@ -2890,9 +2829,7 @@
         "futile.logger"
     ],
     "genefu": [
-        "survcomp",
-        "prodlim",
-        "ipred"
+        "survcomp"
     ],
     "GeneGeneInteR": [
         "Rsamtools",
@@ -3018,7 +2955,6 @@
         "GenomicAlignments"
     ],
     "GEOexplorer": [
-        "shinyHeatmaply",
         "GEOquery",
         "R.utils",
         "R.oo"
@@ -3057,9 +2993,6 @@
         "scuttle",
         "futile.logger",
         "R.oo"
-    ],
-    "ggtreeExtra": [
-        "ggtree"
     ],
     "girafe": [
         "Rsamtools",
@@ -3206,9 +3139,7 @@
     ],
     "GWAS.BAYES": [
         "caret",
-        "recipes",
-        "ipred",
-        "prodlim"
+        "recipes"
     ],
     "gwascat": [
         "GenomicFeatures",
@@ -3301,9 +3232,6 @@
         "BiocParallel",
         "futile.logger"
     ],
-    "hipathia": [
-        "coin"
-    ],
     "hiReadsProcessor": [
         "GenomicAlignments",
         "BiocParallel",
@@ -3322,9 +3250,7 @@
     ],
     "HPiP": [
         "caret",
-        "recipes",
-        "ipred",
-        "prodlim"
+        "recipes"
     ],
     "HTSeqGenie": [
         "gmapR",
@@ -3456,8 +3382,7 @@
         "aws.s3"
     ],
     "infercnv": [
-        "futile.logger",
-        "coin"
+        "futile.logger"
     ],
     "InPAS": [
         "BSgenome",
@@ -3518,8 +3443,7 @@
         "R.oo"
     ],
     "inveRsion": [
-        "haplo.stats",
-        "rms"
+        "haplo.stats"
     ],
     "IONiseR": [
         "ShortRead",
@@ -3549,7 +3473,6 @@
         "spatstat.geom",
         "futile.logger",
         "fgsea",
-        "ggtree",
         "spatstat.data",
         "spatstat.sparse"
     ],
@@ -3630,9 +3553,7 @@
         "recipes",
         "R.oo",
         "BiocParallel",
-        "futile.logger",
-        "ipred",
-        "prodlim"
+        "futile.logger"
     ],
     "ldblock": [
         "VariantAnnotation",
@@ -3646,9 +3567,6 @@
         "GenomicAlignments",
         "BSgenome",
         "futile.logger"
-    ],
-    "lefser": [
-        "coin"
     ],
     "LineagePulse": [
         "BiocParallel",
@@ -3700,7 +3618,6 @@
     ],
     "LymphoSeq": [
         "VennDiagram",
-        "ggtree",
         "futile.logger"
     ],
     "M3Drop": [
@@ -3716,9 +3633,7 @@
         "GenomicAlignments",
         "recipes",
         "BiocParallel",
-        "futile.logger",
-        "ipred",
-        "prodlim"
+        "futile.logger"
     ],
     "MACPET": [
         "Rsamtools",
@@ -3767,23 +3682,18 @@
         "clusterProfiler",
         "enrichplot",
         "DOSE",
-        "ggtree",
         "BiocParallel",
         "fgsea",
         "futile.logger"
     ],
     "MAI": [
         "caret",
-        "recipes",
-        "ipred",
-        "prodlim"
+        "recipes"
     ],
     "maPredictDSC": [
         "caret",
         "hgu133plus2.db",
-        "recipes",
-        "ipred",
-        "prodlim"
+        "recipes"
     ],
     "maser": [
         "rtracklayer",
@@ -3924,14 +3834,11 @@
         "enrichplot",
         "BiocParallel",
         "fgsea",
-        "ggtree",
         "futile.logger"
     ],
     "metabCombiner": [
         "caret",
-        "recipes",
-        "ipred",
-        "prodlim"
+        "recipes"
     ],
     "metabomxtr": [
         "BiocParallel",
@@ -3995,8 +3902,6 @@
         "bsseq",
         "ShortRead",
         "aroma.light",
-        "prodlim",
-        "ipred",
         "R.oo",
         "R.utils",
         "BSgenome"
@@ -4014,10 +3919,6 @@
         "BiocParallel",
         "GenomicAlignments",
         "futile.logger"
-    ],
-    "MetaVolcanoR": [
-        "metap",
-        "mutoss"
     ],
     "MethCP": [
         "bsseq",
@@ -4113,7 +4014,6 @@
         "IlluminaHumanMethylationEPICmanifest",
         "methylumi",
         "fgsea",
-        "ggtree",
         "FDb.InfiniumMethylation.hg19",
         "GenomicFeatures",
         "bumphunter",
@@ -4223,7 +4123,6 @@
         "mia",
         "BiocParallel",
         "scater",
-        "ggtree",
         "futile.logger",
         "scuttle",
         "BiocNeighbors",
@@ -4235,30 +4134,22 @@
         "futile.logger"
     ],
     "microbiomeMarker": [
-        "coin",
-        "ggtree",
         "DESeq2",
-        "ANCOMBC",
         "caret",
         "ALDEx2",
         "BiocParallel",
         "recipes",
-        "futile.logger",
-        "ipred",
-        "prodlim"
+        "futile.logger"
     ],
     "MicrobiomeProfiler": [
         "clusterProfiler",
         "enrichplot",
         "DOSE",
-        "ggtree",
         "BiocParallel",
         "fgsea",
         "futile.logger"
     ],
     "MicrobiotaProcess": [
-        "ggtree",
-        "coin",
         "ggtreeExtra"
     ],
     "MIGSA": [
@@ -4270,9 +4161,6 @@
         "BiocParallel",
         "BiocSingular",
         "futile.logger"
-    ],
-    "mina": [
-        "biganalytics"
     ],
     "MineICA": [
         "lumi",
@@ -4341,8 +4229,7 @@
         "BiocParallel",
         "fgsea",
         "formula.tools",
-        "futile.logger",
-        "ggtree"
+        "futile.logger"
     ],
     "miRspongeR": [
         "clusterProfiler",
@@ -4351,8 +4238,7 @@
         "enrichplot",
         "BiocParallel",
         "fgsea",
-        "futile.logger",
-        "ggtree"
+        "futile.logger"
     ],
     "mirTarRnaSeq": [
         "R.utils",
@@ -4382,9 +4268,7 @@
         "caret",
         "R.utils",
         "recipes",
-        "R.oo",
-        "ipred",
-        "prodlim"
+        "R.oo"
     ],
     "mitoClone2": [
         "deepSNV",
@@ -4407,9 +4291,7 @@
         "DESeq2",
         "recipes",
         "BiocParallel",
-        "futile.logger",
-        "ipred",
-        "prodlim"
+        "futile.logger"
     ],
     "MMAPPR2": [
         "ensemblVEP",
@@ -4462,7 +4344,6 @@
         "fgsea",
         "R.utils",
         "futile.logger",
-        "ggtree",
         "R.oo"
     ],
     "mosaics": [
@@ -4560,22 +4441,13 @@
         "futile.logger"
     ],
     "MSstatsLiP": [
-        "MSstatsPTM",
-        "MSstatsTMT"
-    ],
-    "MSstatsPTM": [
-        "MSstatsTMT"
+        "MSstatsPTM"
     ],
     "MSstatsSampleSize": [
         "BiocParallel",
         "caret",
         "futile.logger",
-        "recipes",
-        "ipred",
-        "prodlim"
-    ],
-    "MSstatsTMTPTM": [
-        "MSstatsTMT"
+        "recipes"
     ],
     "multicrispr": [
         "assertive",
@@ -4610,9 +4482,7 @@
     ],
     "multiGSEA": [
         "fgsea",
-        "metap",
         "BiocParallel",
-        "mutoss",
         "futile.logger"
     ],
     "multiHiCcompare": [
@@ -4631,16 +4501,11 @@
         "clusterProfiler",
         "ReactomePA",
         "enrichplot",
-        "metap",
         "recipes",
         "DOSE",
         "BiocParallel",
-        "ggtree",
-        "mutoss",
         "futile.logger",
-        "fgsea",
-        "ipred",
-        "prodlim"
+        "fgsea"
     ],
     "mumosa": [
         "BiocParallel",
@@ -4728,13 +4593,11 @@
         "rtracklayer",
         "trackViewer",
         "Rsamtools",
-        "metap",
         "ATACseqQC",
         "csaw",
         "BSgenome",
         "ChIPpeakAnno",
         "BiocParallel",
-        "mutoss",
         "GenomicFeatures",
         "Gviz",
         "futile.logger",
@@ -4800,7 +4663,6 @@
         "enrichplot",
         "BiocParallel",
         "fgsea",
-        "ggtree",
         "futile.logger"
     ],
     "netSmooth": [
@@ -5073,9 +4935,7 @@
         "genefu",
         "futile.logger",
         "recipes",
-        "fgsea",
-        "prodlim",
-        "ipred"
+        "fgsea"
     ],
     "PeacoQC": [
         "flowWorkspace",
@@ -5124,7 +4984,6 @@
         "enrichplot",
         "BiocParallel",
         "fgsea",
-        "ggtree",
         "futile.logger"
     ],
     "phantasus": [
@@ -5144,7 +5003,6 @@
         "fgsea"
     ],
     "phemd": [
-        "destiny",
         "Seurat",
         "spatstat.core",
         "spatstat.geom",
@@ -5158,17 +5016,9 @@
         "logistf",
         "formula.tools"
     ],
-    "philr": [
-        "ggtree"
-    ],
-    "PhyloProfile": [
-        "OmaDB"
-    ],
     "Pi": [
         "caret",
-        "recipes",
-        "ipred",
-        "prodlim"
+        "recipes"
     ],
     "piano": [
         "fgsea",
@@ -5188,7 +5038,6 @@
         "enrichplot",
         "BiocParallel",
         "fgsea",
-        "ggtree",
         "futile.logger"
     ],
     "PING": [
@@ -5265,7 +5114,6 @@
     ],
     "prebs": [
         "GenomicAlignments",
-        "RPA",
         "Rsamtools",
         "BiocParallel",
         "futile.logger"
@@ -5279,8 +5127,6 @@
         "TxDb.Hsapiens.UCSC.hg38.knownGene",
         "GenomicFeatures",
         "rtracklayer",
-        "ipred",
-        "prodlim",
         "Rsamtools",
         "GenomicAlignments",
         "BiocParallel",
@@ -5352,7 +5198,6 @@
         "chipseq",
         "ShortRead",
         "DOSE",
-        "ggtree",
         "fgsea"
     ],
     "projectR": [
@@ -5615,7 +5460,6 @@
         "enrichplot",
         "BiocParallel",
         "fgsea",
-        "ggtree",
         "futile.logger"
     ],
     "recount": [
@@ -5735,8 +5579,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "R.utils",
-        "ipred",
-        "prodlim",
         "R.oo"
     ],
     "Repitools": [
@@ -5914,9 +5756,7 @@
         "GenomicAlignments",
         "futile.logger",
         "recipes",
-        "BiocParallel",
-        "ipred",
-        "prodlim"
+        "BiocParallel"
     ],
     "RmiR": [
         "RSVGTipsDevice"
@@ -6038,7 +5878,6 @@
         "ShortRead",
         "GenomicFeatures",
         "futile.logger",
-        "ggtree",
         "GenomicAlignments"
     ],
     "RnBeads": [
@@ -6077,10 +5916,6 @@
         "ensembldb",
         "rtracklayer",
         "BSgenome"
-    ],
-    "rqt": [
-        "metap",
-        "mutoss"
     ],
     "RRHO": [
         "VennDiagram",
@@ -6177,10 +6012,8 @@
         "recipes",
         "spatstat.core",
         "spatstat.geom",
-        "ipred",
         "spatstat.data",
-        "spatstat.sparse",
-        "prodlim"
+        "spatstat.sparse"
     ],
     "SCANVIS": [
         "rtracklayer",
@@ -6237,10 +6070,8 @@
         "recipes",
         "spatstat.core",
         "spatstat.geom",
-        "ipred",
         "spatstat.data",
-        "spatstat.sparse",
-        "prodlim"
+        "spatstat.sparse"
     ],
     "scClassify": [
         "BiocParallel",
@@ -6286,9 +6117,7 @@
         "DESeq2",
         "recipes",
         "BiocParallel",
-        "futile.logger",
-        "ipred",
-        "prodlim"
+        "futile.logger"
     ],
     "schex": [
         "Seurat",
@@ -6427,7 +6256,6 @@
         "enrichplot",
         "Seurat",
         "futile.logger",
-        "ggtree",
         "spatstat.core",
         "spatstat.geom",
         "spatstat.data",
@@ -6480,7 +6308,6 @@
         "rtracklayer",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "DOSE",
-        "ggtree",
         "Rsamtools",
         "GenomicAlignments",
         "BiocParallel",
@@ -6610,8 +6437,7 @@
         "clusterProfiler",
         "DOSE",
         "futile.logger",
-        "enrichplot",
-        "ggtree"
+        "enrichplot"
     ],
     "signeR": [
         "VariantAnnotation",
@@ -6651,7 +6477,6 @@
         "batchelor",
         "BiocParallel",
         "DESeq2",
-        "ggtree",
         "GSVA",
         "GSVAdata",
         "scater",
@@ -6662,19 +6487,16 @@
         "sva",
         "celda",
         "DropletUtils",
-        "scds",
         "R.utils",
         "zinbwave",
         "scRNAseq",
         "scDblFinder",
-        "metap",
         "BiocNeighbors",
         "BiocSingular",
         "scuttle",
         "futile.logger",
         "multipanelfigure",
         "hgu95a.db",
-        "mutoss",
         "R.oo",
         "bluster",
         "M3Drop",
@@ -6730,9 +6552,6 @@
         "BiocParallel",
         "GenomicAlignments",
         "futile.logger"
-    ],
-    "sitePath": [
-        "ggtree"
     ],
     "skewr": [
         "methylumi",
@@ -6919,7 +6738,6 @@
         "enrichplot",
         "R.utils",
         "DOSE",
-        "ggtree",
         "R.oo",
         "BiocParallel",
         "fgsea",
@@ -7008,7 +6826,6 @@
         "enrichplot",
         "R.utils",
         "DOSE",
-        "ggtree",
         "R.oo",
         "BiocParallel",
         "fgsea",
@@ -7039,9 +6856,7 @@
     ],
     "SubCellBarCode": [
         "caret",
-        "recipes",
-        "ipred",
-        "prodlim"
+        "recipes"
     ],
     "SummarizedBenchmark": [
         "BiocParallel",
@@ -7049,13 +6864,7 @@
     ],
     "supersigs": [
         "caret",
-        "recipes",
-        "ipred",
-        "prodlim"
-    ],
-    "survcomp": [
-        "prodlim",
-        "ipred"
+        "recipes"
     ],
     "sva": [
         "BiocParallel",
@@ -7106,7 +6915,6 @@
     ],
     "systemPipeTools": [
         "DESeq2",
-        "ggtree",
         "BiocParallel",
         "futile.logger"
     ],
@@ -7118,9 +6926,6 @@
         "R.utils",
         "Rsamtools",
         "R.oo"
-    ],
-    "tanggle": [
-        "ggtree"
     ],
     "TAPseq": [
         "GenomicAlignments",
@@ -7172,16 +6977,13 @@
         "fgsea",
         "R.utils",
         "futile.logger",
-        "ggtree",
         "ensembldb",
         "BSgenome",
         "biovizBase",
         "Rsamtools",
         "GenomicAlignments",
         "R.oo",
-        "ipred",
-        "VariantAnnotation",
-        "prodlim"
+        "VariantAnnotation"
     ],
     "TCGAutils": [
         "GenomicFeatures",
@@ -7248,7 +7050,6 @@
         "enrichplot",
         "BiocParallel",
         "fgsea",
-        "ggtree",
         "futile.logger"
     ],
     "TIN": [
@@ -7344,9 +7145,7 @@
         "recipes",
         "ShortRead",
         "BiocParallel",
-        "futile.logger",
-        "ipred",
-        "prodlim"
+        "futile.logger"
     ],
     "tRanslatome": [
         "DESeq2",
@@ -7369,7 +7168,6 @@
         "futile.logger"
     ],
     "treekoR": [
-        "ggtree",
         "diffcyt",
         "FlowSOM",
         "CytoML",
@@ -7445,10 +7243,8 @@
         "futile.logger"
     ],
     "ttgsea": [
-        "text2vec",
         "textstem",
         "koRpus.lang.en",
-        "lexicon",
         "textclean"
     ],
     "TVTB": [
@@ -7549,10 +7345,8 @@
         "BiocSingular",
         "BiocParallel",
         "futile.logger",
-        "text2vec",
         "textstem",
         "koRpus.lang.en",
-        "lexicon",
         "textclean"
     ],
     "VanillaICE": [
@@ -7661,7 +7455,6 @@
     "vissE": [
         "textstem",
         "koRpus.lang.en",
-        "lexicon",
         "textclean"
     ],
     "VplotR": [
@@ -7813,16 +7606,7 @@
         "R.oo"
     ],
     "caret": [
-        "recipes",
-        "ipred",
-        "prodlim"
-    ],
-    "recipes": [
-        "ipred",
-        "prodlim"
-    ],
-    "ipred": [
-        "prodlim"
+        "recipes"
     ],
     "repmis": [
         "R.cache",
@@ -8132,9 +7916,7 @@
     ],
     "ChIC.data": [
         "caret",
-        "recipes",
-        "ipred",
-        "prodlim"
+        "recipes"
     ],
     "BSgenome.Mmusculus.UCSC.mm9": [
         "BSgenome",
@@ -8207,9 +7989,7 @@
         "spatstat.data",
         "spatstat.core",
         "spatstat.linnet",
-        "ipred",
-        "spatstat.sparse",
-        "prodlim"
+        "spatstat.sparse"
     ],
     "spatstat": [
         "spatstat.data",
@@ -8223,9 +8003,6 @@
         "spatstat.geom",
         "spatstat.core",
         "spatstat.sparse"
-    ],
-    "contrast": [
-        "rms"
     ],
     "EnsDb.Hsapiens.v86": [
         "ensembldb",
@@ -8253,20 +8030,9 @@
         "R.utils",
         "R.oo"
     ],
-    "metap": [
-        "mutoss"
-    ],
     "textstem": [
         "koRpus.lang.en",
-        "lexicon",
         "textclean"
-    ],
-    "textclean": [
-        "lexicon"
-    ],
-    "RecordLinkage": [
-        "ipred",
-        "prodlim"
     ],
     "dplR": [
         "R.utils",
@@ -8299,9 +8065,6 @@
         "BiocParallel",
         "futile.logger"
     ],
-    "haplo.stats": [
-        "rms"
-    ],
     "EnsDb.Hsapiens.v75": [
         "ensembldb",
         "GenomicFeatures",
@@ -8316,9 +8079,7 @@
     ],
     "adabag": [
         "caret",
-        "recipes",
-        "ipred",
-        "prodlim"
+        "recipes"
     ],
     "agricolae": [
         "klaR",
@@ -8505,9 +8266,7 @@
     ],
     "caretEnsemble": [
         "caret",
-        "recipes",
-        "ipred",
-        "prodlim"
+        "recipes"
     ],
     "TBX20BamSubset": [
         "Rsamtools",
