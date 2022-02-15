@@ -1,8 +1,8 @@
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: amountain-build
-  namespace: testbuild
+  name: asafe-build
+  namespace: newbuild
 spec:
   template:
     spec:
@@ -13,7 +13,7 @@ spec:
             - matchExpressions:
               - key: "kubernetes.io/hostname"
                 operator: "In"
-                values: ["am-scalable-k8s-162919","am-scalable-k8s-5872ef","am-scalable-k8s-69b186","am-scalable-k8s-b81881","am-scalable-k8s-c14a3f"]
+                values: ["am-scalable-k8s-162919","am-scalable-k8s-5872ef","am-scalable-k8s-69b186","am-scalable-k8s-86dc1a","am-scalable-k8s-b81881","am-scalable-k8s-c14a3f","am-scalable-k8s-e7dae9"]
       securityContext:
         runAsUser: 1000
         fsGroup: 1000
@@ -28,7 +28,7 @@ spec:
           - /bin/bash
           - -c
         args:
-          - cd /mnt/libs/R && Rscript -e 'if(BiocManager::install("AMOUNTAIN", INSTALL_opts = "--build", update = FALSE, quiet = TRUE, force = TRUE, keep_outputs = FALSE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+          - cd /mnt/libs/R && Rscript -e 'p <- .libPaths(); p <- c(p[2], p[-2]); .libPaths(p); if(BiocManager::install("ASAFE", INSTALL_opts = "--build", update = FALSE, quiet = TRUE, force = TRUE, keep_outputs = FALSE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)' && echo done && sleep 1000000
         env:
           - name: R_LIBS_USER
             value: "/mnt/libs/R"
@@ -38,7 +38,7 @@ spec:
         resources:
           requests:
             memory: 700Mi
-            cpu: 500m
+            cpu: 300m
           limits:
             memory: 2Gi
             cpu: 1700m
