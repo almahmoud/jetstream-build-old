@@ -1,10 +1,6 @@
 {
-    "affycoretools": [
-        "ReportingTools"
-    ],
     "AgiMicroRna": [
-        "affycoretools",
-        "ReportingTools"
+        "affycoretools"
     ],
     "APAlyzer": [
         "repmis",
@@ -16,8 +12,7 @@
     "arrayMvout": [
         "lumi",
         "methylumi",
-        "FDb.InfiniumMethylation.hg19",
-        "minfi"
+        "FDb.InfiniumMethylation.hg19"
     ],
     "autonomics": [
         "assertive",
@@ -34,12 +29,10 @@
         "lumi",
         "methylumi",
         "spatstat.core",
-        "FDb.InfiniumMethylation.hg19",
-        "minfi"
+        "FDb.InfiniumMethylation.hg19"
     ],
     "bigmelon": [
         "wateRmelon",
-        "minfi",
         "methylumi",
         "FDb.InfiniumMethylation.hg19",
         "lumi",
@@ -56,8 +49,7 @@
     ],
     "CATALYST": [
         "FlowSOM",
-        "CytoML",
-        "openCyto"
+        "CytoML"
     ],
     "CelliD": [
         "Seurat",
@@ -66,11 +58,9 @@
     "censcyt": [
         "diffcyt",
         "FlowSOM",
-        "CytoML",
-        "openCyto"
+        "CytoML"
     ],
     "ChAMP": [
-        "minfi",
         "DMRcate",
         "IlluminaHumanMethylationEPICmanifest",
         "IlluminaHumanMethylation450kmanifest",
@@ -84,11 +74,7 @@
         "FDb.InfiniumMethylation.hg19"
     ],
     "chromVAR": [
-        "TFBSTools",
-        "CNEr"
-    ],
-    "COCOA": [
-        "MIRA"
+        "TFBSTools"
     ],
     "condiments": [
         "Ecume",
@@ -102,7 +88,6 @@
         "aroma.light"
     ],
     "conumee": [
-        "minfi",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "IlluminaHumanMethylation450kmanifest",
         "IlluminaHumanMethylationEPICanno.ilm10b2.hg19",
@@ -111,31 +96,19 @@
     "CyTOFpower": [
         "diffcyt",
         "FlowSOM",
-        "CytoML",
-        "openCyto"
-    ],
-    "CytoML": [
-        "openCyto"
+        "CytoML"
     ],
     "CytoTree": [
         "FlowSOM",
-        "CytoML",
-        "openCyto"
+        "CytoML"
     ],
     "DaMiRseq": [
         "EDASeq",
         "aroma.light"
     ],
-    "dasper": [
-        "megadepth"
-    ],
-    "decoupleR": [
-        "AUCell"
-    ],
     "diffcyt": [
         "FlowSOM",
-        "CytoML",
-        "openCyto"
+        "CytoML"
     ],
     "Dino": [
         "Seurat",
@@ -143,7 +116,6 @@
     ],
     "DMRcate": [
         "DSS",
-        "minfi",
         "missMethyl",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
@@ -157,45 +129,34 @@
     ],
     "enhancerHomologSearch": [
         "motifmatchr",
-        "TFBSTools",
-        "CNEr"
+        "TFBSTools"
     ],
     "EnMCB": [
-        "IlluminaHumanMethylation450kanno.ilmn12.hg19",
-        "minfi"
-    ],
-    "ENmix": [
-        "minfi"
+        "IlluminaHumanMethylation450kanno.ilmn12.hg19"
     ],
     "enrichTF": [
         "motifmatchr",
-        "TFBSTools",
-        "CNEr"
+        "TFBSTools"
     ],
     "erma": [
         "Homo.sapiens"
     ],
     "esATAC": [
         "TFBSTools",
-        "motifmatchr",
-        "CNEr"
+        "motifmatchr"
     ],
     "ExperimentSubset": [
-        "SpatialExperiment",
-        "DropletUtils"
+        "SpatialExperiment"
     ],
     "ffpe": [
         "lumi",
         "methylumi",
-        "FDb.InfiniumMethylation.hg19",
-        "minfi"
+        "FDb.InfiniumMethylation.hg19"
     ],
     "FlowSOM": [
-        "CytoML",
-        "openCyto"
+        "CytoML"
     ],
     "funtooNorm": [
-        "minfi",
         "IlluminaHumanMethylation450kmanifest",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19"
     ],
@@ -205,8 +166,7 @@
         "aroma.light"
     ],
     "ggspavis": [
-        "SpatialExperiment",
-        "DropletUtils"
+        "SpatialExperiment"
     ],
     "gpart": [
         "Homo.sapiens"
@@ -222,12 +182,10 @@
     "iCheck": [
         "lumi",
         "methylumi",
-        "FDb.InfiniumMethylation.hg19",
-        "minfi"
+        "FDb.InfiniumMethylation.hg19"
     ],
     "imcRtools": [
-        "SpatialExperiment",
-        "DropletUtils"
+        "SpatialExperiment"
     ],
     "IRISFGM": [
         "Seurat",
@@ -242,8 +200,7 @@
     ],
     "lumi": [
         "methylumi",
-        "FDb.InfiniumMethylation.hg19",
-        "minfi"
+        "FDb.InfiniumMethylation.hg19"
     ],
     "M3Drop": [
         "reldist",
@@ -252,18 +209,15 @@
     "MAGAR": [
         "RnBeads",
         "methylumi",
-        "FDb.InfiniumMethylation.hg19",
-        "minfi"
+        "FDb.InfiniumMethylation.hg19"
     ],
     "MatrixRider": [
-        "TFBSTools",
-        "CNEr"
+        "TFBSTools"
     ],
     "mCSEA": [
         "Homo.sapiens"
     ],
     "MEAL": [
-        "minfi",
         "missMethyl",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
@@ -273,7 +227,6 @@
         "FDb.InfiniumMethylation.hg19"
     ],
     "MEAT": [
-        "minfi",
         "wateRmelon",
         "methylumi",
         "lumi",
@@ -282,8 +235,7 @@
     ],
     "MetaCyto": [
         "FlowSOM",
-        "CytoML",
-        "openCyto"
+        "CytoML"
     ],
     "metaseqR2": [
         "DSS",
@@ -293,23 +245,15 @@
     "MethCP": [
         "DSS"
     ],
-    "MethylAid": [
-        "minfi"
-    ],
     "methylCC": [
         "FlowSorted.Blood.450k",
-        "minfi",
         "IlluminaHumanMethylation450kmanifest",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19"
-    ],
-    "methylclock": [
-        "minfi"
     ],
     "methylGSA": [
         "missMethyl",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
-        "minfi",
         "IlluminaHumanMethylation450kmanifest",
         "IlluminaHumanMethylationEPICmanifest",
         "methylumi",
@@ -322,14 +266,12 @@
         "DSS"
     ],
     "methylumi": [
-        "FDb.InfiniumMethylation.hg19",
-        "minfi"
+        "FDb.InfiniumMethylation.hg19"
     ],
     "MineICA": [
         "lumi",
         "methylumi",
-        "FDb.InfiniumMethylation.hg19",
-        "minfi"
+        "FDb.InfiniumMethylation.hg19"
     ],
     "missMethyl": [
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
@@ -337,16 +279,13 @@
         "IlluminaHumanMethylation450kmanifest",
         "IlluminaHumanMethylationEPICmanifest",
         "methylumi",
-        "minfi",
         "FDb.InfiniumMethylation.hg19"
     ],
     "monaLisa": [
-        "TFBSTools",
-        "CNEr"
+        "TFBSTools"
     ],
     "motifmatchr": [
-        "TFBSTools",
-        "CNEr"
+        "TFBSTools"
     ],
     "multicrispr": [
         "assertive",
@@ -365,8 +304,7 @@
         "spatstat.core"
     ],
     "ODER": [
-        "dasper",
-        "megadepth"
+        "dasper"
     ],
     "orthogene": [
         "repmis",
@@ -374,8 +312,7 @@
     ],
     "pageRank": [
         "motifmatchr",
-        "TFBSTools",
-        "CNEr"
+        "TFBSTools"
     ],
     "PECA": [
         "aroma.affymetrix",
@@ -398,23 +335,7 @@
         "spatstat.core"
     ],
     "primirTSS": [
-        "TFBSTools",
-        "CNEr"
-    ],
-    "psichomics": [
-        "recount"
-    ],
-    "quantro": [
-        "minfi"
-    ],
-    "RcisTarget": [
-        "AUCell"
-    ],
-    "recountmethylation": [
-        "minfi"
-    ],
-    "REMP": [
-        "minfi"
+        "TFBSTools"
     ],
     "RiboCrypt": [
         "ORFik"
@@ -431,13 +352,9 @@
     "RmiR": [
         "RSVGTipsDevice"
     ],
-    "RNAAgeCalc": [
-        "recount"
-    ],
     "RnBeads": [
         "methylumi",
-        "FDb.InfiniumMethylation.hg19",
-        "minfi"
+        "FDb.InfiniumMethylation.hg19"
     ],
     "RUVSeq": [
         "EDASeq",
@@ -456,7 +373,6 @@
         "spatstat.core"
     ],
     "scCB2": [
-        "DropletUtils",
         "Seurat",
         "spatstat.core"
     ],
@@ -500,18 +416,13 @@
         "Seurat",
         "spatstat.core"
     ],
-    "shinyepico": [
-        "minfi"
-    ],
     "shinyMethyl": [
-        "minfi",
         "IlluminaHumanMethylation450kmanifest"
     ],
     "singleCellTK": [
         "scMerge",
         "Seurat",
         "celda",
-        "DropletUtils",
         "M3Drop",
         "spatstat.core",
         "reldist",
@@ -521,7 +432,6 @@
         "methylumi",
         "wateRmelon",
         "IlluminaHumanMethylation450kmanifest",
-        "minfi",
         "FDb.InfiniumMethylation.hg19",
         "lumi",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19"
@@ -531,24 +441,18 @@
     ],
     "Spaniel": [
         "Seurat",
-        "DropletUtils",
         "spatstat.core"
     ],
     "spatialDE": [
-        "SpatialExperiment",
-        "DropletUtils"
+        "SpatialExperiment"
     ],
     "SpatialDecon": [
         "repmis",
         "R.cache"
     ],
-    "SpatialExperiment": [
-        "DropletUtils"
-    ],
     "spatzie": [
         "motifmatchr",
-        "TFBSTools",
-        "CNEr"
+        "TFBSTools"
     ],
     "SpectralTAD": [
         "HiCcompare"
@@ -569,9 +473,6 @@
     "TCGAbiolinksGUI": [
         "ELMER"
     ],
-    "TFBSTools": [
-        "CNEr"
-    ],
     "TIN": [
         "aroma.affymetrix",
         "aroma.core",
@@ -587,8 +488,7 @@
     "treekoR": [
         "diffcyt",
         "FlowSOM",
-        "CytoML",
-        "openCyto"
+        "CytoML"
     ],
     "TRONCO": [
         "R.matlab"
@@ -600,12 +500,10 @@
         "methylumi",
         "lumi",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
-        "minfi",
         "FDb.InfiniumMethylation.hg19"
     ],
     "yarn": [
-        "quantro",
-        "minfi"
+        "quantro"
     ],
     "repmis": [
         "R.cache"
@@ -630,20 +528,8 @@
     "Seurat": [
         "spatstat.core"
     ],
-    "IlluminaHumanMethylation450kanno.ilmn12.hg19": [
-        "minfi"
-    ],
     "styler": [
         "R.cache"
-    ],
-    "IlluminaHumanMethylationEPICmanifest": [
-        "minfi"
-    ],
-    "IlluminaHumanMethylation450kmanifest": [
-        "minfi"
-    ],
-    "IlluminaHumanMethylationEPICanno.ilm10b4.hg19": [
-        "minfi"
     ],
     "Ecume": [
         "spatstat",
@@ -656,9 +542,6 @@
     ],
     "spatstat.linnet": [
         "spatstat.core"
-    ],
-    "IlluminaHumanMethylationEPICanno.ilm10b2.hg19": [
-        "minfi"
     ],
     "reldist": [
         "densEstBayes"
@@ -677,9 +560,6 @@
     "questionr": [
         "styler",
         "R.cache"
-    ],
-    "FlowSorted.Blood.450k": [
-        "minfi"
     ],
     "aroma.affymetrix": [
         "aroma.core",
