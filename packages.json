@@ -1,7 +1,4 @@
 {
-    "AgiMicroRna": [
-        "affycoretools"
-    ],
     "APAlyzer": [
         "repmis",
         "R.cache"
@@ -47,8 +44,7 @@
         "Homo.sapiens"
     ],
     "CATALYST": [
-        "FlowSOM",
-        "CytoML"
+        "FlowSOM"
     ],
     "CelliD": [
         "Seurat",
@@ -56,8 +52,7 @@
     ],
     "censcyt": [
         "diffcyt",
-        "FlowSOM",
-        "CytoML"
+        "FlowSOM"
     ],
     "ChAMP": [
         "DMRcate",
@@ -86,20 +81,17 @@
     ],
     "CyTOFpower": [
         "diffcyt",
-        "FlowSOM",
-        "CytoML"
+        "FlowSOM"
     ],
     "CytoTree": [
-        "FlowSOM",
-        "CytoML"
+        "FlowSOM"
     ],
     "DaMiRseq": [
         "EDASeq",
         "aroma.light"
     ],
     "diffcyt": [
-        "FlowSOM",
-        "CytoML"
+        "FlowSOM"
     ],
     "Dino": [
         "Seurat",
@@ -125,9 +117,6 @@
         "lumi",
         "methylumi",
         "FDb.InfiniumMethylation.hg19"
-    ],
-    "FlowSOM": [
-        "CytoML"
     ],
     "funtooNorm": [
         "IlluminaHumanMethylation450kanno.ilmn12.hg19"
@@ -192,8 +181,7 @@
         "FDb.InfiniumMethylation.hg19"
     ],
     "MetaCyto": [
-        "FlowSOM",
-        "CytoML"
+        "FlowSOM"
     ],
     "metaseqR2": [
         "EDASeq",
@@ -390,8 +378,7 @@
     ],
     "treekoR": [
         "diffcyt",
-        "FlowSOM",
-        "CytoML"
+        "FlowSOM"
     ],
     "TRONCO": [
         "R.matlab"
