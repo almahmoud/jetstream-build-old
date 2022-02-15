@@ -74,12 +74,7 @@ IlluminaHumanMethylation450kanno.ilmn12.hg19
 IlluminaHumanMethylationEPICanno.ilm10b4.hg19
 IlluminaHumanMethylationEPICanno.ilm10b2.hg19
 FlowSorted.Blood.450k
-chromVAR
-ExperimentSubset
-ggspavis
-imcRtools
-enhancerHomologSearch
-CATALYST
 CytoTree
-diffcyt
-MetaCyto
+censcyt
+CyTOFpower
+treekoR

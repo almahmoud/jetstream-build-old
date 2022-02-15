@@ -47,9 +47,6 @@
         "Seurat",
         "spatstat.core"
     ],
-    "censcyt": [
-        "diffcyt"
-    ],
     "ChAMP": [
         "DMRcate",
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
@@ -74,9 +71,6 @@
     "conumee": [
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "IlluminaHumanMethylationEPICanno.ilm10b2.hg19"
-    ],
-    "CyTOFpower": [
-        "diffcyt"
     ],
     "DaMiRseq": [
         "EDASeq",
@@ -358,9 +352,6 @@
         "R.rsp",
         "PSCBS",
         "aroma.light"
-    ],
-    "treekoR": [
-        "diffcyt"
     ],
     "TRONCO": [
         "R.matlab"
