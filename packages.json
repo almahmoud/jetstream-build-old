@@ -1125,7 +1125,6 @@
         "futile.logger"
     ],
     "ChIPXpress": [
-        "ChIPXpressData",
         "GEOquery",
         "R.utils",
         "R.oo"
