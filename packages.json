@@ -1,7 +1,4 @@
 {
-    "ACE": [
-        "QDNAseq"
-    ],
     "affycoretools": [
         "ReportingTools"
     ],
@@ -20,8 +17,7 @@
         "lumi",
         "methylumi",
         "FDb.InfiniumMethylation.hg19",
-        "minfi",
-        "GEOquery"
+        "minfi"
     ],
     "autonomics": [
         "assertive",
@@ -39,14 +35,12 @@
         "methylumi",
         "spatstat.core",
         "FDb.InfiniumMethylation.hg19",
-        "minfi",
-        "GEOquery"
+        "minfi"
     ],
     "bigmelon": [
         "wateRmelon",
         "minfi",
         "methylumi",
-        "GEOquery",
         "FDb.InfiniumMethylation.hg19",
         "lumi",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19"
@@ -55,23 +49,15 @@
         "styler",
         "R.cache"
     ],
-    "BioPlex": [
-        "GEOquery"
-    ],
     "biscuiteer": [
-        "bsseq",
         "Mus.musculus",
         "Homo.sapiens",
-        "QDNAseq",
         "dmrseq"
     ],
     "CATALYST": [
         "FlowSOM",
         "CytoML",
         "openCyto"
-    ],
-    "celda": [
-        "multipanelfigure"
     ],
     "CelliD": [
         "Seurat",
@@ -91,36 +77,18 @@
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
         "wateRmelon",
         "missMethyl",
-        "bsseq",
         "DSS",
-        "GEOquery",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "methylumi",
         "lumi",
         "FDb.InfiniumMethylation.hg19"
     ],
-    "ChIPXpress": [
-        "GEOquery"
-    ],
     "chromVAR": [
         "TFBSTools",
         "CNEr"
     ],
-    "CNVfilteR": [
-        "CopyNumberPlots"
-    ],
-    "CNViz": [
-        "CopyNumberPlots"
-    ],
     "COCOA": [
-        "MIRA",
-        "bsseq"
-    ],
-    "coexnet": [
-        "GEOquery"
-    ],
-    "conclus": [
-        "GEOquery"
+        "MIRA"
     ],
     "condiments": [
         "Ecume",
@@ -138,11 +106,7 @@
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "IlluminaHumanMethylation450kmanifest",
         "IlluminaHumanMethylationEPICanno.ilm10b2.hg19",
-        "IlluminaHumanMethylationEPICmanifest",
-        "GEOquery"
-    ],
-    "crossmeta": [
-        "GEOquery"
+        "IlluminaHumanMethylationEPICmanifest"
     ],
     "CyTOFpower": [
         "diffcyt",
@@ -165,14 +129,8 @@
     "dasper": [
         "megadepth"
     ],
-    "deconvR": [
-        "methylKit"
-    ],
     "decoupleR": [
         "AUCell"
-    ],
-    "DExMA": [
-        "GEOquery"
     ],
     "diffcyt": [
         "FlowSOM",
@@ -184,11 +142,9 @@
         "spatstat.core"
     ],
     "DMRcate": [
-        "bsseq",
         "DSS",
         "minfi",
         "missMethyl",
-        "GEOquery",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
         "IlluminaHumanMethylation450kmanifest",
@@ -196,23 +152,8 @@
         "methylumi",
         "FDb.InfiniumMethylation.hg19"
     ],
-    "dmrseq": [
-        "bsseq"
-    ],
-    "DrugVsDisease": [
-        "GEOquery"
-    ],
-    "DSS": [
-        "bsseq"
-    ],
     "EDASeq": [
         "aroma.light"
-    ],
-    "EGAD": [
-        "GEOquery"
-    ],
-    "ELMER": [
-        "TCGAbiolinks"
     ],
     "enhancerHomologSearch": [
         "motifmatchr",
@@ -221,12 +162,10 @@
     ],
     "EnMCB": [
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
-        "minfi",
-        "GEOquery"
+        "minfi"
     ],
     "ENmix": [
-        "minfi",
-        "GEOquery"
+        "minfi"
     ],
     "enrichTF": [
         "motifmatchr",
@@ -237,7 +176,6 @@
         "Homo.sapiens"
     ],
     "esATAC": [
-        "ChIPseeker",
         "TFBSTools",
         "motifmatchr",
         "CNEr"
@@ -250,8 +188,7 @@
         "lumi",
         "methylumi",
         "FDb.InfiniumMethylation.hg19",
-        "minfi",
-        "GEOquery"
+        "minfi"
     ],
     "FlowSOM": [
         "CytoML",
@@ -260,25 +197,12 @@
     "funtooNorm": [
         "minfi",
         "IlluminaHumanMethylation450kmanifest",
-        "IlluminaHumanMethylation450kanno.ilmn12.hg19",
-        "GEOquery"
-    ],
-    "GAPGOM": [
-        "GEOquery"
+        "IlluminaHumanMethylation450kanno.ilmn12.hg19"
     ],
     "GARS": [
         "DaMiRseq",
         "EDASeq",
         "aroma.light"
-    ],
-    "GeneBreak": [
-        "QDNAseq"
-    ],
-    "GEOexplorer": [
-        "GEOquery"
-    ],
-    "GEOmetadb": [
-        "GEOquery"
     ],
     "ggspavis": [
         "SpatialExperiment",
@@ -290,9 +214,6 @@
     "GSReg": [
         "Homo.sapiens"
     ],
-    "HiCcompare": [
-        "QDNAseq"
-    ],
     "HubPub": [
         "biocthis",
         "styler",
@@ -302,26 +223,18 @@
         "lumi",
         "methylumi",
         "FDb.InfiniumMethylation.hg19",
-        "minfi",
-        "GEOquery"
-    ],
-    "iCNV": [
-        "CODEX"
+        "minfi"
     ],
     "imcRtools": [
         "SpatialExperiment",
         "DropletUtils"
-    ],
-    "InPAS": [
-        "cleanUpdTSeq"
     ],
     "IRISFGM": [
         "Seurat",
         "spatstat.core"
     ],
     "kissDE": [
-        "DSS",
-        "bsseq"
+        "DSS"
     ],
     "lisaClust": [
         "spatstat.core",
@@ -330,22 +243,17 @@
     "lumi": [
         "methylumi",
         "FDb.InfiniumMethylation.hg19",
-        "minfi",
-        "GEOquery"
+        "minfi"
     ],
     "M3Drop": [
         "reldist",
         "densEstBayes"
     ],
-    "MACPET": [
-        "GEOquery"
-    ],
     "MAGAR": [
         "RnBeads",
         "methylumi",
         "FDb.InfiniumMethylation.hg19",
-        "minfi",
-        "GEOquery"
+        "minfi"
     ],
     "MatrixRider": [
         "TFBSTools",
@@ -357,7 +265,6 @@
     "MEAL": [
         "minfi",
         "missMethyl",
-        "GEOquery",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
         "IlluminaHumanMethylation450kmanifest",
@@ -368,7 +275,6 @@
     "MEAT": [
         "minfi",
         "wateRmelon",
-        "GEOquery",
         "methylumi",
         "lumi",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
@@ -382,32 +288,22 @@
     "metaseqR2": [
         "DSS",
         "EDASeq",
-        "bsseq",
         "aroma.light"
     ],
     "MethCP": [
-        "bsseq",
-        "DSS",
-        "methylKit"
-    ],
-    "methInheritSim": [
-        "methylKit"
+        "DSS"
     ],
     "MethylAid": [
-        "minfi",
-        "GEOquery"
+        "minfi"
     ],
     "methylCC": [
         "FlowSorted.Blood.450k",
         "minfi",
-        "bsseq",
         "IlluminaHumanMethylation450kmanifest",
-        "IlluminaHumanMethylation450kanno.ilmn12.hg19",
-        "GEOquery"
+        "IlluminaHumanMethylation450kanno.ilmn12.hg19"
     ],
     "methylclock": [
-        "minfi",
-        "GEOquery"
+        "minfi"
     ],
     "methylGSA": [
         "missMethyl",
@@ -417,42 +313,23 @@
         "IlluminaHumanMethylation450kmanifest",
         "IlluminaHumanMethylationEPICmanifest",
         "methylumi",
-        "FDb.InfiniumMethylation.hg19",
-        "GEOquery"
-    ],
-    "methylInheritance": [
-        "methylKit"
+        "FDb.InfiniumMethylation.hg19"
     ],
     "MethylMix": [
         "R.matlab"
     ],
     "methylSig": [
-        "bsseq",
         "DSS"
     ],
     "methylumi": [
         "FDb.InfiniumMethylation.hg19",
-        "minfi",
-        "GEOquery"
+        "minfi"
     ],
     "MineICA": [
         "lumi",
         "methylumi",
         "FDb.InfiniumMethylation.hg19",
-        "minfi",
-        "GEOquery"
-    ],
-    "minfi": [
-        "GEOquery"
-    ],
-    "MinimumDistance": [
-        "VanillaICE"
-    ],
-    "MIRA": [
-        "bsseq"
-    ],
-    "miRLAB": [
-        "TCGAbiolinks"
+        "minfi"
     ],
     "missMethyl": [
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
@@ -461,16 +338,11 @@
         "IlluminaHumanMethylationEPICmanifest",
         "methylumi",
         "minfi",
-        "FDb.InfiniumMethylation.hg19",
-        "GEOquery"
+        "FDb.InfiniumMethylation.hg19"
     ],
     "monaLisa": [
         "TFBSTools",
         "CNEr"
-    ],
-    "MoonlightR": [
-        "TCGAbiolinks",
-        "GEOquery"
     ],
     "motifmatchr": [
         "TFBSTools",
@@ -486,33 +358,17 @@
         "assertive.code"
     ],
     "multiHiCcompare": [
-        "HiCcompare",
-        "QDNAseq"
-    ],
-    "musicatk": [
-        "deconstructSigs",
-        "decompTumor2Sig",
-        "TCGAbiolinks"
-    ],
-    "NanoMethViz": [
-        "bsseq"
+        "HiCcompare"
     ],
     "Nebulosa": [
         "Seurat",
         "spatstat.core"
     ],
-    "NxtIRFcore": [
-        "NxtIRFdata"
-    ],
     "ODER": [
         "dasper",
         "megadepth"
     ],
-    "ORFik": [
-        "biomartr"
-    ],
     "orthogene": [
-        "homologene",
         "repmis",
         "R.cache"
     ],
@@ -533,9 +389,6 @@
         "R.huge",
         "aroma.light"
     ],
-    "phantasus": [
-        "GEOquery"
-    ],
     "phemd": [
         "Seurat",
         "spatstat.core"
@@ -544,47 +397,27 @@
         "Seurat",
         "spatstat.core"
     ],
-    "preciseTAD": [
-        "rCGH"
-    ],
     "primirTSS": [
         "TFBSTools",
         "CNEr"
     ],
-    "profileplyr": [
-        "ChIPseeker"
-    ],
     "psichomics": [
-        "recount",
-        "GEOquery"
-    ],
-    "psygenet2r": [
-        "BgeeDB"
+        "recount"
     ],
     "quantro": [
-        "minfi",
-        "GEOquery"
+        "minfi"
     ],
     "RcisTarget": [
         "AUCell"
     ],
-    "RcwlPipelines": [
-        "Rcwl"
-    ],
-    "recount": [
-        "GEOquery"
-    ],
     "recountmethylation": [
-        "minfi",
-        "GEOquery"
+        "minfi"
     ],
     "REMP": [
-        "minfi",
-        "GEOquery"
+        "minfi"
     ],
     "RiboCrypt": [
-        "ORFik",
-        "biomartr"
+        "ORFik"
     ],
     "RiboDiPA": [
         "reldist",
@@ -595,21 +428,16 @@
         "RUVSeq",
         "aroma.light"
     ],
-    "RITAN": [
-        "BgeeDB"
-    ],
     "RmiR": [
         "RSVGTipsDevice"
     ],
     "RNAAgeCalc": [
-        "recount",
-        "GEOquery"
+        "recount"
     ],
     "RnBeads": [
         "methylumi",
         "FDb.InfiniumMethylation.hg19",
-        "minfi",
-        "GEOquery"
+        "minfi"
     ],
     "RUVSeq": [
         "EDASeq",
@@ -618,9 +446,6 @@
     "scAlign": [
         "Seurat",
         "spatstat.core"
-    ],
-    "SCAN.UPC": [
-        "GEOquery"
     ],
     "scAnnotatR": [
         "Seurat",
@@ -656,9 +481,6 @@
         "reldist",
         "densEstBayes"
     ],
-    "scmeth": [
-        "bsseq"
-    ],
     "scone": [
         "aroma.light",
         "RUVSeq",
@@ -678,27 +500,18 @@
         "Seurat",
         "spatstat.core"
     ],
-    "segmenter": [
-        "ChIPseeker"
-    ],
-    "selectKSigs": [
-        "HiLDA"
-    ],
     "shinyepico": [
-        "minfi",
-        "GEOquery"
+        "minfi"
     ],
     "shinyMethyl": [
         "minfi",
-        "IlluminaHumanMethylation450kmanifest",
-        "GEOquery"
+        "IlluminaHumanMethylation450kmanifest"
     ],
     "singleCellTK": [
         "scMerge",
         "Seurat",
         "celda",
         "DropletUtils",
-        "multipanelfigure",
         "M3Drop",
         "spatstat.core",
         "reldist",
@@ -710,7 +523,6 @@
         "IlluminaHumanMethylation450kmanifest",
         "minfi",
         "FDb.InfiniumMethylation.hg19",
-        "GEOquery",
         "lumi",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19"
     ],
@@ -739,33 +551,23 @@
         "CNEr"
     ],
     "SpectralTAD": [
-        "HiCcompare",
-        "QDNAseq"
+        "HiCcompare"
     ],
     "spicyR": [
         "spatstat.core"
     ],
-    "SpidermiR": [
-        "TCGAbiolinks"
-    ],
-    "SRAdb": [
-        "GEOquery"
-    ],
     "StarBioTrek": [
-        "SpidermiR",
-        "TCGAbiolinks"
+        "SpidermiR"
     ],
     "systemPipeShiny": [
         "styler",
         "R.cache"
     ],
     "TADCompare": [
-        "HiCcompare",
-        "QDNAseq"
+        "HiCcompare"
     ],
     "TCGAbiolinksGUI": [
-        "ELMER",
-        "TCGAbiolinks"
+        "ELMER"
     ],
     "TFBSTools": [
         "CNEr"
@@ -799,13 +601,11 @@
         "lumi",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "minfi",
-        "FDb.InfiniumMethylation.hg19",
-        "GEOquery"
+        "FDb.InfiniumMethylation.hg19"
     ],
     "yarn": [
         "quantro",
-        "minfi",
-        "GEOquery"
+        "minfi"
     ],
     "repmis": [
         "R.cache"
@@ -831,23 +631,19 @@
         "spatstat.core"
     ],
     "IlluminaHumanMethylation450kanno.ilmn12.hg19": [
-        "minfi",
-        "GEOquery"
+        "minfi"
     ],
     "styler": [
         "R.cache"
     ],
     "IlluminaHumanMethylationEPICmanifest": [
-        "minfi",
-        "GEOquery"
+        "minfi"
     ],
     "IlluminaHumanMethylation450kmanifest": [
-        "minfi",
-        "GEOquery"
+        "minfi"
     ],
     "IlluminaHumanMethylationEPICanno.ilm10b4.hg19": [
-        "minfi",
-        "GEOquery"
+        "minfi"
     ],
     "Ecume": [
         "spatstat",
@@ -862,8 +658,7 @@
         "spatstat.core"
     ],
     "IlluminaHumanMethylationEPICanno.ilm10b2.hg19": [
-        "minfi",
-        "GEOquery"
+        "minfi"
     ],
     "reldist": [
         "densEstBayes"
@@ -884,8 +679,7 @@
         "R.cache"
     ],
     "FlowSorted.Blood.450k": [
-        "minfi",
-        "GEOquery"
+        "minfi"
     ],
     "aroma.affymetrix": [
         "aroma.core",
