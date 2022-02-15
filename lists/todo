@@ -76,19 +76,13 @@ msa
 ELMER.data
 RnBeads.hg19
 SBGNview.data
-DECIPHER
 MatrixCorrelation
 biocViews
-pkgDepTools
 predictionet
 Streamer
 pcalg
 gRbase
 affyPLM
-bgx
-maskBAD
-ROntoTools
-BiocWorkflowTools
 dockerfiler
 flowCore
 Harshlight
@@ -186,7 +180,6 @@ tRNA
 twoddpcr
 universalmotif
 vsn
-ggcorrplot
 ggdendro
 tidyr
 ggrepel
@@ -195,7 +188,6 @@ ggsci
 cowplot
 dbplyr
 viridis
-ggbeeswarm
 ggthemes
 waffle
 plotROC
@@ -204,8 +196,6 @@ rstan
 ggridges
 ggvis
 egg
-patchwork
-scattermore
 sjmisc
 ggforce
 shadowtext
@@ -304,3 +294,7 @@ miRBaseVersions.db
 RmiR.Hs.miRNA
 kmlShape
 mirbase.db
+AssessORF
+SynExtend
+ggrastr
+dearseq
