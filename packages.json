@@ -19,7 +19,6 @@
         "BiocParallel",
         "plotly",
         "futile.logger",
-        "tidyr",
         "data.table",
         "lambda.r",
         "futile.options"
@@ -49,7 +48,6 @@
         "GO.db",
         "ggpubr",
         "data.table",
-        "tidyr",
         "rstatix",
         "broom",
         "car",
@@ -71,7 +69,6 @@
         "MultiAssayExperiment",
         "BiocParallel",
         "futile.logger",
-        "tidyr",
         "lambda.r",
         "futile.options"
     ],
@@ -104,7 +101,6 @@
         "R.methodsS3",
         "futile.logger",
         "biomaRt",
-        "tidyr",
         "data.table",
         "BiocFileCache",
         "lambda.r",
@@ -143,7 +139,6 @@
         "R.methodsS3",
         "futile.logger",
         "biomaRt",
-        "tidyr",
         "data.table",
         "BiocFileCache",
         "lambda.r",
@@ -166,8 +161,7 @@
         "futile.options"
     ],
     "alevinQC": [
-        "GGally",
-        "tidyr"
+        "GGally"
     ],
     "AllelicImbalance": [
         "GenomicAlignments",
@@ -193,7 +187,6 @@
         "BiocParallel",
         "plotly",
         "futile.logger",
-        "tidyr",
         "lambda.r",
         "futile.options"
     ],
@@ -210,7 +203,6 @@
         "futile.options"
     ],
     "AlpsNMR": [
-        "tidyr",
         "GGally",
         "mixOmics",
         "speaq",
@@ -225,14 +217,12 @@
         "MultiAssayExperiment",
         "curatedTCGAData",
         "AnnotationHub",
-        "ExperimentHub",
-        "tidyr"
+        "ExperimentHub"
     ],
     "amplican": [
         "data.table",
         "ShortRead",
         "BiocParallel",
-        "ggthemes",
         "futile.logger",
         "Rsamtools",
         "GenomicAlignments",
@@ -252,7 +242,6 @@
         "nloptr",
         "phyloseq",
         "microbiome",
-        "tidyr",
         "data.table"
     ],
     "AneuFinder": [
@@ -275,7 +264,6 @@
         "genefilter",
         "geneplotter",
         "lmerTest",
-        "tidyr",
         "data.table",
         "futile.logger",
         "lme4",
@@ -342,19 +330,16 @@
     ],
     "AnVIL": [
         "futile.logger",
-        "tidyr",
         "lambda.r",
         "futile.options"
     ],
     "AnVILBilling": [
         "plotly",
-        "tidyr",
         "data.table"
     ],
     "AnVILPublish": [
         "AnVIL",
         "futile.logger",
-        "tidyr",
         "lambda.r",
         "futile.options"
     ],
@@ -365,7 +350,6 @@
         "rtracklayer",
         "ensembldb",
         "VariantAnnotation",
-        "tidyr",
         "repmis",
         "Rsamtools",
         "BiocParallel",
@@ -458,7 +442,6 @@
         "Rsamtools",
         "GenomicAlignments",
         "futile.logger",
-        "tidyr",
         "R.utils",
         "lambda.r",
         "futile.options",
@@ -466,7 +449,6 @@
         "R.methodsS3"
     ],
     "arrayQualityMetrics": [
-        "beadarray",
         "genefilter",
         "Hmisc",
         "data.table"
@@ -476,7 +458,6 @@
         "MSstats",
         "org.Hs.eg.db",
         "plotly",
-        "tidyr",
         "VennDiagram",
         "MSstatsConvert",
         "lme4",
@@ -515,7 +496,6 @@
         "VariantAnnotation",
         "lambda.r",
         "futile.options",
-        "tidyr",
         "nloptr"
     ],
     "ASpli": [
@@ -524,7 +504,6 @@
         "Gviz",
         "Rsamtools",
         "data.table",
-        "tidyr",
         "BiocParallel",
         "rtracklayer",
         "biomaRt",
@@ -607,7 +586,6 @@
         "data.table",
         "MultiAssayExperiment",
         "R.utils",
-        "tidyr",
         "assertive.base",
         "assertive.properties",
         "assertive.types",
@@ -634,7 +612,6 @@
         "pbkrtest",
         "BiocParallel",
         "futile.logger",
-        "tidyr",
         "lme4",
         "lambda.r",
         "futile.options",
@@ -674,7 +651,6 @@
     "bambu": [
         "BiocParallel",
         "data.table",
-        "tidyr",
         "GenomicAlignments",
         "GenomicFeatures",
         "Rsamtools",
@@ -697,15 +673,8 @@
         "lambda.r",
         "futile.options"
     ],
-    "banocc": [
-        "rstan"
-    ],
-    "barcodetrackR": [
-        "tidyr"
-    ],
     "basecallQC": [
         "data.table",
-        "tidyr",
         "ShortRead",
         "BiocParallel",
         "Rsamtools",
@@ -769,7 +738,6 @@
         "genefilter",
         "BiocParallel",
         "futile.logger",
-        "tidyr",
         "data.table",
         "lambda.r",
         "futile.options"
@@ -858,7 +826,6 @@
         "GenomicFeatures",
         "FDb.InfiniumMethylation.hg19",
         "minfi",
-        "tidyr",
         "spatstat.data",
         "spatstat.utils",
         "spatstat.sparse",
@@ -890,7 +857,6 @@
     ],
     "BgeeDB": [
         "topGO",
-        "tidyr",
         "R.utils",
         "data.table",
         "R.oo",
@@ -906,7 +872,6 @@
         "methylumi",
         "GEOquery",
         "data.table",
-        "tidyr",
         "R.utils",
         "FDb.InfiniumMethylation.hg19",
         "genefilter",
@@ -932,13 +897,10 @@
         "GGally",
         "Hmisc",
         "plotly",
-        "tidyr",
         "data.table"
     ],
     "BindingSiteFinder": [
-        "tidyr",
         "rtracklayer",
-        "ggforce",
         "Rsamtools",
         "GenomicAlignments",
         "BiocParallel",
@@ -947,8 +909,7 @@
         "futile.options"
     ],
     "biobroom": [
-        "broom",
-        "tidyr"
+        "broom"
     ],
     "bioCancer": [
         "radiant.data",
@@ -965,7 +926,6 @@
         "R.methodsS3",
         "enrichplot",
         "GOSemSim",
-        "tidyr",
         "yulab.utils",
         "BiocParallel",
         "DO.db",
@@ -974,7 +934,6 @@
         "car",
         "plotly",
         "ggraph",
-        "graphite",
         "futile.logger",
         "pbkrtest",
         "lme4",
@@ -982,7 +941,6 @@
         "scatterpie",
         "ggtree",
         "data.table",
-        "ggforce",
         "tidygraph",
         "ggplotify",
         "lambda.r",
@@ -1012,7 +970,6 @@
         "ExperimentHub",
         "rtracklayer",
         "biomaRt",
-        "tidyr",
         "rstatix",
         "BiocFileCache",
         "nloptr",
@@ -1037,11 +994,7 @@
         "futile.options"
     ],
     "BiocPkgTools": [
-        "BiocFileCache",
-        "tidyr"
-    ],
-    "BiocSet": [
-        "tidyr"
+        "BiocFileCache"
     ],
     "BiocSingular": [
         "BiocParallel",
@@ -1133,7 +1086,6 @@
         "geneplotter",
         "network",
         "sna",
-        "tidyr",
         "rstatix",
         "Hmisc",
         "GO.db",
@@ -1161,7 +1113,6 @@
         "BiocFileCache",
         "GEOquery",
         "data.table",
-        "tidyr",
         "R.utils",
         "R.oo",
         "R.methodsS3"
@@ -1256,9 +1207,6 @@
         "lambda.r",
         "futile.options"
     ],
-    "blima": [
-        "beadarray"
-    ],
     "BLMA": [
         "PADOG",
         "hgu133plus2.db",
@@ -1328,8 +1276,7 @@
         "ensembldb",
         "data.table",
         "lambda.r",
-        "futile.options",
-        "tidyr"
+        "futile.options"
     ],
     "BrainSABER": [
         "biomaRt",
@@ -1350,7 +1297,6 @@
         "GenomicAlignments",
         "BiocParallel",
         "ipred",
-        "tidyr",
         "futile.logger",
         "prodlim",
         "lambda.r",
@@ -1368,7 +1314,6 @@
     ],
     "brendaDb": [
         "BiocParallel",
-        "tidyr",
         "BiocFileCache",
         "futile.logger",
         "lambda.r",
@@ -1451,7 +1396,6 @@
         "ensembldb",
         "GenomicFeatures",
         "plyranges",
-        "tidyr",
         "BiocFileCache",
         "rtracklayer",
         "Rsamtools",
@@ -1476,7 +1420,6 @@
         "GGally",
         "BiocParallel",
         "biomaRt",
-        "tidyr",
         "data.table",
         "futile.logger",
         "BiocFileCache",
@@ -1529,7 +1472,6 @@
         "genefilter",
         "geneplotter",
         "biomaRt",
-        "tidyr",
         "network",
         "sna",
         "rstatix",
@@ -1556,7 +1498,6 @@
         "rtracklayer",
         "futile.logger",
         "operator.tools",
-        "tidyr",
         "lambda.r",
         "futile.options"
     ],
@@ -1574,9 +1515,6 @@
         "BiocFileCache",
         "org.Hs.eg.db",
         "data.table"
-    ],
-    "CancerSubtypes": [
-        "NMF"
     ],
     "Cardinal": [
         "BiocParallel",
@@ -1606,9 +1544,7 @@
         "multcomp",
         "CytoML",
         "flowWorkspace",
-        "ggforce",
         "ggpubr",
-        "tidyr",
         "scuttle",
         "BiocNeighbors",
         "BiocSingular",
@@ -1635,8 +1571,7 @@
         "R.oo",
         "R.methodsS3",
         "fds",
-        "rainbow",
-        "hdrcde"
+        "rainbow"
     ],
     "Category": [
         "GSEABase",
@@ -1646,7 +1581,6 @@
         "GSEABase",
         "Category",
         "GOstats",
-        "RCy3",
         "genefilter",
         "GO.db"
     ],
@@ -1662,7 +1596,6 @@
         "MultiAssayExperiment",
         "BiocFileCache",
         "RTCGAToolbox",
-        "tidyr",
         "TCGAutils",
         "futile.logger",
         "data.table",
@@ -1712,9 +1645,6 @@
         "lambda.r",
         "futile.options"
     ],
-    "CellaRepertorium": [
-        "tidyr"
-    ],
     "CellBarcode": [
         "data.table",
         "ShortRead",
@@ -1728,7 +1658,6 @@
     ],
     "cellbaseR": [
         "data.table",
-        "tidyr",
         "R.utils",
         "Rsamtools",
         "BiocParallel",
@@ -1741,7 +1670,6 @@
     "CellBench": [
         "BiocFileCache",
         "BiocParallel",
-        "tidyr",
         "futile.logger",
         "lambda.r",
         "futile.options"
@@ -1768,7 +1696,6 @@
         "spatstat.geom",
         "lambda.r",
         "futile.options",
-        "tidyr",
         "spatstat.data",
         "spatstat.utils",
         "spatstat.sparse"
@@ -1789,13 +1716,11 @@
         "pbkrtest",
         "lme4",
         "nloptr",
-        "broom",
-        "tidyr"
+        "broom"
     ],
     "CellMixS": [
         "BiocNeighbors",
         "scater",
-        "tidyr",
         "BiocParallel",
         "futile.logger",
         "scuttle",
@@ -1804,8 +1729,7 @@
         "futile.options"
     ],
     "CellTrails": [
-        "dendextend",
-        "EnvStats"
+        "dendextend"
     ],
     "cellTree": [
         "topGO",
@@ -1815,7 +1739,6 @@
         "data.table",
         "WGCNA",
         "ggpmisc",
-        "ggthemes",
         "sna",
         "clusterProfiler",
         "fgsea",
@@ -1825,7 +1748,6 @@
         "enrichplot",
         "GO.db",
         "GOSemSim",
-        "tidyr",
         "yulab.utils",
         "BiocParallel",
         "statnet.common",
@@ -1839,7 +1761,6 @@
         "ggplotify",
         "lambda.r",
         "futile.options",
-        "ggforce",
         "tidygraph",
         "tidytree",
         "treeio"
@@ -1851,7 +1772,6 @@
         "lme4",
         "mice",
         "multcomp",
-        "tidyr",
         "futile.logger",
         "broom",
         "FlowSOM",
@@ -1859,7 +1779,6 @@
         "TH.data",
         "CytoML",
         "flowWorkspace",
-        "ggforce",
         "ggpubr",
         "lambda.r",
         "futile.options",
@@ -1880,8 +1799,7 @@
         "R.oo",
         "R.methodsS3",
         "fds",
-        "rainbow",
-        "hdrcde"
+        "rainbow"
     ],
     "Cepo": [
         "GSEABase",
@@ -1892,9 +1810,7 @@
     ],
     "ceRNAnetsim": [
         "tidygraph",
-        "ggraph",
-        "tidyr",
-        "ggforce"
+        "ggraph"
     ],
     "CeTF": [
         "clusterProfiler",
@@ -1905,12 +1821,10 @@
         "ggnetwork",
         "ggpubr",
         "network",
-        "RCy3",
         "DOSE",
         "enrichplot",
         "GO.db",
         "GOSemSim",
-        "tidyr",
         "yulab.utils",
         "BiocParallel",
         "genefilter",
@@ -1933,7 +1847,6 @@
         "lme4",
         "lambda.r",
         "futile.options",
-        "ggforce",
         "tidygraph",
         "tidytree",
         "treeio",
@@ -1993,7 +1906,6 @@
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "methylumi",
         "org.Hs.eg.db",
-        "tidyr",
         "lumi",
         "futile.logger",
         "R.utils",
@@ -2017,7 +1929,6 @@
     "CHETAH": [
         "plotly",
         "dendextend",
-        "tidyr",
         "data.table"
     ],
     "ChIC": [
@@ -2031,7 +1942,6 @@
         "futile.logger",
         "data.table",
         "ipred",
-        "tidyr",
         "lambda.r",
         "futile.options",
         "prodlim",
@@ -2117,7 +2027,6 @@
         "GenomicFeatures",
         "VariantAnnotation",
         "ensembldb",
-        "tidyr",
         "rtracklayer",
         "lambda.r",
         "futile.options",
@@ -2190,9 +2099,7 @@
         "BiocParallel",
         "DO.db",
         "fgsea",
-        "ggforce",
         "tidygraph",
-        "tidyr",
         "tidytree",
         "treeio",
         "GO.db",
@@ -2237,7 +2144,6 @@
         "bigmemory.sri",
         "oligo",
         "data.table",
-        "tidyr",
         "R.utils",
         "R.oo",
         "R.methodsS3"
@@ -2263,7 +2169,6 @@
         "Rsamtools",
         "scran",
         "scater",
-        "tidyr",
         "rlist",
         "msigdbr",
         "Sushi",
@@ -2271,7 +2176,6 @@
         "BiocSingular",
         "scuttle",
         "futile.logger",
-        "babelgene",
         "data.table",
         "GenomicAlignments",
         "bluster",
@@ -2290,9 +2194,7 @@
     ],
     "chromswitch": [
         "BiocParallel",
-        "NMF",
         "rtracklayer",
-        "tidyr",
         "futile.logger",
         "Rsamtools",
         "GenomicAlignments",
@@ -2307,7 +2209,6 @@
         "BSgenome",
         "futile.logger",
         "rtracklayer",
-        "tidyr",
         "data.table",
         "CNEr",
         "GenomicAlignments",
@@ -2326,7 +2227,6 @@
         "monocle",
         "Gviz",
         "data.table",
-        "tidyr",
         "rtracklayer",
         "biomaRt",
         "GenomicFeatures",
@@ -2335,7 +2235,6 @@
         "biovizBase",
         "Rsamtools",
         "GenomicAlignments",
-        "densityClust",
         "BiocFileCache",
         "Hmisc",
         "VariantAnnotation",
@@ -2345,10 +2244,8 @@
         "futile.options"
     ],
     "CIMICE": [
-        "tidyr",
         "ggraph",
         "maftools",
-        "ggforce",
         "tidygraph",
         "data.table"
     ],
@@ -2378,7 +2275,6 @@
     "CiteFuse": [
         "scran",
         "ggraph",
-        "ggforce",
         "tidygraph",
         "scuttle",
         "BiocParallel",
@@ -2386,7 +2282,6 @@
         "bluster",
         "futile.logger",
         "BiocNeighbors",
-        "tidyr",
         "lambda.r",
         "futile.options"
     ],
@@ -2394,7 +2289,6 @@
         "MultiAssayExperiment",
         "BiocParallel",
         "futile.logger",
-        "tidyr",
         "lambda.r",
         "futile.options"
     ],
@@ -2434,18 +2328,15 @@
         "futile.options"
     ],
     "clusterExperiment": [
-        "NMF",
         "BiocSingular",
         "zinbwave",
         "phylobase",
         "mbkmeans",
         "BiocParallel",
-        "ClusterR",
         "benchmarkme",
         "RNeXML",
         "genefilter",
         "futile.logger",
-        "tidyr",
         "lambda.r",
         "futile.options"
     ],
@@ -2454,7 +2345,6 @@
         "enrichplot",
         "GO.db",
         "GOSemSim",
-        "tidyr",
         "yulab.utils",
         "BiocParallel",
         "DO.db",
@@ -2466,7 +2356,6 @@
         "ggplotify",
         "futile.logger",
         "data.table",
-        "ggforce",
         "tidygraph",
         "tidytree",
         "treeio",
@@ -2481,7 +2370,6 @@
     ],
     "clustifyr": [
         "fgsea",
-        "tidyr",
         "data.table",
         "BiocParallel",
         "futile.logger",
@@ -2562,7 +2450,6 @@
         "rtracklayer",
         "biovizBase",
         "GenomicFeatures",
-        "tidyr",
         "data.table",
         "Hmisc",
         "GenomicAlignments",
@@ -2586,7 +2473,6 @@
     ],
     "CNVRanger": [
         "BiocParallel",
-        "GDSArray",
         "data.table",
         "futile.logger",
         "lambda.r",
@@ -2612,7 +2498,6 @@
     "COCOA": [
         "data.table",
         "MIRA",
-        "tidyr",
         "bsseq",
         "R.utils",
         "BiocParallel",
@@ -2640,7 +2525,6 @@
     "coexnet": [
         "GEOquery",
         "data.table",
-        "tidyr",
         "R.utils",
         "R.oo",
         "R.methodsS3"
@@ -2652,7 +2536,6 @@
         "futile.options"
     ],
     "cogena": [
-        "tidyr",
         "devtools"
     ],
     "Cogito": [
@@ -2702,8 +2585,7 @@
         "futile.options"
     ],
     "COMPASS": [
-        "data.table",
-        "tidyr"
+        "data.table"
     ],
     "compEpiTools": [
         "topGO",
@@ -2729,7 +2611,6 @@
     ],
     "ComPrAn": [
         "data.table",
-        "tidyr",
         "VennDiagram",
         "rio",
         "haven",
@@ -2749,7 +2630,6 @@
         "enrichplot",
         "GO.db",
         "GOSemSim",
-        "tidyr",
         "yulab.utils",
         "dendextend",
         "FactoMineR",
@@ -2777,7 +2657,6 @@
         "lme4",
         "lambda.r",
         "futile.options",
-        "ggforce",
         "tidygraph",
         "tidytree",
         "treeio",
@@ -2804,7 +2683,6 @@
         "spatstat.utils",
         "data.table",
         "ipred",
-        "tidyr",
         "spatstat.sparse",
         "prodlim",
         "lava",
@@ -2909,7 +2787,6 @@
         "GenomicAlignments",
         "futile.logger",
         "GenomicFeatures",
-        "tidyr",
         "R.utils",
         "lambda.r",
         "futile.options",
@@ -2960,16 +2837,13 @@
         "BiocParallel",
         "data.table",
         "futile.logger",
-        "tidyr",
         "fgsea",
         "lambda.r",
         "futile.options"
     ],
     "corral": [
-        "ggthemes",
         "MultiAssayExperiment",
         "transport",
-        "tidyr",
         "data.table"
     ],
     "coseq": [
@@ -2991,7 +2865,6 @@
     ],
     "countsimQC": [
         "DESeq2",
-        "tidyr",
         "genefilter",
         "BiocParallel",
         "geneplotter",
@@ -3027,7 +2900,6 @@
     "CRISPRseek": [
         "data.table",
         "BSgenome",
-        "keras",
         "mltools",
         "rtracklayer",
         "Rsamtools",
@@ -3045,7 +2917,6 @@
         "rtracklayer",
         "Rsamtools",
         "data.table",
-        "keras",
         "mltools",
         "biomaRt",
         "BiocParallel",
@@ -3076,7 +2947,6 @@
         "BiocParallel",
         "genefilter",
         "geneplotter",
-        "tidyr",
         "R.utils",
         "futile.logger",
         "R.oo",
@@ -3116,8 +2986,6 @@
         "monocle",
         "sincell",
         "TSCAN",
-        "densityClust",
-        "fields",
         "TrajectoryUtils"
     ],
     "cTRAP": [
@@ -3130,7 +2998,6 @@
         "BiocParallel",
         "rlist",
         "broom",
-        "tidyr",
         "R.oo",
         "R.methodsS3",
         "futile.logger",
@@ -3183,7 +3050,6 @@
         "car",
         "RFOC",
         "flowWorkspace",
-        "tidyr",
         "pbkrtest",
         "lme4",
         "data.table",
@@ -3191,7 +3057,6 @@
         "aws.signature",
         "ncdfFlow",
         "GEOmap",
-        "fields",
         "nloptr",
         "broom"
     ],
@@ -3208,7 +3073,6 @@
     "CyTOFpower": [
         "CytoGLMM",
         "diffcyt",
-        "tidyr",
         "BiocParallel",
         "factoextra",
         "mbest",
@@ -3224,7 +3088,6 @@
         "ggpubr",
         "CytoML",
         "flowWorkspace",
-        "ggforce",
         "nloptr",
         "bigmemory",
         "TH.data",
@@ -3253,14 +3116,12 @@
         "R.methodsS3",
         "fds",
         "future.apply",
-        "rainbow",
-        "hdrcde"
+        "rainbow"
     ],
     "CytoGLMM": [
         "BiocParallel",
         "factoextra",
         "mbest",
-        "tidyr",
         "caret",
         "futile.logger",
         "ModelMetrics",
@@ -3313,8 +3174,7 @@
         "R.oo",
         "R.methodsS3",
         "fds",
-        "rainbow",
-        "hdrcde"
+        "rainbow"
     ],
     "CytoTree": [
         "FlowSOM",
@@ -3325,13 +3185,10 @@
         "scatterpie",
         "BiocParallel",
         "ggplot.multistats",
-        "tidyr",
-        "ggthemes",
         "VIM",
         "knn.covertree",
         "CytoML",
         "flowWorkspace",
-        "ggforce",
         "ggpubr",
         "genefilter",
         "futile.logger",
@@ -3357,8 +3214,7 @@
         "R.oo",
         "R.methodsS3",
         "fds",
-        "rainbow",
-        "hdrcde"
+        "rainbow"
     ],
     "dada2": [
         "ShortRead",
@@ -3419,7 +3275,6 @@
         "rtracklayer",
         "nloptr",
         "ipred",
-        "tidyr",
         "GenomicAlignments",
         "lambda.r",
         "futile.options",
@@ -3438,7 +3293,6 @@
         "megadepth",
         "plyranges",
         "rtracklayer",
-        "tidyr",
         "dir.expiry",
         "basilisk.utils",
         "futile.logger",
@@ -3465,17 +3319,12 @@
         "epiNEM",
         "metap",
         "mnem",
-        "graphite",
         "org.Hs.eg.db",
-        "ggforce",
         "mutoss",
-        "qqconf",
         "Linnorm",
         "data.table",
-        "tidyr",
         "broom",
         "dtplyr",
-        "googlesheets4",
         "haven",
         "modelr",
         "multcomp",
@@ -3503,15 +3352,11 @@
         "aws.signature",
         "ncdfFlow",
         "GEOmap",
-        "fields",
         "nloptr",
-        "broom",
-        "tidyr"
+        "broom"
     ],
     "debCAM": [
         "BiocParallel",
-        "NMF",
-        "DMwR2",
         "futile.logger",
         "lambda.r",
         "futile.options"
@@ -3529,7 +3374,6 @@
         "pathview",
         "GO.db",
         "GOSemSim",
-        "tidyr",
         "yulab.utils",
         "BiocParallel",
         "genefilter",
@@ -3544,7 +3388,6 @@
         "data.table",
         "ggplotify",
         "futile.logger",
-        "ggforce",
         "tidygraph",
         "tidytree",
         "treeio",
@@ -3571,7 +3414,6 @@
         "BSgenome.Hsapiens.UCSC.hg19",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "VariantAnnotation",
-        "ggseqlogo",
         "data.table",
         "BSgenome",
         "rtracklayer",
@@ -3588,7 +3430,6 @@
         "data.table",
         "methylKit",
         "rsq",
-        "tidyr",
         "Rsamtools",
         "rtracklayer",
         "R.utils",
@@ -3605,7 +3446,6 @@
     "decoupleR": [
         "broom",
         "GSVA",
-        "tidyr",
         "fgsea",
         "AUCell",
         "data.table",
@@ -3633,7 +3473,6 @@
         "futile.options"
     ],
     "DeepPINCS": [
-        "keras",
         "CatEncoders",
         "webchem",
         "ttgsea",
@@ -3642,7 +3481,6 @@
         "textstem",
         "DiagrammeR",
         "data.tree",
-        "tidyr",
         "rsparse",
         "koRpus.lang.en",
         "koRpus",
@@ -3687,7 +3525,6 @@
         "rtracklayer",
         "biomaRt",
         "dendextend",
-        "tidyr",
         "futile.logger",
         "BiocFileCache",
         "lambda.r",
@@ -3697,14 +3534,12 @@
         "R.utils",
         "R.methodsS3",
         "NCIgraph",
-        "RCy3",
         "R.oo"
     ],
     "DEGreport": [
         "broom",
         "DESeq2",
         "Nozzle.R1",
-        "tidyr",
         "BiocParallel",
         "genefilter",
         "geneplotter",
@@ -3735,7 +3570,6 @@
     ],
     "DepecheR": [
         "mixOmics",
-        "tidyr",
         "BiocParallel",
         "futile.logger",
         "lambda.r",
@@ -3779,7 +3613,6 @@
         "ensembldb",
         "futile.logger",
         "BiocFileCache",
-        "tidyr",
         "data.table",
         "lambda.r",
         "futile.options"
@@ -3821,8 +3654,6 @@
     ],
     "destiny": [
         "ggplot.multistats",
-        "tidyr",
-        "ggthemes",
         "VIM",
         "knn.covertree",
         "car",
@@ -3860,7 +3691,6 @@
         "GEOquery",
         "sva",
         "data.table",
-        "tidyr",
         "R.utils",
         "genefilter",
         "BiocParallel",
@@ -3908,10 +3738,8 @@
         "FlowSOM",
         "lme4",
         "multcomp",
-        "tidyr",
         "CytoML",
         "flowWorkspace",
-        "ggforce",
         "ggpubr",
         "nloptr",
         "TH.data",
@@ -3933,8 +3761,7 @@
         "R.oo",
         "R.methodsS3",
         "fds",
-        "rainbow",
-        "hdrcde"
+        "rainbow"
     ],
     "diffGeneAnalysis": [
         "minpack.lm"
@@ -4000,7 +3827,6 @@
         "BiocNeighbors",
         "lambda.r",
         "futile.options",
-        "tidyr",
         "data.table",
         "spatstat.data",
         "spatstat.utils",
@@ -4013,7 +3839,6 @@
         "VennDiagram",
         "heatmaply",
         "plotly",
-        "tidyr",
         "dendextend",
         "futile.logger",
         "lambda.r",
@@ -4088,7 +3913,6 @@
         "futile.logger",
         "Hmisc",
         "VariantAnnotation",
-        "tidyr",
         "FDb.InfiniumMethylation.hg19",
         "R.oo",
         "R.methodsS3",
@@ -4137,12 +3961,6 @@
         "R.oo",
         "R.methodsS3"
     ],
-    "DNABarcodeCompatibility": [
-        "tidyr"
-    ],
-    "DNAshapeR": [
-        "fields"
-    ],
     "DominoEffect": [
         "biomaRt",
         "data.table",
@@ -4177,8 +3995,7 @@
         "future.apply",
         "TH.data",
         "nloptr",
-        "broom",
-        "tidyr"
+        "broom"
     ],
     "DOSE": [
         "BiocParallel",
@@ -4204,9 +4021,6 @@
         "futile.logger",
         "lambda.r",
         "futile.options"
-    ],
-    "drawProteins": [
-        "tidyr"
     ],
     "DRIMSeq": [
         "BiocParallel",
@@ -4248,7 +4062,6 @@
         "oligo",
         "BiocFileCache",
         "data.table",
-        "tidyr",
         "R.utils",
         "org.Hs.eg.db",
         "R.oo",
@@ -4271,7 +4084,6 @@
     ],
     "Dune": [
         "BiocParallel",
-        "tidyr",
         "futile.logger",
         "lambda.r",
         "futile.options"
@@ -4290,7 +4102,6 @@
         "geneplotter",
         "ExperimentHub",
         "AnnotationHub",
-        "tidyr",
         "broom",
         "car",
         "BiocFileCache",
@@ -4345,7 +4156,6 @@
         "sva",
         "snm",
         "jackstraw",
-        "ClusterR",
         "lme4",
         "genefilter",
         "BiocParallel",
@@ -4365,7 +4175,6 @@
         "enrichplot",
         "GO.db",
         "GOSemSim",
-        "tidyr",
         "yulab.utils",
         "BiocParallel",
         "genefilter",
@@ -4385,7 +4194,6 @@
         "ggplotify",
         "lambda.r",
         "futile.options",
-        "ggforce",
         "tidygraph",
         "tidytree",
         "treeio"
@@ -4393,7 +4201,6 @@
     "EGAD": [
         "GEOquery",
         "data.table",
-        "tidyr",
         "R.utils",
         "R.oo",
         "R.methodsS3"
@@ -4416,10 +4223,8 @@
         "BiocParallel",
         "BiocSingular",
         "mutoss",
-        "qqconf",
         "hgu133plus2.db",
         "hgu133a.db",
-        "tidyr",
         "data.table",
         "futile.logger",
         "multcomp",
@@ -4435,7 +4240,6 @@
         "MultiAssayExperiment",
         "biomaRt",
         "plotly",
-        "tidyr",
         "ggpubr",
         "rtracklayer",
         "BiocFileCache",
@@ -4470,9 +4274,7 @@
     ],
     "EnhancedVolcano": [
         "ggalt",
-        "ggrastr",
         "plotly",
-        "tidyr",
         "data.table"
     ],
     "enhancerHomologSearch": [
@@ -4507,7 +4309,6 @@
         "multcomp",
         "futile.logger",
         "GenomicFeatures",
-        "tidyr",
         "R.utils",
         "TH.data",
         "lambda.r",
@@ -4533,7 +4334,6 @@
         "BiocParallel",
         "futile.logger",
         "GenomicFeatures",
-        "tidyr",
         "R.utils",
         "lambda.r",
         "futile.options",
@@ -4548,7 +4348,6 @@
         "BiocFileCache",
         "GSEABase",
         "GO.db",
-        "graphite",
         "pathview",
         "safe",
         "org.Hs.eg.db"
@@ -4565,9 +4364,7 @@
         "BiocParallel",
         "DO.db",
         "fgsea",
-        "ggforce",
         "tidygraph",
-        "tidyr",
         "tidytree",
         "treeio",
         "GO.db",
@@ -4590,7 +4387,6 @@
         "enrichplot",
         "GO.db",
         "GOSemSim",
-        "tidyr",
         "yulab.utils",
         "rstatix",
         "R.oo",
@@ -4613,7 +4409,6 @@
         "data.table",
         "lambda.r",
         "futile.options",
-        "ggforce",
         "tidygraph",
         "tidytree",
         "treeio",
@@ -4661,11 +4456,9 @@
         "futile.options"
     ],
     "epidecodeR": [
-        "EnvStats",
         "rtracklayer",
         "rstatix",
         "ggpubr",
-        "tidyr",
         "broom",
         "car",
         "Rsamtools",
@@ -4680,7 +4473,6 @@
     ],
     "epigenomix": [
         "Rsamtools",
-        "beadarray",
         "BiocParallel",
         "futile.logger",
         "lambda.r",
@@ -4694,7 +4486,6 @@
         "ggpubr",
         "GreyListChIP",
         "BiocParallel",
-        "tidyr",
         "rstatix",
         "GenomicAlignments",
         "BSgenome",
@@ -4715,7 +4506,6 @@
         "enrichplot",
         "ggraph",
         "reactome.db",
-        "graphite",
         "Hmisc",
         "GO.db",
         "BiocParallel",
@@ -4726,11 +4516,9 @@
         "scatterpie",
         "ggtree",
         "yulab.utils",
-        "ggforce",
         "tidygraph",
         "ggplotify",
         "futile.logger",
-        "tidyr",
         "tidytree",
         "treeio",
         "lambda.r",
@@ -4864,7 +4652,6 @@
         "DOSE",
         "GO.db",
         "GOSemSim",
-        "tidyr",
         "yulab.utils",
         "biomaRt",
         "R.oo",
@@ -4884,7 +4671,6 @@
         "futile.options",
         "ggplotify",
         "data.table",
-        "ggforce",
         "tidygraph",
         "tidytree",
         "treeio"
@@ -4896,12 +4682,8 @@
         "BiocParallel",
         "futile.logger",
         "BiocSingular",
-        "babelgene",
         "lambda.r",
         "futile.options"
-    ],
-    "esetVis": [
-        "MLP"
     ],
     "eudysbiome": [
         "Rsamtools",
@@ -4914,8 +4696,7 @@
         "futile.options"
     ],
     "evaluomeR": [
-        "MultiAssayExperiment",
-        "tidyr"
+        "MultiAssayExperiment"
     ],
     "EventPointer": [
         "SGSeq",
@@ -5009,18 +4790,13 @@
         "futile.options",
         "R.oo",
         "R.methodsS3",
-        "tidyr",
         "yulab.utils"
-    ],
-    "ExploreModelMatrix": [
-        "tidyr"
     ],
     "famat": [
         "gprofiler2",
         "rWikiPathways",
         "reactome.db",
         "GO.db",
-        "tidyr",
         "plotly",
         "clusterProfiler",
         "org.Hs.eg.db",
@@ -5038,7 +4814,6 @@
         "ggtree",
         "ggplotify",
         "futile.logger",
-        "ggforce",
         "tidygraph",
         "tidytree",
         "treeio",
@@ -5053,8 +4828,7 @@
         "geepack",
         "org.Sc.sgd.db",
         "GO.db",
-        "broom",
-        "tidyr"
+        "broom"
     ],
     "FastqCleaner": [
         "ShortRead",
@@ -5077,7 +4851,6 @@
         "rainbow",
         "BiocParallel",
         "futile.logger",
-        "hdrcde",
         "lambda.r",
         "futile.options"
     ],
@@ -5097,7 +4870,6 @@
         "enrichplot",
         "GO.db",
         "GOSemSim",
-        "tidyr",
         "yulab.utils",
         "statnet.common",
         "BiocParallel",
@@ -5109,7 +4881,6 @@
         "ggtree",
         "ggplotify",
         "futile.logger",
-        "ggforce",
         "tidygraph",
         "tidytree",
         "treeio",
@@ -5140,9 +4911,7 @@
         "futile.options"
     ],
     "fedup": [
-        "data.table",
-        "ggthemes",
-        "RCy3"
+        "data.table"
     ],
     "ffpe": [
         "lumi",
@@ -5161,7 +4930,6 @@
         "BiocParallel",
         "futile.logger",
         "BiocFileCache",
-        "tidyr",
         "R.utils",
         "Rsamtools",
         "GenomicAlignments",
@@ -5197,7 +4965,6 @@
         "rtracklayer",
         "GenomicFeatures",
         "BiocParallel",
-        "tidyr",
         "MultiAssayExperiment",
         "futile.logger",
         "biomaRt",
@@ -5220,7 +4987,6 @@
         "basilisk",
         "Rsamtools",
         "scater",
-        "tidyr",
         "scuttle",
         "dir.expiry",
         "basilisk.utils",
@@ -5239,7 +5005,6 @@
         "BiocParallel",
         "plotly",
         "futile.logger",
-        "tidyr",
         "data.table",
         "lambda.r",
         "futile.options"
@@ -5260,10 +5025,8 @@
         "aws.signature",
         "ncdfFlow",
         "GEOmap",
-        "fields",
         "nloptr",
-        "broom",
-        "tidyr"
+        "broom"
     ],
     "flowDensity": [
         "flowViz",
@@ -5277,10 +5040,8 @@
         "aws.signature",
         "ncdfFlow",
         "GEOmap",
-        "fields",
         "nloptr",
-        "broom",
-        "tidyr"
+        "broom"
     ],
     "flowFP": [
         "flowViz"
@@ -5298,15 +5059,12 @@
         "pbkrtest",
         "lme4",
         "nloptr",
-        "broom",
-        "tidyr"
+        "broom"
     ],
     "FlowSOM": [
         "CytoML",
         "flowWorkspace",
-        "ggforce",
         "ggpubr",
-        "tidyr",
         "openCyto",
         "data.table",
         "ggcyto",
@@ -5327,8 +5085,7 @@
         "R.methodsS3",
         "fds",
         "nloptr",
-        "rainbow",
-        "hdrcde"
+        "rainbow"
     ],
     "flowSpecs": [
         "BiocParallel",
@@ -5345,8 +5102,7 @@
         "data.table",
         "aws.s3",
         "aws.signature",
-        "rainbow",
-        "hdrcde"
+        "rainbow"
     ],
     "flowTrans": [
         "flowViz",
@@ -5362,8 +5118,7 @@
         "data.table",
         "aws.s3",
         "aws.signature",
-        "rainbow",
-        "hdrcde"
+        "rainbow"
     ],
     "flowWorkspace": [
         "data.table",
@@ -5377,10 +5132,8 @@
         "RecordLinkage",
         "textclean",
         "tidygraph",
-        "tidyr",
         "data.table",
         "BiocParallel",
-        "ggforce",
         "ipred",
         "lexicon",
         "textshape",
@@ -5394,7 +5147,6 @@
     ],
     "FoldGO": [
         "topGO",
-        "tidyr",
         "GO.db"
     ],
     "FRASER": [
@@ -5413,7 +5165,6 @@
         "rtracklayer",
         "DESeq2",
         "heatmaply",
-        "tidyr",
         "R.oo",
         "R.methodsS3",
         "genefilter",
@@ -5428,14 +5179,12 @@
         "pbkrtest",
         "lme4",
         "nloptr",
-        "broom",
-        "tidyr"
+        "broom"
     ],
     "FRGEpistasis": [
         "fda",
         "fds",
-        "rainbow",
-        "hdrcde"
+        "rainbow"
     ],
     "frma": [
         "oligo"
@@ -5449,8 +5198,7 @@
         "futile.logger",
         "rainbow",
         "lambda.r",
-        "futile.options",
-        "hdrcde"
+        "futile.options"
     ],
     "funtooNorm": [
         "minfi",
@@ -5463,7 +5211,6 @@
         "BiocParallel",
         "futile.logger",
         "GenomicFeatures",
-        "tidyr",
         "R.utils",
         "lambda.r",
         "futile.options",
@@ -5492,7 +5239,6 @@
     "GA4GHshiny": [
         "GA4GHclient",
         "GenomicFeatures",
-        "tidyr",
         "VariantAnnotation",
         "rtracklayer",
         "biomaRt",
@@ -5516,7 +5262,6 @@
         "GOSemSim",
         "GEOquery",
         "BiocFileCache",
-        "tidyr",
         "R.utils",
         "R.oo",
         "R.methodsS3"
@@ -5556,7 +5301,6 @@
         "rtracklayer",
         "nloptr",
         "ipred",
-        "tidyr",
         "GenomicAlignments",
         "prodlim",
         "broom",
@@ -5600,7 +5344,6 @@
         "enrichplot",
         "GO.db",
         "GOSemSim",
-        "tidyr",
         "yulab.utils",
         "genefilter",
         "geneplotter",
@@ -5619,7 +5362,6 @@
         "rstatix",
         "km.ci",
         "ggplotify",
-        "ggforce",
         "tidygraph",
         "tidytree",
         "treeio",
@@ -5646,7 +5388,6 @@
         "biomaRt",
         "ggpubr",
         "BiocFileCache",
-        "tidyr",
         "rstatix",
         "broom",
         "car",
@@ -5700,8 +5441,7 @@
         "lambda.r",
         "futile.options",
         "nloptr",
-        "broom",
-        "tidyr"
+        "broom"
     ],
     "GeneMeta": [
         "genefilter"
@@ -5721,8 +5461,7 @@
         "mice",
         "formula.tools",
         "operator.tools",
-        "broom",
-        "tidyr"
+        "broom"
     ],
     "GeneStructureTools": [
         "data.table",
@@ -5746,13 +5485,10 @@
     ],
     "GeneTonic": [
         "backbone",
-        "bs4Dash",
         "dendextend",
         "DESeq2",
-        "ggforce",
         "GO.db",
         "plotly",
-        "tidyr",
         "network",
         "BiocParallel",
         "genefilter",
@@ -5869,7 +5605,6 @@
         "GGally",
         "ensembldb",
         "BiocParallel",
-        "tidyr",
         "data.table",
         "futile.logger",
         "lambda.r",
@@ -5885,7 +5620,6 @@
         "BiocFileCache",
         "flextable",
         "data.table",
-        "tidyr",
         "rstatix",
         "broom",
         "car",
@@ -5910,10 +5644,6 @@
         "biomaRt",
         "BiocFileCache"
     ],
-    "genphen": [
-        "rstan",
-        "rPref"
-    ],
     "GenVisR": [
         "biomaRt",
         "GenomicFeatures",
@@ -5934,11 +5664,9 @@
         "lme4",
         "GeomxTools",
         "NanoStringNCTools",
-        "EnvStats",
         "data.table",
         "lmerTest",
         "nloptr",
-        "ggthemes",
         "fit.models"
     ],
     "GEOexplorer": [
@@ -5950,7 +5678,6 @@
         "dendextend",
         "FactoMineR",
         "ggpubr",
-        "tidyr",
         "data.table",
         "R.utils",
         "car",
@@ -5965,23 +5692,19 @@
     "GEOmetadb": [
         "GEOquery",
         "data.table",
-        "tidyr",
         "R.utils",
         "R.oo",
         "R.methodsS3"
     ],
     "GeomxTools": [
         "NanoStringNCTools",
-        "EnvStats",
         "data.table",
         "lmerTest",
         "lme4",
-        "ggthemes",
         "nloptr"
     ],
     "GEOquery": [
         "data.table",
-        "tidyr",
         "R.utils",
         "R.oo",
         "R.methodsS3"
@@ -6002,8 +5725,7 @@
         "pbkrtest",
         "lme4",
         "nloptr",
-        "broom",
-        "tidyr"
+        "broom"
     ],
     "ggbio": [
         "Hmisc",
@@ -6019,7 +5741,6 @@
         "ensembldb",
         "BiocParallel",
         "biomaRt",
-        "tidyr",
         "data.table",
         "futile.logger",
         "BiocFileCache",
@@ -6034,10 +5755,8 @@
         "aws.signature"
     ],
     "ggmsa": [
-        "tidyr",
         "aplot",
         "ggalt",
-        "ggforce",
         "ggplotify",
         "yulab.utils",
         "plotly",
@@ -6047,7 +5766,6 @@
         "GGally",
         "network",
         "sna",
-        "tidyr",
         "statnet.common"
     ],
     "ggspavis": [
@@ -6066,7 +5784,6 @@
     "ggtree": [
         "aplot",
         "yulab.utils",
-        "tidyr",
         "tidytree",
         "treeio",
         "ggplotify"
@@ -6075,7 +5792,6 @@
         "ggtree",
         "aplot",
         "yulab.utils",
-        "tidyr",
         "tidytree",
         "treeio",
         "ggplotify"
@@ -6099,8 +5815,7 @@
         "TH.data"
     ],
     "GladiaTOX": [
-        "data.table",
-        "tidyr"
+        "data.table"
     ],
     "Glimma": [
         "DESeq2",
@@ -6120,7 +5835,6 @@
         "BiocFileCache",
         "lambda.r",
         "futile.options",
-        "tidyr",
         "ggpubr",
         "broom",
         "survMisc",
@@ -6180,7 +5894,6 @@
     "GNET2": [
         "xgboost",
         "DiagrammeR",
-        "tidyr",
         "data.table"
     ],
     "GOexpress": [
@@ -6191,8 +5904,7 @@
         "dendextend",
         "org.Hs.eg.db",
         "GO.db",
-        "MultiAssayExperiment",
-        "tidyr"
+        "MultiAssayExperiment"
     ],
     "goProfiles": [
         "GO.db"
@@ -6265,8 +5977,7 @@
         "futile.options"
     ],
     "gprege": [
-        "gptk",
-        "fields"
+        "gptk"
     ],
     "gpuMagic": [
         "DescTools",
@@ -6274,7 +5985,6 @@
     ],
     "granulator": [
         "ggplotify",
-        "tidyr",
         "yulab.utils"
     ],
     "GreyListChIP": [
@@ -6292,7 +6002,6 @@
         "plotly",
         "car",
         "multcomp",
-        "tidyr",
         "data.table",
         "pbkrtest",
         "lme4",
@@ -6328,7 +6037,6 @@
         "futile.logger",
         "GSEABase",
         "GO.db",
-        "graphite",
         "pathview",
         "safe",
         "lambda.r",
@@ -6336,8 +6044,7 @@
         "org.Hs.eg.db"
     ],
     "GSEAmining": [
-        "dendextend",
-        "ggwordcloud"
+        "dendextend"
     ],
     "gsean": [
         "fgsea",
@@ -6394,7 +6101,6 @@
         "VennDiagram",
         "biomaRt",
         "regioneR",
-        "keras",
         "mltools",
         "BiocFileCache",
         "lambda.r",
@@ -6436,7 +6142,6 @@
         "recipes",
         "data.table",
         "ipred",
-        "tidyr",
         "prodlim",
         "lava",
         "future.apply"
@@ -6462,8 +6167,7 @@
         "mice",
         "formula.tools",
         "operator.tools",
-        "broom",
-        "tidyr"
+        "broom"
     ],
     "gwasurvivr": [
         "GWASTools",
@@ -6483,14 +6187,12 @@
         "BiocFileCache",
         "operator.tools",
         "broom",
-        "tidyr",
         "lambda.r",
         "futile.options"
     ],
     "GWENA": [
         "WGCNA",
         "gprofiler2",
-        "tidyr",
         "rlist",
         "plotly",
         "data.table",
@@ -6507,7 +6209,6 @@
         "futile.options"
     ],
     "hca": [
-        "tidyr",
         "BiocFileCache"
     ],
     "HelloRanges": [
@@ -6564,7 +6265,6 @@
         "GenomicInteractions",
         "BSgenome",
         "data.table",
-        "tidyr",
         "R.utils",
         "rtracklayer",
         "Rsamtools",
@@ -6587,7 +6287,6 @@
     "HiLDA": [
         "GenomicFeatures",
         "BSgenome.Hsapiens.UCSC.hg19",
-        "tidyr",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "BSgenome",
         "rtracklayer",
@@ -6606,7 +6305,6 @@
         "coin",
         "BiocFileCache",
         "multcomp",
-        "tidyr",
         "TH.data"
     ],
     "hiReadsProcessor": [
@@ -6633,11 +6331,9 @@
         "data.table"
     ],
     "HPAStainR": [
-        "tidyr",
         "data.table"
     ],
     "HPiP": [
-        "tidyr",
         "caret",
         "ModelMetrics",
         "recipes",
@@ -6686,9 +6382,7 @@
         "R.utils"
     ],
     "hypeR": [
-        "ggforce",
-        "msigdbr",
-        "babelgene"
+        "msigdbr"
     ],
     "iasva": [
         "BiocParallel",
@@ -6697,8 +6391,7 @@
         "futile.options"
     ],
     "iBBiG": [
-        "biclust",
-        "tidyr"
+        "biclust"
     ],
     "iCARE": [
         "Hmisc",
@@ -6743,7 +6436,6 @@
         "Rsamtools",
         "GenomicAlignments",
         "futile.logger",
-        "tidyr",
         "R.utils",
         "lambda.r",
         "futile.options",
@@ -6752,8 +6444,6 @@
     ],
     "iCNV": [
         "CODEX",
-        "fields",
-        "tidyr",
         "data.table",
         "Rsamtools",
         "BSgenome.Hsapiens.UCSC.hg19",
@@ -6781,9 +6471,7 @@
         "geneLenDataBase",
         "Category",
         "dendextend",
-        "NMF",
         "biomaRt",
-        "tidyr",
         "data.table",
         "BiocFileCache",
         "GSEABase",
@@ -6810,9 +6498,6 @@
     ],
     "iGC": [
         "data.table"
-    ],
-    "IgGeneUsage": [
-        "rstan"
     ],
     "igvR": [
         "GenomicAlignments",
@@ -6853,7 +6538,6 @@
         "futile.logger",
         "rtracklayer",
         "biomaRt",
-        "tidyr",
         "nloptr",
         "BiocFileCache",
         "lambda.r",
@@ -6869,10 +6553,8 @@
         "tidygraph",
         "data.table",
         "futile.logger",
-        "ggforce",
         "BiocFileCache",
         "DropletUtils",
-        "tidyr",
         "R.utils",
         "lambda.r",
         "futile.options",
@@ -6887,11 +6569,7 @@
         "aws.s3",
         "aws.signature",
         "ncdfFlow",
-        "dendextend",
-        "tidyr"
-    ],
-    "immunotation": [
-        "tidyr"
+        "dendextend"
     ],
     "INDEED": [
         "devtools"
@@ -6899,7 +6577,6 @@
     "infercnv": [
         "futile.logger",
         "coin",
-        "tidyr",
         "multcomp",
         "lambda.r",
         "futile.options",
@@ -6945,7 +6622,6 @@
         "MultiAssayExperiment",
         "rtracklayer",
         "ggpubr",
-        "tidyr",
         "rstatix",
         "Rsamtools",
         "GenomicAlignments",
@@ -6974,7 +6650,6 @@
         "ensembldb",
         "BiocParallel",
         "biomaRt",
-        "tidyr",
         "data.table",
         "futile.logger",
         "BiocFileCache",
@@ -6989,7 +6664,6 @@
     "InterCellar": [
         "golem",
         "data.table",
-        "tidyr",
         "dendextend",
         "factoextra",
         "plotly",
@@ -7035,7 +6709,6 @@
         "TH.data"
     ],
     "IONiseR": [
-        "tidyr",
         "ShortRead",
         "BiocParallel",
         "futile.logger",
@@ -7049,7 +6722,6 @@
         "ggpubr",
         "survminer",
         "futile.logger",
-        "tidyr",
         "rstatix",
         "broom",
         "survMisc",
@@ -7077,17 +6749,14 @@
         "ggraph",
         "scater",
         "scran",
-        "DataVisualizations",
         "DOSE",
         "enrichplot",
         "GO.db",
         "GOSemSim",
-        "tidyr",
         "yulab.utils",
         "gamlss",
         "BiocParallel",
         "rstatix",
-        "ggforce",
         "tidygraph",
         "scuttle",
         "BiocNeighbors",
@@ -7122,7 +6791,6 @@
         "nloptr"
     ],
     "ISAnalytics": [
-        "tidyr",
         "BiocParallel",
         "data.table",
         "futile.logger",
@@ -7172,7 +6840,6 @@
         "DEGreport",
         "DESeq2",
         "GGally",
-        "tidyr",
         "assertive.base",
         "Nozzle.R1",
         "BiocParallel",
@@ -7194,7 +6861,6 @@
         "futile.logger",
         "rtracklayer",
         "biomaRt",
-        "tidyr",
         "nloptr",
         "BiocFileCache",
         "lambda.r",
@@ -7205,7 +6871,6 @@
     "ivygapSE": [
         "survminer",
         "plotly",
-        "tidyr",
         "data.table",
         "ggpubr",
         "broom",
@@ -7220,8 +6885,7 @@
     "IWTomics": [
         "fda",
         "fds",
-        "rainbow",
-        "hdrcde"
+        "rainbow"
     ],
     "karyoploteR": [
         "regioneR",
@@ -7291,7 +6955,6 @@
         "BiocParallel",
         "futile.logger",
         "ipred",
-        "tidyr",
         "lambda.r",
         "futile.options",
         "prodlim",
@@ -7334,7 +6997,6 @@
         "rio",
         "MultiAssayExperiment",
         "data.table",
-        "tidyr",
         "rstatix",
         "haven",
         "broom",
@@ -7345,7 +7007,6 @@
     ],
     "lipidr": [
         "data.table",
-        "tidyr",
         "fgsea",
         "ropls",
         "BiocParallel",
@@ -7357,8 +7018,7 @@
     "LiquidAssociation": [
         "geepack",
         "org.Sc.sgd.db",
-        "broom",
-        "tidyr"
+        "broom"
     ],
     "lisaClust": [
         "BiocParallel",
@@ -7366,7 +7026,6 @@
         "spatstat.geom",
         "spicyR",
         "data.table",
-        "tidyr",
         "futile.logger",
         "spatstat.data",
         "spatstat.utils",
@@ -7424,7 +7083,6 @@
         "Rsamtools",
         "GenomicAlignments",
         "futile.logger",
-        "tidyr",
         "R.utils",
         "lambda.r",
         "futile.options",
@@ -7435,10 +7093,8 @@
         "data.table",
         "VennDiagram",
         "ggtree",
-        "msa",
         "aplot",
         "yulab.utils",
-        "tidyr",
         "tidytree",
         "treeio",
         "futile.logger",
@@ -7450,8 +7106,7 @@
         "reldist",
         "Hmisc",
         "data.table",
-        "densEstBayes",
-        "rstan"
+        "densEstBayes"
     ],
     "m6Aboost": [
         "adabag",
@@ -7469,7 +7124,6 @@
         "futile.logger",
         "data.table",
         "ipred",
-        "tidyr",
         "lambda.r",
         "futile.options",
         "prodlim",
@@ -7481,12 +7135,10 @@
         "data.table",
         "lmerTest",
         "glmmTMB",
-        "cplm",
         "lme4",
         "pbkrtest",
         "nloptr",
-        "broom",
-        "tidyr"
+        "broom"
     ],
     "MACPET": [
         "bigmemory",
@@ -7501,7 +7153,6 @@
         "lambda.r",
         "futile.options",
         "data.table",
-        "tidyr",
         "R.utils",
         "R.oo",
         "R.methodsS3"
@@ -7538,7 +7189,6 @@
         "bigstatsr",
         "data.table",
         "RnBeads.hg19",
-        "fields",
         "methylumi",
         "FDb.InfiniumMethylation.hg19",
         "minfi",
@@ -7553,7 +7203,6 @@
         "BiocParallel",
         "futile.logger",
         "BiocFileCache",
-        "tidyr",
         "R.utils",
         "Rsamtools",
         "GenomicAlignments",
@@ -7568,7 +7217,6 @@
         "DOSE",
         "GO.db",
         "GOSemSim",
-        "tidyr",
         "yulab.utils",
         "aplot",
         "ggraph",
@@ -7578,7 +7226,6 @@
         "BiocParallel",
         "DO.db",
         "fgsea",
-        "ggforce",
         "tidygraph",
         "tidytree",
         "treeio",
@@ -7595,10 +7242,8 @@
         "recipes",
         "broom",
         "dtplyr",
-        "googlesheets4",
         "haven",
         "modelr",
-        "tidyr",
         "data.table",
         "ipred",
         "prodlim",
@@ -7615,7 +7260,6 @@
         "org.Hs.eg.db",
         "data.table",
         "ipred",
-        "tidyr",
         "prodlim",
         "lava",
         "future.apply"
@@ -7645,7 +7289,6 @@
     "MatrixQCvis": [
         "plotly",
         "Hmisc",
-        "tidyr",
         "data.table"
     ],
     "MatrixRider": [
@@ -7677,7 +7320,6 @@
         "futile.options"
     ],
     "mbkmeans": [
-        "ClusterR",
         "benchmarkme",
         "BiocParallel",
         "futile.logger",
@@ -7691,8 +7333,7 @@
         "mice",
         "formula.tools",
         "operator.tools",
-        "broom",
-        "tidyr"
+        "broom"
     ],
     "MBQN": [
         "BiocFileCache",
@@ -7705,7 +7346,6 @@
         "GGally",
         "WGCNA",
         "futile.logger",
-        "tidyr",
         "Hmisc",
         "lambda.r",
         "futile.options",
@@ -7776,7 +7416,6 @@
         "BiocFileCache",
         "Hmisc",
         "VariantAnnotation",
-        "tidyr",
         "R.utils",
         "FDb.InfiniumMethylation.hg19",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
@@ -7798,7 +7437,6 @@
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "futile.logger",
         "GenomicFeatures",
-        "tidyr",
         "R.utils",
         "FDb.InfiniumMethylation.hg19",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
@@ -7833,8 +7471,7 @@
         "lme4",
         "TH.data",
         "nloptr",
-        "broom",
-        "tidyr"
+        "broom"
     ],
     "megadepth": [
         "cmdfun",
@@ -7851,8 +7488,6 @@
     ],
     "memes": [
         "cmdfun",
-        "ggseqlogo",
-        "tidyr",
         "R.utils",
         "R.oo",
         "R.methodsS3"
@@ -7875,9 +7510,7 @@
         "ggplotify",
         "futile.logger",
         "data.table",
-        "ggforce",
         "tidygraph",
-        "tidyr",
         "tidytree",
         "treeio",
         "lambda.r",
@@ -7889,12 +7522,10 @@
         "genefilter"
     ],
     "MesKit": [
-        "data.table",
-        "tidyr"
+        "data.table"
     ],
     "metabCombiner": [
         "caret",
-        "tidyr",
         "ModelMetrics",
         "recipes",
         "data.table",
@@ -7905,8 +7536,7 @@
     ],
     "metabolomicsWorkbenchR": [
         "data.table",
-        "MultiAssayExperiment",
-        "tidyr"
+        "MultiAssayExperiment"
     ],
     "metabomxtr": [
         "BiocParallel",
@@ -7935,16 +7565,13 @@
         "BiocParallel",
         "GenomicAlignments",
         "futile.logger",
-        "tidyr",
         "lambda.r",
         "futile.options"
     ],
     "MetaCyto": [
-        "tidyr",
         "FlowSOM",
         "CytoML",
         "flowWorkspace",
-        "ggforce",
         "ggpubr",
         "openCyto",
         "data.table",
@@ -7966,8 +7593,7 @@
         "R.methodsS3",
         "fds",
         "nloptr",
-        "rainbow",
-        "hdrcde"
+        "rainbow"
     ],
     "metagene": [
         "BiocParallel",
@@ -7994,12 +7620,8 @@
         "lambda.r",
         "futile.options"
     ],
-    "MetaNeighbor": [
-        "tidyr"
-    ],
     "metapone": [
         "BiocParallel",
-        "fields",
         "futile.logger",
         "lambda.r",
         "futile.options"
@@ -8036,7 +7658,6 @@
         "BSgenome",
         "lambda.r",
         "futile.options",
-        "tidyr",
         "lava",
         "future.apply"
     ],
@@ -8062,11 +7683,9 @@
     ],
     "MetaVolcanoR": [
         "data.table",
-        "tidyr",
         "plotly",
         "metap",
         "mutoss",
-        "qqconf",
         "multcomp",
         "TH.data"
     ],
@@ -8107,7 +7726,6 @@
     ],
     "MethReg": [
         "ggpubr",
-        "tidyr",
         "sesameData",
         "rstatix",
         "ExperimentHub",
@@ -8141,7 +7759,6 @@
         "GenomicFeatures",
         "lambda.r",
         "futile.options",
-        "tidyr",
         "R.utils",
         "rtracklayer",
         "biomaRt",
@@ -8171,7 +7788,6 @@
         "Rsamtools",
         "futile.logger",
         "biomaRt",
-        "tidyr",
         "R.oo",
         "R.methodsS3",
         "BiocFileCache",
@@ -8186,7 +7802,6 @@
         "tidyverse",
         "ggpubr",
         "minfi",
-        "tidyr",
         "AnnotationHub",
         "BiocFileCache",
         "rstatix",
@@ -8198,7 +7813,6 @@
         "BiocParallel",
         "broom",
         "dtplyr",
-        "googlesheets4",
         "haven",
         "modelr",
         "futile.logger",
@@ -8233,7 +7847,6 @@
         "DOSE",
         "enrichplot",
         "GOSemSim",
-        "tidyr",
         "yulab.utils",
         "minfi",
         "IlluminaHumanMethylation450kmanifest",
@@ -8258,7 +7871,6 @@
         "rtracklayer",
         "biomaRt",
         "R.utils",
-        "ggforce",
         "tidygraph",
         "tidytree",
         "treeio",
@@ -8375,7 +7987,6 @@
         "BiocParallel",
         "futile.logger",
         "BiocFileCache",
-        "tidyr",
         "R.utils",
         "Rsamtools",
         "GenomicAlignments",
@@ -8389,14 +8000,12 @@
     ],
     "MetNet": [
         "BiocParallel",
-        "tidyr",
         "futile.logger",
         "lambda.r",
         "futile.options"
     ],
     "mfa": [
         "ggmcmc",
-        "tidyr",
         "GGally"
     ],
     "MGFR": [
@@ -8409,7 +8018,6 @@
         "BiocParallel",
         "scuttle",
         "scater",
-        "tidyr",
         "futile.logger",
         "BiocNeighbors",
         "BiocSingular",
@@ -8428,9 +8036,7 @@
         "ggtree",
         "tidytree",
         "tidygraph",
-        "tidyr",
         "futile.logger",
-        "ggforce",
         "aplot",
         "yulab.utils",
         "treeio",
@@ -8444,7 +8050,6 @@
     ],
     "microbiome": [
         "phyloseq",
-        "tidyr",
         "data.table"
     ],
     "microbiomeDASim": [
@@ -8453,7 +8058,6 @@
     ],
     "microbiomeExplorer": [
         "DESeq2",
-        "tidyr",
         "heatmaply",
         "car",
         "broom",
@@ -8475,7 +8079,6 @@
         "coin",
         "ggtree",
         "tidytree",
-        "tidyr",
         "DESeq2",
         "ANCOMBC",
         "caret",
@@ -8509,7 +8112,6 @@
         "DOSE",
         "GO.db",
         "GOSemSim",
-        "tidyr",
         "yulab.utils",
         "aplot",
         "ggraph",
@@ -8519,7 +8121,6 @@
         "BiocParallel",
         "DO.db",
         "fgsea",
-        "ggforce",
         "tidygraph",
         "tidytree",
         "treeio",
@@ -8529,7 +8130,6 @@
         "futile.options"
     ],
     "MicrobiotaProcess": [
-        "tidyr",
         "ggtree",
         "tidytree",
         "coin",
@@ -8548,7 +8148,6 @@
         "broom",
         "HardyWeinberg",
         "qdapTools",
-        "tidyr",
         "mice",
         "data.table"
     ],
@@ -8570,9 +8169,7 @@
         "BiocParallel",
         "BiocSingular",
         "ggraph",
-        "tidyr",
         "futile.logger",
-        "ggforce",
         "tidygraph",
         "lambda.r",
         "futile.options"
@@ -8581,8 +8178,7 @@
         "oligo"
     ],
     "MIMOSA": [
-        "data.table",
-        "tidyr"
+        "data.table"
     ],
     "mina": [
         "bigmemory",
@@ -8616,7 +8212,6 @@
         "Rsamtools",
         "GenomicAlignments",
         "futile.logger",
-        "tidyr",
         "R.utils",
         "lambda.r",
         "futile.options",
@@ -8631,7 +8226,6 @@
         "BiocParallel",
         "futile.logger",
         "GenomicFeatures",
-        "tidyr",
         "R.utils",
         "lambda.r",
         "futile.options",
@@ -8688,7 +8282,6 @@
         "biomaRt",
         "R.utils",
         "TCGAbiolinksGUI.data",
-        "tidyr",
         "BiocFileCache",
         "R.oo",
         "R.methodsS3"
@@ -8698,7 +8291,6 @@
     ],
     "miRSM": [
         "WGCNA",
-        "NMF",
         "biclust",
         "iBBiG",
         "BicARE",
@@ -8711,11 +8303,9 @@
         "GSEABase",
         "org.Hs.eg.db",
         "dendextend",
-        "tidyr",
         "clusterProfiler",
         "ReactomePA",
         "DOSE",
-        "ggwordcloud",
         "metR",
         "Hmisc",
         "GO.db",
@@ -8726,17 +8316,14 @@
         "DO.db",
         "fgsea",
         "data.table",
-        "fields",
         "formula.tools",
         "ggraph",
         "reactome.db",
-        "graphite",
         "futile.logger",
         "aplot",
         "scatterpie",
         "ggtree",
         "operator.tools",
-        "ggforce",
         "tidygraph",
         "ggplotify",
         "lambda.r",
@@ -8752,20 +8339,17 @@
         "enrichplot",
         "GO.db",
         "GOSemSim",
-        "tidyr",
         "yulab.utils",
         "BiocParallel",
         "DO.db",
         "fgsea",
         "ggraph",
         "reactome.db",
-        "graphite",
         "futile.logger",
         "aplot",
         "scatterpie",
         "ggtree",
         "data.table",
-        "ggforce",
         "tidygraph",
         "ggplotify",
         "lambda.r",
@@ -8799,7 +8383,6 @@
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "rtracklayer",
         "biomaRt",
-        "tidyr",
         "R.utils",
         "BiocFileCache",
         "lambda.r",
@@ -8810,14 +8393,12 @@
         "GenomicAlignments"
     ],
     "missRows": [
-        "MultiAssayExperiment",
-        "tidyr"
+        "MultiAssayExperiment"
     ],
     "mistyR": [
         "caret",
         "rlist",
         "R.utils",
-        "tidyr",
         "ModelMetrics",
         "recipes",
         "R.oo",
@@ -8831,8 +8412,7 @@
     "mitch": [
         "GGally",
         "echarts4r",
-        "broom",
-        "tidyr"
+        "broom"
     ],
     "mitoClone2": [
         "deepSNV",
@@ -8850,7 +8430,6 @@
         "futile.options"
     ],
     "mixOmics": [
-        "tidyr",
         "BiocParallel",
         "futile.logger",
         "lambda.r",
@@ -8873,7 +8452,6 @@
         "futile.options",
         "data.table",
         "ipred",
-        "tidyr",
         "prodlim",
         "lava",
         "future.apply"
@@ -8884,7 +8462,6 @@
         "Rsamtools",
         "VariantAnnotation",
         "BiocParallel",
-        "tidyr",
         "VariantTools",
         "data.table",
         "futile.logger",
@@ -8909,12 +8486,10 @@
     ],
     "MMUPHin": [
         "Maaslin2",
-        "tidyr",
         "car",
         "data.table",
         "lmerTest",
         "glmmTMB",
-        "cplm",
         "lme4",
         "pbkrtest",
         "nloptr",
@@ -8926,7 +8501,6 @@
     ],
     "moanin": [
         "topGO",
-        "ClusterR",
         "GO.db"
     ],
     "MODA": [
@@ -8939,26 +8513,22 @@
         "data.table"
     ],
     "MOFA2": [
-        "tidyr",
         "basilisk",
         "dir.expiry",
         "basilisk.utils"
     ],
     "MOGAMUN": [
-        "RCy3",
         "BiocParallel",
         "futile.logger",
         "lambda.r",
         "futile.options"
     ],
     "mogsa": [
-        "graphite",
         "genefilter",
         "GSEABase"
     ],
     "MOMA": [
-        "MultiAssayExperiment",
-        "tidyr"
+        "MultiAssayExperiment"
     ],
     "monaLisa": [
         "TFBSTools",
@@ -8976,9 +8546,6 @@
         "R.oo",
         "R.methodsS3"
     ],
-    "monocle": [
-        "densityClust"
-    ],
     "MoonlightR": [
         "clusterProfiler",
         "DOSE",
@@ -8987,7 +8554,6 @@
         "enrichplot",
         "GO.db",
         "GOSemSim",
-        "tidyr",
         "yulab.utils",
         "BiocParallel",
         "DO.db",
@@ -9007,7 +8573,6 @@
         "ggplotify",
         "lambda.r",
         "futile.options",
-        "ggforce",
         "tidygraph",
         "tidytree",
         "treeio"
@@ -9022,11 +8587,7 @@
     ],
     "mosbi": [
         "biclust",
-        "QUBIC",
-        "tidyr"
-    ],
-    "MOSim": [
-        "tidyr"
+        "QUBIC"
     ],
     "motifbreakR": [
         "MotifDb",
@@ -9077,7 +8638,6 @@
         "R.methodsS3"
     ],
     "MouseFM": [
-        "tidyr",
         "data.table",
         "rlist",
         "biomaRt",
@@ -9091,9 +8651,6 @@
     ],
     "MQmetrics": [
         "ggpubr",
-        "tidyr",
-        "ggforce",
-        "gghalves",
         "rstatix",
         "broom",
         "car",
@@ -9144,7 +8701,6 @@
         "R.oo",
         "R.methodsS3",
         "futile.logger",
-        "tidyr",
         "data.table",
         "lambda.r",
         "futile.options"
@@ -9152,7 +8708,6 @@
     "msImpute": [
         "scran",
         "data.table",
-        "tidyr",
         "scuttle",
         "BiocParallel",
         "BiocSingular",
@@ -9165,7 +8720,6 @@
     "MSPrep": [
         "VIM",
         "sva",
-        "tidyr",
         "ddpcr",
         "genefilter",
         "BiocParallel",
@@ -9189,7 +8743,6 @@
         "plotly",
         "lambda.r",
         "futile.options",
-        "tidyr",
         "data.table"
     ],
     "MSstats": [
@@ -9208,7 +8761,6 @@
         "MSstatsPTM",
         "factoextra",
         "ggpubr",
-        "tidyr",
         "tidyverse",
         "dendextend",
         "FactoMineR",
@@ -9217,7 +8769,6 @@
         "MSstatsTMT",
         "broom",
         "dtplyr",
-        "googlesheets4",
         "haven",
         "modelr",
         "car",
@@ -9251,7 +8802,6 @@
         "futile.options",
         "nloptr",
         "ipred",
-        "tidyr",
         "prodlim",
         "lava",
         "future.apply"
@@ -9273,16 +8823,9 @@
         "MSstatsConvert",
         "nloptr"
     ],
-    "Mulcom": [
-        "fields"
-    ],
-    "MultiAssayExperiment": [
-        "tidyr"
-    ],
     "MultiBaC": [
         "MultiAssayExperiment",
         "ropls",
-        "tidyr",
         "MultiDataSet"
     ],
     "multiClust": [
@@ -9297,7 +8840,6 @@
         "karyoploteR",
         "plyranges",
         "rtracklayer",
-        "tidyr",
         "assertive.base",
         "assertive.properties",
         "assertive.types",
@@ -9314,7 +8856,6 @@
         "assertive.reflection",
         "assertive.code",
         "Rsamtools",
-        "keras",
         "mltools",
         "biomaRt",
         "regioneR",
@@ -9330,13 +8871,11 @@
         "futile.options"
     ],
     "multiGSEA": [
-        "graphite",
         "fgsea",
         "metap",
         "data.table",
         "BiocParallel",
         "mutoss",
-        "qqconf",
         "futile.logger",
         "multcomp",
         "lambda.r",
@@ -9377,7 +8916,6 @@
         "DOSE",
         "GO.db",
         "GOSemSim",
-        "tidyr",
         "yulab.utils",
         "BiocParallel",
         "genefilter",
@@ -9387,15 +8925,12 @@
         "scatterpie",
         "ggtree",
         "mutoss",
-        "qqconf",
         "reactome.db",
-        "graphite",
         "data.table",
         "ggplotify",
         "futile.logger",
         "DO.db",
         "fgsea",
-        "ggforce",
         "tidygraph",
         "tidytree",
         "treeio",
@@ -9460,13 +8995,10 @@
         "pbkrtest",
         "lambda.r",
         "futile.options",
-        "broom",
-        "tidyr"
+        "broom"
     ],
     "musicatk": [
-        "NMF",
         "VariantAnnotation",
-        "tidyr",
         "data.table",
         "BSgenome",
         "GenomicFeatures",
@@ -9480,13 +9012,10 @@
         "decompTumor2Sig",
         "plotly",
         "factoextra",
-        "philentropy",
-        "sortable",
         "maftools",
         "TCGAbiolinks",
         "rtracklayer",
         "Rsamtools",
-        "ggseqlogo",
         "dendextend",
         "FactoMineR",
         "ggpubr",
@@ -9509,10 +9038,8 @@
         "nloptr"
     ],
     "MutationalPatterns": [
-        "NMF",
         "BSgenome",
         "VariantAnnotation",
-        "tidyr",
         "ggalluvial",
         "rtracklayer",
         "Rsamtools",
@@ -9530,8 +9057,7 @@
         "pbkrtest",
         "lme4",
         "nloptr",
-        "broom",
-        "tidyr"
+        "broom"
     ],
     "mygene": [
         "GenomicFeatures",
@@ -9576,7 +9102,6 @@
         "GenomicScores",
         "BiocParallel",
         "mutoss",
-        "qqconf",
         "GenomicFeatures",
         "Gviz",
         "futile.logger",
@@ -9599,9 +9124,7 @@
         "BiocSingular",
         "bsseq",
         "data.table",
-        "ggthemes",
         "Rsamtools",
-        "tidyr",
         "BiocParallel",
         "R.utils",
         "BSgenome",
@@ -9613,22 +9136,16 @@
         "futile.options",
         "GenomicAlignments"
     ],
-    "NanoStringNCTools": [
-        "ggthemes"
-    ],
     "NanoStringQCPro": [
-        "org.Hs.eg.db",
-        "NMF"
+        "org.Hs.eg.db"
     ],
     "nanotatoR": [
         "tidyverse",
         "org.Hs.eg.db",
         "broom",
         "dtplyr",
-        "googlesheets4",
         "haven",
         "modelr",
-        "tidyr",
         "data.table"
     ],
     "NanoTube": [
@@ -9657,15 +9174,10 @@
         "lambda.r",
         "futile.options",
         "nloptr",
-        "broom",
-        "tidyr"
+        "broom"
     ],
     "NCIgraph": [
-        "RCy3",
         "R.methodsS3"
-    ],
-    "ndexr": [
-        "tidyr"
     ],
     "nearBynding": [
         "R.utils",
@@ -9694,7 +9206,6 @@
         "sctransform",
         "spatstat.core",
         "spatstat.geom",
-        "tidyr",
         "data.table",
         "spatstat.data",
         "spatstat.utils",
@@ -9722,7 +9233,6 @@
         "enrichplot",
         "GO.db",
         "GOSemSim",
-        "tidyr",
         "yulab.utils",
         "BiocParallel",
         "DO.db",
@@ -9733,7 +9243,6 @@
         "ggtree",
         "ggplotify",
         "futile.logger",
-        "ggforce",
         "tidygraph",
         "tidytree",
         "treeio",
@@ -9744,15 +9253,13 @@
         "MultiAssayExperiment",
         "BiocFileCache",
         "bigmemory",
-        "bigmemory.sri",
-        "tidyr"
+        "bigmemory.sri"
     ],
     "nethet": [
         "network",
         "statnet.common"
     ],
     "netOmics": [
-        "tidyr",
         "GO.db",
         "RandomWalkRestartMH",
         "gprofiler2",
@@ -9773,7 +9280,6 @@
         "scater",
         "clusterExperiment",
         "data.table",
-        "NMF",
         "BiocSingular",
         "zinbwave",
         "phylobase",
@@ -9782,16 +9288,11 @@
         "BiocNeighbors",
         "BiocParallel",
         "futile.logger",
-        "ClusterR",
         "benchmarkme",
         "RNeXML",
         "genefilter",
         "lambda.r",
-        "futile.options",
-        "tidyr"
-    ],
-    "NeuCA": [
-        "keras"
+        "futile.options"
     ],
     "NewWave": [
         "BiocSingular",
@@ -9802,7 +9303,6 @@
     ],
     "ngsReports": [
         "plotly",
-        "tidyr",
         "data.table"
     ],
     "nondetects": [
@@ -9811,7 +9311,6 @@
         "nloptr"
     ],
     "NoRCE": [
-        "tidyr",
         "reactome.db",
         "rWikiPathways",
         "GO.db",
@@ -9830,15 +9329,13 @@
     "NormalyzerDE": [
         "car",
         "RcmdrMisc",
-        "ggforce",
         "pbkrtest",
         "lme4",
         "Hmisc",
         "haven",
         "data.table",
         "nloptr",
-        "broom",
-        "tidyr"
+        "broom"
     ],
     "NormqPCR": [
         "qpcR",
@@ -9854,7 +9351,6 @@
         "futile.options"
     ],
     "NPARC": [
-        "tidyr",
         "BiocParallel",
         "broom",
         "futile.logger",
@@ -9898,7 +9394,6 @@
         "futile.logger",
         "Rsamtools",
         "ExperimentHub",
-        "tidyr",
         "R.oo",
         "R.methodsS3",
         "GenomicAlignments",
@@ -9917,7 +9412,6 @@
         "BiocParallel",
         "GenomicFeatures",
         "plyranges",
-        "tidyr",
         "bumphunter",
         "GenomicAlignments",
         "GenomicFiles",
@@ -9941,9 +9435,6 @@
         "R.methodsS3",
         "BSgenome",
         "nloptr"
-    ],
-    "odseq": [
-        "msa"
     ],
     "OmaDB": [
         "topGO",
@@ -9974,7 +9465,6 @@
         "data.table",
         "nloptr",
         "broom",
-        "tidyr",
         "pbkrtest",
         "lambda.r",
         "futile.options"
@@ -9992,7 +9482,6 @@
         "rtracklayer",
         "factoextra",
         "FactoMineR",
-        "tidyr",
         "data.table",
         "dendextend",
         "ggpubr",
@@ -10015,11 +9504,7 @@
         "futile.options"
     ],
     "omicsPrint": [
-        "MultiAssayExperiment",
-        "tidyr"
-    ],
-    "OmnipathR": [
-        "tidyr"
+        "MultiAssayExperiment"
     ],
     "OncoScore": [
         "biomaRt",
@@ -10031,16 +9516,11 @@
         "pbkrtest",
         "lme4",
         "nloptr",
-        "broom",
-        "tidyr"
+        "broom"
     ],
     "oneSENSE": [
         "plotly",
-        "tidyr",
         "data.table"
-    ],
-    "onlineFDR": [
-        "tidyr"
     ],
     "ontoProc": [
         "BiocFileCache",
@@ -10060,8 +9540,7 @@
         "R.oo",
         "R.methodsS3",
         "fds",
-        "rainbow",
-        "hdrcde"
+        "rainbow"
     ],
     "openPrimeR": [
         "Hmisc",
@@ -10082,7 +9561,6 @@
         "pbkrtest",
         "lme4",
         "data.table",
-        "tidyr",
         "nloptr",
         "broom"
     ],
@@ -10133,10 +9611,8 @@
         "rtracklayer",
         "futile.logger",
         "biomaRt",
-        "philentropy",
         "genefilter",
         "geneplotter",
-        "tidyr",
         "R.oo",
         "R.methodsS3",
         "BiocFileCache",
@@ -10170,12 +9646,10 @@
     "orthogene": [
         "homologene",
         "gprofiler2",
-        "babelgene",
         "data.table",
         "ggpubr",
         "Matrix.utils",
         "repmis",
-        "tidyr",
         "rstatix",
         "plotly",
         "R.utils",
@@ -10217,7 +9691,6 @@
         "rtracklayer",
         "biomaRt",
         "dendextend",
-        "tidyr",
         "BiocFileCache",
         "lambda.r",
         "futile.options",
@@ -10242,7 +9715,6 @@
         "FactoMineR",
         "MultiAssayExperiment",
         "car",
-        "tidyr",
         "pbkrtest",
         "lme4",
         "nloptr",
@@ -10314,7 +9786,6 @@
         "R.methodsS3"
     ],
     "PathoStat": [
-        "tidyr",
         "phyloseq",
         "DESeq2",
         "plotly",
@@ -10343,12 +9814,10 @@
         "genefilter",
         "heatmaply",
         "plotly",
-        "NMF",
         "topGO",
         "GOstats",
         "GO.db",
         "biomaRt",
-        "tidyr",
         "BiocFileCache",
         "BiocParallel",
         "geneplotter",
@@ -10390,14 +9859,12 @@
         "recipes",
         "biomaRt",
         "yulab.utils",
-        "tidyr",
         "fgsea",
         "prodlim",
         "ipred",
         "ggpubr",
         "broom",
         "survMisc",
-        "fields",
         "BiocFileCache",
         "lambda.r",
         "futile.options",
@@ -10453,7 +9920,6 @@
         "futile.options"
     ],
     "pepStat": [
-        "fields",
         "data.table"
     ],
     "PERFect": [
@@ -10471,7 +9937,6 @@
         "futile.options"
     ],
     "perturbatr": [
-        "tidyr",
         "lme4",
         "formula.tools",
         "operator.tools",
@@ -10479,7 +9944,6 @@
     ],
     "PFP": [
         "clusterProfiler",
-        "tidyr",
         "DOSE",
         "enrichplot",
         "GO.db",
@@ -10495,7 +9959,6 @@
         "ggplotify",
         "futile.logger",
         "data.table",
-        "ggforce",
         "tidygraph",
         "tidytree",
         "treeio",
@@ -10510,7 +9973,6 @@
         "genefilter",
         "geneplotter",
         "data.table",
-        "tidyr",
         "R.utils",
         "futile.logger",
         "R.oo",
@@ -10525,7 +9987,6 @@
         "data.table",
         "futile.logger",
         "piano",
-        "tidyr",
         "lambda.r",
         "futile.options",
         "fgsea"
@@ -10535,13 +9996,9 @@
         "transport",
         "destiny",
         "Seurat",
-        "phateR",
         "ggplot.multistats",
-        "tidyr",
-        "ggthemes",
         "VIM",
         "knn.covertree",
-        "densityClust",
         "future.apply",
         "plotly",
         "sctransform",
@@ -10556,9 +10013,6 @@
         "lme4",
         "nloptr",
         "broom"
-    ],
-    "phenopath": [
-        "tidyr"
     ],
     "phenoTest": [
         "Hmisc",
@@ -10580,11 +10034,9 @@
         "mice",
         "formula.tools",
         "operator.tools",
-        "broom",
-        "tidyr"
+        "broom"
     ],
     "philr": [
-        "tidyr",
         "ggtree",
         "aplot",
         "yulab.utils",
@@ -10594,7 +10046,6 @@
     ],
     "PhosR": [
         "dendextend",
-        "tidyr",
         "GGally",
         "ggpubr",
         "network",
@@ -10622,7 +10073,6 @@
         "dnet",
         "supraHex",
         "caret",
-        "tidyr",
         "ggnetwork",
         "ModelMetrics",
         "recipes",
@@ -10659,11 +10109,9 @@
         "DOSE",
         "enrichplot",
         "GOSemSim",
-        "tidyr",
         "yulab.utils",
         "ggraph",
         "reactome.db",
-        "graphite",
         "Hmisc",
         "BiocParallel",
         "DO.db",
@@ -10671,7 +10119,6 @@
         "aplot",
         "scatterpie",
         "ggtree",
-        "ggforce",
         "tidygraph",
         "data.table",
         "ggplotify",
@@ -10701,7 +10148,6 @@
         "BiocParallel",
         "futile.logger",
         "data.table",
-        "hdrcde",
         "lambda.r",
         "futile.options"
     ],
@@ -10722,7 +10168,6 @@
         "spatstat.geom",
         "lambda.r",
         "futile.options",
-        "tidyr",
         "data.table",
         "spatstat.data",
         "spatstat.utils",
@@ -10759,7 +10204,6 @@
         "futile.options"
     ],
     "plotGrouper": [
-        "tidyr",
         "ggpubr",
         "Hmisc",
         "rstatix",
@@ -10803,19 +10247,15 @@
         "AnnotationHub"
     ],
     "PoTRA": [
-        "org.Hs.eg.db",
-        "graphite"
+        "org.Hs.eg.db"
     ],
     "POWSC": [
         "MAST",
         "data.table"
     ],
     "ppcseq": [
-        "rstan",
-        "tidyr",
         "tidybayes",
         "benchmarkme",
-        "ggdist",
         "posterior"
     ],
     "PPInfer": [
@@ -10868,7 +10308,6 @@
         "rtracklayer",
         "biomaRt",
         "ipred",
-        "tidyr",
         "BiocFileCache",
         "prodlim",
         "Rsamtools",
@@ -10894,7 +10333,6 @@
     ],
     "primirTSS": [
         "rtracklayer",
-        "tidyr",
         "BSgenome.Hsapiens.UCSC.hg38",
         "phastCons100way.UCSC.hg38",
         "GenomicScores",
@@ -10955,7 +10393,6 @@
         "ggfortify",
         "pvca",
         "sva",
-        "tidyr",
         "WGCNA",
         "lme4",
         "genefilter",
@@ -10970,7 +10407,6 @@
     "profileplyr": [
         "soGGi",
         "R.utils",
-        "tidyr",
         "ChIPseeker",
         "GenomicFeatures",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
@@ -11003,22 +10439,16 @@
         "ggplotify",
         "DO.db",
         "fgsea",
-        "ggforce",
         "tidygraph",
         "tidytree",
         "treeio",
         "GO.db",
         "data.table"
     ],
-    "progeny": [
-        "tidyr"
-    ],
     "projectR": [
         "CoGAPS",
-        "NMF",
         "ggalluvial",
         "BiocParallel",
-        "tidyr",
         "futile.logger",
         "lambda.r",
         "futile.options"
@@ -11037,7 +10467,6 @@
     "ProteoDisco": [
         "BiocParallel",
         "GenomicFeatures",
-        "tidyr",
         "VariantAnnotation",
         "futile.logger",
         "rtracklayer",
@@ -11062,7 +10491,6 @@
         "R.utils",
         "rlist",
         "broom",
-        "tidyr",
         "R.oo",
         "R.methodsS3",
         "BiocParallel",
@@ -11091,7 +10519,6 @@
         "BgeeDB",
         "topGO",
         "GO.db",
-        "tidyr",
         "R.utils",
         "data.table",
         "BiocFileCache",
@@ -11181,7 +10608,6 @@
     "QFeatures": [
         "MultiAssayExperiment",
         "plotly",
-        "tidyr",
         "data.table"
     ],
     "qpgraph": [
@@ -11236,9 +10662,6 @@
         "lambda.r",
         "futile.options"
     ],
-    "quantiseqr": [
-        "tidyr"
-    ],
     "quantro": [
         "minfi",
         "bumphunter",
@@ -11248,7 +10671,6 @@
         "BiocParallel",
         "futile.logger",
         "GenomicFeatures",
-        "tidyr",
         "R.utils",
         "lambda.r",
         "futile.options",
@@ -11280,8 +10702,7 @@
         "futile.options"
     ],
     "QUBIC": [
-        "biclust",
-        "tidyr"
+        "biclust"
     ],
     "R3CPET": [
         "data.table",
@@ -11299,7 +10720,6 @@
         "ensembldb",
         "BiocParallel",
         "biomaRt",
-        "tidyr",
         "futile.logger",
         "BiocFileCache",
         "lambda.r",
@@ -11339,11 +10759,7 @@
         "data.table",
         "lambda.r",
         "futile.options",
-        "tidyr",
         "fgsea"
-    ],
-    "ramr": [
-        "EnvStats"
     ],
     "ramwas": [
         "GenomicAlignments",
@@ -11357,8 +10773,7 @@
     ],
     "RandomWalkRestartMH": [
         "dnet",
-        "supraHex",
-        "tidyr"
+        "supraHex"
     ],
     "RareVariantVis": [
         "VariantAnnotation",
@@ -11415,12 +10830,10 @@
         "rtracklayer",
         "GenomicFeatures",
         "genomation",
-        "ggseqlogo",
         "gprofiler2",
         "Rsamtools",
         "GenomicAlignments",
         "biomaRt",
-        "tidyr",
         "BiocFileCache",
         "BiocParallel",
         "futile.logger",
@@ -11470,7 +10883,6 @@
         "basilisk.utils",
         "data.table",
         "futile.logger",
-        "tidyr",
         "R.oo",
         "R.methodsS3",
         "lambda.r",
@@ -11488,7 +10900,6 @@
         "basilisk.utils",
         "data.table",
         "futile.logger",
-        "tidyr",
         "R.oo",
         "R.methodsS3",
         "lambda.r",
@@ -11500,18 +10911,13 @@
     "ReactomeGraph4R": [
         "neo4r",
         "data.table",
-        "ReactomeContentService4R",
-        "tidyr"
-    ],
-    "ReactomeGSA": [
-        "tidyr"
+        "ReactomeContentService4R"
     ],
     "ReactomePA": [
         "DOSE",
         "enrichplot",
         "ggraph",
         "reactome.db",
-        "graphite",
         "BiocParallel",
         "DO.db",
         "fgsea",
@@ -11520,12 +10926,10 @@
         "scatterpie",
         "ggtree",
         "yulab.utils",
-        "ggforce",
         "tidygraph",
         "ggplotify",
         "futile.logger",
         "data.table",
-        "tidyr",
         "tidytree",
         "treeio",
         "GO.db",
@@ -11534,9 +10938,6 @@
     ],
     "rebook": [
         "dir.expiry"
-    ],
-    "receptLoss": [
-        "tidyr"
     ],
     "reconsi": [
         "phyloseq",
@@ -11555,7 +10956,6 @@
         "Hmisc",
         "Rsamtools",
         "data.table",
-        "tidyr",
         "R.utils",
         "lambda.r",
         "futile.options",
@@ -11593,7 +10993,6 @@
         "R.methodsS3",
         "futile.logger",
         "GenomicFeatures",
-        "tidyr",
         "lambda.r",
         "futile.options",
         "rtracklayer",
@@ -11639,7 +11038,6 @@
         "DESeq2",
         "WGCNA",
         "futile.logger",
-        "tidyr",
         "genefilter",
         "geneplotter",
         "DO.db",
@@ -11686,7 +11084,6 @@
     "regutools": [
         "AnnotationHub",
         "Gviz",
-        "RCy3",
         "BiocFileCache",
         "rtracklayer",
         "biomaRt",
@@ -11725,7 +11122,6 @@
         "GenomicFeatures",
         "lambda.r",
         "futile.options",
-        "tidyr",
         "R.utils",
         "ipred",
         "biomaRt",
@@ -11774,7 +11170,6 @@
         "R.methodsS3",
         "futile.logger",
         "biomaRt",
-        "tidyr",
         "data.table",
         "BiocFileCache",
         "lambda.r",
@@ -11811,7 +11206,6 @@
         "data.table",
         "nloptr",
         "broom",
-        "tidyr",
         "pbkrtest"
     ],
     "rfaRm": [
@@ -11898,9 +11292,7 @@
         "GGally",
         "R.utils",
         "Rsamtools",
-        "tidyr",
         "BiocFileCache",
-        "philentropy",
         "genefilter",
         "geneplotter",
         "lambda.r",
@@ -11924,7 +11316,6 @@
         "Hmisc",
         "densEstBayes",
         "futile.logger",
-        "rstan",
         "lambda.r",
         "futile.options"
     ],
@@ -11946,12 +11337,8 @@
         "ensembldb",
         "futile.logger",
         "BiocFileCache",
-        "tidyr",
         "lambda.r",
         "futile.options"
-    ],
-    "ribor": [
-        "tidyr"
     ],
     "riboSeqR": [
         "Rsamtools",
@@ -11968,7 +11355,6 @@
         "rtracklayer",
         "Rsamtools",
         "RUVSeq",
-        "ggfittext",
         "ShortRead",
         "aroma.light",
         "biomaRt",
@@ -12010,7 +11396,6 @@
     "RITAN": [
         "BgeeDB",
         "topGO",
-        "tidyr",
         "R.utils",
         "data.table",
         "R.oo",
@@ -12050,7 +11435,6 @@
         "GenomicAlignments",
         "broom",
         "futile.logger",
-        "tidyr",
         "ModelMetrics",
         "recipes",
         "lambda.r",
@@ -12108,7 +11492,6 @@
         "Hmisc",
         "Rsamtools",
         "data.table",
-        "tidyr",
         "R.utils",
         "lambda.r",
         "futile.options",
@@ -12132,7 +11515,6 @@
         "rtracklayer",
         "biomaRt",
         "broom",
-        "tidyr",
         "BiocFileCache",
         "Rsamtools",
         "GenomicAlignments",
@@ -12248,7 +11630,6 @@
         "enrichplot",
         "GO.db",
         "GOSemSim",
-        "tidyr",
         "yulab.utils",
         "BiocParallel",
         "genefilter",
@@ -12275,7 +11656,6 @@
         "BiocFileCache",
         "lambda.r",
         "futile.options",
-        "ggforce",
         "tidygraph",
         "tidytree",
         "treeio",
@@ -12287,7 +11667,6 @@
         "BiocFileCache"
     ],
     "RnBeads": [
-        "fields",
         "methylumi",
         "FDb.InfiniumMethylation.hg19",
         "minfi",
@@ -12303,7 +11682,6 @@
         "BiocParallel",
         "futile.logger",
         "BiocFileCache",
-        "tidyr",
         "R.utils",
         "Rsamtools",
         "GenomicAlignments",
@@ -12358,17 +11736,14 @@
         "pbkrtest",
         "lme4",
         "mutoss",
-        "qqconf",
         "MultiDataSet",
         "nloptr",
         "multcomp",
         "broom",
-        "tidyr",
         "TH.data"
     ],
     "rqubic": [
-        "biclust",
-        "tidyr"
+        "biclust"
     ],
     "RRHO": [
         "VennDiagram",
@@ -12400,10 +11775,8 @@
     "RTCGA": [
         "data.table",
         "survminer",
-        "ggthemes",
         "ggpubr",
         "broom",
-        "tidyr",
         "survMisc",
         "rstatix",
         "km.ci",
@@ -12420,7 +11793,6 @@
         "MultiAssayExperiment",
         "rtracklayer",
         "biomaRt",
-        "tidyr",
         "BiocFileCache",
         "Rsamtools",
         "GenomicAlignments",
@@ -12435,8 +11807,7 @@
         "pbkrtest",
         "lme4",
         "nloptr",
-        "broom",
-        "tidyr"
+        "broom"
     ],
     "RTNduals": [
         "RTN",
@@ -12445,8 +11816,7 @@
         "pbkrtest",
         "lme4",
         "nloptr",
-        "broom",
-        "tidyr"
+        "broom"
     ],
     "RTNsurvival": [
         "RTN",
@@ -12457,11 +11827,7 @@
         "pbkrtest",
         "lme4",
         "nloptr",
-        "broom",
-        "tidyr"
-    ],
-    "Rtpca": [
-        "tidyr"
+        "broom"
     ],
     "rtracklayer": [
         "Rsamtools",
@@ -12476,7 +11842,6 @@
         "data.table"
     ],
     "rTRMui": [
-        "rTRM",
         "MotifDb",
         "org.Hs.eg.db",
         "org.Mm.eg.db",
@@ -12491,8 +11856,7 @@
         "futile.options"
     ],
     "runibic": [
-        "biclust",
-        "tidyr"
+        "biclust"
     ],
     "RUVcorr": [
         "BiocParallel",
@@ -12523,8 +11887,7 @@
         "gRbase"
     ],
     "rWikiPathways": [
-        "data.table",
-        "tidyr"
+        "data.table"
     ],
     "sampleClassifier": [
         "MGFM",
@@ -12534,8 +11897,7 @@
     ],
     "sangeranalyseR": [
         "data.table",
-        "plotly",
-        "tidyr"
+        "plotly"
     ],
     "satuRn": [
         "BiocParallel",
@@ -12555,7 +11917,6 @@
         "sctransform",
         "spatstat.core",
         "spatstat.geom",
-        "tidyr",
         "data.table",
         "spatstat.data",
         "spatstat.utils",
@@ -12566,7 +11927,6 @@
         "GEOquery",
         "sva",
         "data.table",
-        "tidyr",
         "R.utils",
         "genefilter",
         "BiocParallel",
@@ -12597,7 +11957,6 @@
         "futile.logger",
         "Rsamtools",
         "biomaRt",
-        "tidyr",
         "GenomicAlignments",
         "lambda.r",
         "futile.options"
@@ -12616,7 +11975,6 @@
         "spatstat.core",
         "spatstat.geom",
         "data.table",
-        "tidyr",
         "ipred",
         "spatstat.data",
         "spatstat.utils",
@@ -12674,7 +12032,6 @@
         "spatstat.core",
         "spatstat.geom",
         "futile.logger",
-        "tidyr",
         "data.table",
         "spatstat.data",
         "spatstat.utils",
@@ -12694,7 +12051,6 @@
         "spatstat.core",
         "spatstat.geom",
         "futile.logger",
-        "tidyr",
         "data.table",
         "R.oo",
         "R.methodsS3",
@@ -12716,7 +12072,6 @@
         "spatstat.core",
         "spatstat.geom",
         "data.table",
-        "tidyr",
         "ipred",
         "spatstat.data",
         "spatstat.utils",
@@ -12731,11 +12086,9 @@
         "Cepo",
         "futile.logger",
         "GSEABase",
-        "ggforce",
         "tidygraph",
         "lambda.r",
-        "futile.options",
-        "tidyr"
+        "futile.options"
     ],
     "scDataviz": [
         "Seurat",
@@ -12744,7 +12097,6 @@
         "sctransform",
         "spatstat.core",
         "spatstat.geom",
-        "tidyr",
         "data.table",
         "spatstat.data",
         "spatstat.utils",
@@ -12765,7 +12117,6 @@
         "futile.options"
     ],
     "scDD": [
-        "fields",
         "BiocParallel",
         "EBSeq",
         "arm",
@@ -12791,7 +12142,6 @@
         "data.table"
     ],
     "SCFA": [
-        "keras",
         "BiocParallel",
         "futile.logger",
         "lambda.r",
@@ -12808,7 +12158,6 @@
         "futile.logger",
         "data.table",
         "ipred",
-        "tidyr",
         "lambda.r",
         "futile.options",
         "prodlim",
@@ -12817,13 +12166,11 @@
     ],
     "schex": [
         "Seurat",
-        "ggforce",
         "future.apply",
         "plotly",
         "sctransform",
         "spatstat.core",
         "spatstat.geom",
-        "tidyr",
         "data.table",
         "spatstat.data",
         "spatstat.utils",
@@ -12831,7 +12178,6 @@
     ],
     "scHOT": [
         "BiocParallel",
-        "ggforce",
         "futile.logger",
         "lambda.r",
         "futile.options"
@@ -12849,7 +12195,6 @@
         "sctransform",
         "spatstat.core",
         "spatstat.geom",
-        "tidyr",
         "data.table",
         "spatstat.data",
         "spatstat.utils",
@@ -12865,8 +12210,7 @@
         "lambda.r",
         "futile.options",
         "data.table",
-        "densEstBayes",
-        "rstan"
+        "densEstBayes"
     ],
     "scmeth": [
         "bsseq",
@@ -12945,7 +12289,6 @@
     "scp": [
         "QFeatures",
         "MultiAssayExperiment",
-        "tidyr",
         "plotly",
         "data.table"
     ],
@@ -12966,7 +12309,6 @@
         "rtracklayer",
         "scater",
         "BiocFileCache",
-        "tidyr",
         "Rsamtools",
         "GenomicAlignments",
         "scuttle",
@@ -12989,7 +12331,6 @@
     ],
     "scRecover": [
         "gamlss",
-        "Rmagic",
         "BiocParallel",
         "futile.logger",
         "gamlss.data",
@@ -12998,8 +12339,7 @@
         "futile.options"
     ],
     "scRepertoire": [
-        "ggalluvial",
-        "tidyr"
+        "ggalluvial"
     ],
     "scruff": [
         "data.table",
@@ -13008,7 +12348,6 @@
         "Rsamtools",
         "ShortRead",
         "BiocParallel",
-        "ggthemes",
         "ggbio",
         "rtracklayer",
         "futile.logger",
@@ -13022,8 +12361,7 @@
         "ensembldb",
         "BiocFileCache",
         "lambda.r",
-        "futile.options",
-        "tidyr"
+        "futile.options"
     ],
     "scry": [
         "BiocSingular",
@@ -13054,20 +12392,16 @@
         "BiocFileCache",
         "GSEABase",
         "genefilter",
-        "fields",
         "BiocParallel",
         "DO.db",
         "fgsea",
         "GOSemSim",
         "GO.db",
         "dendextend",
-        "tidyr",
         "data.table",
         "enrichplot",
         "ggraph",
-        "graphite",
         "Seurat",
-        "ggforce",
         "futile.logger",
         "aplot",
         "scatterpie",
@@ -13093,12 +12427,8 @@
         "nnTensor",
         "msigdbr",
         "schex",
-        "babelgene",
-        "fields",
-        "tidyr",
         "data.table",
         "Seurat",
-        "ggforce",
         "future.apply",
         "sctransform",
         "spatstat.core",
@@ -13127,7 +12457,6 @@
         "OrganismDbi",
         "GenomicFeatures",
         "ensembldb",
-        "ggforce",
         "scuttle",
         "BiocNeighbors",
         "BiocSingular",
@@ -13142,7 +12471,6 @@
         "rtracklayer",
         "Rsamtools",
         "biomaRt",
-        "tidyr",
         "spatstat.data",
         "spatstat.utils",
         "spatstat.sparse",
@@ -13178,9 +12506,7 @@
         "BiocParallel",
         "DO.db",
         "fgsea",
-        "ggforce",
         "tidygraph",
-        "tidyr",
         "tidytree",
         "treeio",
         "GO.db",
@@ -13202,7 +12528,6 @@
         "HiLDA",
         "GenomicFeatures",
         "BSgenome.Hsapiens.UCSC.hg19",
-        "tidyr",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "BSgenome",
         "rtracklayer",
@@ -13230,7 +12555,6 @@
     "seqCAT": [
         "VariantAnnotation",
         "rtracklayer",
-        "tidyr",
         "Rsamtools",
         "GenomicAlignments",
         "BSgenome",
@@ -13276,9 +12600,7 @@
         "GGally",
         "rbokeh",
         "AnnotationHub",
-        "BiocFileCache",
-        "tidyr",
-        "gistr"
+        "BiocFileCache"
     ],
     "SeqVarTools": [
         "logistf",
@@ -13286,8 +12608,7 @@
         "mice",
         "formula.tools",
         "operator.tools",
-        "broom",
-        "tidyr"
+        "broom"
     ],
     "sesame": [
         "sesameData",
@@ -13343,7 +12664,6 @@
         "minfi",
         "plotly",
         "rtracklayer",
-        "tidyr",
         "dendextend",
         "bumphunter",
         "genefilter",
@@ -13371,7 +12691,6 @@
         "BiocParallel",
         "futile.logger",
         "GenomicFeatures",
-        "tidyr",
         "R.utils",
         "lambda.r",
         "futile.options",
@@ -13430,7 +12749,6 @@
         "enrichplot",
         "GO.db",
         "GOSemSim",
-        "tidyr",
         "yulab.utils",
         "DO.db",
         "AnnotationHub",
@@ -13442,14 +12760,12 @@
         "lambda.r",
         "futile.options",
         "ggplotify",
-        "ggforce",
         "tidygraph",
         "tidytree",
         "treeio"
     ],
     "signeR": [
         "VariantAnnotation",
-        "NMF",
         "nloptr",
         "Rsamtools",
         "rtracklayer",
@@ -13496,9 +12812,6 @@
         "GO.db",
         "org.Hs.eg.db"
     ],
-    "sincell": [
-        "fields"
-    ],
     "SingleCellSignalR": [
         "data.table",
         "scran",
@@ -13518,7 +12831,6 @@
         "data.table",
         "DESeq2",
         "ExperimentHub",
-        "fields",
         "ggplotify",
         "ggtree",
         "GSVA",
@@ -13554,13 +12866,10 @@
         "BiocFileCache",
         "yulab.utils",
         "aplot",
-        "tidyr",
         "tidytree",
         "treeio",
         "hgu95a.db",
         "mutoss",
-        "qqconf",
-        "babelgene",
         "R.oo",
         "R.methodsS3",
         "bluster",
@@ -13591,8 +12900,7 @@
         "spatstat.sparse",
         "TH.data",
         "densEstBayes",
-        "GenomicAlignments",
-        "rstan"
+        "GenomicAlignments"
     ],
     "SingleMoleculeFootprinting": [
         "BSgenome",
@@ -13623,7 +12931,6 @@
     "singscore": [
         "GSEABase",
         "plotly",
-        "tidyr",
         "BiocParallel",
         "futile.logger",
         "data.table",
@@ -13659,7 +12966,6 @@
         "tidytree",
         "ggplotify",
         "yulab.utils",
-        "tidyr",
         "treeio"
     ],
     "skewr": [
@@ -13681,7 +12987,6 @@
         "org.Hs.eg.db",
         "rtracklayer",
         "biomaRt",
-        "tidyr",
         "R.utils",
         "BiocFileCache",
         "lambda.r",
@@ -13704,17 +13009,10 @@
     "slingshot": [
         "TrajectoryUtils"
     ],
-    "slinky": [
-        "tidyr"
-    ],
-    "SMAD": [
-        "tidyr"
-    ],
     "SMITE": [
         "Hmisc",
         "org.Hs.eg.db",
         "reactome.db",
-        "BioNet",
         "goseq",
         "geneLenDataBase",
         "rtracklayer",
@@ -13786,7 +13084,6 @@
     ],
     "SomaticSignatures": [
         "VariantAnnotation",
-        "NMF",
         "ggbio",
         "Hmisc",
         "biovizBase",
@@ -13800,7 +13097,6 @@
         "ensembldb",
         "BiocParallel",
         "biomaRt",
-        "tidyr",
         "data.table",
         "futile.logger",
         "BiocFileCache",
@@ -13824,7 +13120,6 @@
         "spatstat.core",
         "spatstat.geom",
         "futile.logger",
-        "tidyr",
         "data.table",
         "R.oo",
         "R.methodsS3",
@@ -13835,19 +13130,16 @@
         "futile.options"
     ],
     "sparrow": [
-        "babelgene",
         "BiocParallel",
         "BiocSet",
         "data.table",
         "GSEABase",
         "plotly",
         "futile.logger",
-        "tidyr",
         "lambda.r",
         "futile.options"
     ],
     "SparseSignatures": [
-        "NMF",
         "data.table",
         "BSgenome",
         "rtracklayer",
@@ -13859,9 +13151,7 @@
         "futile.options"
     ],
     "SpatialCPie": [
-        "data.table",
-        "ggforce",
-        "tidyr"
+        "data.table"
     ],
     "spatialDE": [
         "basilisk",
@@ -13883,12 +13173,10 @@
         "GeomxTools",
         "repmis",
         "NanoStringNCTools",
-        "EnvStats",
         "data.table",
         "lmerTest",
         "R.cache",
         "lme4",
-        "ggthemes",
         "R.methodsS3",
         "R.oo",
         "R.utils",
@@ -13919,7 +13207,6 @@
         "geneplotter",
         "scater",
         "yulab.utils",
-        "tidyr",
         "Hmisc",
         "GO.db",
         "futile.logger",
@@ -13956,9 +13243,6 @@
         "R.oo",
         "R.methodsS3"
     ],
-    "SpeCond": [
-        "fields"
-    ],
     "Spectra": [
         "BiocParallel",
         "futile.logger",
@@ -13986,7 +13270,6 @@
         "lmerTest",
         "lme4",
         "data.table",
-        "tidyr",
         "futile.logger",
         "nloptr",
         "spatstat.data",
@@ -14006,7 +13289,6 @@
         "data.table",
         "R.utils",
         "TCGAbiolinksGUI.data",
-        "tidyr",
         "BiocFileCache",
         "DOSE",
         "GO.db",
@@ -14022,7 +13304,6 @@
         "BiocParallel",
         "DO.db",
         "fgsea",
-        "ggforce",
         "tidygraph",
         "tidytree",
         "treeio",
@@ -14099,7 +13380,6 @@
     "SRAdb": [
         "GEOquery",
         "data.table",
-        "tidyr",
         "R.utils",
         "R.oo",
         "R.methodsS3"
@@ -14133,9 +13413,7 @@
         "ggformula",
         "broom",
         "mosaicCore",
-        "ggforce",
         "labelled",
-        "tidyr",
         "haven"
     ],
     "ssviz": [
@@ -14172,7 +13450,6 @@
     ],
     "StarBioTrek": [
         "SpidermiR",
-        "graphite",
         "miRNAtap.db",
         "org.Hs.eg.db",
         "TCGAbiolinks",
@@ -14183,7 +13460,6 @@
         "data.table",
         "R.utils",
         "TCGAbiolinksGUI.data",
-        "tidyr",
         "BiocFileCache",
         "DOSE",
         "GO.db",
@@ -14199,7 +13475,6 @@
         "BiocParallel",
         "DO.db",
         "fgsea",
-        "ggforce",
         "tidygraph",
         "tidytree",
         "treeio",
@@ -14226,9 +13501,6 @@
         "lambda.r",
         "futile.options"
     ],
-    "structToolbox": [
-        "ggthemes"
-    ],
     "StructuralVariantAnnotation": [
         "rtracklayer",
         "VariantAnnotation",
@@ -14250,17 +13522,14 @@
         "recipes",
         "data.table",
         "ipred",
-        "tidyr",
         "prodlim",
         "lava",
         "future.apply"
     ],
     "subSeq": [
-        "data.table",
-        "tidyr"
+        "data.table"
     ],
     "SummarizedBenchmark": [
-        "tidyr",
         "BiocParallel",
         "futile.logger",
         "lambda.r",
@@ -14271,7 +13540,6 @@
     ],
     "supersigs": [
         "caret",
-        "tidyr",
         "rsample",
         "ModelMetrics",
         "recipes",
@@ -14281,12 +13549,8 @@
         "lava",
         "future.apply"
     ],
-    "supraHex": [
-        "tidyr"
-    ],
     "surfaltr": [
         "biomaRt",
-        "msa",
         "BiocFileCache"
     ],
     "survcomp": [
@@ -14299,7 +13563,6 @@
         "survminer",
         "ggpubr",
         "broom",
-        "tidyr",
         "survMisc",
         "rstatix",
         "data.table",
@@ -14364,8 +13627,6 @@
     "synergyfinder": [
         "drc",
         "tidyverse",
-        "tidyr",
-        "ggforce",
         "SpatialExtremes",
         "plotly",
         "mice",
@@ -14373,11 +13634,9 @@
         "car",
         "multcomp",
         "data.table",
-        "fields",
         "formula.tools",
         "broom",
         "dtplyr",
-        "googlesheets4",
         "haven",
         "modelr",
         "pbkrtest",
@@ -14390,7 +13649,6 @@
         "doBy",
         "broom",
         "pbkrtest",
-        "tidyr",
         "lme4",
         "nloptr"
     ],
@@ -14404,10 +13662,8 @@
         "futile.options"
     ],
     "systemPipeShiny": [
-        "spsComps",
         "plotly",
         "styler",
-        "tidyr",
         "data.table",
         "R.cache",
         "R.methodsS3",
@@ -14422,7 +13678,6 @@
         "BiocParallel",
         "genefilter",
         "geneplotter",
-        "tidyr",
         "aplot",
         "yulab.utils",
         "tidytree",
@@ -14435,7 +13690,6 @@
     ],
     "TADCompare": [
         "HiCcompare",
-        "tidyr",
         "ggpubr",
         "rstatix",
         "data.table",
@@ -14459,7 +13713,6 @@
         "ggtree",
         "aplot",
         "yulab.utils",
-        "tidyr",
         "tidytree",
         "treeio",
         "ggplotify"
@@ -14468,7 +13721,6 @@
         "GenomicAlignments",
         "BSgenome",
         "GenomicFeatures",
-        "tidyr",
         "BiocParallel",
         "futile.logger",
         "rtracklayer",
@@ -14501,7 +13753,6 @@
         "GSEABase",
         "BiocSingular",
         "plotly",
-        "tidyr",
         "lambda.r",
         "futile.options",
         "data.table"
@@ -14520,7 +13771,6 @@
         "data.table",
         "R.utils",
         "TCGAbiolinksGUI.data",
-        "tidyr",
         "BiocFileCache",
         "R.oo",
         "R.methodsS3"
@@ -14542,7 +13792,6 @@
         "enrichplot",
         "GO.db",
         "GOSemSim",
-        "tidyr",
         "yulab.utils",
         "ELMER.data",
         "GenomicFeatures",
@@ -14579,7 +13828,6 @@
         "VariantAnnotation",
         "lambda.r",
         "futile.options",
-        "ggforce",
         "tidygraph",
         "tidytree",
         "treeio",
@@ -14598,7 +13846,6 @@
         "MultiAssayExperiment",
         "rtracklayer",
         "biomaRt",
-        "tidyr",
         "BiocFileCache",
         "Rsamtools",
         "GenomicAlignments",
@@ -14636,9 +13883,6 @@
         "futile.logger",
         "lambda.r",
         "futile.options"
-    ],
-    "TFARM": [
-        "fields"
     ],
     "TFBSTools": [
         "BiocParallel",
@@ -14681,16 +13925,11 @@
         "lambda.r",
         "futile.options"
     ],
-    "tidybulk": [
-        "tidyr"
-    ],
     "tidySingleCellExperiment": [
-        "tidyr",
         "plotly",
         "data.table"
     ],
     "tidySummarizedExperiment": [
-        "tidyr",
         "plotly",
         "data.table"
     ],
@@ -14699,7 +13938,6 @@
     ],
     "timeOmics": [
         "mixOmics",
-        "tidyr",
         "BiocParallel",
         "futile.logger",
         "lambda.r",
@@ -14708,7 +13946,6 @@
     "TimeSeriesExperiment": [
         "DESeq2",
         "Hmisc",
-        "tidyr",
         "BiocParallel",
         "genefilter",
         "geneplotter",
@@ -14722,9 +13959,7 @@
         "biomaRt",
         "clusterProfiler",
         "gghighlight",
-        "RCy3",
         "rWikiPathways",
-        "tidyr",
         "BiocFileCache",
         "DOSE",
         "enrichplot",
@@ -14741,7 +13976,6 @@
         "ggtree",
         "ggplotify",
         "futile.logger",
-        "ggforce",
         "tidygraph",
         "tidytree",
         "treeio",
@@ -14768,8 +14002,7 @@
         "aroma.light"
     ],
     "TissueEnrich": [
-        "GSEABase",
-        "tidyr"
+        "GSEABase"
     ],
     "TitanCNA": [
         "VariantAnnotation",
@@ -14812,7 +14045,6 @@
         "GGally",
         "R.utils",
         "ggpubr",
-        "tidyr",
         "rstatix",
         "GSEABase",
         "BiocParallel",
@@ -14832,7 +14064,6 @@
         "data.table"
     ],
     "TOAST": [
-        "tidyr",
         "GGally"
     ],
     "topGO": [
@@ -14841,7 +14072,6 @@
     "ToxicoGx": [
         "CoreGx",
         "BiocParallel",
-        "tidyr",
         "data.table",
         "futile.logger",
         "MultiAssayExperiment",
@@ -14851,7 +14081,6 @@
         "fgsea"
     ],
     "TPP": [
-        "tidyr",
         "biobroom",
         "broom",
         "data.table",
@@ -14861,7 +14090,6 @@
         "futile.options"
     ],
     "TPP2D": [
-        "tidyr",
         "BiocParallel",
         "futile.logger",
         "lambda.r",
@@ -14905,7 +14133,6 @@
     "transcriptogramer": [
         "biomaRt",
         "data.table",
-        "tidyr",
         "topGO",
         "BiocFileCache",
         "GO.db"
@@ -14926,15 +14153,11 @@
         "BiocFileCache",
         "data.table",
         "ipred",
-        "tidyr",
         "lambda.r",
         "futile.options",
         "prodlim",
         "lava",
         "future.apply"
-    ],
-    "transite": [
-        "ggseqlogo"
     ],
     "tRanslatome": [
         "anota",
@@ -14949,9 +14172,6 @@
         "futile.logger",
         "lambda.r",
         "futile.options"
-    ],
-    "transomics2cytoscape": [
-        "RCy3"
     ],
     "TraRe": [
         "R.utils",
@@ -14979,11 +14199,9 @@
     ],
     "treeio": [
         "tidytree",
-        "tidyr",
         "yulab.utils"
     ],
     "treekoR": [
-        "tidyr",
         "data.table",
         "ggtree",
         "diffcyt",
@@ -14999,7 +14217,6 @@
         "ggplotify",
         "CytoML",
         "flowWorkspace",
-        "ggforce",
         "ggpubr",
         "openCyto",
         "ggcyto",
@@ -15018,8 +14235,7 @@
         "R.oo",
         "R.methodsS3",
         "fds",
-        "rainbow",
-        "hdrcde"
+        "rainbow"
     ],
     "TreeSummarizedExperiment": [
         "BiocParallel",
@@ -15028,7 +14244,6 @@
         "tidytree",
         "lambda.r",
         "futile.options",
-        "tidyr",
         "yulab.utils"
     ],
     "trena": [
@@ -15094,8 +14309,7 @@
     "tripr": [
         "data.table",
         "plotly",
-        "golem",
-        "tidyr"
+        "golem"
     ],
     "tRNAscanImport": [
         "rtracklayer",
@@ -15117,9 +14331,6 @@
     "TSCAN": [
         "TrajectoryUtils"
     ],
-    "tscR": [
-        "kmlShape"
-    ],
     "TSRchitect": [
         "AnnotationHub",
         "BiocParallel",
@@ -15132,12 +14343,10 @@
         "futile.options"
     ],
     "ttgsea": [
-        "keras",
         "text2vec",
         "textstem",
         "data.table",
         "DiagrammeR",
-        "tidyr",
         "rsparse",
         "koRpus.lang.en",
         "koRpus",
@@ -15158,7 +14367,6 @@
         "futile.logger",
         "GenomicFeatures",
         "rtracklayer",
-        "tidyr",
         "biomaRt",
         "BSgenome",
         "biovizBase",
@@ -15238,8 +14446,7 @@
         "futile.logger",
         "rainbow",
         "lambda.r",
-        "futile.options",
-        "hdrcde"
+        "futile.options"
     ],
     "uncoverappLib": [
         "Gviz",
@@ -15291,11 +14498,9 @@
         "futile.options"
     ],
     "uSORT": [
-        "monocle",
-        "densityClust"
+        "monocle"
     ],
     "VAExprs": [
-        "keras",
         "scater",
         "CatEncoders",
         "DeepPINCS",
@@ -15303,7 +14508,6 @@
         "data.table",
         "webchem",
         "ttgsea",
-        "tidyr",
         "scuttle",
         "BiocNeighbors",
         "BiocSingular",
@@ -15354,7 +14558,6 @@
         "futile.logger",
         "nloptr",
         "broom",
-        "tidyr",
         "lambda.r",
         "futile.options"
     ],
@@ -15372,15 +14575,13 @@
         "futile.options"
     ],
     "VariantExperiment": [
-        "GDSArray",
         "SeqVarTools",
         "logistf",
         "data.table",
         "mice",
         "formula.tools",
         "operator.tools",
-        "broom",
-        "tidyr"
+        "broom"
     ],
     "VariantFiltering": [
         "VariantAnnotation",
@@ -15472,7 +14673,6 @@
     "vidger": [
         "DESeq2",
         "GGally",
-        "tidyr",
         "BiocParallel",
         "genefilter",
         "geneplotter",
@@ -15493,7 +14693,6 @@
         "topGO",
         "R.utils",
         "BiocFileCache",
-        "tidyr",
         "BiocParallel",
         "R.oo",
         "R.methodsS3",
@@ -15502,9 +14701,7 @@
         "futile.options"
     ],
     "vissE": [
-        "ggwordcloud",
         "GSEABase",
-        "ggforce",
         "msigdb",
         "textstem",
         "tidygraph",
@@ -15518,7 +14715,6 @@
         "lexicon",
         "textclean",
         "textshape",
-        "tidyr",
         "BiocFileCache",
         "data.table",
         "sylly.en",
@@ -15581,7 +14777,6 @@
         "BiocParallel",
         "lme4",
         "futile.logger",
-        "EnvStats",
         "lambda.r",
         "futile.options",
         "nloptr"
@@ -15604,7 +14799,6 @@
         "BiocParallel",
         "futile.logger",
         "BiocFileCache",
-        "tidyr",
         "R.utils",
         "Rsamtools",
         "GenomicAlignments",
@@ -15651,8 +14845,7 @@
         "golem"
     ],
     "wppi": [
-        "OmnipathR",
-        "tidyr"
+        "OmnipathR"
     ],
     "XCIR": [
         "data.table",
@@ -15681,7 +14874,6 @@
         "data.table",
         "futile.logger",
         "piano",
-        "tidyr",
         "lambda.r",
         "futile.options",
         "fgsea"
@@ -15704,7 +14896,6 @@
         "dendextend",
         "BSgenome.Hsapiens.UCSC.hg19",
         "BSgenome",
-        "NMF",
         "ggbio",
         "Rsamtools",
         "rtracklayer",
@@ -15719,7 +14910,6 @@
         "BiocParallel",
         "futile.logger",
         "BiocFileCache",
-        "tidyr",
         "data.table",
         "lambda.r",
         "futile.options"
@@ -15736,7 +14926,6 @@
         "BiocParallel",
         "futile.logger",
         "GenomicFeatures",
-        "tidyr",
         "R.utils",
         "lambda.r",
         "futile.options",
@@ -15751,9 +14940,6 @@
         "dir.expiry",
         "basilisk.utils"
     ],
-    "zFPKM": [
-        "tidyr"
-    ],
     "zinbwave": [
         "BiocParallel",
         "genefilter",
@@ -15767,7 +14953,6 @@
         "futile.options"
     ],
     "plotly": [
-        "tidyr",
         "data.table"
     ],
     "futile.logger": [
@@ -15782,7 +14967,6 @@
         "R.methodsS3"
     ],
     "ggpubr": [
-        "tidyr",
         "rstatix",
         "broom",
         "car",
@@ -15791,27 +14975,21 @@
         "nloptr"
     ],
     "rstatix": [
-        "tidyr",
         "broom",
         "car",
         "pbkrtest",
         "lme4",
         "nloptr"
     ],
-    "broom": [
-        "tidyr"
-    ],
     "car": [
         "pbkrtest",
         "lme4",
         "nloptr",
-        "broom",
-        "tidyr"
+        "broom"
     ],
     "pbkrtest": [
         "lme4",
         "broom",
-        "tidyr",
         "nloptr"
     ],
     "lme4": [
@@ -15825,9 +15003,6 @@
     "Hmisc": [
         "data.table"
     ],
-    "GGally": [
-        "tidyr"
-    ],
     "speaq": [
         "data.table"
     ],
@@ -15835,15 +15010,13 @@
         "MultiAssayExperiment",
         "AnnotationHub",
         "ExperimentHub",
-        "BiocFileCache",
-        "tidyr"
+        "BiocFileCache"
     ],
     "caret": [
         "ModelMetrics",
         "recipes",
         "data.table",
         "ipred",
-        "tidyr",
         "prodlim",
         "lava",
         "future.apply"
@@ -15858,7 +15031,6 @@
     ],
     "recipes": [
         "ipred",
-        "tidyr",
         "prodlim",
         "lava",
         "future.apply"
@@ -16047,9 +15219,6 @@
         "lambda.r",
         "futile.options"
     ],
-    "ggfortify": [
-        "tidyr"
-    ],
     "assertive": [
         "assertive.base",
         "assertive.properties",
@@ -16129,7 +15298,6 @@
     "doBy": [
         "broom",
         "pbkrtest",
-        "tidyr",
         "lme4",
         "nloptr"
     ],
@@ -16149,7 +15317,6 @@
     "heatmaply": [
         "plotly",
         "dendextend",
-        "tidyr",
         "data.table"
     ],
     "corncob": [
@@ -16164,7 +15331,6 @@
         "sctransform",
         "spatstat.core",
         "spatstat.geom",
-        "tidyr",
         "data.table",
         "spatstat.data",
         "spatstat.utils",
@@ -16201,7 +15367,6 @@
         "BiocParallel",
         "futile.logger",
         "GenomicFeatures",
-        "tidyr",
         "R.utils",
         "lambda.r",
         "futile.options",
@@ -16214,7 +15379,6 @@
         "GenomicAlignments"
     ],
     "radiant.data": [
-        "tidyr",
         "broom",
         "car",
         "plotly",
@@ -16227,30 +15391,17 @@
         "R.oo",
         "R.methodsS3"
     ],
-    "DiagrammeR": [
-        "tidyr"
-    ],
     "ggraph": [
-        "ggforce",
-        "tidygraph",
-        "tidyr"
+        "tidygraph"
     ],
     "aplot": [
         "ggplotify",
         "yulab.utils"
     ],
-    "scatterpie": [
-        "ggforce",
-        "tidyr"
-    ],
-    "tidygraph": [
-        "tidyr"
-    ],
     "ggplotify": [
         "yulab.utils"
     ],
     "tidytree": [
-        "tidyr",
         "yulab.utils"
     ],
     "styler": [
@@ -16385,23 +15536,17 @@
         "lme4",
         "TH.data",
         "nloptr",
-        "broom",
-        "tidyr"
+        "broom"
     ],
     "aws.s3": [
         "aws.signature"
     ],
     "fda": [
         "fds",
-        "rainbow",
-        "hdrcde"
+        "rainbow"
     ],
     "fds": [
-        "rainbow",
-        "hdrcde"
-    ],
-    "rainbow": [
-        "hdrcde"
+        "rainbow"
     ],
     "multipanelfigure": [
         "assertive.base",
@@ -16418,16 +15563,13 @@
         "pbkrtest",
         "lme4",
         "nloptr",
-        "broom",
-        "tidyr"
+        "broom"
     ],
     "broom.mixed": [
-        "broom",
-        "tidyr"
+        "broom"
     ],
     "mice": [
-        "broom",
-        "tidyr"
+        "broom"
     ],
     "GenomicTools": [
         "data.table",
@@ -16445,7 +15587,6 @@
         "BiocParallel",
         "futile.logger",
         "GenomicFeatures",
-        "tidyr",
         "R.utils",
         "lambda.r",
         "futile.options",
@@ -16466,7 +15607,6 @@
         "BiocParallel",
         "futile.logger",
         "GenomicFeatures",
-        "tidyr",
         "R.utils",
         "lambda.r",
         "futile.options",
@@ -16487,7 +15627,6 @@
         "BiocParallel",
         "futile.logger",
         "GenomicFeatures",
-        "tidyr",
         "R.utils",
         "lambda.r",
         "futile.options",
@@ -16524,7 +15663,6 @@
         "recipes",
         "data.table",
         "ipred",
-        "tidyr",
         "prodlim",
         "lava",
         "future.apply"
@@ -16622,9 +15760,6 @@
     "rlist": [
         "data.table"
     ],
-    "msigdbr": [
-        "babelgene"
-    ],
     "BSgenome.Drerio.UCSC.danRer7": [
         "BSgenome",
         "rtracklayer",
@@ -16636,11 +15771,7 @@
         "futile.options"
     ],
     "phylobase": [
-        "RNeXML",
-        "tidyr"
-    ],
-    "RNeXML": [
-        "tidyr"
+        "RNeXML"
     ],
     "splitstackshape": [
         "data.table"
@@ -16653,7 +15784,6 @@
         "dendextend",
         "FactoMineR",
         "ggpubr",
-        "tidyr",
         "car",
         "rstatix",
         "pbkrtest",
@@ -16674,7 +15804,6 @@
         "spatstat.utils",
         "data.table",
         "ipred",
-        "tidyr",
         "spatstat.sparse",
         "prodlim",
         "lava",
@@ -16727,7 +15856,6 @@
         "BiocParallel",
         "futile.logger",
         "GenomicFeatures",
-        "tidyr",
         "R.utils",
         "lambda.r",
         "futile.options",
@@ -16745,15 +15873,10 @@
     "highcharter": [
         "rlist",
         "broom",
-        "tidyr",
         "data.table"
     ],
     "RFOC": [
-        "GEOmap",
-        "fields"
-    ],
-    "GEOmap": [
-        "fields"
+        "GEOmap"
     ],
     "mbest": [
         "bigmemory",
@@ -16767,8 +15890,7 @@
         "pbkrtest",
         "lme4",
         "nloptr",
-        "broom",
-        "tidyr"
+        "broom"
     ],
     "arm": [
         "lme4",
@@ -16780,9 +15902,7 @@
         "ggformula",
         "broom",
         "mosaicCore",
-        "ggforce",
         "labelled",
-        "tidyr",
         "haven"
     ],
     "imp4p": [
@@ -16791,7 +15911,6 @@
         "mice",
         "car",
         "broom",
-        "tidyr",
         "pbkrtest",
         "lme4",
         "nloptr"
@@ -16799,10 +15918,8 @@
     "tidyverse": [
         "broom",
         "dtplyr",
-        "googlesheets4",
         "haven",
         "modelr",
-        "tidyr",
         "data.table"
     ],
     "MESS": [
@@ -16810,9 +15927,7 @@
         "ggformula",
         "broom",
         "mosaicCore",
-        "ggforce",
         "labelled",
-        "tidyr",
         "haven"
     ],
     "missMDA": [
@@ -16820,7 +15935,6 @@
         "mice",
         "car",
         "broom",
-        "tidyr",
         "pbkrtest",
         "lme4",
         "nloptr"
@@ -16829,26 +15943,18 @@
         "data.table"
     ],
     "modelr": [
-        "broom",
-        "tidyr"
+        "broom"
     ],
     "geepack": [
-        "broom",
-        "tidyr"
+        "broom"
     ],
     "ggformula": [
         "mosaicCore",
-        "ggforce",
         "labelled",
-        "haven",
-        "tidyr"
-    ],
-    "mosaicCore": [
-        "tidyr"
+        "haven"
     ],
     "labelled": [
-        "haven",
-        "tidyr"
+        "haven"
     ],
     "cmdfun": [
         "R.utils",
@@ -16857,7 +15963,6 @@
     ],
     "metap": [
         "mutoss",
-        "qqconf",
         "multcomp",
         "TH.data"
     ],
@@ -16887,8 +15992,7 @@
         "textshape",
         "data.table",
         "sylly.en",
-        "syuzhet",
-        "tidyr"
+        "syuzhet"
     ],
     "rsparse": [
         "data.table"
@@ -16904,22 +16008,19 @@
     "lexicon": [
         "data.table",
         "syuzhet",
-        "textshape",
-        "tidyr"
+        "textshape"
     ],
     "textclean": [
         "data.table",
         "lexicon",
         "textshape",
-        "syuzhet",
-        "tidyr"
+        "syuzhet"
     ],
     "textshape": [
         "data.table"
     ],
     "syuzhet": [
         "textshape",
-        "tidyr",
         "data.table"
     ],
     "gamlss": [
@@ -16941,12 +16042,8 @@
         "multcomp",
         "TH.data"
     ],
-    "jackstraw": [
-        "ClusterR"
-    ],
     "ggalt": [
         "plotly",
-        "tidyr",
         "data.table"
     ],
     "survivalsvm": [
@@ -16960,7 +16057,6 @@
     ],
     "gprofiler2": [
         "plotly",
-        "tidyr",
         "data.table"
     ],
     "RecordLinkage": [
@@ -16975,8 +16071,7 @@
         "pbkrtest",
         "lme4",
         "nloptr",
-        "broom",
-        "tidyr"
+        "broom"
     ],
     "dplR": [
         "R.utils",
@@ -16986,7 +16081,6 @@
     "survminer": [
         "ggpubr",
         "broom",
-        "tidyr",
         "survMisc",
         "rstatix",
         "data.table",
@@ -17004,8 +16098,7 @@
         "mice",
         "formula.tools",
         "operator.tools",
-        "broom",
-        "tidyr"
+        "broom"
     ],
     "BSgenome.Mmusculus.UCSC.mm10": [
         "BSgenome",
@@ -17031,7 +16124,6 @@
         "heatmaply",
         "plotly",
         "dendextend",
-        "tidyr",
         "data.table"
     ],
     "HH": [
@@ -17058,17 +16150,11 @@
         "lambda.r",
         "futile.options"
     ],
-    "gptk": [
-        "fields"
-    ],
     "DescTools": [
         "data.table"
     ],
     "BatchJobs": [
         "data.table"
-    ],
-    "biclust": [
-        "tidyr"
     ],
     "TxDb.Dmelanogaster.UCSC.dm6.ensGene": [
         "GenomicFeatures",
@@ -17088,9 +16174,6 @@
         "multcomp",
         "data.table",
         "TH.data"
-    ],
-    "AdaptGauss": [
-        "DataVisualizations"
     ],
     "orQA": [
         "genefilter"
@@ -17117,11 +16200,7 @@
     "reldist": [
         "Hmisc",
         "densEstBayes",
-        "rstan",
         "data.table"
-    ],
-    "densEstBayes": [
-        "rstan"
     ],
     "adabag": [
         "caret",
@@ -17129,7 +16208,6 @@
         "recipes",
         "data.table",
         "ipred",
-        "tidyr",
         "prodlim",
         "lava",
         "future.apply"
@@ -17138,16 +16216,12 @@
         "lme4",
         "nloptr"
     ],
-    "plsgenomics": [
-        "fields"
-    ],
     "agricolae": [
         "klaR",
         "questionr",
         "styler",
         "labelled",
         "haven",
-        "tidyr",
         "R.cache",
         "R.methodsS3",
         "R.oo",
@@ -17158,7 +16232,6 @@
         "styler",
         "labelled",
         "haven",
-        "tidyr",
         "R.cache",
         "R.methodsS3",
         "R.oo",
@@ -17168,7 +16241,6 @@
         "styler",
         "labelled",
         "haven",
-        "tidyr",
         "R.cache",
         "R.methodsS3",
         "R.oo",
@@ -17197,7 +16269,6 @@
         "BiocParallel",
         "futile.logger",
         "GenomicFeatures",
-        "tidyr",
         "R.utils",
         "lambda.r",
         "futile.options",
@@ -17248,13 +16319,11 @@
         "R.utils"
     ],
     "ggmcmc": [
-        "tidyr",
         "GGally"
     ],
     "HardyWeinberg": [
         "mice",
-        "broom",
-        "tidyr"
+        "broom"
     ],
     "qdapTools": [
         "data.table"
@@ -17273,31 +16342,25 @@
         "futile.options"
     ],
     "s4vd": [
-        "biclust",
-        "tidyr"
+        "biclust"
     ],
     "BiBitR": [
         "dendextend",
-        "biclust",
-        "tidyr"
+        "biclust"
     ],
     "SOMbrero": [
-        "ggwordcloud",
         "metR",
         "data.table",
-        "fields",
         "formula.tools",
         "operator.tools"
     ],
     "metR": [
         "data.table",
-        "fields",
         "formula.tools",
         "operator.tools"
     ],
     "echarts4r": [
-        "broom",
-        "tidyr"
+        "broom"
     ],
     "anyLib": [
         "devtools"
@@ -17317,12 +16380,8 @@
         "lambda.r",
         "futile.options"
     ],
-    "ggalluvial": [
-        "tidyr"
-    ],
     "dnet": [
-        "supraHex",
-        "tidyr"
+        "supraHex"
     ],
     "RcmdrMisc": [
         "car",
@@ -17332,8 +16391,7 @@
         "lme4",
         "data.table",
         "nloptr",
-        "broom",
-        "tidyr"
+        "broom"
     ],
     "qpcR": [
         "minpack.lm"
@@ -17354,16 +16412,12 @@
         "futile.options"
     ],
     "OMICsPCAdata": [
-        "MultiAssayExperiment",
-        "tidyr"
+        "MultiAssayExperiment"
     ],
     "AICcmodavg": [
         "unmarked",
         "lme4",
         "nloptr"
-    ],
-    "summarytools": [
-        "tidyr"
     ],
     "unmarked": [
         "lme4",
@@ -17373,7 +16427,6 @@
         "biomaRt",
         "data.table",
         "R.utils",
-        "philentropy",
         "BiocFileCache",
         "R.oo",
         "R.methodsS3"
@@ -17382,9 +16435,6 @@
         "R.utils",
         "R.oo",
         "R.methodsS3"
-    ],
-    "verification": [
-        "fields"
     ],
     "aroma.affymetrix": [
         "R.utils",
@@ -17447,8 +16497,6 @@
         "R.utils"
     ],
     "tidybayes": [
-        "ggdist",
-        "tidyr",
         "posterior"
     ],
     "phastCons100way.UCSC.hg38": [
@@ -17486,8 +16534,7 @@
         "data.table"
     ],
     "neo4r": [
-        "data.table",
-        "tidyr"
+        "data.table"
     ],
     "BSgenome.Celegans.UCSC.ce2": [
         "BSgenome",
@@ -17506,7 +16553,6 @@
     "valr": [
         "broom",
         "rtracklayer",
-        "tidyr",
         "Rsamtools",
         "GenomicAlignments",
         "BiocParallel",
@@ -17520,7 +16566,6 @@
         "ModelMetrics",
         "recipes",
         "ipred",
-        "tidyr",
         "prodlim",
         "lava",
         "future.apply"
@@ -17576,20 +16621,9 @@
         "data.table",
         "future.apply"
     ],
-    "nnTensor": [
-        "fields"
-    ],
-    "ccTensor": [
-        "fields"
-    ],
     "clustree": [
         "ggraph",
-        "tidygraph",
-        "ggforce",
-        "tidyr"
-    ],
-    "rbokeh": [
-        "gistr"
+        "tidygraph"
     ],
     "mlr": [
         "data.table"
@@ -17627,12 +16661,6 @@
     "hgu95a.db": [
         "org.Hs.eg.db"
     ],
-    "rsample": [
-        "tidyr"
-    ],
-    "SpatialExtremes": [
-        "fields"
-    ],
     "SNPlocs.Hsapiens.dbSNP150.GRCh38": [
         "BSgenome",
         "rtracklayer",
@@ -17650,8 +16678,5 @@
         "org.Hs.eg.db",
         "AnnotationHub",
         "BiocFileCache"
-    ],
-    "eva": [
-        "EnvStats"
     ]
 }
