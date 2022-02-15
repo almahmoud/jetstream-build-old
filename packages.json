@@ -121,8 +121,6 @@
     ],
     "animalcules": [
         "DESeq2",
-        "caret",
-        "recipes",
         "BiocParallel",
         "futile.logger"
     ],
@@ -677,11 +675,9 @@
         "ensembldb"
     ],
     "branchpointer": [
-        "caret",
         "BSgenome.Hsapiens.UCSC.hg38",
         "rtracklayer",
         "BSgenome",
-        "recipes",
         "Rsamtools",
         "GenomicAlignments",
         "BiocParallel",
@@ -1006,9 +1002,7 @@
     "ChIC": [
         "spp",
         "ChIC.data",
-        "caret",
         "Rsamtools",
-        "recipes",
         "BiocParallel",
         "futile.logger"
     ],
@@ -1442,8 +1436,6 @@
         "futile.logger",
         "spatstat.geom",
         "spatstat",
-        "caret",
-        "recipes",
         "spatstat.data",
         "spatstat.core",
         "spatstat.linnet",
@@ -1469,8 +1461,6 @@
     ],
     "consensusOV": [
         "GSVA",
-        "genefu",
-        "survcomp",
         "BiocParallel",
         "BiocSingular",
         "futile.logger"
@@ -1662,10 +1652,8 @@
         "CytoGLMM",
         "diffcyt",
         "BiocParallel",
-        "caret",
         "FlowSOM",
         "futile.logger",
-        "recipes",
         "CytoML",
         "flowWorkspace",
         "openCyto",
@@ -1677,9 +1665,7 @@
     ],
     "CytoGLMM": [
         "BiocParallel",
-        "caret",
-        "futile.logger",
-        "recipes"
+        "futile.logger"
     ],
     "cytoKernel": [
         "BiocParallel",
@@ -1735,8 +1721,6 @@
         "DESeq2",
         "EDASeq",
         "sva",
-        "caret",
-        "recipes",
         "BiocParallel",
         "ShortRead",
         "aroma.light",
@@ -1841,8 +1825,7 @@
     "DeepPINCS": [
         "ttgsea",
         "textstem",
-        "koRpus.lang.en",
-        "textclean"
+        "koRpus.lang.en"
     ],
     "deepSNV": [
         "VariantAnnotation",
@@ -2695,8 +2678,6 @@
     ],
     "fobitools": [
         "fgsea",
-        "RecordLinkage",
-        "textclean",
         "BiocParallel",
         "futile.logger"
     ],
@@ -2766,9 +2747,7 @@
         "DESeq2",
         "EDASeq",
         "sva",
-        "caret",
         "VennDiagram",
-        "recipes",
         "BiocParallel",
         "ShortRead",
         "aroma.light",
@@ -2827,9 +2806,6 @@
         "R.oo",
         "BiocParallel",
         "futile.logger"
-    ],
-    "genefu": [
-        "survcomp"
     ],
     "GeneGeneInteR": [
         "Rsamtools",
@@ -3137,10 +3113,6 @@
         "BiocParallel",
         "futile.logger"
     ],
-    "GWAS.BAYES": [
-        "caret",
-        "recipes"
-    ],
     "gwascat": [
         "GenomicFeatures",
         "VariantAnnotation",
@@ -3247,10 +3219,6 @@
         "GenomicAlignments",
         "BiocParallel",
         "futile.logger"
-    ],
-    "HPiP": [
-        "caret",
-        "recipes"
     ],
     "HTSeqGenie": [
         "gmapR",
@@ -3547,10 +3515,8 @@
         "GenomicAlignments"
     ],
     "KnowSeq": [
-        "caret",
         "R.utils",
         "sva",
-        "recipes",
         "R.oo",
         "BiocParallel",
         "futile.logger"
@@ -3625,13 +3591,10 @@
         "densEstBayes"
     ],
     "m6Aboost": [
-        "adabag",
         "rtracklayer",
         "BSgenome",
-        "caret",
         "Rsamtools",
         "GenomicAlignments",
-        "recipes",
         "BiocParallel",
         "futile.logger"
     ],
@@ -3686,14 +3649,8 @@
         "fgsea",
         "futile.logger"
     ],
-    "MAI": [
-        "caret",
-        "recipes"
-    ],
     "maPredictDSC": [
-        "caret",
-        "hgu133plus2.db",
-        "recipes"
+        "hgu133plus2.db"
     ],
     "maser": [
         "rtracklayer",
@@ -3836,10 +3793,6 @@
         "fgsea",
         "futile.logger"
     ],
-    "metabCombiner": [
-        "caret",
-        "recipes"
-    ],
     "metabomxtr": [
         "BiocParallel",
         "futile.logger"
@@ -3896,7 +3849,6 @@
         "GenomicFeatures",
         "Rsamtools",
         "rtracklayer",
-        "survcomp",
         "VennDiagram",
         "futile.logger",
         "bsseq",
@@ -4135,10 +4087,8 @@
     ],
     "microbiomeMarker": [
         "DESeq2",
-        "caret",
         "ALDEx2",
         "BiocParallel",
-        "recipes",
         "futile.logger"
     ],
     "MicrobiomeProfiler": [
@@ -4148,9 +4098,6 @@
         "BiocParallel",
         "fgsea",
         "futile.logger"
-    ],
-    "MicrobiotaProcess": [
-        "ggtreeExtra"
     ],
     "MIGSA": [
         "BiocParallel",
@@ -4265,9 +4212,7 @@
         "GenomicAlignments"
     ],
     "mistyR": [
-        "caret",
         "R.utils",
-        "recipes",
         "R.oo"
     ],
     "mitoClone2": [
@@ -4286,10 +4231,8 @@
         "futile.logger"
     ],
     "MLSeq": [
-        "caret",
         "VennDiagram",
         "DESeq2",
-        "recipes",
         "BiocParallel",
         "futile.logger"
     ],
@@ -4440,14 +4383,9 @@
         "BiocParallel",
         "futile.logger"
     ],
-    "MSstatsLiP": [
-        "MSstatsPTM"
-    ],
     "MSstatsSampleSize": [
         "BiocParallel",
-        "caret",
-        "futile.logger",
-        "recipes"
+        "futile.logger"
     ],
     "multicrispr": [
         "assertive",
@@ -4495,13 +4433,11 @@
         "R.oo"
     ],
     "multiSight": [
-        "caret",
         "mixOmics",
         "DESeq2",
         "clusterProfiler",
         "ReactomePA",
         "enrichplot",
-        "recipes",
         "DOSE",
         "BiocParallel",
         "futile.logger",
@@ -4928,13 +4864,9 @@
     ],
     "PDATK": [
         "CoreGx",
-        "caret",
         "BiocParallel",
         "piano",
-        "survcomp",
-        "genefu",
         "futile.logger",
-        "recipes",
         "fgsea"
     ],
     "PeacoQC": [
@@ -5015,10 +4947,6 @@
     "PhenStat": [
         "logistf",
         "formula.tools"
-    ],
-    "Pi": [
-        "caret",
-        "recipes"
     ],
     "piano": [
         "fgsea",
@@ -5119,9 +5047,7 @@
         "futile.logger"
     ],
     "preciseTAD": [
-        "caret",
         "rCGH",
-        "recipes",
         "TxDb.Hsapiens.UCSC.hg18.knownGene",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "TxDb.Hsapiens.UCSC.hg38.knownGene",
@@ -5569,11 +5495,9 @@
         "minfi",
         "rtracklayer",
         "BiocParallel",
-        "caret",
         "BSgenome",
         "futile.logger",
         "Rsamtools",
-        "recipes",
         "bumphunter",
         "GEOquery",
         "GenomicAlignments",
@@ -5745,17 +5669,14 @@
     "RLSeq": [
         "regioneR",
         "valr",
-        "caretEnsemble",
         "GenomicFeatures",
         "rtracklayer",
         "VennDiagram",
         "aws.s3",
-        "caret",
         "BSgenome",
         "Rsamtools",
         "GenomicAlignments",
         "futile.logger",
-        "recipes",
         "BiocParallel"
     ],
     "RmiR": [
@@ -6008,8 +5929,6 @@
     ],
     "scAnnotatR": [
         "Seurat",
-        "caret",
-        "recipes",
         "spatstat.core",
         "spatstat.geom",
         "spatstat.data",
@@ -6066,8 +5985,6 @@
     ],
     "scClassifR": [
         "Seurat",
-        "caret",
-        "recipes",
         "spatstat.core",
         "spatstat.geom",
         "spatstat.data",
@@ -6113,9 +6030,7 @@
         "futile.logger"
     ],
     "scGPS": [
-        "caret",
         "DESeq2",
-        "recipes",
         "BiocParallel",
         "futile.logger"
     ],
@@ -6854,17 +6769,9 @@
         "BiocParallel",
         "futile.logger"
     ],
-    "SubCellBarCode": [
-        "caret",
-        "recipes"
-    ],
     "SummarizedBenchmark": [
         "BiocParallel",
         "futile.logger"
-    ],
-    "supersigs": [
-        "caret",
-        "recipes"
     ],
     "sva": [
         "BiocParallel",
@@ -6962,12 +6869,10 @@
         "R.oo"
     ],
     "TCGAbiolinksGUI": [
-        "caret",
         "ELMER",
         "clusterProfiler",
         "TCGAbiolinks",
         "sesame",
-        "recipes",
         "DOSE",
         "enrichplot",
         "GenomicFeatures",
@@ -7136,13 +7041,11 @@
         "futile.logger"
     ],
     "transcriptR": [
-        "caret",
         "chipseq",
         "GenomicAlignments",
         "GenomicFeatures",
         "Rsamtools",
         "rtracklayer",
-        "recipes",
         "ShortRead",
         "BiocParallel",
         "futile.logger"
@@ -7244,8 +7147,7 @@
     ],
     "ttgsea": [
         "textstem",
-        "koRpus.lang.en",
-        "textclean"
+        "koRpus.lang.en"
     ],
     "TVTB": [
         "BiocParallel",
@@ -7346,8 +7248,7 @@
         "BiocParallel",
         "futile.logger",
         "textstem",
-        "koRpus.lang.en",
-        "textclean"
+        "koRpus.lang.en"
     ],
     "VanillaICE": [
         "BSgenome.Hsapiens.UCSC.hg18",
@@ -7454,8 +7355,7 @@
     ],
     "vissE": [
         "textstem",
-        "koRpus.lang.en",
-        "textclean"
+        "koRpus.lang.en"
     ],
     "VplotR": [
         "GenomicAlignments",
@@ -7604,9 +7504,6 @@
     ],
     "R.utils": [
         "R.oo"
-    ],
-    "caret": [
-        "recipes"
     ],
     "repmis": [
         "R.cache",
@@ -7914,10 +7811,6 @@
         "BiocParallel",
         "futile.logger"
     ],
-    "ChIC.data": [
-        "caret",
-        "recipes"
-    ],
     "BSgenome.Mmusculus.UCSC.mm9": [
         "BSgenome",
         "rtracklayer",
@@ -7984,8 +7877,6 @@
     "Ecume": [
         "spatstat.geom",
         "spatstat",
-        "caret",
-        "recipes",
         "spatstat.data",
         "spatstat.core",
         "spatstat.linnet",
@@ -8031,8 +7922,7 @@
         "R.oo"
     ],
     "textstem": [
-        "koRpus.lang.en",
-        "textclean"
+        "koRpus.lang.en"
     ],
     "dplR": [
         "R.utils",
@@ -8076,10 +7966,6 @@
     ],
     "reldist": [
         "densEstBayes"
-    ],
-    "adabag": [
-        "caret",
-        "recipes"
     ],
     "agricolae": [
         "klaR",
@@ -8263,10 +8149,6 @@
         "GenomicAlignments",
         "BiocParallel",
         "futile.logger"
-    ],
-    "caretEnsemble": [
-        "caret",
-        "recipes"
     ],
     "TBX20BamSubset": [
         "Rsamtools",
