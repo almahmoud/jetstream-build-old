@@ -1,3 +1,5 @@
+intervals
+Delaporte
 RSVGTipsDevice
 R.utils
 assertive.types
@@ -7,6 +9,14 @@ canceR
 omicRexposome
 BaalChIP
 cn.mops
+dada2
+BindingSiteFinder
+BRGenomics
+compartmap
+CoverageView
+diffloop
+geneXtendeR
+HiTC
 InTAD
 r3Cseq
 RGMQL
@@ -153,4 +163,3 @@ TxDb.Hsapiens.UCSC.hg38.knownGene
 TxDb.Dmelanogaster.UCSC.dm6.ensGene
 systemPipeRdata
 rTRMui
-Rbec

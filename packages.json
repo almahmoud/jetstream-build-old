@@ -1517,9 +1517,6 @@
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "phastCons100way.UCSC.hg19"
     ],
-    "Rbec": [
-        "dada2"
-    ],
     "RCAS": [
         "BSgenome.Hsapiens.UCSC.hg19",
         "genomation"
@@ -1630,8 +1627,7 @@
         "R.utils"
     ],
     "RLSeq": [
-        "regioneR",
-        "valr"
+        "regioneR"
     ],
     "RmiR": [
         "RSVGTipsDevice"
@@ -1846,7 +1842,6 @@
         "DropletUtils",
         "R.utils",
         "scRNAseq",
-        "scDblFinder",
         "multipanelfigure",
         "M3Drop",
         "ensembldb",
