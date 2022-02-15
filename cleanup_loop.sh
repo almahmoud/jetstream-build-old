@@ -39,7 +39,7 @@ touch lists/failed
 touch lists/skipped
 
 
-while (( $(kubectl get pods -n testbuild | grep 'build' | wc -l) > 0 )); do
+while (( $(kubectl get jobs -n testbuild | grep 'build' | wc -l) > 0 )); do
     grep -v "^$" lists/todo > lists/tmpclnlptodocleanup
     while IFS= read -r pkg; do
         dispatch_job
