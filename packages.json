@@ -1,15 +1,10 @@
 {
     "a4": [
-        "a4Base",
-        "annaffy"
-    ],
-    "a4Base": [
-        "annaffy"
+        "a4Base"
     ],
     "abseqR": [
         "VennDiagram",
         "BiocParallel",
-        "plotly",
         "futile.logger"
     ],
     "ACE": [
@@ -102,7 +97,6 @@
     ],
     "AlphaBeta": [
         "BiocParallel",
-        "plotly",
         "futile.logger"
     ],
     "alpine": [
@@ -144,8 +138,6 @@
     "animalcules": [
         "DESeq2",
         "caret",
-        "plotly",
-        "ModelMetrics",
         "recipes",
         "BiocParallel",
         "futile.logger",
@@ -184,9 +176,6 @@
     ],
     "AnVIL": [
         "futile.logger"
-    ],
-    "AnVILBilling": [
-        "plotly"
     ],
     "AnVILPublish": [
         "AnVIL",
@@ -265,7 +254,6 @@
     ],
     "artMS": [
         "MSstats",
-        "plotly",
         "VennDiagram",
         "MSstatsConvert",
         "futile.logger"
@@ -450,7 +438,6 @@
     "BatchQC": [
         "sva",
         "heatmaply",
-        "plotly",
         "BiocParallel",
         "futile.logger"
     ],
@@ -503,10 +490,8 @@
         "Seurat",
         "ffpe",
         "futile.logger",
-        "detectseparation",
         "lumi",
         "methylumi",
-        "plotly",
         "sctransform",
         "spatstat.core",
         "spatstat.geom",
@@ -557,8 +542,7 @@
         "GenomicAlignments"
     ],
     "bigPint": [
-        "Hmisc",
-        "plotly"
+        "Hmisc"
     ],
     "BindingSiteFinder": [
         "rtracklayer",
@@ -578,7 +562,6 @@
         "GOSemSim",
         "BiocParallel",
         "fgsea",
-        "plotly",
         "futile.logger",
         "aplot",
         "ggtree",
@@ -770,7 +753,6 @@
         "BSgenome.Hsapiens.UCSC.hg38",
         "rtracklayer",
         "BSgenome",
-        "ModelMetrics",
         "recipes",
         "Rsamtools",
         "GenomicAlignments",
@@ -1019,7 +1001,6 @@
         "scuttle",
         "BiocNeighbors",
         "BiocSingular",
-        "plotly",
         "sctransform",
         "spatstat.core",
         "spatstat.geom",
@@ -1128,7 +1109,6 @@
         "goseq",
         "missMethyl",
         "bumphunter",
-        "plotly",
         "GenomicFeatures",
         "bsseq",
         "DSS",
@@ -1152,15 +1132,11 @@
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "R.oo"
     ],
-    "CHETAH": [
-        "plotly"
-    ],
     "ChIC": [
         "spp",
         "ChIC.data",
         "caret",
         "Rsamtools",
-        "ModelMetrics",
         "recipes",
         "BiocParallel",
         "futile.logger",
@@ -1317,7 +1293,6 @@
     ],
     "ChromSCape": [
         "rtracklayer",
-        "plotly",
         "batchelor",
         "BiocParallel",
         "Rsamtools",
@@ -1348,7 +1323,6 @@
         "BiocParallel",
         "TFBSTools",
         "Rsamtools",
-        "plotly",
         "BSgenome",
         "futile.logger",
         "rtracklayer",
@@ -1494,7 +1468,6 @@
         "splitstackshape"
     ],
     "CNViz": [
-        "plotly",
         "karyoploteR",
         "CopyNumberPlots",
         "regioneR",
@@ -1648,7 +1621,6 @@
         "spatstat",
         "caret",
         "transport",
-        "ModelMetrics",
         "recipes",
         "spatstat.data",
         "spatstat.core",
@@ -1898,7 +1870,6 @@
         "FlowSOM",
         "multcomp",
         "futile.logger",
-        "ModelMetrics",
         "recipes",
         "CytoML",
         "flowWorkspace",
@@ -1918,7 +1889,6 @@
         "mbest",
         "caret",
         "futile.logger",
-        "ModelMetrics",
         "recipes",
         "bigmemory",
         "ipred",
@@ -1983,7 +1953,6 @@
         "sva",
         "Hmisc",
         "caret",
-        "ModelMetrics",
         "recipes",
         "BiocParallel",
         "ShortRead",
@@ -2044,7 +2013,6 @@
         "clusterProfiler",
         "sva",
         "enrichplot",
-        "plotly",
         "heatmaply",
         "pathview",
         "GOSemSim",
@@ -2141,7 +2109,6 @@
         "Rsamtools",
         "GenomicAlignments",
         "heatmaply",
-        "plotly",
         "BiocParallel",
         "rtracklayer",
         "futile.logger"
@@ -2323,7 +2290,6 @@
         "futile.logger",
         "scuttle",
         "bluster",
-        "plotly",
         "sctransform",
         "spatstat.core",
         "spatstat.geom",
@@ -2334,7 +2300,6 @@
     "DiscoRhythm": [
         "VennDiagram",
         "heatmaply",
-        "plotly",
         "futile.logger"
     ],
     "distinct": [
@@ -2564,7 +2529,6 @@
         "PADOG",
         "GSVA",
         "metap",
-        "plotly",
         "BiocParallel",
         "BiocSingular",
         "mutoss",
@@ -2577,7 +2541,6 @@
         "GenomicFeatures",
         "TCGAbiolinks",
         "Gviz",
-        "plotly",
         "rtracklayer",
         "ensembldb",
         "BSgenome",
@@ -2596,8 +2559,7 @@
         "futile.logger"
     ],
     "EnhancedVolcano": [
-        "ggalt",
-        "plotly"
+        "ggalt"
     ],
     "enhancerHomologSearch": [
         "BSgenome",
@@ -2925,8 +2887,6 @@
     ],
     "famat": [
         "gprofiler2",
-        "rWikiPathways",
-        "plotly",
         "clusterProfiler",
         "DOSE",
         "enrichplot",
@@ -3051,7 +3011,6 @@
     ],
     "flowcatchR": [
         "BiocParallel",
-        "plotly",
         "futile.logger"
     ],
     "flowCut": [
@@ -3112,7 +3071,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "OUTRIDER",
-        "plotly",
         "R.utils",
         "futile.logger",
         "rtracklayer",
@@ -3177,7 +3135,6 @@
         "Hmisc",
         "caret",
         "VennDiagram",
-        "ModelMetrics",
         "recipes",
         "BiocParallel",
         "ShortRead",
@@ -3287,7 +3244,6 @@
     "GeneTonic": [
         "backbone",
         "DESeq2",
-        "plotly",
         "network",
         "BiocParallel",
         "futile.logger"
@@ -3366,7 +3322,6 @@
         "futile.logger"
     ],
     "GenomicSuperSignature": [
-        "plotly",
         "flextable"
     ],
     "genotypeeval": [
@@ -3394,7 +3349,6 @@
         "GeomxTools"
     ],
     "GEOexplorer": [
-        "plotly",
         "heatmaply",
         "shinyHeatmaply",
         "GEOquery",
@@ -3431,8 +3385,7 @@
     "ggmsa": [
         "aplot",
         "ggalt",
-        "ggplotify",
-        "plotly"
+        "ggplotify"
     ],
     "GGPA": [
         "network",
@@ -3558,7 +3511,6 @@
     ],
     "GRmetrics": [
         "drc",
-        "plotly",
         "multcomp"
     ],
     "groHMM": [
@@ -3638,7 +3590,6 @@
     ],
     "GWAS.BAYES": [
         "caret",
-        "ModelMetrics",
         "recipes",
         "ipred",
         "prodlim",
@@ -3675,7 +3626,6 @@
         "WGCNA",
         "gprofiler2",
         "rlist",
-        "plotly",
         "Hmisc"
     ],
     "h5vc": [
@@ -3766,7 +3716,6 @@
     ],
     "HPiP": [
         "caret",
-        "ModelMetrics",
         "recipes",
         "ipred",
         "prodlim",
@@ -3851,7 +3800,6 @@
         "topGO",
         "DESeq2",
         "heatmaply",
-        "plotly",
         "pcaExplorer",
         "goseq",
         "GOstats",
@@ -3909,7 +3857,6 @@
         "R.oo"
     ],
     "ImmuneSpaceR": [
-        "plotly",
         "heatmaply",
         "flowWorkspace",
         "aws.s3"
@@ -3966,9 +3913,6 @@
         "BiocParallel",
         "futile.logger"
     ],
-    "InterCellar": [
-        "plotly"
-    ],
     "IntEREst": [
         "Rsamtools",
         "GenomicFeatures",
@@ -4018,7 +3962,6 @@
         "BiocNeighbors",
         "BiocSingular",
         "bluster",
-        "plotly",
         "sctransform",
         "spatstat.core",
         "spatstat.geom",
@@ -4068,7 +4011,6 @@
     ],
     "ivygapSE": [
         "survminer",
-        "plotly",
         "survMisc"
     ],
     "karyoploteR": [
@@ -4114,7 +4056,6 @@
         "R.utils",
         "sva",
         "Hmisc",
-        "ModelMetrics",
         "recipes",
         "R.oo",
         "BiocParallel",
@@ -4212,7 +4153,6 @@
         "caret",
         "Rsamtools",
         "GenomicAlignments",
-        "ModelMetrics",
         "recipes",
         "BiocParallel",
         "futile.logger",
@@ -4281,7 +4221,6 @@
     "MAI": [
         "caret",
         "tidyverse",
-        "ModelMetrics",
         "recipes",
         "dtplyr",
         "ipred",
@@ -4291,7 +4230,6 @@
     "maPredictDSC": [
         "caret",
         "hgu133plus2.db",
-        "ModelMetrics",
         "recipes",
         "ipred",
         "prodlim",
@@ -4312,7 +4250,6 @@
         "futile.logger"
     ],
     "MatrixQCvis": [
-        "plotly",
         "Hmisc"
     ],
     "MatrixRider": [
@@ -4462,7 +4399,6 @@
     ],
     "metabCombiner": [
         "caret",
-        "ModelMetrics",
         "recipes",
         "ipred",
         "prodlim",
@@ -4532,7 +4468,6 @@
         "bsseq",
         "ShortRead",
         "aroma.light",
-        "plotly",
         "prodlim",
         "ipred",
         "R.oo",
@@ -4556,7 +4491,6 @@
         "futile.logger"
     ],
     "MetaVolcanoR": [
-        "plotly",
         "metap",
         "mutoss",
         "multcomp"
@@ -4794,7 +4728,6 @@
     "microbiomeExplorer": [
         "DESeq2",
         "heatmaply",
-        "plotly",
         "BiocParallel",
         "futile.logger"
     ],
@@ -4809,7 +4742,6 @@
         "ALDEx2",
         "BiocParallel",
         "microbiome",
-        "ModelMetrics",
         "recipes",
         "multcomp",
         "aplot",
@@ -4988,7 +4920,6 @@
         "caret",
         "rlist",
         "R.utils",
-        "ModelMetrics",
         "recipes",
         "R.oo",
         "ipred",
@@ -5014,7 +4945,6 @@
         "caret",
         "VennDiagram",
         "DESeq2",
-        "ModelMetrics",
         "recipes",
         "BiocParallel",
         "futile.logger",
@@ -5192,8 +5122,7 @@
     "msqrob2": [
         "QFeatures",
         "BiocParallel",
-        "futile.logger",
-        "plotly"
+        "futile.logger"
     ],
     "MSstats": [
         "MSstatsConvert"
@@ -5216,7 +5145,6 @@
         "caret",
         "MSstats",
         "futile.logger",
-        "ModelMetrics",
         "recipes",
         "MSstatsConvert",
         "ipred",
@@ -5287,11 +5215,9 @@
         "mixOmics",
         "DESeq2",
         "clusterProfiler",
-        "rWikiPathways",
         "ReactomePA",
         "enrichplot",
         "metap",
-        "ModelMetrics",
         "recipes",
         "DOSE",
         "GOSemSim",
@@ -5354,7 +5280,6 @@
         "BSgenome.Mmusculus.UCSC.mm10",
         "deconstructSigs",
         "decompTumor2Sig",
-        "plotly",
         "maftools",
         "TCGAbiolinks",
         "rtracklayer",
@@ -5464,7 +5389,6 @@
     ],
     "Nebulosa": [
         "Seurat",
-        "plotly",
         "sctransform",
         "spatstat.core",
         "spatstat.geom",
@@ -5502,8 +5426,7 @@
         "network"
     ],
     "netOmics": [
-        "gprofiler2",
-        "plotly"
+        "gprofiler2"
     ],
     "NetSAM": [
         "WGCNA",
@@ -5525,11 +5448,7 @@
         "BiocParallel",
         "futile.logger"
     ],
-    "ngsReports": [
-        "plotly"
-    ],
     "NoRCE": [
-        "rWikiPathways",
         "rtracklayer",
         "GenomicFeatures",
         "Rsamtools",
@@ -5574,7 +5493,6 @@
         "NxtIRFdata",
         "BiocParallel",
         "BSgenome",
-        "plotly",
         "R.utils",
         "rtracklayer",
         "futile.logger",
@@ -5634,9 +5552,6 @@
         "GenomicAlignments",
         "BiocParallel",
         "futile.logger"
-    ],
-    "oneSENSE": [
-        "plotly"
     ],
     "openCyto": [
         "flowWorkspace",
@@ -5707,7 +5622,6 @@
         "homologene",
         "gprofiler2",
         "repmis",
-        "plotly",
         "R.utils",
         "R.cache",
         "R.oo"
@@ -5728,7 +5642,6 @@
         "GenomicFeatures",
         "DESeq2",
         "heatmaply",
-        "plotly",
         "futile.logger",
         "rtracklayer",
         "Rsamtools",
@@ -5792,7 +5705,6 @@
     "PathoStat": [
         "phyloseq",
         "DESeq2",
-        "plotly",
         "BiocParallel",
         "futile.logger"
     ],
@@ -5803,7 +5715,6 @@
     "pcaExplorer": [
         "DESeq2",
         "heatmaply",
-        "plotly",
         "topGO",
         "GOstats",
         "BiocParallel",
@@ -5828,7 +5739,6 @@
         "survcomp",
         "genefu",
         "futile.logger",
-        "ModelMetrics",
         "recipes",
         "fgsea",
         "prodlim",
@@ -5915,7 +5825,6 @@
         "destiny",
         "Seurat",
         "VIM",
-        "plotly",
         "sctransform",
         "spatstat.core",
         "spatstat.geom",
@@ -5947,7 +5856,6 @@
     "Pi": [
         "caret",
         "ggnetwork",
-        "ModelMetrics",
         "recipes",
         "network",
         "sna",
@@ -6008,7 +5916,6 @@
         "BiocNeighbors",
         "BiocSingular",
         "bluster",
-        "plotly",
         "sctransform",
         "spatstat.core",
         "spatstat.geom",
@@ -6080,7 +5987,6 @@
         "futile.logger"
     ],
     "preciseTAD": [
-        "ModelMetrics",
         "caret",
         "rCGH",
         "recipes",
@@ -6263,9 +6169,6 @@
         "BiocParallel",
         "futile.logger"
     ],
-    "QFeatures": [
-        "plotly"
-    ],
     "qpgraph": [
         "BiocParallel",
         "GenomicFeatures",
@@ -6288,7 +6191,6 @@
         "futile.logger"
     ],
     "qsea": [
-        "HMMcopy",
         "rtracklayer",
         "BSgenome",
         "Rsamtools",
@@ -6406,7 +6308,6 @@
         "futile.logger"
     ],
     "RCAS": [
-        "plotly",
         "BSgenome",
         "BSgenome.Hsapiens.UCSC.hg19",
         "rtracklayer",
@@ -6460,8 +6361,7 @@
         "R.oo"
     ],
     "ReactomeGraph4R": [
-        "neo4r",
-        "ReactomeContentService4R"
+        "neo4r"
     ],
     "ReactomePA": [
         "DOSE",
@@ -6596,7 +6496,6 @@
         "BSgenome",
         "futile.logger",
         "Rsamtools",
-        "ModelMetrics",
         "recipes",
         "bumphunter",
         "GEOquery",
@@ -6692,7 +6591,6 @@
         "ORFik",
         "BiocParallel",
         "GenomicFeatures",
-        "plotly",
         "futile.logger",
         "rtracklayer",
         "GenomicAlignments",
@@ -6793,7 +6691,6 @@
         "Rsamtools",
         "GenomicAlignments",
         "futile.logger",
-        "ModelMetrics",
         "recipes",
         "BiocParallel",
         "ipred",
@@ -7054,9 +6951,6 @@
         "GenomicAlignments",
         "futile.logger"
     ],
-    "sangeranalyseR": [
-        "plotly"
-    ],
     "satuRn": [
         "BiocParallel",
         "futile.logger"
@@ -7066,7 +6960,6 @@
     ],
     "scAlign": [
         "Seurat",
-        "plotly",
         "sctransform",
         "spatstat.core",
         "spatstat.geom",
@@ -7089,7 +6982,6 @@
         "BiocParallel",
         "ensembldb",
         "GenomicFeatures",
-        "plotly",
         "rtracklayer",
         "scanMiR",
         "scanMiRData",
@@ -7100,9 +6992,7 @@
     "scAnnotatR": [
         "Seurat",
         "caret",
-        "ModelMetrics",
         "recipes",
-        "plotly",
         "sctransform",
         "spatstat.core",
         "spatstat.geom",
@@ -7143,7 +7033,6 @@
         "zinbwave",
         "DESeq2",
         "BiocParallel",
-        "plotly",
         "sctransform",
         "spatstat.core",
         "spatstat.geom",
@@ -7157,7 +7046,6 @@
         "BiocParallel",
         "R.utils",
         "scuttle",
-        "plotly",
         "sctransform",
         "spatstat.core",
         "spatstat.geom",
@@ -7169,9 +7057,7 @@
     "scClassifR": [
         "Seurat",
         "caret",
-        "ModelMetrics",
         "recipes",
-        "plotly",
         "sctransform",
         "spatstat.core",
         "spatstat.geom",
@@ -7188,7 +7074,6 @@
     ],
     "scDataviz": [
         "Seurat",
-        "plotly",
         "sctransform",
         "spatstat.core",
         "spatstat.geom",
@@ -7229,7 +7114,6 @@
     "scGPS": [
         "caret",
         "DESeq2",
-        "ModelMetrics",
         "recipes",
         "BiocParallel",
         "futile.logger",
@@ -7239,7 +7123,6 @@
     ],
     "schex": [
         "Seurat",
-        "plotly",
         "sctransform",
         "spatstat.core",
         "spatstat.geom",
@@ -7255,7 +7138,6 @@
     ],
     "scMAGeCK": [
         "Seurat",
-        "plotly",
         "sctransform",
         "spatstat.core",
         "spatstat.geom",
@@ -7324,8 +7206,7 @@
         "GenomicAlignments"
     ],
     "scp": [
-        "QFeatures",
-        "plotly"
+        "QFeatures"
     ],
     "scPCA": [
         "BiocParallel",
@@ -7382,7 +7263,6 @@
         "futile.logger"
     ],
     "scTensor": [
-        "plotly",
         "heatmaply",
         "GOstats",
         "ReactomePA",
@@ -7406,7 +7286,6 @@
         "spatstat.sparse"
     ],
     "scTGIF": [
-        "plotly",
         "schex",
         "Seurat",
         "sctransform",
@@ -7434,7 +7313,6 @@
         "BiocSingular",
         "BiocParallel",
         "bluster",
-        "plotly",
         "sctransform",
         "spatstat.core",
         "spatstat.geom",
@@ -7547,7 +7425,6 @@
     "shinyepico": [
         "heatmaply",
         "minfi",
-        "plotly",
         "rtracklayer",
         "bumphunter",
         "GEOquery",
@@ -7656,7 +7533,6 @@
         "GSVA",
         "GSVAdata",
         "MAST",
-        "plotly",
         "scater",
         "scMerge",
         "scran",
@@ -7724,7 +7600,6 @@
         "futile.logger"
     ],
     "singscore": [
-        "plotly",
         "BiocParallel",
         "futile.logger"
     ],
@@ -7840,7 +7715,6 @@
         "BiocNeighbors",
         "BiocSingular",
         "bluster",
-        "plotly",
         "sctransform",
         "spatstat.core",
         "spatstat.geom",
@@ -7851,7 +7725,6 @@
     ],
     "sparrow": [
         "BiocParallel",
-        "plotly",
         "futile.logger"
     ],
     "SparseSignatures": [
@@ -7893,7 +7766,6 @@
         "distinct",
         "WGCNA",
         "ggplotify",
-        "plotly",
         "BiocParallel",
         "scater",
         "Hmisc",
@@ -8088,7 +7960,6 @@
     ],
     "SubCellBarCode": [
         "caret",
-        "ModelMetrics",
         "recipes",
         "ipred",
         "prodlim",
@@ -8100,7 +7971,6 @@
     ],
     "supersigs": [
         "caret",
-        "ModelMetrics",
         "recipes",
         "ipred",
         "prodlim",
@@ -8148,7 +8018,6 @@
     "synergyfinder": [
         "drc",
         "tidyverse",
-        "plotly",
         "metR",
         "multcomp",
         "formula.tools",
@@ -8162,7 +8031,6 @@
         "futile.logger"
     ],
     "systemPipeShiny": [
-        "plotly",
         "styler",
         "R.cache",
         "R.oo",
@@ -8171,7 +8039,6 @@
     "systemPipeTools": [
         "DESeq2",
         "ggtree",
-        "plotly",
         "BiocParallel",
         "aplot",
         "tidytree",
@@ -8219,8 +8086,7 @@
         "BiocParallel",
         "sva",
         "futile.logger",
-        "BiocSingular",
-        "plotly"
+        "BiocSingular"
     ],
     "TCC": [
         "DESeq2",
@@ -8232,7 +8098,6 @@
         "R.oo"
     ],
     "TCGAbiolinksGUI": [
-        "plotly",
         "maftools",
         "caret",
         "pathview",
@@ -8240,7 +8105,6 @@
         "clusterProfiler",
         "TCGAbiolinks",
         "sesame",
-        "ModelMetrics",
         "recipes",
         "DOSE",
         "enrichplot",
@@ -8321,12 +8185,6 @@
         "BiocParallel",
         "futile.logger"
     ],
-    "tidySingleCellExperiment": [
-        "plotly"
-    ],
-    "tidySummarizedExperiment": [
-        "plotly"
-    ],
     "timeOmics": [
         "mixOmics",
         "BiocParallel",
@@ -8340,7 +8198,6 @@
     ],
     "TimiRGeN": [
         "clusterProfiler",
-        "rWikiPathways",
         "DOSE",
         "enrichplot",
         "GOSemSim",
@@ -8449,7 +8306,6 @@
         "GenomicFeatures",
         "Rsamtools",
         "rtracklayer",
-        "ModelMetrics",
         "recipes",
         "ShortRead",
         "BiocParallel",
@@ -8548,9 +8404,6 @@
         "sva",
         "BiocParallel",
         "futile.logger"
-    ],
-    "tripr": [
-        "plotly"
     ],
     "tRNAscanImport": [
         "rtracklayer",
@@ -8798,7 +8651,6 @@
         "fgsea",
         "GOSemSim",
         "heatmaply",
-        "plotly",
         "topGO",
         "R.utils",
         "BiocParallel",
@@ -8883,9 +8735,6 @@
         "GenomicAlignments",
         "futile.logger"
     ],
-    "webbioc": [
-        "annaffy"
-    ],
     "weitrix": [
         "BiocParallel",
         "futile.logger"
@@ -8969,7 +8818,6 @@
         "R.oo"
     ],
     "caret": [
-        "ModelMetrics",
         "recipes",
         "ipred",
         "prodlim",
@@ -9158,15 +9006,10 @@
         "GenomicAlignments",
         "futile.logger"
     ],
-    "heatmaply": [
-        "plotly"
-    ],
     "corncob": [
-        "detectseparation",
         "phyloseq"
     ],
     "Seurat": [
-        "plotly",
         "sctransform",
         "spatstat.core",
         "spatstat.geom",
@@ -9193,9 +9036,6 @@
         "R.oo",
         "Rsamtools",
         "GenomicAlignments"
-    ],
-    "radiant.data": [
-        "plotly"
     ],
     "cgdsr": [
         "R.oo"
@@ -9338,7 +9178,6 @@
     ],
     "ChIC.data": [
         "caret",
-        "ModelMetrics",
         "recipes",
         "ipred",
         "prodlim",
@@ -9418,7 +9257,6 @@
         "spatstat",
         "caret",
         "transport",
-        "ModelMetrics",
         "recipes",
         "spatstat.data",
         "spatstat.core",
@@ -9517,14 +9355,8 @@
     "coin": [
         "multcomp"
     ],
-    "ggalt": [
-        "plotly"
-    ],
     "survivalsvm": [
         "Hmisc"
-    ],
-    "gprofiler2": [
-        "plotly"
     ],
     "RecordLinkage": [
         "ipred",
@@ -9553,8 +9385,7 @@
         "network"
     ],
     "shinyHeatmaply": [
-        "heatmaply",
-        "plotly"
+        "heatmaply"
     ],
     "HH": [
         "multcomp",
@@ -9596,7 +9427,6 @@
     ],
     "adabag": [
         "caret",
-        "ModelMetrics",
         "recipes",
         "ipred",
         "prodlim",
@@ -9790,7 +9620,6 @@
     ],
     "caretEnsemble": [
         "caret",
-        "ModelMetrics",
         "recipes",
         "ipred",
         "prodlim",
