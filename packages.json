@@ -163,8 +163,7 @@
         "aroma.light"
     ],
     "dasper": [
-        "megadepth",
-        "cmdfun"
+        "megadepth"
     ],
     "deconvR": [
         "methylKit"
@@ -272,9 +271,6 @@
         "EDASeq",
         "aroma.light"
     ],
-    "GCSscore": [
-        "dplR"
-    ],
     "GeneBreak": [
         "QDNAseq"
     ],
@@ -318,9 +314,6 @@
     ],
     "InPAS": [
         "cleanUpdTSeq"
-    ],
-    "IntramiRExploreR": [
-        "FGNet"
     ],
     "IRISFGM": [
         "Seurat",
@@ -380,12 +373,6 @@
         "lumi",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "FDb.InfiniumMethylation.hg19"
-    ],
-    "megadepth": [
-        "cmdfun"
-    ],
-    "memes": [
-        "cmdfun"
     ],
     "MetaCyto": [
         "FlowSOM",
@@ -519,8 +506,7 @@
     ],
     "ODER": [
         "dasper",
-        "megadepth",
-        "cmdfun"
+        "megadepth"
     ],
     "ORFik": [
         "biomartr"

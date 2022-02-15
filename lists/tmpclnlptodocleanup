@@ -89,12 +89,9 @@ cTRAP
 ddPCRclust
 decompTumor2Sig
 DeepBlueR
-DEGraph
 DEWSeq
 DropletUtils
 eegc
-eudysbiome
-FGNet
 FRASER
 GeneStructureTools
 GEOquery
@@ -155,8 +152,6 @@ assertive.code
 spatstat.core
 Mus.musculus
 multipanelfigure
-cmdfun
-dplR
 R.matlab
 deconstructSigs
 NxtIRFdata
@@ -164,3 +159,7 @@ biomartr
 homologene
 R.devices
 R.huge
+IntramiRExploreR
+GCSscore
+megadepth
+memes
