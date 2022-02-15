@@ -102,7 +102,6 @@
         "futile.logger",
         "biomaRt",
         "data.table",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -140,7 +139,6 @@
         "futile.logger",
         "biomaRt",
         "data.table",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -176,7 +174,6 @@
         "ensembldb",
         "biovizBase",
         "futile.logger",
-        "BiocFileCache",
         "Hmisc",
         "lambda.r",
         "futile.options",
@@ -198,7 +195,6 @@
         "rtracklayer",
         "biomaRt",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -213,7 +209,6 @@
         "futile.options"
     ],
     "AMARETTO": [
-        "BiocFileCache",
         "MultiAssayExperiment",
         "curatedTCGAData",
         "AnnotationHub",
@@ -286,9 +281,6 @@
         "lambda.r",
         "futile.options"
     ],
-    "AnnotationHub": [
-        "BiocFileCache"
-    ],
     "AnnotationHubData": [
         "AnnotationHub",
         "GenomicFeatures",
@@ -297,7 +289,6 @@
         "BiocCheck",
         "OrganismDbi",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options",
         "biomaRt",
@@ -309,7 +300,6 @@
         "GenomicFeatures",
         "regioneR",
         "rtracklayer",
-        "BiocFileCache",
         "biomaRt",
         "BSgenome",
         "Rsamtools",
@@ -360,7 +350,6 @@
         "R.cache",
         "BSgenome",
         "futile.logger",
-        "BiocFileCache",
         "R.methodsS3",
         "R.oo",
         "R.utils",
@@ -390,7 +379,6 @@
         "GenomicScores",
         "rtracklayer",
         "biomaRt",
-        "BiocFileCache",
         "AnnotationHub",
         "OrganismDbi",
         "GO.db",
@@ -415,7 +403,6 @@
         "Hmisc",
         "ShortRead",
         "biomaRt",
-        "BiocFileCache",
         "data.table",
         "BiocParallel",
         "GenomicAlignments",
@@ -432,7 +419,6 @@
         "FDb.InfiniumMethylation.hg19",
         "minfi",
         "genefilter",
-        "BiocFileCache",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "org.Hs.eg.db",
         "bumphunter",
@@ -485,7 +471,6 @@
         "fgsea",
         "rtracklayer",
         "futile.logger",
-        "BiocFileCache",
         "data.table",
         "ensembldb",
         "BSgenome",
@@ -511,7 +496,6 @@
         "BSgenome",
         "biovizBase",
         "futile.logger",
-        "BiocFileCache",
         "Hmisc",
         "VariantAnnotation",
         "lambda.r",
@@ -538,7 +522,6 @@
         "biomaRt",
         "regioneR",
         "BiocParallel",
-        "BiocFileCache",
         "AnnotationHub",
         "futile.logger",
         "lambda.r",
@@ -554,7 +537,6 @@
     ],
     "atSNP": [
         "BSgenome",
-        "BiocFileCache",
         "BiocParallel",
         "data.table",
         "futile.logger",
@@ -582,7 +564,6 @@
     ],
     "autonomics": [
         "assertive",
-        "BiocFileCache",
         "data.table",
         "MultiAssayExperiment",
         "R.utils",
@@ -627,7 +608,6 @@
         "VariantAnnotation",
         "Rsamtools",
         "biomaRt",
-        "BiocFileCache",
         "BiocParallel",
         "rtracklayer",
         "BSgenome",
@@ -658,7 +638,6 @@
         "futile.logger",
         "rtracklayer",
         "biomaRt",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -734,7 +713,6 @@
         "sva",
         "heatmaply",
         "plotly",
-        "dendextend",
         "genefilter",
         "BiocParallel",
         "futile.logger",
@@ -746,7 +724,6 @@
         "scater",
         "scran",
         "xgboost",
-        "BiocFileCache",
         "BiocSingular",
         "BiocParallel",
         "scuttle",
@@ -773,7 +750,6 @@
         "futile.logger",
         "biomaRt",
         "GenomicAlignments",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -835,7 +811,6 @@
         "biomaRt",
         "bumphunter",
         "GEOquery",
-        "BiocFileCache",
         "R.utils",
         "Rsamtools",
         "GenomicAlignments",
@@ -847,7 +822,6 @@
         "rtracklayer",
         "biomaRt",
         "data.table",
-        "BiocFileCache",
         "Rsamtools",
         "GenomicAlignments",
         "BiocParallel",
@@ -887,7 +861,6 @@
         "biomaRt",
         "R.oo",
         "R.methodsS3",
-        "BiocFileCache",
         "lambda.r",
         "futile.options",
         "Rsamtools",
@@ -971,7 +944,6 @@
         "rtracklayer",
         "biomaRt",
         "rstatix",
-        "BiocFileCache",
         "nloptr",
         "broom",
         "Rsamtools",
@@ -993,9 +965,6 @@
         "lambda.r",
         "futile.options"
     ],
-    "BiocPkgTools": [
-        "BiocFileCache"
-    ],
     "BiocSingular": [
         "BiocParallel",
         "futile.logger",
@@ -1014,31 +983,20 @@
         "R.oo",
         "R.utils"
     ],
-    "biodb": [
-        "BiocFileCache"
-    ],
     "biodbChebi": [
-        "biodb",
-        "BiocFileCache"
+        "biodb"
     ],
     "biodbHmdb": [
-        "biodb",
-        "BiocFileCache"
+        "biodb"
     ],
     "biodbKegg": [
-        "biodb",
-        "BiocFileCache"
+        "biodb"
     ],
     "biodbLipidmaps": [
-        "biodb",
-        "BiocFileCache"
+        "biodb"
     ],
     "biodbUniprot": [
-        "biodb",
-        "BiocFileCache"
-    ],
-    "biomaRt": [
-        "BiocFileCache"
+        "biodb"
     ],
     "BioMM": [
         "BiocParallel",
@@ -1064,7 +1022,6 @@
         "biovizBase",
         "Rsamtools",
         "GenomicAlignments",
-        "BiocFileCache",
         "Hmisc",
         "VariantAnnotation",
         "BiocParallel",
@@ -1110,7 +1067,6 @@
         "futile.options"
     ],
     "BioPlex": [
-        "BiocFileCache",
         "GEOquery",
         "data.table",
         "R.utils",
@@ -1150,7 +1106,6 @@
         "data.table",
         "BSgenome",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -1184,7 +1139,6 @@
         "R.oo",
         "R.methodsS3",
         "GenomicAlignments",
-        "BiocFileCache",
         "regioneR",
         "lambda.r",
         "futile.options",
@@ -1215,8 +1169,7 @@
     ],
     "BloodGen3Module": [
         "ExperimentHub",
-        "AnnotationHub",
-        "BiocFileCache"
+        "AnnotationHub"
     ],
     "bluster": [
         "BiocParallel",
@@ -1266,7 +1219,6 @@
         "ggbio",
         "AnnotationHub",
         "org.Hs.eg.db",
-        "BiocFileCache",
         "futile.logger",
         "biomaRt",
         "VariantAnnotation",
@@ -1280,8 +1232,7 @@
     ],
     "BrainSABER": [
         "biomaRt",
-        "data.table",
-        "BiocFileCache"
+        "data.table"
     ],
     "branchpointer": [
         "caret",
@@ -1289,7 +1240,6 @@
         "BSgenome.Hsapiens.UCSC.hg38",
         "rtracklayer",
         "data.table",
-        "BiocFileCache",
         "BSgenome",
         "ModelMetrics",
         "recipes",
@@ -1314,7 +1264,6 @@
     ],
     "brendaDb": [
         "BiocParallel",
-        "BiocFileCache",
         "futile.logger",
         "lambda.r",
         "futile.options"
@@ -1368,12 +1317,8 @@
         "data.table",
         "BSgenome",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
-    ],
-    "bugsigdbr": [
-        "BiocFileCache"
     ],
     "BUMHMM": [
         "devtools"
@@ -1382,7 +1327,6 @@
         "GenomicFeatures",
         "rtracklayer",
         "biomaRt",
-        "BiocFileCache",
         "Rsamtools",
         "GenomicAlignments",
         "BiocParallel",
@@ -1396,7 +1340,6 @@
         "ensembldb",
         "GenomicFeatures",
         "plyranges",
-        "BiocFileCache",
         "rtracklayer",
         "Rsamtools",
         "GenomicAlignments",
@@ -1422,7 +1365,6 @@
         "biomaRt",
         "data.table",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -1442,7 +1384,6 @@
         "ensembldb",
         "BSgenome",
         "biovizBase",
-        "BiocFileCache",
         "Hmisc",
         "lambda.r",
         "futile.options"
@@ -1477,7 +1418,6 @@
         "rstatix",
         "data.table",
         "GO.db",
-        "BiocFileCache",
         "lambda.r",
         "futile.options",
         "statnet.common",
@@ -1512,7 +1452,6 @@
         "biomaRt",
         "genefilter",
         "hgu133a.db",
-        "BiocFileCache",
         "org.Hs.eg.db",
         "data.table"
     ],
@@ -1531,7 +1470,6 @@
         "BiocParallel",
         "GenomicAlignments",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -1585,7 +1523,6 @@
         "GO.db"
     ],
     "cbaf": [
-        "BiocFileCache",
         "cgdsr",
         "genefilter",
         "R.oo",
@@ -1594,7 +1531,6 @@
     "cBioPortalData": [
         "AnVIL",
         "MultiAssayExperiment",
-        "BiocFileCache",
         "RTCGAToolbox",
         "TCGAutils",
         "futile.logger",
@@ -1668,7 +1604,6 @@
         "futile.options"
     ],
     "CellBench": [
-        "BiocFileCache",
         "BiocParallel",
         "futile.logger",
         "lambda.r",
@@ -1727,9 +1662,6 @@
         "BiocSingular",
         "lambda.r",
         "futile.options"
-    ],
-    "CellTrails": [
-        "dendextend"
     ],
     "cellTree": [
         "topGO",
@@ -1891,7 +1823,6 @@
         "isva",
         "bumphunter",
         "plotly",
-        "dendextend",
         "GenomicFeatures",
         "ExperimentHub",
         "bsseq",
@@ -1911,7 +1842,6 @@
         "R.utils",
         "BSgenome",
         "AnnotationHub",
-        "BiocFileCache",
         "rtracklayer",
         "biomaRt",
         "ensembldb",
@@ -1928,7 +1858,6 @@
     ],
     "CHETAH": [
         "plotly",
-        "dendextend",
         "data.table"
     ],
     "ChIC": [
@@ -1967,7 +1896,6 @@
         "BSgenome",
         "biovizBase",
         "futile.logger",
-        "BiocFileCache",
         "Hmisc",
         "VariantAnnotation",
         "lambda.r",
@@ -2031,8 +1959,7 @@
         "lambda.r",
         "futile.options",
         "biomaRt",
-        "BSgenome",
-        "BiocFileCache"
+        "BSgenome"
     ],
     "ChIPpeakAnno": [
         "ensembldb",
@@ -2043,7 +1970,6 @@
         "biomaRt",
         "regioneR",
         "rtracklayer",
-        "BiocFileCache",
         "BiocParallel",
         "BSgenome",
         "futile.logger",
@@ -2072,7 +1998,6 @@
         "GreyListChIP",
         "rtracklayer",
         "biomaRt",
-        "BiocFileCache",
         "genefilter",
         "geneplotter",
         "lambda.r",
@@ -2095,7 +2020,6 @@
         "Rsamtools",
         "GenomicAlignments",
         "ggplotify",
-        "BiocFileCache",
         "BiocParallel",
         "DO.db",
         "fgsea",
@@ -2158,8 +2082,7 @@
         "futile.options"
     ],
     "chromPlot": [
-        "biomaRt",
-        "BiocFileCache"
+        "biomaRt"
     ],
     "ChromSCape": [
         "rtracklayer",
@@ -2170,7 +2093,6 @@
         "scran",
         "scater",
         "rlist",
-        "msigdbr",
         "Sushi",
         "BiocNeighbors",
         "BiocSingular",
@@ -2180,7 +2102,6 @@
         "GenomicAlignments",
         "bluster",
         "biomaRt",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -2220,8 +2141,7 @@
         "R.methodsS3"
     ],
     "CHRONOS": [
-        "biomaRt",
-        "BiocFileCache"
+        "biomaRt"
     ],
     "cicero": [
         "monocle",
@@ -2235,7 +2155,6 @@
         "biovizBase",
         "Rsamtools",
         "GenomicAlignments",
-        "BiocFileCache",
         "Hmisc",
         "VariantAnnotation",
         "BiocParallel",
@@ -2257,7 +2176,6 @@
         "BSgenome.Hsapiens.UCSC.hg19",
         "gwascat",
         "BSgenome",
-        "BiocFileCache",
         "Rsamtools",
         "BiocParallel",
         "genefilter",
@@ -2304,14 +2222,12 @@
         "futile.options"
     ],
     "clipper": [
-        "gRbase",
         "qpgraph",
         "BiocParallel",
         "GenomicFeatures",
         "futile.logger",
         "rtracklayer",
         "biomaRt",
-        "BiocFileCache",
         "lambda.r",
         "futile.options",
         "Rsamtools",
@@ -2333,7 +2249,6 @@
         "phylobase",
         "mbkmeans",
         "BiocParallel",
-        "benchmarkme",
         "RNeXML",
         "genefilter",
         "futile.logger",
@@ -2427,7 +2342,6 @@
         "ensembldb",
         "exomeCopy",
         "biomaRt",
-        "BiocFileCache",
         "lambda.r",
         "futile.options",
         "data.table"
@@ -2459,7 +2373,6 @@
         "BSgenome",
         "BiocParallel",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -2488,7 +2401,6 @@
         "futile.logger",
         "biomaRt",
         "GenomicAlignments",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -2543,7 +2455,6 @@
         "TxDb.Mmusculus.UCSC.mm9.knownGene",
         "rtracklayer",
         "biomaRt",
-        "BiocFileCache",
         "Rsamtools",
         "GenomicAlignments",
         "BiocParallel",
@@ -2559,7 +2470,6 @@
         "biomaRt",
         "Gviz",
         "rtracklayer",
-        "BiocFileCache",
         "GenomicFeatures",
         "ensembldb",
         "BSgenome",
@@ -2600,7 +2510,6 @@
         "data.table",
         "BiocParallel",
         "futile.logger",
-        "BiocFileCache",
         "ensembldb",
         "BSgenome",
         "biovizBase",
@@ -2620,7 +2529,6 @@
     ],
     "conclus": [
         "factoextra",
-        "BiocFileCache",
         "biomaRt",
         "scran",
         "scater",
@@ -2631,7 +2539,6 @@
         "GO.db",
         "GOSemSim",
         "yulab.utils",
-        "dendextend",
         "FactoMineR",
         "ggpubr",
         "data.table",
@@ -2703,7 +2610,6 @@
     "consensusDE": [
         "BiocParallel",
         "data.table",
-        "dendextend",
         "DESeq2",
         "EDASeq",
         "ensembldb",
@@ -2724,7 +2630,6 @@
         "R.methodsS3",
         "R.oo",
         "R.utils",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -2737,7 +2642,6 @@
         "BiocParallel",
         "BiocSingular",
         "futile.logger",
-        "BiocFileCache",
         "prodlim",
         "ipred",
         "lambda.r",
@@ -2768,8 +2672,7 @@
         "futile.options",
         "BSgenome",
         "GenomicFeatures",
-        "biomaRt",
-        "BiocFileCache"
+        "biomaRt"
     ],
     "conumee": [
         "minfi",
@@ -2792,8 +2695,7 @@
         "futile.options",
         "biomaRt",
         "R.oo",
-        "R.methodsS3",
-        "BiocFileCache"
+        "R.methodsS3"
     ],
     "CopyNumberPlots": [
         "karyoploteR",
@@ -2812,7 +2714,6 @@
         "GenomicAlignments",
         "ensembldb",
         "biomaRt",
-        "BiocFileCache",
         "lambda.r",
         "futile.options",
         "data.table"
@@ -2860,8 +2761,7 @@
         "biomaRt",
         "CARNIVAL",
         "GSEABase",
-        "org.Hs.eg.db",
-        "BiocFileCache"
+        "org.Hs.eg.db"
     ],
     "countsimQC": [
         "DESeq2",
@@ -2891,7 +2791,6 @@
         "futile.logger",
         "rtracklayer",
         "biomaRt",
-        "BiocFileCache",
         "lambda.r",
         "futile.options",
         "Rsamtools",
@@ -2923,7 +2822,6 @@
         "ChIPpeakAnno",
         "GenomicAlignments",
         "futile.logger",
-        "BiocFileCache",
         "ensembldb",
         "VennDiagram",
         "regioneR",
@@ -2975,12 +2873,8 @@
         "BiocParallel",
         "biomaRt",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
-    ],
-    "CTDquerier": [
-        "BiocFileCache"
     ],
     "ctgGEM": [
         "monocle",
@@ -2994,7 +2888,6 @@
         "fgsea",
         "highcharter",
         "R.utils",
-        "BiocFileCache",
         "BiocParallel",
         "rlist",
         "broom",
@@ -3014,7 +2907,6 @@
         "biovizBase",
         "Rsamtools",
         "GenomicAlignments",
-        "BiocFileCache",
         "Hmisc",
         "VariantAnnotation",
         "BiocParallel",
@@ -3024,8 +2916,7 @@
         "futile.options"
     ],
     "customCMPdb": [
-        "AnnotationHub",
-        "BiocFileCache"
+        "AnnotationHub"
     ],
     "customProDB": [
         "biomaRt",
@@ -3034,7 +2925,6 @@
         "GenomicFeatures",
         "VariantAnnotation",
         "rtracklayer",
-        "BiocFileCache",
         "BiocParallel",
         "BSgenome",
         "futile.logger",
@@ -3083,7 +2973,6 @@
         "futile.logger",
         "ModelMetrics",
         "recipes",
-        "dendextend",
         "FactoMineR",
         "ggpubr",
         "CytoML",
@@ -3126,7 +3015,6 @@
         "futile.logger",
         "ModelMetrics",
         "recipes",
-        "dendextend",
         "FactoMineR",
         "ggpubr",
         "bigmemory",
@@ -3227,8 +3115,7 @@
     ],
     "dagLogo": [
         "UniProt.ws",
-        "biomaRt",
-        "BiocFileCache"
+        "biomaRt"
     ],
     "DAMEfinder": [
         "GenomicAlignments",
@@ -3241,7 +3128,6 @@
         "BSgenome",
         "futile.logger",
         "biomaRt",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -3270,7 +3156,6 @@
         "R.oo",
         "R.utils",
         "futile.logger",
-        "BiocFileCache",
         "pbkrtest",
         "rtracklayer",
         "nloptr",
@@ -3285,7 +3170,6 @@
     ],
     "dasper": [
         "basilisk",
-        "BiocFileCache",
         "BiocParallel",
         "data.table",
         "GenomicFeatures",
@@ -3384,7 +3268,6 @@
         "ggraph",
         "scatterpie",
         "ggtree",
-        "dendextend",
         "data.table",
         "ggplotify",
         "futile.logger",
@@ -3419,7 +3302,6 @@
         "rtracklayer",
         "biomaRt",
         "Rsamtools",
-        "BiocFileCache",
         "BiocParallel",
         "GenomicAlignments",
         "futile.logger",
@@ -3500,7 +3382,6 @@
         "BiocParallel",
         "GenomicAlignments",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -3524,9 +3405,7 @@
         "BiocParallel",
         "rtracklayer",
         "biomaRt",
-        "dendextend",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -3588,7 +3467,6 @@
         "biomaRt",
         "VariantAnnotation",
         "data.table",
-        "BiocFileCache",
         "lambda.r",
         "futile.options",
         "BSgenome"
@@ -3612,7 +3490,6 @@
         "GGally",
         "ensembldb",
         "futile.logger",
-        "BiocFileCache",
         "data.table",
         "lambda.r",
         "futile.options"
@@ -3630,7 +3507,6 @@
         "VennDiagram",
         "biomaRt",
         "regioneR",
-        "BiocFileCache",
         "lambda.r",
         "futile.options",
         "BSgenome"
@@ -3708,7 +3584,6 @@
         "geneplotter",
         "genefilter",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -3782,7 +3657,6 @@
         "biomaRt",
         "data.table",
         "rtracklayer",
-        "BiocFileCache",
         "Rsamtools",
         "GenomicAlignments",
         "BiocParallel",
@@ -3807,7 +3681,6 @@
         "GenomicFeatures",
         "GenomicAlignments",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -3839,7 +3712,6 @@
         "VennDiagram",
         "heatmaply",
         "plotly",
-        "dendextend",
         "futile.logger",
         "lambda.r",
         "futile.options"
@@ -3859,7 +3731,6 @@
         "data.table",
         "arm",
         "rtracklayer",
-        "benchmarkme",
         "fastDummies",
         "lme4",
         "futile.logger",
@@ -3892,7 +3763,6 @@
         "BiocParallel",
         "BSgenome",
         "AnnotationHub",
-        "BiocFileCache",
         "rtracklayer",
         "biomaRt",
         "GenomicFeatures",
@@ -3930,7 +3800,6 @@
         "biovizBase",
         "Rsamtools",
         "GenomicAlignments",
-        "BiocFileCache",
         "Hmisc",
         "VariantAnnotation",
         "BiocParallel",
@@ -3946,7 +3815,6 @@
         "annotatr",
         "AnnotationHub",
         "rtracklayer",
-        "BiocFileCache",
         "GenomicFeatures",
         "regioneR",
         "futile.logger",
@@ -3965,7 +3833,6 @@
         "biomaRt",
         "data.table",
         "VariantAnnotation",
-        "BiocFileCache",
         "Rsamtools",
         "rtracklayer",
         "BSgenome",
@@ -4042,7 +3909,6 @@
         "UniProt.ws",
         "biomaRt",
         "ensembldb",
-        "BiocFileCache",
         "GenomicFeatures",
         "rtracklayer",
         "Rsamtools",
@@ -4060,7 +3926,6 @@
         "hgu133a2.db",
         "hgu133plus2.db",
         "oligo",
-        "BiocFileCache",
         "data.table",
         "R.utils",
         "org.Hs.eg.db",
@@ -4104,7 +3969,6 @@
         "AnnotationHub",
         "broom",
         "car",
-        "BiocFileCache",
         "pbkrtest",
         "lme4",
         "lambda.r",
@@ -4113,7 +3977,6 @@
         "nloptr"
     ],
     "easyRNASeq": [
-        "BiocFileCache",
         "BiocParallel",
         "biomaRt",
         "GenomicAlignments",
@@ -4144,7 +4007,6 @@
         "R.methodsS3",
         "R.oo",
         "R.utils",
-        "BiocFileCache",
         "rtracklayer",
         "BiocParallel",
         "GenomicAlignments",
@@ -4212,7 +4074,6 @@
         "PADOG",
         "GSVA",
         "globaltest",
-        "safe",
         "metap",
         "org.Hs.eg.db",
         "org.Mm.eg.db",
@@ -4242,7 +4103,6 @@
         "plotly",
         "ggpubr",
         "rtracklayer",
-        "BiocFileCache",
         "rstatix",
         "ensembldb",
         "BSgenome",
@@ -4280,7 +4140,6 @@
     "enhancerHomologSearch": [
         "BSgenome",
         "BiocParallel",
-        "BiocFileCache",
         "motifmatchr",
         "rtracklayer",
         "futile.logger",
@@ -4317,7 +4176,6 @@
         "biomaRt",
         "R.oo",
         "R.methodsS3",
-        "BiocFileCache",
         "Rsamtools",
         "GenomicAlignments"
     ],
@@ -4327,7 +4185,6 @@
         "ExperimentHub",
         "AnnotationHub",
         "genefilter",
-        "BiocFileCache",
         "bumphunter",
         "data.table",
         "GEOquery",
@@ -4345,11 +4202,9 @@
         "GenomicAlignments"
     ],
     "EnrichmentBrowser": [
-        "BiocFileCache",
         "GSEABase",
         "GO.db",
         "pathview",
-        "safe",
         "org.Hs.eg.db"
     ],
     "enrichplot": [
@@ -4422,7 +4277,6 @@
         "BiocParallel",
         "GenomicAlignments",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -4436,7 +4290,6 @@
         "BiocParallel",
         "GenomicAlignments",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -4451,7 +4304,6 @@
         "BiocParallel",
         "GenomicAlignments",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -4531,7 +4383,6 @@
     ],
     "EpiTxDb": [
         "GenomicFeatures",
-        "BiocFileCache",
         "tRNAdbImport",
         "rtracklayer",
         "biomaRt",
@@ -4551,7 +4402,6 @@
         "rtracklayer",
         "Rsamtools",
         "biomaRt",
-        "BiocFileCache",
         "BiocParallel",
         "GenomicAlignments",
         "futile.logger",
@@ -4566,7 +4416,6 @@
         "rtracklayer",
         "Rsamtools",
         "biomaRt",
-        "BiocFileCache",
         "BiocParallel",
         "GenomicAlignments",
         "futile.logger",
@@ -4580,7 +4429,6 @@
         "rtracklayer",
         "Rsamtools",
         "biomaRt",
-        "BiocFileCache",
         "BiocParallel",
         "GenomicAlignments",
         "futile.logger",
@@ -4594,7 +4442,6 @@
         "bumphunter",
         "rtracklayer",
         "biomaRt",
-        "BiocFileCache",
         "OrganismDbi",
         "ensembldb",
         "Rsamtools",
@@ -4621,8 +4468,7 @@
         "lambda.r",
         "futile.options",
         "biomaRt",
-        "BSgenome",
-        "BiocFileCache"
+        "BSgenome"
     ],
     "ERSSA": [
         "DESeq2",
@@ -4660,7 +4506,6 @@
         "GenomicAlignments",
         "CNEr",
         "futile.logger",
-        "BiocFileCache",
         "DO.db",
         "fgsea",
         "aplot",
@@ -4678,7 +4523,6 @@
     "escape": [
         "GSEABase",
         "GSVA",
-        "msigdbr",
         "BiocParallel",
         "futile.logger",
         "BiocSingular",
@@ -4708,7 +4552,6 @@
         "biomaRt",
         "lava",
         "GenomicAlignments",
-        "BiocFileCache",
         "BiocParallel",
         "future.apply",
         "futile.logger",
@@ -4719,8 +4562,7 @@
         "AnnotationHub",
         "ewceData",
         "ExperimentHub",
-        "biomaRt",
-        "BiocFileCache"
+        "biomaRt"
     ],
     "ExCluster": [
         "rtracklayer",
@@ -4750,13 +4592,11 @@
         "futile.logger",
         "geneplotter",
         "biomaRt",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
     "ExperimentHub": [
-        "AnnotationHub",
-        "BiocFileCache"
+        "AnnotationHub"
     ],
     "ExperimentHubData": [
         "AnnotationHubData",
@@ -4768,7 +4608,6 @@
         "BiocCheck",
         "OrganismDbi",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options",
         "biomaRt",
@@ -4778,7 +4617,6 @@
     "ExperimentSubset": [
         "SpatialExperiment",
         "TreeSummarizedExperiment",
-        "BiocFileCache",
         "DropletUtils",
         "BiocParallel",
         "treeio",
@@ -4897,7 +4735,6 @@
         "BiocParallel",
         "biomaRt",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -4929,7 +4766,6 @@
         "GEOquery",
         "BiocParallel",
         "futile.logger",
-        "BiocFileCache",
         "R.utils",
         "Rsamtools",
         "GenomicAlignments",
@@ -4937,10 +4773,6 @@
         "futile.options",
         "R.oo",
         "R.methodsS3"
-    ],
-    "fgga": [
-        "gRbase",
-        "BiocFileCache"
     ],
     "FGNet": [
         "R.utils",
@@ -4970,7 +4802,6 @@
         "biomaRt",
         "Rsamtools",
         "GenomicAlignments",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -5161,7 +4992,6 @@
         "plotly",
         "R.utils",
         "futile.logger",
-        "BiocFileCache",
         "rtracklayer",
         "DESeq2",
         "heatmaply",
@@ -5170,8 +5000,7 @@
         "genefilter",
         "geneplotter",
         "lambda.r",
-        "futile.options",
-        "dendextend"
+        "futile.options"
     ],
     "frenchFISH": [
         "NHPoisson",
@@ -5218,7 +5047,6 @@
         "biomaRt",
         "R.oo",
         "R.methodsS3",
-        "BiocFileCache",
         "Rsamtools",
         "GenomicAlignments"
     ],
@@ -5232,7 +5060,6 @@
         "BiocParallel",
         "GenomicAlignments",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -5242,7 +5069,6 @@
         "VariantAnnotation",
         "rtracklayer",
         "biomaRt",
-        "BiocFileCache",
         "Rsamtools",
         "GenomicAlignments",
         "BSgenome",
@@ -5261,7 +5087,6 @@
         "org.Mm.eg.db",
         "GOSemSim",
         "GEOquery",
-        "BiocFileCache",
         "R.utils",
         "R.oo",
         "R.methodsS3"
@@ -5294,7 +5119,6 @@
         "R.methodsS3",
         "R.oo",
         "R.utils",
-        "BiocFileCache",
         "pbkrtest",
         "lambda.r",
         "futile.options",
@@ -5340,7 +5164,6 @@
         "GenomicDataCommons",
         "BiocParallel",
         "futile.logger",
-        "BiocFileCache",
         "enrichplot",
         "GO.db",
         "GOSemSim",
@@ -5378,7 +5201,6 @@
         "Rsamtools",
         "GenomicAlignments",
         "BSgenome",
-        "BiocFileCache",
         "BiocParallel",
         "futile.logger",
         "lambda.r",
@@ -5387,7 +5209,6 @@
     "GeneAccord": [
         "biomaRt",
         "ggpubr",
-        "BiocFileCache",
         "rstatix",
         "broom",
         "car",
@@ -5402,7 +5223,6 @@
         "biomaRt",
         "Rsamtools",
         "GenomicAlignments",
-        "BiocFileCache",
         "BiocParallel",
         "futile.logger",
         "lambda.r",
@@ -5423,7 +5243,6 @@
     "genefu": [
         "survcomp",
         "biomaRt",
-        "BiocFileCache",
         "prodlim",
         "ipred",
         "lava",
@@ -5475,7 +5294,6 @@
         "biovizBase",
         "Rsamtools",
         "GenomicAlignments",
-        "BiocFileCache",
         "Hmisc",
         "VariantAnnotation",
         "BiocParallel",
@@ -5485,7 +5303,6 @@
     ],
     "GeneTonic": [
         "backbone",
-        "dendextend",
         "DESeq2",
         "GO.db",
         "plotly",
@@ -5547,7 +5364,6 @@
     "GenomicFeatures": [
         "rtracklayer",
         "biomaRt",
-        "BiocFileCache",
         "Rsamtools",
         "GenomicAlignments",
         "BiocParallel",
@@ -5566,8 +5382,7 @@
         "GenomicFeatures",
         "lambda.r",
         "futile.options",
-        "biomaRt",
-        "BiocFileCache"
+        "biomaRt"
     ],
     "GenomicInteractions": [
         "Rsamtools",
@@ -5582,7 +5397,6 @@
         "GenomicAlignments",
         "BiocParallel",
         "futile.logger",
-        "BiocFileCache",
         "Hmisc",
         "VariantAnnotation",
         "lambda.r",
@@ -5592,7 +5406,6 @@
         "Ckmeans.1d.dp",
         "biomaRt",
         "ggbio",
-        "BiocFileCache",
         "Hmisc",
         "biovizBase",
         "Rsamtools",
@@ -5611,13 +5424,11 @@
         "futile.options"
     ],
     "GenomicScores": [
-        "BiocFileCache",
         "AnnotationHub"
     ],
     "GenomicSuperSignature": [
         "ggpubr",
         "plotly",
-        "BiocFileCache",
         "flextable",
         "data.table",
         "rstatix",
@@ -5641,8 +5452,7 @@
         "GenomicFeatures",
         "lambda.r",
         "futile.options",
-        "biomaRt",
-        "BiocFileCache"
+        "biomaRt"
     ],
     "GenVisR": [
         "biomaRt",
@@ -5651,7 +5461,6 @@
         "data.table",
         "BSgenome",
         "VariantAnnotation",
-        "BiocFileCache",
         "rtracklayer",
         "BiocParallel",
         "futile.logger",
@@ -5675,7 +5484,6 @@
         "heatmaply",
         "shinyHeatmaply",
         "GEOquery",
-        "dendextend",
         "FactoMineR",
         "ggpubr",
         "data.table",
@@ -5715,7 +5523,6 @@
     "gespeR": [
         "cellHTS2",
         "biomaRt",
-        "BiocFileCache",
         "genefilter",
         "GSEABase",
         "Category"
@@ -5743,7 +5550,6 @@
         "biomaRt",
         "data.table",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -5770,7 +5576,6 @@
     ],
     "ggspavis": [
         "SpatialExperiment",
-        "BiocFileCache",
         "DropletUtils",
         "BiocParallel",
         "R.utils",
@@ -5832,7 +5637,6 @@
         "futile.logger",
         "survminer",
         "loose.rock",
-        "BiocFileCache",
         "lambda.r",
         "futile.options",
         "ggpubr",
@@ -5848,7 +5652,6 @@
     ],
     "GlobalAncova": [
         "globaltest",
-        "dendextend",
         "GSEABase"
     ],
     "gmapR": [
@@ -5861,13 +5664,11 @@
         "BiocParallel",
         "futile.logger",
         "biomaRt",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
     "GmicR": [
         "Category",
-        "gRbase",
         "GSEABase",
         "gRain",
         "GOstats",
@@ -5887,7 +5688,6 @@
         "BiocParallel",
         "biomaRt",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -5897,11 +5697,9 @@
         "data.table"
     ],
     "GOexpress": [
-        "biomaRt",
-        "BiocFileCache"
+        "biomaRt"
     ],
     "GOpro": [
-        "dendextend",
         "org.Hs.eg.db",
         "GO.db",
         "MultiAssayExperiment"
@@ -5920,7 +5718,6 @@
         "biomaRt",
         "Rsamtools",
         "GenomicAlignments",
-        "BiocFileCache",
         "BiocParallel",
         "futile.logger",
         "lambda.r",
@@ -5933,8 +5730,7 @@
     ],
     "goSTAG": [
         "biomaRt",
-        "GO.db",
-        "BiocFileCache"
+        "GO.db"
     ],
     "GOstats": [
         "Category",
@@ -5963,7 +5759,6 @@
         "biomaRt",
         "data.table",
         "OrganismDbi",
-        "BiocFileCache",
         "GenomicFeatures",
         "GO.db",
         "org.Hs.eg.db",
@@ -6030,7 +5825,6 @@
     ],
     "GSEABenchmarkeR": [
         "AnnotationHub",
-        "BiocFileCache",
         "BiocParallel",
         "EnrichmentBrowser",
         "ExperimentHub",
@@ -6038,13 +5832,9 @@
         "GSEABase",
         "GO.db",
         "pathview",
-        "safe",
         "lambda.r",
         "futile.options",
         "org.Hs.eg.db"
-    ],
-    "GSEAmining": [
-        "dendextend"
     ],
     "gsean": [
         "fgsea",
@@ -6053,7 +5843,6 @@
         "BiocParallel",
         "biomaRt",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -6066,7 +5855,6 @@
         "OrganismDbi",
         "GO.db",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
-        "BiocFileCache",
         "Rsamtools",
         "GenomicAlignments",
         "BiocParallel",
@@ -6102,7 +5890,6 @@
         "biomaRt",
         "regioneR",
         "mltools",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -6112,7 +5899,6 @@
         "biomaRt",
         "Rsamtools",
         "GenomicAlignments",
-        "BiocFileCache",
         "BiocParallel",
         "futile.logger",
         "lambda.r",
@@ -6127,7 +5913,6 @@
         "biovizBase",
         "Rsamtools",
         "GenomicAlignments",
-        "BiocFileCache",
         "Hmisc",
         "VariantAnnotation",
         "BiocParallel",
@@ -6148,7 +5933,6 @@
     ],
     "gwascat": [
         "GenomicFeatures",
-        "BiocFileCache",
         "VariantAnnotation",
         "AnnotationHub",
         "rtracklayer",
@@ -6184,7 +5968,6 @@
         "BiocParallel",
         "GenomicAlignments",
         "futile.logger",
-        "BiocFileCache",
         "operator.tools",
         "broom",
         "lambda.r",
@@ -6208,9 +5991,6 @@
         "lambda.r",
         "futile.options"
     ],
-    "hca": [
-        "BiocFileCache"
-    ],
     "HelloRanges": [
         "BSgenome",
         "GenomicFeatures",
@@ -6221,12 +6001,8 @@
         "BiocParallel",
         "biomaRt",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
-    ],
-    "HGC": [
-        "dendextend"
     ],
     "hiAnnotator": [
         "rtracklayer",
@@ -6278,7 +6054,6 @@
         "ensembldb",
         "biovizBase",
         "futile.logger",
-        "BiocFileCache",
         "Hmisc",
         "VariantAnnotation",
         "lambda.r",
@@ -6291,7 +6066,6 @@
         "BSgenome",
         "rtracklayer",
         "biomaRt",
-        "BiocFileCache",
         "Rsamtools",
         "GenomicAlignments",
         "BiocParallel",
@@ -6303,7 +6077,6 @@
         "AnnotationHub",
         "MultiAssayExperiment",
         "coin",
-        "BiocFileCache",
         "multcomp",
         "TH.data"
     ],
@@ -6357,7 +6130,6 @@
         "futile.logger",
         "biomaRt",
         "BSgenome",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -6371,7 +6143,6 @@
         "futile.options"
     ],
     "HubPub": [
-        "available",
         "biocthis",
         "aws.s3",
         "aws.signature",
@@ -6380,9 +6151,6 @@
         "R.methodsS3",
         "R.oo",
         "R.utils"
-    ],
-    "hypeR": [
-        "msigdbr"
     ],
     "iasva": [
         "BiocParallel",
@@ -6413,7 +6181,6 @@
         "geneplotter",
         "biomaRt",
         "BSgenome",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -6426,7 +6193,6 @@
         "FDb.InfiniumMethylation.hg19",
         "minfi",
         "genefilter",
-        "BiocFileCache",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "org.Hs.eg.db",
         "bumphunter",
@@ -6470,10 +6236,8 @@
         "geneplotter",
         "geneLenDataBase",
         "Category",
-        "dendextend",
         "biomaRt",
         "data.table",
-        "BiocFileCache",
         "GSEABase",
         "lambda.r",
         "futile.options",
@@ -6512,12 +6276,10 @@
         "futile.logger",
         "biomaRt",
         "data.table",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
     "ILoReg": [
-        "dendextend",
         "DescTools",
         "data.table"
     ],
@@ -6539,7 +6301,6 @@
         "rtracklayer",
         "biomaRt",
         "nloptr",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -6553,7 +6314,6 @@
         "tidygraph",
         "data.table",
         "futile.logger",
-        "BiocFileCache",
         "DropletUtils",
         "R.utils",
         "lambda.r",
@@ -6568,8 +6328,7 @@
         "flowWorkspace",
         "aws.s3",
         "aws.signature",
-        "ncdfFlow",
-        "dendextend"
+        "ncdfFlow"
     ],
     "INDEED": [
         "devtools"
@@ -6598,7 +6357,6 @@
         "BSgenome.Drerio.UCSC.danRer7",
         "biomaRt",
         "GenomicAlignments",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -6614,7 +6372,6 @@
         "genefilter",
         "geneplotter",
         "biomaRt",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -6652,7 +6409,6 @@
         "biomaRt",
         "data.table",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -6664,11 +6420,9 @@
     "InterCellar": [
         "golem",
         "data.table",
-        "dendextend",
         "factoextra",
         "plotly",
         "biomaRt",
-        "BiocFileCache",
         "FactoMineR",
         "ggpubr",
         "car",
@@ -6690,7 +6444,6 @@
         "geneplotter",
         "biomaRt",
         "rtracklayer",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -6735,13 +6488,11 @@
         "nloptr"
     ],
     "ipdDb": [
-        "AnnotationHub",
-        "BiocFileCache"
+        "AnnotationHub"
     ],
     "IRISFGM": [
         "org.Hs.eg.db",
         "org.Mm.eg.db",
-        "AdaptGauss",
         "DEsingle",
         "Seurat",
         "clusterProfiler",
@@ -6801,8 +6552,7 @@
         "iSEE"
     ],
     "isobar": [
-        "biomaRt",
-        "BiocFileCache"
+        "biomaRt"
     ],
     "IsoCorrectoRGUI": [
         "IsoCorrectoR"
@@ -6826,7 +6576,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "ensembldb",
-        "BiocFileCache",
         "AnnotationHub"
     ],
     "IsoGeneGUI": [
@@ -6862,7 +6611,6 @@
         "rtracklayer",
         "biomaRt",
         "nloptr",
-        "BiocFileCache",
         "lambda.r",
         "futile.options",
         "Rsamtools",
@@ -6901,7 +6649,6 @@
         "BSgenome",
         "BiocParallel",
         "futile.logger",
-        "BiocFileCache",
         "data.table",
         "lambda.r",
         "futile.options"
@@ -6977,7 +6724,6 @@
         "BSgenome",
         "futile.logger",
         "biomaRt",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -7060,7 +6806,6 @@
         "ExperimentHub",
         "AnnotationHub",
         "BiocParallel",
-        "BiocFileCache",
         "futile.logger",
         "lambda.r",
         "futile.options"
@@ -7073,7 +6818,6 @@
         "FDb.InfiniumMethylation.hg19",
         "minfi",
         "genefilter",
-        "BiocFileCache",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "org.Hs.eg.db",
         "bumphunter",
@@ -7116,7 +6860,6 @@
         "caret",
         "Rsamtools",
         "AnnotationHub",
-        "BiocFileCache",
         "GenomicAlignments",
         "ModelMetrics",
         "recipes",
@@ -7161,7 +6904,6 @@
         "basilisk",
         "ExperimentHub",
         "AnnotationHub",
-        "BiocFileCache",
         "dir.expiry",
         "basilisk.utils"
     ],
@@ -7176,7 +6918,6 @@
         "GenomicFeatures",
         "futile.logger",
         "biomaRt",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -7202,7 +6943,6 @@
         "GEOquery",
         "BiocParallel",
         "futile.logger",
-        "BiocFileCache",
         "R.utils",
         "Rsamtools",
         "GenomicAlignments",
@@ -7275,7 +7015,6 @@
         "biovizBase",
         "Rsamtools",
         "GenomicAlignments",
-        "BiocFileCache",
         "Hmisc",
         "VariantAnnotation",
         "BiocParallel",
@@ -7320,7 +7059,6 @@
         "futile.options"
     ],
     "mbkmeans": [
-        "benchmarkme",
         "BiocParallel",
         "futile.logger",
         "lambda.r",
@@ -7336,7 +7074,6 @@
         "broom"
     ],
     "MBQN": [
-        "BiocFileCache",
         "rpx"
     ],
     "MCbiclust": [
@@ -7357,7 +7094,6 @@
         "fgsea",
         "GenomicFeatures",
         "Gviz",
-        "BiocFileCache",
         "data.table",
         "BiocParallel",
         "rtracklayer",
@@ -7413,7 +7149,6 @@
         "org.Hs.eg.db",
         "sva",
         "futile.logger",
-        "BiocFileCache",
         "Hmisc",
         "VariantAnnotation",
         "R.utils",
@@ -7447,7 +7182,6 @@
         "biomaRt",
         "R.oo",
         "R.methodsS3",
-        "BiocFileCache",
         "Rsamtools",
         "GenomicAlignments"
     ],
@@ -7456,7 +7190,6 @@
         "Rsamtools",
         "biomaRt",
         "rtracklayer",
-        "BiocFileCache",
         "BiocParallel",
         "GenomicAlignments",
         "futile.logger",
@@ -7498,7 +7231,6 @@
         "GOSemSim",
         "AnnotationHub",
         "yulab.utils",
-        "BiocFileCache",
         "BiocParallel",
         "DO.db",
         "fgsea",
@@ -7550,7 +7282,6 @@
         "biomaRt",
         "MWASTools",
         "mygene",
-        "BiocFileCache",
         "ensembldb",
         "car",
         "GenomicFeatures",
@@ -7606,7 +7337,6 @@
         "EnsDb.Hsapiens.v86",
         "futile.logger",
         "biomaRt",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -7642,13 +7372,11 @@
         "survcomp",
         "VennDiagram",
         "futile.logger",
-        "BiocFileCache",
         "geneplotter",
         "bsseq",
         "ShortRead",
         "aroma.light",
         "plotly",
-        "dendextend",
         "prodlim",
         "ipred",
         "R.methodsS3",
@@ -7674,7 +7402,6 @@
         "rtracklayer",
         "Rsamtools",
         "biomaRt",
-        "BiocFileCache",
         "BiocParallel",
         "GenomicAlignments",
         "futile.logger",
@@ -7730,7 +7457,6 @@
         "rstatix",
         "ExperimentHub",
         "AnnotationHub",
-        "BiocFileCache",
         "broom",
         "car",
         "pbkrtest",
@@ -7764,7 +7490,6 @@
         "biomaRt",
         "R.oo",
         "R.methodsS3",
-        "BiocFileCache",
         "Rsamtools",
         "GenomicAlignments"
     ],
@@ -7790,7 +7515,6 @@
         "biomaRt",
         "R.oo",
         "R.methodsS3",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -7803,7 +7527,6 @@
         "ggpubr",
         "minfi",
         "AnnotationHub",
-        "BiocFileCache",
         "rstatix",
         "ExperimentHubData",
         "bumphunter",
@@ -7874,7 +7597,6 @@
         "tidygraph",
         "tidytree",
         "treeio",
-        "BiocFileCache",
         "R.oo",
         "R.methodsS3",
         "Rsamtools",
@@ -7932,7 +7654,6 @@
         "BSgenome",
         "biovizBase",
         "futile.logger",
-        "BiocFileCache",
         "Hmisc",
         "VariantAnnotation",
         "lambda.r",
@@ -7986,7 +7707,6 @@
         "GEOquery",
         "BiocParallel",
         "futile.logger",
-        "BiocFileCache",
         "R.utils",
         "Rsamtools",
         "GenomicAlignments",
@@ -8009,8 +7729,7 @@
         "GGally"
     ],
     "MGFR": [
-        "biomaRt",
-        "BiocFileCache"
+        "biomaRt"
     ],
     "mia": [
         "TreeSummarizedExperiment",
@@ -8067,7 +7786,6 @@
         "BiocParallel",
         "genefilter",
         "geneplotter",
-        "dendextend",
         "data.table",
         "futile.logger",
         "nloptr",
@@ -8193,7 +7911,6 @@
         "Hmisc",
         "lumi",
         "lumiHumanAll.db",
-        "BiocFileCache",
         "Category",
         "GO.db",
         "data.table",
@@ -8233,7 +7950,6 @@
         "biomaRt",
         "R.oo",
         "R.methodsS3",
-        "BiocFileCache",
         "Rsamtools",
         "GenomicAlignments"
     ],
@@ -8282,7 +7998,6 @@
         "biomaRt",
         "R.utils",
         "TCGAbiolinksGUI.data",
-        "BiocFileCache",
         "R.oo",
         "R.methodsS3"
     ],
@@ -8302,7 +8017,6 @@
         "miRspongeR",
         "GSEABase",
         "org.Hs.eg.db",
-        "dendextend",
         "clusterProfiler",
         "ReactomePA",
         "DOSE",
@@ -8384,7 +8098,6 @@
         "rtracklayer",
         "biomaRt",
         "R.utils",
-        "BiocFileCache",
         "lambda.r",
         "futile.options",
         "R.oo",
@@ -8425,7 +8138,6 @@
         "BiocParallel",
         "GenomicAlignments",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -8471,8 +8183,7 @@
         "GenomicAlignments",
         "lambda.r",
         "futile.options",
-        "biomaRt",
-        "BiocFileCache"
+        "biomaRt"
     ],
     "MMDiff2": [
         "Rsamtools",
@@ -8563,7 +8274,6 @@
         "biomaRt",
         "TCGAbiolinksGUI.data",
         "futile.logger",
-        "BiocFileCache",
         "aplot",
         "ggraph",
         "scatterpie",
@@ -8604,7 +8314,6 @@
         "biovizBase",
         "GenomicAlignments",
         "splitstackshape",
-        "BiocFileCache",
         "Hmisc",
         "lambda.r",
         "futile.options",
@@ -8640,8 +8349,7 @@
     "MouseFM": [
         "data.table",
         "rlist",
-        "biomaRt",
-        "BiocFileCache"
+        "biomaRt"
     ],
     "MPRAnalyze": [
         "BiocParallel",
@@ -8688,7 +8396,6 @@
         "Rsamtools",
         "R.utils",
         "rtracklayer",
-        "BiocFileCache",
         "BiocParallel",
         "biomaRt",
         "ShortRead",
@@ -8762,7 +8469,6 @@
         "factoextra",
         "ggpubr",
         "tidyverse",
-        "dendextend",
         "FactoMineR",
         "rstatix",
         "lme4",
@@ -8828,9 +8534,6 @@
         "ropls",
         "MultiDataSet"
     ],
-    "multiClust": [
-        "dendextend"
-    ],
     "multicrispr": [
         "assertive",
         "BSgenome",
@@ -8862,7 +8565,6 @@
         "biovizBase",
         "VariantAnnotation",
         "GenomicAlignments",
-        "BiocFileCache",
         "Hmisc",
         "ensembldb",
         "BiocParallel",
@@ -8969,7 +8671,6 @@
         "BiocParallel",
         "biomaRt",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -9016,13 +8717,11 @@
         "TCGAbiolinks",
         "rtracklayer",
         "Rsamtools",
-        "dendextend",
         "FactoMineR",
         "ggpubr",
         "biomaRt",
         "R.utils",
         "TCGAbiolinksGUI.data",
-        "BiocFileCache",
         "car",
         "rstatix",
         "R.oo",
@@ -9048,7 +8747,6 @@
         "BiocParallel",
         "GenomicAlignments",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -9065,7 +8763,6 @@
         "rtracklayer",
         "biomaRt",
         "data.table",
-        "BiocFileCache",
         "Rsamtools",
         "GenomicAlignments",
         "BiocParallel",
@@ -9085,7 +8782,6 @@
         "BiocParallel",
         "GenomicAlignments",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -9109,7 +8805,6 @@
         "VennDiagram",
         "biomaRt",
         "regioneR",
-        "BiocFileCache",
         "AnnotationHub",
         "biovizBase",
         "multcomp",
@@ -9195,7 +8890,6 @@
         "GenomicFeatures",
         "futile.logger",
         "biomaRt",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -9251,7 +8945,6 @@
     ],
     "netDx": [
         "MultiAssayExperiment",
-        "BiocFileCache",
         "bigmemory",
         "bigmemory.sri"
     ],
@@ -9272,7 +8965,6 @@
         "WGCNA",
         "biomaRt",
         "GO.db",
-        "BiocFileCache",
         "Hmisc",
         "data.table"
     ],
@@ -9288,7 +8980,6 @@
         "BiocNeighbors",
         "BiocParallel",
         "futile.logger",
-        "benchmarkme",
         "RNeXML",
         "genefilter",
         "lambda.r",
@@ -9317,7 +9008,6 @@
         "biomaRt",
         "rtracklayer",
         "GenomicFeatures",
-        "BiocFileCache",
         "Rsamtools",
         "GenomicAlignments",
         "data.table",
@@ -9384,7 +9074,6 @@
         "NxtIRFdata",
         "data.table",
         "AnnotationHub",
-        "BiocFileCache",
         "BiocParallel",
         "BSgenome",
         "genefilter",
@@ -9401,7 +9090,6 @@
         "futile.options"
     ],
     "ODER": [
-        "BiocFileCache",
         "dasper",
         "derfinder",
         "ggpubr",
@@ -9483,7 +9171,6 @@
         "factoextra",
         "FactoMineR",
         "data.table",
-        "dendextend",
         "ggpubr",
         "car",
         "BSgenome",
@@ -9497,7 +9184,6 @@
         "biomaRt",
         "rstatix",
         "futile.logger",
-        "BiocFileCache",
         "nloptr",
         "broom",
         "lambda.r",
@@ -9507,8 +9193,7 @@
         "MultiAssayExperiment"
     ],
     "OncoScore": [
-        "biomaRt",
-        "BiocFileCache"
+        "biomaRt"
     ],
     "OncoSimulR": [
         "data.table",
@@ -9523,7 +9208,6 @@
         "data.table"
     ],
     "ontoProc": [
-        "BiocFileCache",
         "AnnotationHub"
     ],
     "openCyto": [
@@ -9565,8 +9249,7 @@
         "broom"
     ],
     "oposSOM": [
-        "biomaRt",
-        "BiocFileCache"
+        "biomaRt"
     ],
     "oppar": [
         "GSEABase",
@@ -9615,13 +9298,11 @@
         "geneplotter",
         "R.oo",
         "R.methodsS3",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
     "Organism.dplyr": [
         "GenomicFeatures",
-        "BiocFileCache",
         "rtracklayer",
         "biomaRt",
         "Rsamtools",
@@ -9635,7 +9316,6 @@
         "GenomicFeatures",
         "rtracklayer",
         "biomaRt",
-        "BiocFileCache",
         "Rsamtools",
         "GenomicAlignments",
         "BiocParallel",
@@ -9690,8 +9370,6 @@
         "geneplotter",
         "rtracklayer",
         "biomaRt",
-        "dendextend",
-        "BiocFileCache",
         "lambda.r",
         "futile.options",
         "Rsamtools",
@@ -9818,11 +9496,9 @@
         "GOstats",
         "GO.db",
         "biomaRt",
-        "BiocFileCache",
         "BiocParallel",
         "geneplotter",
         "Category",
-        "dendextend",
         "data.table",
         "futile.logger",
         "GSEABase",
@@ -9865,7 +9541,6 @@
         "ggpubr",
         "broom",
         "survMisc",
-        "BiocFileCache",
         "lambda.r",
         "futile.options",
         "rstatix",
@@ -10021,7 +9696,6 @@
         "GSEABase",
         "genefilter",
         "hgu133a.db",
-        "BiocFileCache",
         "org.Hs.eg.db",
         "data.table"
     ],
@@ -10045,7 +9719,6 @@
         "ggplotify"
     ],
     "PhosR": [
-        "dendextend",
         "GGally",
         "ggpubr",
         "network",
@@ -10062,7 +9735,6 @@
         "ExperimentHub",
         "OmaDB",
         "AnnotationHub",
-        "BiocFileCache",
         "topGO",
         "GO.db"
     ],
@@ -10141,7 +9813,6 @@
         "ensembldb",
         "biovizBase",
         "GenomicAlignments",
-        "BiocFileCache",
         "Hmisc",
         "VariantAnnotation",
         "rainbow",
@@ -10243,7 +9914,6 @@
     ],
     "pogos": [
         "ontoProc",
-        "BiocFileCache",
         "AnnotationHub"
     ],
     "PoTRA": [
@@ -10255,13 +9925,11 @@
     ],
     "ppcseq": [
         "tidybayes",
-        "benchmarkme",
         "posterior"
     ],
     "PPInfer": [
         "biomaRt",
         "fgsea",
-        "BiocFileCache",
         "data.table",
         "BiocParallel",
         "futile.logger",
@@ -10308,7 +9976,6 @@
         "rtracklayer",
         "biomaRt",
         "ipred",
-        "BiocFileCache",
         "prodlim",
         "Rsamtools",
         "GenomicAlignments",
@@ -10325,7 +9992,6 @@
         "BiocParallel",
         "biomaRt",
         "futile.logger",
-        "BiocFileCache",
         "R.oo",
         "R.methodsS3",
         "lambda.r",
@@ -10340,7 +10006,6 @@
         "TFBSTools",
         "R.utils",
         "BSgenome",
-        "BiocFileCache",
         "AnnotationHub",
         "biomaRt",
         "GenomicFeatures",
@@ -10372,7 +10037,6 @@
         "Rsamtools",
         "rtracklayer",
         "biomaRt",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -10382,7 +10046,6 @@
         "biomaRt",
         "Rsamtools",
         "GenomicAlignments",
-        "BiocFileCache",
         "BiocParallel",
         "futile.logger",
         "lambda.r",
@@ -10425,7 +10088,6 @@
         "R.methodsS3",
         "GenomicAlignments",
         "chipseq",
-        "BiocFileCache",
         "ShortRead",
         "aplot",
         "DOSE",
@@ -10473,18 +10135,15 @@
         "biomaRt",
         "Rsamtools",
         "BSgenome",
-        "BiocFileCache",
         "lambda.r",
         "futile.options",
         "GenomicAlignments"
     ],
     "ProteoMM": [
-        "biomaRt",
-        "BiocFileCache"
+        "biomaRt"
     ],
     "psichomics": [
         "AnnotationHub",
-        "BiocFileCache",
         "data.table",
         "highcharter",
         "recount",
@@ -10511,8 +10170,7 @@
         "BSgenome"
     ],
     "PSICQUIC": [
-        "biomaRt",
-        "BiocFileCache"
+        "biomaRt"
     ],
     "psygenet2r": [
         "biomaRt",
@@ -10521,7 +10179,6 @@
         "GO.db",
         "R.utils",
         "data.table",
-        "BiocFileCache",
         "R.oo",
         "R.methodsS3"
     ],
@@ -10551,8 +10208,7 @@
         "biomaRt",
         "BiocParallel",
         "GenomicAlignments",
-        "BSgenome",
-        "BiocFileCache"
+        "BSgenome"
     ],
     "pvca": [
         "lme4",
@@ -10571,7 +10227,6 @@
         "rtracklayer",
         "biomaRt",
         "BSgenome",
-        "BiocFileCache",
         "BiocParallel",
         "futile.logger",
         "lambda.r",
@@ -10581,15 +10236,13 @@
         "data.table",
         "rBiopaxParser",
         "biomaRt",
-        "AnnotationHub",
-        "BiocFileCache"
+        "AnnotationHub"
     ],
     "pwrEWAS": [
         "genefilter",
         "pwrEWAS.data",
         "ExperimentHub",
-        "AnnotationHub",
-        "BiocFileCache"
+        "AnnotationHub"
     ],
     "qckitfastq": [
         "data.table"
@@ -10616,7 +10269,6 @@
         "futile.logger",
         "rtracklayer",
         "biomaRt",
-        "BiocFileCache",
         "lambda.r",
         "futile.options",
         "Rsamtools",
@@ -10636,7 +10288,6 @@
         "data.table",
         "BSgenome",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -10678,7 +10329,6 @@
         "biomaRt",
         "R.oo",
         "R.methodsS3",
-        "BiocFileCache",
         "Rsamtools",
         "GenomicAlignments"
     ],
@@ -10697,7 +10347,6 @@
         "biomaRt",
         "GenomicAlignments",
         "VariantAnnotation",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -10721,7 +10370,6 @@
         "BiocParallel",
         "biomaRt",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -10741,7 +10389,6 @@
         "BSgenome",
         "Rsamtools",
         "ShortRead",
-        "BiocFileCache",
         "rtracklayer",
         "BiocParallel",
         "GenomicAlignments",
@@ -10765,7 +10412,6 @@
         "GenomicAlignments",
         "Rsamtools",
         "biomaRt",
-        "BiocFileCache",
         "BiocParallel",
         "futile.logger",
         "lambda.r",
@@ -10786,7 +10432,6 @@
         "rtracklayer",
         "Rsamtools",
         "biomaRt",
-        "BiocFileCache",
         "AnnotationHub",
         "BiocParallel",
         "GenomicAlignments",
@@ -10834,7 +10479,6 @@
         "Rsamtools",
         "GenomicAlignments",
         "biomaRt",
-        "BiocFileCache",
         "BiocParallel",
         "futile.logger",
         "lambda.r",
@@ -10848,7 +10492,6 @@
         "GenomicFeatures",
         "rtracklayer",
         "biomaRt",
-        "BiocFileCache",
         "Rsamtools",
         "GenomicAlignments",
         "BiocParallel",
@@ -10890,7 +10533,6 @@
     ],
     "RcwlPipelines": [
         "Rcwl",
-        "BiocFileCache",
         "BiocParallel",
         "batchtools",
         "DiagrammeR",
@@ -10963,11 +10605,9 @@
         "VariantAnnotation",
         "R.oo",
         "R.methodsS3",
-        "BiocFileCache",
         "BSgenome"
     ],
     "recount3": [
-        "BiocFileCache",
         "rtracklayer",
         "data.table",
         "R.utils",
@@ -10983,7 +10623,6 @@
     "recountmethylation": [
         "minfi",
         "R.utils",
-        "BiocFileCache",
         "bumphunter",
         "genefilter",
         "data.table",
@@ -11006,7 +10645,6 @@
         "GenomicFeatures",
         "Rsamtools",
         "rtracklayer",
-        "BiocFileCache",
         "BiocParallel",
         "futile.logger",
         "lambda.r",
@@ -11024,7 +10662,6 @@
         "VennDiagram",
         "biomaRt",
         "regioneR",
-        "BiocFileCache",
         "BiocParallel",
         "futile.logger",
         "lambda.r",
@@ -11076,7 +10713,6 @@
         "futile.logger",
         "biomaRt",
         "VariantAnnotation",
-        "BiocFileCache",
         "lambda.r",
         "futile.options",
         "BSgenome"
@@ -11084,7 +10720,6 @@
     "regutools": [
         "AnnotationHub",
         "Gviz",
-        "BiocFileCache",
         "rtracklayer",
         "biomaRt",
         "GenomicFeatures",
@@ -11109,7 +10744,6 @@
         "BSgenome",
         "AnnotationHub",
         "org.Hs.eg.db",
-        "BiocFileCache",
         "futile.logger",
         "Rsamtools",
         "ModelMetrics",
@@ -11171,14 +10805,12 @@
         "futile.logger",
         "biomaRt",
         "data.table",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
     "RepViz": [
         "Rsamtools",
         "biomaRt",
-        "BiocFileCache",
         "BiocParallel",
         "futile.logger",
         "lambda.r",
@@ -11194,8 +10826,7 @@
     "restfulSE": [
         "GO.db",
         "ExperimentHub",
-        "AnnotationHub",
-        "BiocFileCache"
+        "AnnotationHub"
     ],
     "rexposome": [
         "FactoMineR",
@@ -11231,8 +10862,7 @@
     ],
     "rGenomeTracks": [
         "rGenomeTracksData",
-        "AnnotationHub",
-        "BiocFileCache"
+        "AnnotationHub"
     ],
     "RGMQL": [
         "rtracklayer",
@@ -11250,7 +10880,6 @@
         "biomaRt",
         "org.Hs.eg.db",
         "GO.db",
-        "BiocFileCache",
         "BiocParallel",
         "genefilter",
         "geneplotter",
@@ -11270,7 +10899,6 @@
         "biomaRt",
         "Rsamtools",
         "GenomicAlignments",
-        "BiocFileCache",
         "BiocParallel",
         "futile.logger",
         "lambda.r",
@@ -11292,7 +10920,6 @@
         "GGally",
         "R.utils",
         "Rsamtools",
-        "BiocFileCache",
         "genefilter",
         "geneplotter",
         "lambda.r",
@@ -11307,7 +10934,6 @@
         "data.table",
         "reldist",
         "DESeq2",
-        "BiocFileCache",
         "BiocParallel",
         "genefilter",
         "geneplotter",
@@ -11336,7 +10962,6 @@
         "GGally",
         "ensembldb",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -11363,7 +10988,6 @@
         "R.oo",
         "R.utils",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -11378,7 +11002,6 @@
         "karyoploteR",
         "regioneR",
         "rtracklayer",
-        "BiocFileCache",
         "Rsamtools",
         "biovizBase",
         "GenomicFeatures",
@@ -11423,7 +11046,6 @@
         "ggplotify",
         "RLHub",
         "aws.s3",
-        "BiocFileCache",
         "aws.signature",
         "data.table",
         "caret",
@@ -11463,7 +11085,6 @@
         "futile.logger",
         "rtracklayer",
         "biomaRt",
-        "BiocFileCache",
         "lambda.r",
         "futile.options",
         "GenomicAlignments"
@@ -11499,7 +11120,6 @@
         "VariantAnnotation",
         "R.oo",
         "R.methodsS3",
-        "BiocFileCache",
         "BSgenome"
     ],
     "RNAdecay": [
@@ -11515,7 +11135,6 @@
         "rtracklayer",
         "biomaRt",
         "broom",
-        "BiocFileCache",
         "Rsamtools",
         "GenomicAlignments",
         "BiocParallel",
@@ -11542,7 +11161,6 @@
         "biomaRt",
         "ensembldb",
         "biovizBase",
-        "BiocFileCache",
         "Hmisc",
         "VariantAnnotation",
         "lambda.r",
@@ -11562,7 +11180,6 @@
         "GenomicAlignments",
         "BiocParallel",
         "futile.logger",
-        "BiocFileCache",
         "Hmisc",
         "VariantAnnotation",
         "lambda.r",
@@ -11582,7 +11199,6 @@
         "biomaRt",
         "ensembldb",
         "biovizBase",
-        "BiocFileCache",
         "Hmisc",
         "VariantAnnotation",
         "lambda.r",
@@ -11602,7 +11218,6 @@
         "GenomicAlignments",
         "BiocParallel",
         "futile.logger",
-        "BiocFileCache",
         "Hmisc",
         "VariantAnnotation",
         "lambda.r",
@@ -11636,7 +11251,6 @@
         "geneplotter",
         "DO.db",
         "fgsea",
-        "dendextend",
         "ggpubr",
         "car",
         "ShortRead",
@@ -11653,7 +11267,6 @@
         "rstatix",
         "GenomicAlignments",
         "ggplotify",
-        "BiocFileCache",
         "lambda.r",
         "futile.options",
         "tidygraph",
@@ -11663,8 +11276,7 @@
         "broom"
     ],
     "RnaSeqSampleSize": [
-        "biomaRt",
-        "BiocFileCache"
+        "biomaRt"
     ],
     "RnBeads": [
         "methylumi",
@@ -11681,7 +11293,6 @@
         "GEOquery",
         "BiocParallel",
         "futile.logger",
-        "BiocFileCache",
         "R.utils",
         "Rsamtools",
         "GenomicAlignments",
@@ -11706,9 +11317,6 @@
         "phyloseq",
         "data.table"
     ],
-    "rpx": [
-        "BiocFileCache"
-    ],
     "Rqc": [
         "BiocParallel",
         "ShortRead",
@@ -11726,8 +11334,7 @@
         "futile.options",
         "biomaRt",
         "data.table",
-        "BSgenome",
-        "BiocFileCache"
+        "BSgenome"
     ],
     "rqt": [
         "ropls",
@@ -11793,7 +11400,6 @@
         "MultiAssayExperiment",
         "rtracklayer",
         "biomaRt",
-        "BiocFileCache",
         "Rsamtools",
         "GenomicAlignments",
         "BiocParallel",
@@ -11874,7 +11480,6 @@
         "R.methodsS3",
         "R.oo",
         "R.utils",
-        "BiocFileCache",
         "rtracklayer",
         "BiocParallel",
         "GenomicAlignments",
@@ -11883,8 +11488,7 @@
         "futile.options"
     ],
     "RVS": [
-        "gRain",
-        "gRbase"
+        "gRain"
     ],
     "rWikiPathways": [
         "data.table"
@@ -11892,8 +11496,7 @@
     "sampleClassifier": [
         "MGFM",
         "MGFR",
-        "biomaRt",
-        "BiocFileCache"
+        "biomaRt"
     ],
     "sangeranalyseR": [
         "data.table",
@@ -11953,7 +11556,6 @@
         "rtracklayer",
         "scanMiR",
         "scanMiRData",
-        "BiocFileCache",
         "futile.logger",
         "Rsamtools",
         "biomaRt",
@@ -11966,7 +11568,6 @@
         "caret",
         "data.tree",
         "AnnotationHub",
-        "BiocFileCache",
         "ModelMetrics",
         "recipes",
         "future.apply",
@@ -12001,7 +11602,6 @@
         "data.table",
         "futile.logger",
         "AnnotationHub",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -12217,7 +11817,6 @@
         "AnnotationHub",
         "BSgenome",
         "annotatr",
-        "BiocFileCache",
         "GenomicFeatures",
         "regioneR",
         "rtracklayer",
@@ -12255,7 +11854,6 @@
         "GenomicFeatures",
         "lambda.r",
         "futile.options",
-        "BiocFileCache",
         "rtracklayer",
         "GenomicAlignments"
     ],
@@ -12283,8 +11881,7 @@
         "lambda.r",
         "futile.options",
         "biomaRt",
-        "GenomicAlignments",
-        "BiocFileCache"
+        "GenomicAlignments"
     ],
     "scp": [
         "QFeatures",
@@ -12308,7 +11905,6 @@
         "org.Mm.eg.db",
         "rtracklayer",
         "scater",
-        "BiocFileCache",
         "Rsamtools",
         "GenomicAlignments",
         "scuttle",
@@ -12359,7 +11955,6 @@
         "OrganismDbi",
         "GGally",
         "ensembldb",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -12379,7 +11974,6 @@
     "scTensor": [
         "plotly",
         "reactome.db",
-        "nnTensor",
         "ccTensor",
         "heatmaply",
         "AnnotationHub",
@@ -12389,7 +11983,6 @@
         "ReactomePA",
         "DOSE",
         "schex",
-        "BiocFileCache",
         "GSEABase",
         "genefilter",
         "BiocParallel",
@@ -12397,7 +11990,6 @@
         "fgsea",
         "GOSemSim",
         "GO.db",
-        "dendextend",
         "data.table",
         "enrichplot",
         "ggraph",
@@ -12424,8 +12016,6 @@
     "scTGIF": [
         "GSEABase",
         "plotly",
-        "nnTensor",
-        "msigdbr",
         "schex",
         "data.table",
         "Seurat",
@@ -12474,7 +12064,6 @@
         "spatstat.data",
         "spatstat.utils",
         "spatstat.sparse",
-        "BiocFileCache",
         "lambda.r",
         "futile.options",
         "GenomicAlignments"
@@ -12502,7 +12091,6 @@
         "Rsamtools",
         "GenomicAlignments",
         "ggplotify",
-        "BiocFileCache",
         "BiocParallel",
         "DO.db",
         "fgsea",
@@ -12532,7 +12120,6 @@
         "BSgenome",
         "rtracklayer",
         "biomaRt",
-        "BiocFileCache",
         "Rsamtools",
         "GenomicAlignments",
         "BiocParallel",
@@ -12547,7 +12134,6 @@
         "WGCNA",
         "biomaRt",
         "seq2pathway.data",
-        "BiocFileCache",
         "Hmisc",
         "GO.db",
         "data.table"
@@ -12562,7 +12148,6 @@
         "BiocParallel",
         "biomaRt",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -12575,7 +12160,6 @@
     "SeqGSEA": [
         "DESeq2",
         "biomaRt",
-        "BiocFileCache",
         "BiocParallel",
         "genefilter",
         "geneplotter",
@@ -12599,8 +12183,7 @@
         "ExperimentHub",
         "GGally",
         "rbokeh",
-        "AnnotationHub",
-        "BiocFileCache"
+        "AnnotationHub"
     ],
     "SeqVarTools": [
         "logistf",
@@ -12618,7 +12201,6 @@
         "data.table",
         "ExperimentHub",
         "AnnotationHub",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -12654,7 +12236,6 @@
         "BiocParallel",
         "biomaRt",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -12664,7 +12245,6 @@
         "minfi",
         "plotly",
         "rtracklayer",
-        "dendextend",
         "bumphunter",
         "genefilter",
         "GEOquery",
@@ -12678,8 +12258,7 @@
         "futile.options",
         "biomaRt",
         "R.oo",
-        "R.methodsS3",
-        "BiocFileCache"
+        "R.methodsS3"
     ],
     "shinyMethyl": [
         "minfi",
@@ -12698,7 +12277,6 @@
         "biomaRt",
         "R.oo",
         "R.methodsS3",
-        "BiocFileCache",
         "Rsamtools",
         "GenomicAlignments"
     ],
@@ -12752,7 +12330,6 @@
         "yulab.utils",
         "DO.db",
         "AnnotationHub",
-        "BiocFileCache",
         "aplot",
         "ggraph",
         "scatterpie",
@@ -12775,7 +12352,6 @@
         "BiocParallel",
         "GenomicAlignments",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -12789,7 +12365,6 @@
         "BiocParallel",
         "biomaRt",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -12836,7 +12411,6 @@
         "GSVA",
         "GSVAdata",
         "MAST",
-        "msigdbr",
         "plotly",
         "scater",
         "scMerge",
@@ -12863,7 +12437,6 @@
         "AnnotationHub",
         "genefilter",
         "geneplotter",
-        "BiocFileCache",
         "yulab.utils",
         "aplot",
         "tidytree",
@@ -12916,7 +12489,6 @@
         "biomaRt",
         "GenomicAlignments",
         "VariantAnnotation",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -12953,7 +12525,6 @@
         "GenomicFeatures",
         "Rsamtools",
         "rtracklayer",
-        "BiocFileCache",
         "BiocParallel",
         "GenomicAlignments",
         "futile.logger",
@@ -12988,7 +12559,6 @@
         "rtracklayer",
         "biomaRt",
         "R.utils",
-        "BiocFileCache",
         "lambda.r",
         "futile.options",
         "R.oo",
@@ -13022,7 +12592,6 @@
         "biomaRt",
         "Rsamtools",
         "GenomicAlignments",
-        "BiocFileCache",
         "BiocParallel",
         "futile.logger",
         "lambda.r",
@@ -13059,8 +12628,7 @@
         "lambda.r",
         "futile.options",
         "biomaRt",
-        "GenomicAlignments",
-        "BiocFileCache"
+        "GenomicAlignments"
     ],
     "soGGi": [
         "Rsamtools",
@@ -13099,7 +12667,6 @@
         "biomaRt",
         "data.table",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -13158,7 +12725,6 @@
         "SpatialExperiment",
         "dir.expiry",
         "basilisk.utils",
-        "BiocFileCache",
         "DropletUtils",
         "BiocParallel",
         "R.utils",
@@ -13183,7 +12749,6 @@
         "nloptr"
     ],
     "SpatialExperiment": [
-        "BiocFileCache",
         "DropletUtils",
         "BiocParallel",
         "R.utils",
@@ -13195,7 +12760,6 @@
         "futile.options"
     ],
     "spatialHeatmap": [
-        "BiocFileCache",
         "data.table",
         "DESeq2",
         "distinct",
@@ -13230,7 +12794,6 @@
         "BiocParallel",
         "CNEr",
         "futile.logger",
-        "BiocFileCache",
         "GenomicAlignments",
         "GO.db",
         "R.utils",
@@ -13289,7 +12852,6 @@
         "data.table",
         "R.utils",
         "TCGAbiolinksGUI.data",
-        "BiocFileCache",
         "DOSE",
         "GO.db",
         "GOSemSim",
@@ -13339,7 +12901,6 @@
         "futile.logger",
         "rtracklayer",
         "biomaRt",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -13352,7 +12913,6 @@
         "GenomicFeatures",
         "Gviz",
         "BSgenome.Mmusculus.UCSC.mm9",
-        "BiocFileCache",
         "BSgenome",
         "Rsamtools",
         "BiocParallel",
@@ -13367,8 +12927,7 @@
         "data.table"
     ],
     "SPONGE": [
-        "data.table",
-        "gRbase"
+        "data.table"
     ],
     "SPsimSeq": [
         "Hmisc",
@@ -13400,7 +12959,6 @@
         "ensembldb",
         "BSgenome",
         "biovizBase",
-        "BiocFileCache",
         "Hmisc",
         "VariantAnnotation",
         "lambda.r",
@@ -13433,7 +12991,6 @@
         "biovizBase",
         "Rsamtools",
         "GenomicAlignments",
-        "BiocFileCache",
         "Hmisc",
         "VariantAnnotation",
         "BiocParallel",
@@ -13460,7 +13017,6 @@
         "data.table",
         "R.utils",
         "TCGAbiolinksGUI.data",
-        "BiocFileCache",
         "DOSE",
         "GO.db",
         "GOSemSim",
@@ -13491,7 +13047,6 @@
         "futile.logger",
         "rtracklayer",
         "biomaRt",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -13509,7 +13064,6 @@
         "Rsamtools",
         "GenomicAlignments",
         "BSgenome",
-        "BiocFileCache",
         "BiocParallel",
         "futile.logger",
         "lambda.r",
@@ -13550,8 +13104,7 @@
         "future.apply"
     ],
     "surfaltr": [
-        "biomaRt",
-        "BiocFileCache"
+        "biomaRt"
     ],
     "survcomp": [
         "prodlim",
@@ -13573,8 +13126,7 @@
         "nloptr"
     ],
     "Sushi": [
-        "biomaRt",
-        "BiocFileCache"
+        "biomaRt"
     ],
     "sva": [
         "genefilter",
@@ -13592,7 +13144,6 @@
         "Rsamtools",
         "GenomicAlignments",
         "BSgenome",
-        "BiocFileCache",
         "BiocParallel",
         "futile.logger",
         "lambda.r",
@@ -13607,7 +13158,6 @@
         "Rsamtools",
         "GenomicAlignments",
         "BSgenome",
-        "BiocFileCache",
         "BiocParallel",
         "futile.logger",
         "lambda.r",
@@ -13615,8 +13165,7 @@
     ],
     "SWATH2stats": [
         "data.table",
-        "biomaRt",
-        "BiocFileCache"
+        "biomaRt"
     ],
     "SwathXtend": [
         "VennDiagram",
@@ -13726,7 +13275,6 @@
         "rtracklayer",
         "Rsamtools",
         "biomaRt",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -13771,7 +13319,6 @@
         "data.table",
         "R.utils",
         "TCGAbiolinksGUI.data",
-        "BiocFileCache",
         "R.oo",
         "R.methodsS3"
     ],
@@ -13806,7 +13353,6 @@
         "fgsea",
         "R.utils",
         "futile.logger",
-        "BiocFileCache",
         "DO.db",
         "aplot",
         "ggraph",
@@ -13846,7 +13392,6 @@
         "MultiAssayExperiment",
         "rtracklayer",
         "biomaRt",
-        "BiocFileCache",
         "Rsamtools",
         "GenomicAlignments",
         "BiocParallel",
@@ -13866,7 +13411,6 @@
         "restfulSE",
         "ontoProc",
         "org.Mm.eg.db",
-        "BiocFileCache",
         "AnnotationHub",
         "GO.db",
         "ExperimentHub"
@@ -13904,7 +13448,6 @@
         "GenomicFeatures",
         "R.utils",
         "org.Hs.eg.db",
-        "BiocFileCache",
         "rtracklayer",
         "R.oo",
         "R.methodsS3",
@@ -13918,7 +13461,6 @@
     "TFutils": [
         "Rsamtools",
         "GSEABase",
-        "BiocFileCache",
         "org.Hs.eg.db",
         "BiocParallel",
         "futile.logger",
@@ -13960,7 +13502,6 @@
         "clusterProfiler",
         "gghighlight",
         "rWikiPathways",
-        "BiocFileCache",
         "DOSE",
         "enrichplot",
         "GO.db",
@@ -14015,7 +13556,6 @@
         "BiocParallel",
         "GenomicAlignments",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -14030,7 +13570,6 @@
         "BiocParallel",
         "GenomicAlignments",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -14115,7 +13654,6 @@
         "BSgenome",
         "biovizBase",
         "futile.logger",
-        "BiocFileCache",
         "Hmisc",
         "VariantAnnotation",
         "lambda.r",
@@ -14134,7 +13672,6 @@
         "biomaRt",
         "data.table",
         "topGO",
-        "BiocFileCache",
         "GO.db"
     ],
     "transcriptR": [
@@ -14150,7 +13687,6 @@
         "BiocParallel",
         "biomaRt",
         "futile.logger",
-        "BiocFileCache",
         "data.table",
         "ipred",
         "lambda.r",
@@ -14257,7 +13793,6 @@
         "org.Hs.eg.db",
         "biomaRt",
         "WGCNA",
-        "BiocFileCache",
         "rtracklayer",
         "Rsamtools",
         "splitstackshape",
@@ -14284,7 +13819,6 @@
         "BiocParallel",
         "GenomicAlignments",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -14337,7 +13871,6 @@
         "GenomicAlignments",
         "Rsamtools",
         "rtracklayer",
-        "BiocFileCache",
         "futile.logger",
         "lambda.r",
         "futile.options"
@@ -14371,7 +13904,6 @@
         "BSgenome",
         "biovizBase",
         "GenomicAlignments",
-        "BiocFileCache",
         "Hmisc",
         "lambda.r",
         "futile.options",
@@ -14385,14 +13917,12 @@
         "biomaRt",
         "Rsamtools",
         "GenomicAlignments",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
     "tximeta": [
         "GenomicFeatures",
         "ensembldb",
-        "BiocFileCache",
         "AnnotationHub",
         "rtracklayer",
         "Rsamtools",
@@ -14412,7 +13942,6 @@
         "mirbase.db",
         "Organism.dplyr",
         "Sushi",
-        "BiocFileCache",
         "rtracklayer",
         "Rsamtools",
         "BiocParallel",
@@ -14433,7 +13962,6 @@
         "org.Hs.eg.db",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "GenomicFeatures",
-        "BiocFileCache",
         "fda",
         "rtracklayer",
         "BiocParallel",
@@ -14453,7 +13981,6 @@
         "Homo.sapiens",
         "org.Hs.eg.db",
         "TxDb.Hsapiens.UCSC.hg38.knownGene",
-        "BiocFileCache",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "rlist",
         "EnsDb.Hsapiens.v75",
@@ -14477,9 +14004,6 @@
         "lambda.r",
         "futile.options"
     ],
-    "UniProt.ws": [
-        "BiocFileCache"
-    ],
     "Uniquorn": [
         "R.utils",
         "VariantAnnotation",
@@ -14493,7 +14017,6 @@
         "BiocParallel",
         "GenomicAlignments",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -14570,7 +14093,6 @@
         "BiocParallel",
         "GenomicAlignments",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -14594,7 +14116,6 @@
         "futile.logger",
         "rtracklayer",
         "biomaRt",
-        "BiocFileCache",
         "AnnotationHub",
         "ensembldb",
         "biovizBase",
@@ -14614,7 +14135,6 @@
         "futile.logger",
         "biomaRt",
         "GenomicAlignments",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -14628,7 +14148,6 @@
         "BiocParallel",
         "biomaRt",
         "futile.logger",
-        "BiocFileCache",
         "genefilter",
         "lambda.r",
         "futile.options"
@@ -14644,13 +14163,11 @@
         "GenomicFeatures",
         "futile.logger",
         "biomaRt",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
     "VegaMC": [
-        "biomaRt",
-        "BiocFileCache"
+        "biomaRt"
     ],
     "velociraptor": [
         "basilisk",
@@ -14683,7 +14200,6 @@
     "ViSEAGO": [
         "data.table",
         "biomaRt",
-        "dendextend",
         "DiagrammeR",
         "fgsea",
         "GOSemSim",
@@ -14692,7 +14208,6 @@
         "plotly",
         "topGO",
         "R.utils",
-        "BiocFileCache",
         "BiocParallel",
         "R.oo",
         "R.methodsS3",
@@ -14715,7 +14230,6 @@
         "lexicon",
         "textclean",
         "textshape",
-        "BiocFileCache",
         "data.table",
         "sylly.en",
         "syuzhet"
@@ -14731,7 +14245,6 @@
     "vtpnet": [
         "gwascat",
         "GenomicFeatures",
-        "BiocFileCache",
         "VariantAnnotation",
         "AnnotationHub",
         "rtracklayer",
@@ -14764,7 +14277,6 @@
         "systemPipeR",
         "GreyListChIP",
         "futile.logger",
-        "BiocFileCache",
         "BSgenome",
         "ShortRead",
         "lambda.r",
@@ -14772,8 +14284,6 @@
     ],
     "waddR": [
         "arm",
-        "eva",
-        "BiocFileCache",
         "BiocParallel",
         "lme4",
         "futile.logger",
@@ -14798,7 +14308,6 @@
         "GEOquery",
         "BiocParallel",
         "futile.logger",
-        "BiocFileCache",
         "R.utils",
         "Rsamtools",
         "GenomicAlignments",
@@ -14817,7 +14326,6 @@
         "BiocParallel",
         "GenomicAlignments",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -14851,7 +14359,6 @@
         "data.table",
         "VariantAnnotation",
         "biomaRt",
-        "BiocFileCache",
         "Rsamtools",
         "rtracklayer",
         "BSgenome",
@@ -14893,7 +14400,6 @@
     "YAPSA": [
         "SomaticSignatures",
         "VariantAnnotation",
-        "dendextend",
         "BSgenome.Hsapiens.UCSC.hg19",
         "BSgenome",
         "ggbio",
@@ -14909,7 +14415,6 @@
         "ensembldb",
         "BiocParallel",
         "futile.logger",
-        "BiocFileCache",
         "data.table",
         "lambda.r",
         "futile.options"
@@ -14917,7 +14422,6 @@
     "yarn": [
         "biomaRt",
         "quantro",
-        "BiocFileCache",
         "minfi",
         "bumphunter",
         "genefilter",
@@ -14997,8 +14501,7 @@
     ],
     "adductData": [
         "ExperimentHub",
-        "AnnotationHub",
-        "BiocFileCache"
+        "AnnotationHub"
     ],
     "Hmisc": [
         "data.table"
@@ -15009,8 +14512,7 @@
     "curatedTCGAData": [
         "MultiAssayExperiment",
         "AnnotationHub",
-        "ExperimentHub",
-        "BiocFileCache"
+        "ExperimentHub"
     ],
     "caret": [
         "ModelMetrics",
@@ -15077,7 +14579,6 @@
         "GenomicFeatures",
         "rtracklayer",
         "biomaRt",
-        "BiocFileCache",
         "Rsamtools",
         "GenomicAlignments",
         "BiocParallel",
@@ -15093,7 +14594,6 @@
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "rtracklayer",
         "biomaRt",
-        "BiocFileCache",
         "Rsamtools",
         "GenomicAlignments",
         "BiocParallel",
@@ -15129,7 +14629,6 @@
         "BSgenome",
         "rtracklayer",
         "Rsamtools",
-        "BiocFileCache",
         "AnnotationHub",
         "BiocParallel",
         "GenomicAlignments",
@@ -15142,7 +14641,6 @@
         "BSgenome",
         "rtracklayer",
         "Rsamtools",
-        "BiocFileCache",
         "AnnotationHub",
         "BiocParallel",
         "GenomicAlignments",
@@ -15155,7 +14653,6 @@
         "BSgenome",
         "rtracklayer",
         "Rsamtools",
-        "BiocFileCache",
         "AnnotationHub",
         "BiocParallel",
         "GenomicAlignments",
@@ -15173,7 +14670,6 @@
         "BiocParallel",
         "GenomicAlignments",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -15187,7 +14683,6 @@
         "BiocParallel",
         "GenomicAlignments",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -15201,7 +14696,6 @@
         "BiocParallel",
         "GenomicAlignments",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -15211,7 +14705,6 @@
         "org.Hs.eg.db",
         "rtracklayer",
         "biomaRt",
-        "BiocFileCache",
         "Rsamtools",
         "GenomicAlignments",
         "BiocParallel",
@@ -15316,7 +14809,6 @@
     ],
     "heatmaply": [
         "plotly",
-        "dendextend",
         "data.table"
     ],
     "corncob": [
@@ -15374,7 +14866,6 @@
         "biomaRt",
         "R.oo",
         "R.methodsS3",
-        "BiocFileCache",
         "Rsamtools",
         "GenomicAlignments"
     ],
@@ -15458,8 +14949,7 @@
     ],
     "biscuiteerData": [
         "ExperimentHub",
-        "AnnotationHub",
-        "BiocFileCache"
+        "AnnotationHub"
     ],
     "Mus.musculus": [
         "OrganismDbi",
@@ -15469,7 +14959,6 @@
         "TxDb.Mmusculus.UCSC.mm10.knownGene",
         "rtracklayer",
         "biomaRt",
-        "BiocFileCache",
         "Rsamtools",
         "GenomicAlignments",
         "BiocParallel",
@@ -15481,7 +14970,6 @@
         "GenomicFeatures",
         "rtracklayer",
         "biomaRt",
-        "BiocFileCache",
         "Rsamtools",
         "GenomicAlignments",
         "BiocParallel",
@@ -15502,7 +14990,6 @@
         "bumphunter",
         "derfinder",
         "org.Hs.eg.db",
-        "BiocFileCache",
         "BiocParallel",
         "GenomicAlignments",
         "GenomicFiles",
@@ -15594,7 +15081,6 @@
         "biomaRt",
         "R.oo",
         "R.methodsS3",
-        "BiocFileCache",
         "Rsamtools",
         "GenomicAlignments"
     ],
@@ -15614,7 +15100,6 @@
         "biomaRt",
         "R.oo",
         "R.methodsS3",
-        "BiocFileCache",
         "Rsamtools",
         "GenomicAlignments"
     ],
@@ -15634,7 +15119,6 @@
         "biomaRt",
         "R.oo",
         "R.methodsS3",
-        "BiocFileCache",
         "Rsamtools",
         "GenomicAlignments"
     ],
@@ -15644,7 +15128,6 @@
         "biomaRt",
         "Rsamtools",
         "GenomicAlignments",
-        "BiocFileCache",
         "BiocParallel",
         "futile.logger",
         "lambda.r",
@@ -15690,7 +15173,6 @@
         "GenomicFeatures",
         "rtracklayer",
         "biomaRt",
-        "BiocFileCache",
         "Rsamtools",
         "GenomicAlignments",
         "BiocParallel",
@@ -15702,7 +15184,6 @@
         "GenomicFeatures",
         "rtracklayer",
         "biomaRt",
-        "BiocFileCache",
         "Rsamtools",
         "GenomicAlignments",
         "BiocParallel",
@@ -15714,7 +15195,6 @@
         "GenomicFeatures",
         "rtracklayer",
         "biomaRt",
-        "BiocFileCache",
         "Rsamtools",
         "GenomicAlignments",
         "BiocParallel",
@@ -15726,7 +15206,6 @@
         "GenomicFeatures",
         "rtracklayer",
         "biomaRt",
-        "BiocFileCache",
         "Rsamtools",
         "GenomicAlignments",
         "BiocParallel",
@@ -15738,7 +15217,6 @@
         "GenomicFeatures",
         "rtracklayer",
         "biomaRt",
-        "BiocFileCache",
         "Rsamtools",
         "GenomicAlignments",
         "BiocParallel",
@@ -15781,7 +15259,6 @@
         "data.table"
     ],
     "factoextra": [
-        "dendextend",
         "FactoMineR",
         "ggpubr",
         "car",
@@ -15843,7 +15320,6 @@
         "BiocParallel",
         "GenomicAlignments",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -15863,7 +15339,6 @@
         "biomaRt",
         "R.oo",
         "R.methodsS3",
-        "BiocFileCache",
         "Rsamtools",
         "GenomicAlignments"
     ],
@@ -16035,8 +15510,7 @@
     ],
     "easierData": [
         "ExperimentHub",
-        "AnnotationHub",
-        "BiocFileCache"
+        "AnnotationHub"
     ],
     "coin": [
         "multcomp",
@@ -16052,8 +15526,7 @@
     ],
     "ewceData": [
         "ExperimentHub",
-        "AnnotationHub",
-        "BiocFileCache"
+        "AnnotationHub"
     ],
     "gprofiler2": [
         "plotly",
@@ -16123,7 +15596,6 @@
     "shinyHeatmaply": [
         "heatmaply",
         "plotly",
-        "dendextend",
         "data.table"
     ],
     "HH": [
@@ -16135,14 +15607,10 @@
     "loose.rock": [
         "futile.options"
     ],
-    "gRain": [
-        "gRbase"
-    ],
     "TxDb.Hsapiens.UCSC.hg38.knownGene": [
         "GenomicFeatures",
         "rtracklayer",
         "biomaRt",
-        "BiocFileCache",
         "Rsamtools",
         "GenomicAlignments",
         "BiocParallel",
@@ -16160,7 +15628,6 @@
         "GenomicFeatures",
         "rtracklayer",
         "biomaRt",
-        "BiocFileCache",
         "Rsamtools",
         "GenomicAlignments",
         "BiocParallel",
@@ -16193,7 +15660,6 @@
         "BiocParallel",
         "GenomicAlignments",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -16257,8 +15723,7 @@
     ],
     "sesameData": [
         "ExperimentHub",
-        "AnnotationHub",
-        "BiocFileCache"
+        "AnnotationHub"
     ],
     "FlowSorted.Blood.450k": [
         "minfi",
@@ -16276,7 +15741,6 @@
         "biomaRt",
         "R.oo",
         "R.methodsS3",
-        "BiocFileCache",
         "Rsamtools",
         "GenomicAlignments"
     ],
@@ -16284,7 +15748,6 @@
         "ExperimentHubData",
         "ExperimentHub",
         "AnnotationHub",
-        "BiocFileCache",
         "AnnotationHubData",
         "GenomicFeatures",
         "Rsamtools",
@@ -16345,7 +15808,6 @@
         "biclust"
     ],
     "BiBitR": [
-        "dendextend",
         "biclust"
     ],
     "SOMbrero": [
@@ -16398,7 +15860,6 @@
     ],
     "NxtIRFdata": [
         "ExperimentHub",
-        "BiocFileCache",
         "rtracklayer",
         "R.utils",
         "AnnotationHub",
@@ -16427,7 +15888,6 @@
         "biomaRt",
         "data.table",
         "R.utils",
-        "BiocFileCache",
         "R.oo",
         "R.methodsS3"
     ],
@@ -16504,7 +15964,6 @@
         "BSgenome",
         "rtracklayer",
         "Rsamtools",
-        "BiocFileCache",
         "AnnotationHub",
         "BiocParallel",
         "GenomicAlignments",
@@ -16514,15 +15973,13 @@
     ],
     "pwrEWAS.data": [
         "ExperimentHub",
-        "AnnotationHub",
-        "BiocFileCache"
+        "AnnotationHub"
     ],
     "phastCons100way.UCSC.hg19": [
         "GenomicScores",
         "BSgenome",
         "rtracklayer",
         "Rsamtools",
-        "BiocFileCache",
         "AnnotationHub",
         "BiocParallel",
         "GenomicAlignments",
@@ -16547,8 +16004,7 @@
         "futile.options"
     ],
     "rGenomeTracksData": [
-        "AnnotationHub",
-        "BiocFileCache"
+        "AnnotationHub"
     ],
     "valr": [
         "broom",
@@ -16572,8 +16028,7 @@
     ],
     "RLHub": [
         "AnnotationHub",
-        "ExperimentHub",
-        "BiocFileCache"
+        "ExperimentHub"
     ],
     "TBX20BamSubset": [
         "Rsamtools",
@@ -16591,7 +16046,6 @@
         "BiocParallel",
         "GenomicAlignments",
         "futile.logger",
-        "BiocFileCache",
         "lambda.r",
         "futile.options"
     ],
@@ -16610,7 +16064,6 @@
         "ExperimentHub",
         "GenomicAlignments",
         "AnnotationHub",
-        "BiocFileCache",
         "Rsamtools",
         "BiocParallel",
         "futile.logger",
@@ -16630,8 +16083,7 @@
     ],
     "celldex": [
         "ExperimentHub",
-        "AnnotationHub",
-        "BiocFileCache"
+        "AnnotationHub"
     ],
     "GSVAdata": [
         "GSEABase",
@@ -16643,7 +16095,6 @@
         "AnnotationHub",
         "ensembldb",
         "GenomicFeatures",
-        "BiocFileCache",
         "rtracklayer",
         "Rsamtools",
         "biomaRt",
@@ -16655,8 +16106,7 @@
     ],
     "TENxPBMCData": [
         "AnnotationHub",
-        "ExperimentHub",
-        "BiocFileCache"
+        "ExperimentHub"
     ],
     "hgu95a.db": [
         "org.Hs.eg.db"
@@ -16676,7 +16126,6 @@
         "GSEABase",
         "org.Mm.eg.db",
         "org.Hs.eg.db",
-        "AnnotationHub",
-        "BiocFileCache"
+        "AnnotationHub"
     ]
 }
