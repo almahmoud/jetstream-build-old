@@ -1,67 +1,36 @@
 {
     "ACE": [
-        "QDNAseq",
-        "R.utils"
+        "QDNAseq"
     ],
     "affycoretools": [
-        "ReportingTools",
-        "R.utils"
+        "ReportingTools"
     ],
     "AgiMicroRna": [
         "affycoretools",
-        "ReportingTools",
-        "R.utils"
+        "ReportingTools"
     ],
     "APAlyzer": [
         "repmis",
-        "R.cache",
-        "R.utils"
+        "R.cache"
     ],
     "appreci8R": [
-        "BSgenome.Hsapiens.UCSC.hg19",
-        "TxDb.Hsapiens.UCSC.hg19.knownGene",
-        "Homo.sapiens",
-        "SNPlocs.Hsapiens.dbSNP144.GRCh37",
-        "XtraSNPlocs.Hsapiens.dbSNP144.GRCh37",
-        "MafDb.1Kgenomes.phase3.hs37d5",
-        "MafDb.ExAC.r1.0.hs37d5",
-        "MafDb.gnomADex.r2.1.hs37d5",
-        "COSMIC.67",
-        "PolyPhen.Hsapiens.dbSNP131",
-        "SIFT.Hsapiens.dbSNP137"
-    ],
-    "aroma.light": [
-        "R.utils"
+        "Homo.sapiens"
     ],
     "arrayMvout": [
         "lumi",
         "methylumi",
         "FDb.InfiniumMethylation.hg19",
         "minfi",
-        "TxDb.Hsapiens.UCSC.hg19.knownGene",
-        "GEOquery",
-        "R.utils"
-    ],
-    "AUCell": [
-        "R.utils"
+        "GEOquery"
     ],
     "autonomics": [
         "assertive",
-        "R.utils",
-        "assertive.types",
         "assertive.strings",
         "assertive.datetimes",
-        "assertive.files",
         "assertive.data",
         "assertive.data.uk",
         "assertive.data.us",
         "assertive.code"
-    ],
-    "BANDITS": [
-        "R.utils"
-    ],
-    "Basic4Cseq": [
-        "BSgenome.Ecoli.NCBI.20080805"
     ],
     "benchdamic": [
         "Seurat",
@@ -69,80 +38,50 @@
         "lumi",
         "methylumi",
         "spatstat.core",
-        "spatstat.geom",
         "FDb.InfiniumMethylation.hg19",
         "minfi",
-        "TxDb.Hsapiens.UCSC.hg19.knownGene",
-        "GEOquery",
-        "R.utils"
-    ],
-    "BgeeDB": [
-        "R.utils"
+        "GEOquery"
     ],
     "bigmelon": [
         "wateRmelon",
         "minfi",
         "methylumi",
         "GEOquery",
-        "R.utils",
         "FDb.InfiniumMethylation.hg19",
         "lumi",
-        "IlluminaHumanMethylation450kanno.ilmn12.hg19",
-        "TxDb.Hsapiens.UCSC.hg19.knownGene"
+        "IlluminaHumanMethylation450kanno.ilmn12.hg19"
     ],
     "biocthis": [
         "styler",
-        "R.cache",
-        "R.utils"
+        "R.cache"
     ],
     "BioPlex": [
-        "GEOquery",
-        "R.utils"
+        "GEOquery"
     ],
     "biscuiteer": [
         "bsseq",
         "Mus.musculus",
         "Homo.sapiens",
         "QDNAseq",
-        "dmrseq",
-        "R.utils",
-        "TxDb.Hsapiens.UCSC.hg19.knownGene",
-        "TxDb.Mmusculus.UCSC.mm10.knownGene"
-    ],
-    "brainflowprobes": [
-        "BSgenome.Hsapiens.UCSC.hg19"
-    ],
-    "branchpointer": [
-        "BSgenome.Hsapiens.UCSC.hg38"
-    ],
-    "bsseq": [
-        "R.utils"
+        "dmrseq"
     ],
     "CATALYST": [
         "FlowSOM",
         "CytoML",
-        "openCyto",
-        "R.utils"
+        "openCyto"
     ],
     "celda": [
-        "multipanelfigure",
-        "assertive.files",
-        "assertive.types"
-    ],
-    "cellbaseR": [
-        "R.utils"
+        "multipanelfigure"
     ],
     "CelliD": [
         "Seurat",
-        "spatstat.core",
-        "spatstat.geom"
+        "spatstat.core"
     ],
     "censcyt": [
         "diffcyt",
         "FlowSOM",
         "CytoML",
-        "openCyto",
-        "R.utils"
+        "openCyto"
     ],
     "ChAMP": [
         "minfi",
@@ -158,89 +97,41 @@
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "methylumi",
         "lumi",
-        "R.utils",
-        "FDb.InfiniumMethylation.hg19",
-        "TxDb.Hsapiens.UCSC.hg19.knownGene"
-    ],
-    "ChIPComp": [
-        "BSgenome.Hsapiens.UCSC.hg19",
-        "BSgenome.Mmusculus.UCSC.mm9"
-    ],
-    "chipenrich": [
-        "chipenrich.data"
-    ],
-    "ChIPQC": [
-        "TxDb.Hsapiens.UCSC.hg19.knownGene",
-        "TxDb.Hsapiens.UCSC.hg18.knownGene",
-        "TxDb.Mmusculus.UCSC.mm10.knownGene",
-        "TxDb.Mmusculus.UCSC.mm9.knownGene",
-        "TxDb.Rnorvegicus.UCSC.rn4.ensGene",
-        "TxDb.Celegans.UCSC.ce6.ensGene",
-        "TxDb.Dmelanogaster.UCSC.dm3.ensGene"
-    ],
-    "ChIPseeker": [
-        "TxDb.Hsapiens.UCSC.hg19.knownGene"
+        "FDb.InfiniumMethylation.hg19"
     ],
     "ChIPXpress": [
-        "GEOquery",
-        "R.utils"
+        "GEOquery"
     ],
     "chromVAR": [
         "TFBSTools",
-        "CNEr",
-        "R.utils"
-    ],
-    "circRNAprofiler": [
-        "R.utils",
-        "BSgenome.Hsapiens.UCSC.hg19"
-    ],
-    "cleanUpdTSeq": [
-        "BSgenome.Drerio.UCSC.danRer7"
-    ],
-    "CNEr": [
-        "R.utils"
+        "CNEr"
     ],
     "CNVfilteR": [
-        "CopyNumberPlots",
-        "cn.mops"
+        "CopyNumberPlots"
     ],
     "CNViz": [
-        "CopyNumberPlots",
-        "cn.mops"
+        "CopyNumberPlots"
     ],
     "COCOA": [
         "MIRA",
-        "bsseq",
-        "R.utils"
-    ],
-    "CODEX": [
-        "BSgenome.Hsapiens.UCSC.hg19"
+        "bsseq"
     ],
     "coexnet": [
-        "GEOquery",
-        "R.utils"
-    ],
-    "Cogito": [
-        "TxDb.Mmusculus.UCSC.mm9.knownGene"
+        "GEOquery"
     ],
     "conclus": [
-        "GEOquery",
-        "R.utils"
+        "GEOquery"
     ],
     "condiments": [
         "Ecume",
-        "spatstat.geom",
         "spatstat",
         "spatstat.core",
         "spatstat.linnet"
     ],
     "consensusDE": [
         "EDASeq",
-        "EnsDb.Hsapiens.v86",
         "RUVSeq",
-        "TxDb.Dmelanogaster.UCSC.dm3.ensGene",
-        "aroma.light",
-        "R.utils"
+        "aroma.light"
     ],
     "conumee": [
         "minfi",
@@ -248,355 +139,227 @@
         "IlluminaHumanMethylation450kmanifest",
         "IlluminaHumanMethylationEPICanno.ilm10b2.hg19",
         "IlluminaHumanMethylationEPICmanifest",
-        "GEOquery",
-        "R.utils"
-    ],
-    "CopyNumberPlots": [
-        "cn.mops"
+        "GEOquery"
     ],
     "crossmeta": [
-        "GEOquery",
-        "R.utils"
-    ],
-    "cTRAP": [
-        "R.utils"
+        "GEOquery"
     ],
     "CyTOFpower": [
         "diffcyt",
         "FlowSOM",
         "CytoML",
-        "openCyto",
-        "R.utils"
+        "openCyto"
     ],
     "CytoML": [
-        "openCyto",
-        "R.utils"
+        "openCyto"
     ],
     "CytoTree": [
         "FlowSOM",
         "CytoML",
-        "openCyto",
-        "R.utils"
+        "openCyto"
     ],
     "DaMiRseq": [
         "EDASeq",
-        "aroma.light",
-        "R.utils"
+        "aroma.light"
     ],
     "dasper": [
         "megadepth",
-        "cmdfun",
-        "R.utils"
-    ],
-    "ddPCRclust": [
-        "R.utils"
-    ],
-    "decompTumor2Sig": [
-        "BSgenome.Hsapiens.UCSC.hg19",
-        "TxDb.Hsapiens.UCSC.hg19.knownGene"
+        "cmdfun"
     ],
     "deconvR": [
-        "methylKit",
-        "R.utils"
+        "methylKit"
     ],
     "decoupleR": [
-        "AUCell",
-        "R.utils"
-    ],
-    "DeepBlueR": [
-        "R.utils"
-    ],
-    "DEGraph": [
-        "R.utils"
-    ],
-    "DEWSeq": [
-        "R.utils"
+        "AUCell"
     ],
     "DExMA": [
-        "GEOquery",
-        "R.utils"
+        "GEOquery"
     ],
     "diffcyt": [
         "FlowSOM",
         "CytoML",
-        "openCyto",
-        "R.utils"
+        "openCyto"
     ],
     "Dino": [
         "Seurat",
-        "spatstat.core",
-        "spatstat.geom"
+        "spatstat.core"
     ],
     "DMRcate": [
         "bsseq",
         "DSS",
         "minfi",
         "missMethyl",
-        "R.utils",
         "GEOquery",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
         "IlluminaHumanMethylation450kmanifest",
         "IlluminaHumanMethylationEPICmanifest",
         "methylumi",
-        "FDb.InfiniumMethylation.hg19",
-        "TxDb.Hsapiens.UCSC.hg19.knownGene"
+        "FDb.InfiniumMethylation.hg19"
     ],
     "dmrseq": [
-        "bsseq",
-        "R.utils"
-    ],
-    "DropletUtils": [
-        "R.utils"
+        "bsseq"
     ],
     "DrugVsDisease": [
-        "GEOquery",
-        "R.utils"
+        "GEOquery"
     ],
     "DSS": [
-        "bsseq",
-        "R.utils"
+        "bsseq"
     ],
     "EDASeq": [
-        "aroma.light",
-        "R.utils"
-    ],
-    "eegc": [
-        "R.utils"
+        "aroma.light"
     ],
     "EGAD": [
-        "GEOquery",
-        "R.utils"
+        "GEOquery"
     ],
     "ELMER": [
-        "TCGAbiolinks",
-        "R.utils"
+        "TCGAbiolinks"
     ],
     "enhancerHomologSearch": [
         "motifmatchr",
         "TFBSTools",
-        "CNEr",
-        "R.utils"
+        "CNEr"
     ],
     "EnMCB": [
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "minfi",
-        "GEOquery",
-        "R.utils"
+        "GEOquery"
     ],
     "ENmix": [
         "minfi",
-        "GEOquery",
-        "R.utils"
+        "GEOquery"
     ],
     "enrichTF": [
         "motifmatchr",
         "TFBSTools",
-        "R.utils",
         "CNEr"
     ],
     "erma": [
-        "Homo.sapiens",
-        "TxDb.Hsapiens.UCSC.hg19.knownGene"
+        "Homo.sapiens"
     ],
     "esATAC": [
         "ChIPseeker",
-        "R.utils",
         "TFBSTools",
         "motifmatchr",
-        "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "CNEr"
-    ],
-    "eudysbiome": [
-        "R.utils"
     ],
     "ExperimentSubset": [
         "SpatialExperiment",
-        "DropletUtils",
-        "R.utils"
+        "DropletUtils"
     ],
     "ffpe": [
         "lumi",
         "methylumi",
         "FDb.InfiniumMethylation.hg19",
         "minfi",
-        "TxDb.Hsapiens.UCSC.hg19.knownGene",
-        "GEOquery",
-        "R.utils"
-    ],
-    "FGNet": [
-        "R.utils"
+        "GEOquery"
     ],
     "FlowSOM": [
         "CytoML",
-        "openCyto",
-        "R.utils"
-    ],
-    "FRASER": [
-        "R.utils"
+        "openCyto"
     ],
     "funtooNorm": [
         "minfi",
         "IlluminaHumanMethylation450kmanifest",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
-        "GEOquery",
-        "R.utils"
+        "GEOquery"
     ],
     "GAPGOM": [
-        "GEOquery",
-        "R.utils"
+        "GEOquery"
     ],
     "GARS": [
         "DaMiRseq",
         "EDASeq",
-        "aroma.light",
-        "R.utils"
+        "aroma.light"
     ],
     "GCSscore": [
-        "dplR",
-        "R.utils"
+        "dplR"
     ],
     "GeneBreak": [
-        "QDNAseq",
-        "R.utils"
-    ],
-    "GeneStructureTools": [
-        "BSgenome.Mmusculus.UCSC.mm10"
+        "QDNAseq"
     ],
     "GEOexplorer": [
-        "GEOquery",
-        "R.utils"
+        "GEOquery"
     ],
     "GEOmetadb": [
-        "GEOquery",
-        "R.utils"
-    ],
-    "GEOquery": [
-        "R.utils"
+        "GEOquery"
     ],
     "ggspavis": [
         "SpatialExperiment",
-        "DropletUtils",
-        "R.utils"
+        "DropletUtils"
     ],
     "gpart": [
-        "Homo.sapiens",
-        "TxDb.Hsapiens.UCSC.hg38.knownGene",
-        "TxDb.Hsapiens.UCSC.hg19.knownGene"
+        "Homo.sapiens"
     ],
     "GSReg": [
-        "Homo.sapiens",
-        "TxDb.Hsapiens.UCSC.hg19.knownGene"
-    ],
-    "HiCBricks": [
-        "R.utils"
+        "Homo.sapiens"
     ],
     "HiCcompare": [
-        "QDNAseq",
-        "R.utils"
-    ],
-    "HiCDCPlus": [
-        "R.utils"
-    ],
-    "HiLDA": [
-        "BSgenome.Hsapiens.UCSC.hg19",
-        "TxDb.Hsapiens.UCSC.hg19.knownGene"
+        "QDNAseq"
     ],
     "HubPub": [
         "biocthis",
         "styler",
-        "R.cache",
-        "R.utils"
-    ],
-    "icetea": [
-        "TxDb.Dmelanogaster.UCSC.dm6.ensGene"
+        "R.cache"
     ],
     "iCheck": [
         "lumi",
         "methylumi",
         "FDb.InfiniumMethylation.hg19",
         "minfi",
-        "TxDb.Hsapiens.UCSC.hg19.knownGene",
-        "GEOquery",
-        "R.utils"
+        "GEOquery"
     ],
     "iCNV": [
-        "CODEX",
-        "BSgenome.Hsapiens.UCSC.hg19"
+        "CODEX"
     ],
     "imcRtools": [
         "SpatialExperiment",
-        "DropletUtils",
-        "R.utils"
+        "DropletUtils"
     ],
     "InPAS": [
-        "cleanUpdTSeq",
-        "BSgenome.Drerio.UCSC.danRer7"
-    ],
-    "INSPEcT": [
-        "TxDb.Mmusculus.UCSC.mm9.knownGene"
+        "cleanUpdTSeq"
     ],
     "IntramiRExploreR": [
-        "FGNet",
-        "R.utils"
+        "FGNet"
     ],
     "IRISFGM": [
         "Seurat",
-        "spatstat.core",
-        "spatstat.geom"
+        "spatstat.core"
     ],
     "kissDE": [
         "DSS",
-        "bsseq",
-        "R.utils"
-    ],
-    "KnowSeq": [
-        "R.utils"
-    ],
-    "ldblock": [
-        "EnsDb.Hsapiens.v75"
+        "bsseq"
     ],
     "lisaClust": [
         "spatstat.core",
-        "spatstat.geom",
         "spicyR"
     ],
     "lumi": [
         "methylumi",
         "FDb.InfiniumMethylation.hg19",
         "minfi",
-        "TxDb.Hsapiens.UCSC.hg19.knownGene",
-        "GEOquery",
-        "R.utils"
+        "GEOquery"
     ],
     "M3Drop": [
         "reldist",
         "densEstBayes"
     ],
     "MACPET": [
-        "GEOquery",
-        "R.utils"
-    ],
-    "MADSEQ": [
-        "BSgenome.Hsapiens.UCSC.hg19"
+        "GEOquery"
     ],
     "MAGAR": [
         "RnBeads",
         "methylumi",
         "FDb.InfiniumMethylation.hg19",
         "minfi",
-        "TxDb.Hsapiens.UCSC.hg19.knownGene",
-        "GEOquery",
-        "R.utils"
+        "GEOquery"
     ],
     "MatrixRider": [
         "TFBSTools",
-        "CNEr",
-        "R.utils"
+        "CNEr"
     ],
     "mCSEA": [
-        "Homo.sapiens",
-        "TxDb.Hsapiens.UCSC.hg19.knownGene"
+        "Homo.sapiens"
     ],
     "MEAL": [
         "minfi",
@@ -607,9 +370,7 @@
         "IlluminaHumanMethylation450kmanifest",
         "IlluminaHumanMethylationEPICmanifest",
         "methylumi",
-        "R.utils",
-        "FDb.InfiniumMethylation.hg19",
-        "TxDb.Hsapiens.UCSC.hg19.knownGene"
+        "FDb.InfiniumMethylation.hg19"
     ],
     "MEAT": [
         "minfi",
@@ -618,51 +379,36 @@
         "methylumi",
         "lumi",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
-        "R.utils",
-        "FDb.InfiniumMethylation.hg19",
-        "TxDb.Hsapiens.UCSC.hg19.knownGene"
+        "FDb.InfiniumMethylation.hg19"
     ],
     "megadepth": [
-        "cmdfun",
-        "R.utils"
+        "cmdfun"
     ],
     "memes": [
-        "cmdfun",
-        "R.utils"
-    ],
-    "MetaboSignal": [
-        "EnsDb.Hsapiens.v75"
+        "cmdfun"
     ],
     "MetaCyto": [
         "FlowSOM",
         "CytoML",
-        "openCyto",
-        "R.utils"
-    ],
-    "metagene": [
-        "EnsDb.Hsapiens.v86"
+        "openCyto"
     ],
     "metaseqR2": [
         "DSS",
         "EDASeq",
         "bsseq",
-        "aroma.light",
-        "R.utils"
+        "aroma.light"
     ],
     "MethCP": [
         "bsseq",
         "DSS",
-        "methylKit",
-        "R.utils"
+        "methylKit"
     ],
     "methInheritSim": [
-        "methylKit",
-        "R.utils"
+        "methylKit"
     ],
     "MethylAid": [
         "minfi",
-        "GEOquery",
-        "R.utils"
+        "GEOquery"
     ],
     "methylCC": [
         "FlowSorted.Blood.450k",
@@ -670,13 +416,11 @@
         "bsseq",
         "IlluminaHumanMethylation450kmanifest",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
-        "R.utils",
         "GEOquery"
     ],
     "methylclock": [
         "minfi",
-        "GEOquery",
-        "R.utils"
+        "GEOquery"
     ],
     "methylGSA": [
         "missMethyl",
@@ -687,60 +431,41 @@
         "IlluminaHumanMethylationEPICmanifest",
         "methylumi",
         "FDb.InfiniumMethylation.hg19",
-        "GEOquery",
-        "TxDb.Hsapiens.UCSC.hg19.knownGene",
-        "R.utils"
+        "GEOquery"
     ],
     "methylInheritance": [
-        "methylKit",
-        "R.utils"
-    ],
-    "methylKit": [
-        "R.utils"
+        "methylKit"
     ],
     "MethylMix": [
-        "R.matlab",
-        "R.utils"
+        "R.matlab"
     ],
     "methylSig": [
         "bsseq",
-        "DSS",
-        "R.utils"
+        "DSS"
     ],
     "methylumi": [
         "FDb.InfiniumMethylation.hg19",
         "minfi",
-        "TxDb.Hsapiens.UCSC.hg19.knownGene",
-        "GEOquery",
-        "R.utils"
+        "GEOquery"
     ],
     "MineICA": [
         "lumi",
         "methylumi",
         "FDb.InfiniumMethylation.hg19",
         "minfi",
-        "TxDb.Hsapiens.UCSC.hg19.knownGene",
-        "GEOquery",
-        "R.utils"
+        "GEOquery"
     ],
     "minfi": [
-        "GEOquery",
-        "R.utils"
+        "GEOquery"
     ],
     "MinimumDistance": [
-        "VanillaICE",
-        "BSgenome.Hsapiens.UCSC.hg18"
+        "VanillaICE"
     ],
     "MIRA": [
-        "bsseq",
-        "R.utils"
+        "bsseq"
     ],
     "miRLAB": [
-        "TCGAbiolinks",
-        "R.utils"
-    ],
-    "mirTarRnaSeq": [
-        "R.utils"
+        "TCGAbiolinks"
     ],
     "missMethyl": [
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
@@ -750,37 +475,24 @@
         "methylumi",
         "minfi",
         "FDb.InfiniumMethylation.hg19",
-        "GEOquery",
-        "TxDb.Hsapiens.UCSC.hg19.knownGene",
-        "R.utils"
-    ],
-    "mistyR": [
-        "R.utils"
+        "GEOquery"
     ],
     "monaLisa": [
         "TFBSTools",
-        "CNEr",
-        "R.utils"
+        "CNEr"
     ],
     "MoonlightR": [
         "TCGAbiolinks",
-        "GEOquery",
-        "R.utils"
+        "GEOquery"
     ],
     "motifmatchr": [
         "TFBSTools",
-        "CNEr",
-        "R.utils"
-    ],
-    "msgbsR": [
-        "R.utils"
+        "CNEr"
     ],
     "multicrispr": [
         "assertive",
-        "assertive.types",
         "assertive.strings",
         "assertive.datetimes",
-        "assertive.files",
         "assertive.data",
         "assertive.data.uk",
         "assertive.data.us",
@@ -788,83 +500,44 @@
     ],
     "multiHiCcompare": [
         "HiCcompare",
-        "QDNAseq",
-        "R.utils"
-    ],
-    "MungeSumstats": [
-        "R.utils"
+        "QDNAseq"
     ],
     "musicatk": [
-        "TxDb.Hsapiens.UCSC.hg19.knownGene",
-        "TxDb.Hsapiens.UCSC.hg38.knownGene",
-        "BSgenome.Hsapiens.UCSC.hg19",
-        "BSgenome.Hsapiens.UCSC.hg38",
-        "BSgenome.Mmusculus.UCSC.mm9",
-        "BSgenome.Mmusculus.UCSC.mm10",
         "deconstructSigs",
         "decompTumor2Sig",
-        "TCGAbiolinks",
-        "R.utils"
+        "TCGAbiolinks"
     ],
     "NanoMethViz": [
-        "bsseq",
-        "R.utils"
-    ],
-    "nearBynding": [
-        "R.utils",
-        "TxDb.Hsapiens.UCSC.hg19.knownGene",
-        "TxDb.Hsapiens.UCSC.hg38.knownGene"
+        "bsseq"
     ],
     "Nebulosa": [
         "Seurat",
-        "spatstat.core",
-        "spatstat.geom"
-    ],
-    "netboost": [
-        "R.utils"
+        "spatstat.core"
     ],
     "NxtIRFcore": [
-        "NxtIRFdata",
-        "R.utils"
+        "NxtIRFdata"
     ],
     "ODER": [
         "dasper",
         "megadepth",
-        "cmdfun",
-        "R.utils"
-    ],
-    "openCyto": [
-        "R.utils"
-    ],
-    "ORFhunteR": [
-        "BSgenome.Hsapiens.UCSC.hg38"
+        "cmdfun"
     ],
     "ORFik": [
-        "biomartr",
-        "R.utils"
+        "biomartr"
     ],
     "orthogene": [
         "homologene",
         "repmis",
-        "R.utils",
         "R.cache"
     ],
     "pageRank": [
         "motifmatchr",
         "TFBSTools",
-        "CNEr",
-        "R.utils"
-    ],
-    "panelcn.mops": [
-        "cn.mops"
-    ],
-    "paxtoolsr": [
-        "R.utils"
+        "CNEr"
     ],
     "PECA": [
         "aroma.affymetrix",
         "aroma.core",
-        "R.utils",
         "R.cache",
         "R.devices",
         "R.filesets",
@@ -875,111 +548,57 @@
         "aroma.light"
     ],
     "phantasus": [
-        "GEOquery",
-        "R.utils"
+        "GEOquery"
     ],
     "phemd": [
         "Seurat",
-        "spatstat.core",
-        "spatstat.geom"
+        "spatstat.core"
     ],
     "pipeComp": [
         "Seurat",
-        "spatstat.core",
-        "spatstat.geom"
+        "spatstat.core"
     ],
     "preciseTAD": [
-        "rCGH",
-        "TxDb.Hsapiens.UCSC.hg18.knownGene",
-        "TxDb.Hsapiens.UCSC.hg19.knownGene",
-        "TxDb.Hsapiens.UCSC.hg38.knownGene"
+        "rCGH"
     ],
     "primirTSS": [
-        "BSgenome.Hsapiens.UCSC.hg38",
-        "phastCons100way.UCSC.hg38",
         "TFBSTools",
-        "R.utils",
         "CNEr"
     ],
     "profileplyr": [
-        "R.utils",
-        "ChIPseeker",
-        "TxDb.Hsapiens.UCSC.hg19.knownGene",
-        "TxDb.Hsapiens.UCSC.hg38.knownGene",
-        "TxDb.Mmusculus.UCSC.mm10.knownGene",
-        "TxDb.Mmusculus.UCSC.mm9.knownGene"
+        "ChIPseeker"
     ],
     "psichomics": [
         "recount",
-        "R.utils",
         "GEOquery"
     ],
     "psygenet2r": [
-        "BgeeDB",
-        "R.utils"
-    ],
-    "pulsedSilac": [
-        "R.utils"
-    ],
-    "QDNAseq": [
-        "R.utils"
+        "BgeeDB"
     ],
     "quantro": [
         "minfi",
-        "GEOquery",
-        "R.utils"
-    ],
-    "RareVariantVis": [
-        "BSgenome.Hsapiens.UCSC.hg19",
-        "TxDb.Hsapiens.UCSC.hg19.knownGene",
-        "phastCons100way.UCSC.hg19"
-    ],
-    "RCAS": [
-        "BSgenome.Hsapiens.UCSC.hg19"
-    ],
-    "rCGH": [
-        "TxDb.Hsapiens.UCSC.hg18.knownGene",
-        "TxDb.Hsapiens.UCSC.hg19.knownGene",
-        "TxDb.Hsapiens.UCSC.hg38.knownGene"
+        "GEOquery"
     ],
     "RcisTarget": [
-        "AUCell",
-        "R.utils"
-    ],
-    "Rcwl": [
-        "R.utils"
+        "AUCell"
     ],
     "RcwlPipelines": [
-        "Rcwl",
-        "R.utils"
+        "Rcwl"
     ],
     "recount": [
-        "GEOquery",
-        "R.utils"
-    ],
-    "recount3": [
-        "R.utils"
+        "GEOquery"
     ],
     "recountmethylation": [
         "minfi",
-        "R.utils",
         "GEOquery"
-    ],
-    "REDseq": [
-        "BSgenome.Celegans.UCSC.ce2"
     ],
     "REMP": [
         "minfi",
-        "GEOquery",
-        "R.utils"
-    ],
-    "ReportingTools": [
-        "R.utils"
+        "GEOquery"
     ],
     "RiboCrypt": [
         "ORFik",
-        "biomartr",
-        "R.utils"
+        "biomartr"
     ],
     "RiboDiPA": [
         "reldist",
@@ -988,85 +607,63 @@
     "ribosomeProfilingQC": [
         "EDASeq",
         "RUVSeq",
-        "aroma.light",
-        "R.utils"
+        "aroma.light"
     ],
     "RITAN": [
-        "BgeeDB",
-        "R.utils"
+        "BgeeDB"
     ],
     "RmiR": [
         "RSVGTipsDevice"
     ],
-    "Rmmquant": [
-        "TxDb.Mmusculus.UCSC.mm9.knownGene"
-    ],
     "RNAAgeCalc": [
         "recount",
-        "GEOquery",
-        "R.utils"
+        "GEOquery"
     ],
     "RnBeads": [
         "methylumi",
         "FDb.InfiniumMethylation.hg19",
         "minfi",
-        "TxDb.Hsapiens.UCSC.hg19.knownGene",
-        "GEOquery",
-        "R.utils"
+        "GEOquery"
     ],
     "RUVSeq": [
         "EDASeq",
-        "aroma.light",
-        "R.utils"
+        "aroma.light"
     ],
     "scAlign": [
         "Seurat",
-        "spatstat.core",
-        "spatstat.geom"
+        "spatstat.core"
     ],
     "SCAN.UPC": [
-        "GEOquery",
-        "R.utils"
+        "GEOquery"
     ],
     "scAnnotatR": [
         "Seurat",
-        "spatstat.core",
-        "spatstat.geom"
-    ],
-    "scatterHatch": [
-        "spatstat.geom"
+        "spatstat.core"
     ],
     "scBFA": [
         "Seurat",
-        "spatstat.core",
-        "spatstat.geom"
+        "spatstat.core"
     ],
     "scCB2": [
         "DropletUtils",
         "Seurat",
-        "R.utils",
-        "spatstat.core",
-        "spatstat.geom"
+        "spatstat.core"
     ],
     "scClassifR": [
         "Seurat",
-        "spatstat.core",
-        "spatstat.geom"
+        "spatstat.core"
     ],
     "scDataviz": [
         "Seurat",
-        "spatstat.core",
-        "spatstat.geom"
+        "spatstat.core"
     ],
     "schex": [
         "Seurat",
-        "spatstat.core",
-        "spatstat.geom"
+        "spatstat.core"
     ],
     "scMAGeCK": [
         "Seurat",
-        "spatstat.core",
-        "spatstat.geom"
+        "spatstat.core"
     ],
     "scMerge": [
         "M3Drop",
@@ -1074,68 +671,51 @@
         "densEstBayes"
     ],
     "scmeth": [
-        "bsseq",
-        "R.utils"
+        "bsseq"
     ],
     "scone": [
         "aroma.light",
         "RUVSeq",
-        "R.utils",
         "EDASeq"
-    ],
-    "SCOPE": [
-        "BSgenome.Hsapiens.UCSC.hg19"
     ],
     "scTensor": [
         "schex",
         "Seurat",
-        "spatstat.core",
-        "spatstat.geom"
+        "spatstat.core"
     ],
     "scTGIF": [
         "schex",
         "Seurat",
-        "spatstat.core",
-        "spatstat.geom"
+        "spatstat.core"
     ],
     "scTreeViz": [
         "Seurat",
-        "spatstat.core",
-        "spatstat.geom"
+        "spatstat.core"
     ],
     "segmenter": [
-        "ChIPseeker",
-        "TxDb.Hsapiens.UCSC.hg19.knownGene"
+        "ChIPseeker"
     ],
     "selectKSigs": [
-        "HiLDA",
-        "BSgenome.Hsapiens.UCSC.hg19",
-        "TxDb.Hsapiens.UCSC.hg19.knownGene"
+        "HiLDA"
     ],
     "shinyepico": [
         "minfi",
-        "GEOquery",
-        "R.utils"
+        "GEOquery"
     ],
     "shinyMethyl": [
         "minfi",
         "IlluminaHumanMethylation450kmanifest",
-        "GEOquery",
-        "R.utils"
+        "GEOquery"
     ],
     "singleCellTK": [
         "scMerge",
         "Seurat",
         "celda",
         "DropletUtils",
-        "R.utils",
         "multipanelfigure",
         "M3Drop",
         "spatstat.core",
-        "spatstat.geom",
         "reldist",
-        "assertive.files",
-        "assertive.types",
         "densEstBayes"
     ],
     "skewr": [
@@ -1146,97 +726,66 @@
         "FDb.InfiniumMethylation.hg19",
         "GEOquery",
         "lumi",
-        "IlluminaHumanMethylation450kanno.ilmn12.hg19",
-        "TxDb.Hsapiens.UCSC.hg19.knownGene",
-        "R.utils"
+        "IlluminaHumanMethylation450kanno.ilmn12.hg19"
     ],
     "sojourner": [
-        "R.matlab",
-        "R.utils"
+        "R.matlab"
     ],
     "Spaniel": [
         "Seurat",
         "DropletUtils",
-        "R.utils",
-        "spatstat.core",
-        "spatstat.geom"
+        "spatstat.core"
     ],
     "spatialDE": [
         "SpatialExperiment",
-        "DropletUtils",
-        "R.utils"
+        "DropletUtils"
     ],
     "SpatialDecon": [
         "repmis",
-        "R.cache",
-        "R.utils"
+        "R.cache"
     ],
     "SpatialExperiment": [
-        "DropletUtils",
-        "R.utils"
+        "DropletUtils"
     ],
     "spatzie": [
         "motifmatchr",
         "TFBSTools",
-        "CNEr",
-        "R.utils"
+        "CNEr"
     ],
     "SpectralTAD": [
         "HiCcompare",
-        "QDNAseq",
-        "R.utils"
+        "QDNAseq"
     ],
     "spicyR": [
-        "spatstat.core",
-        "spatstat.geom"
+        "spatstat.core"
     ],
     "SpidermiR": [
-        "TCGAbiolinks",
-        "R.utils"
-    ],
-    "SPLINTER": [
-        "BSgenome.Mmusculus.UCSC.mm9"
+        "TCGAbiolinks"
     ],
     "SRAdb": [
-        "GEOquery",
-        "R.utils"
+        "GEOquery"
     ],
     "StarBioTrek": [
         "SpidermiR",
-        "TCGAbiolinks",
-        "R.utils"
-    ],
-    "strandCheckR": [
-        "TxDb.Hsapiens.UCSC.hg38.knownGene"
+        "TCGAbiolinks"
     ],
     "systemPipeShiny": [
         "styler",
-        "R.cache",
-        "R.utils"
+        "R.cache"
     ],
     "TADCompare": [
         "HiCcompare",
-        "QDNAseq",
-        "R.utils"
-    ],
-    "TCGAbiolinks": [
-        "R.utils"
+        "QDNAseq"
     ],
     "TCGAbiolinksGUI": [
         "ELMER",
-        "TCGAbiolinks",
-        "R.utils"
+        "TCGAbiolinks"
     ],
     "TFBSTools": [
-        "CNEr",
-        "R.utils"
-    ],
-    "TFEA.ChIP": [
-        "R.utils"
+        "CNEr"
     ],
     "TIN": [
         "aroma.affymetrix",
-        "R.utils",
         "aroma.core",
         "R.cache",
         "R.devices",
@@ -1247,58 +796,17 @@
         "PSCBS",
         "aroma.light"
     ],
-    "TNBC.CMS": [
-        "R.utils"
-    ],
-    "TraRe": [
-        "R.utils"
-    ],
-    "traseR": [
-        "BSgenome.Hsapiens.UCSC.hg19"
-    ],
     "treekoR": [
         "diffcyt",
         "FlowSOM",
         "CytoML",
-        "openCyto",
-        "R.utils"
-    ],
-    "trena": [
-        "BSgenome.Hsapiens.UCSC.hg38",
-        "BSgenome.Hsapiens.UCSC.hg19",
-        "BSgenome.Mmusculus.UCSC.mm10",
-        "SNPlocs.Hsapiens.dbSNP150.GRCh38"
+        "openCyto"
     ],
     "TRONCO": [
-        "R.matlab",
-        "R.utils"
-    ],
-    "Ularcirc": [
-        "Organism.dplyr"
-    ],
-    "UMI4Cats": [
-        "R.utils",
-        "TxDb.Hsapiens.UCSC.hg19.knownGene"
+        "R.matlab"
     ],
     "uncoverappLib": [
-        "Homo.sapiens",
-        "TxDb.Hsapiens.UCSC.hg38.knownGene",
-        "TxDb.Hsapiens.UCSC.hg19.knownGene",
-        "EnsDb.Hsapiens.v75",
-        "EnsDb.Hsapiens.v86",
-        "BSgenome.Hsapiens.UCSC.hg19"
-    ],
-    "Uniquorn": [
-        "R.utils"
-    ],
-    "VanillaICE": [
-        "BSgenome.Hsapiens.UCSC.hg18"
-    ],
-    "ViSEAGO": [
-        "R.utils"
-    ],
-    "vulcan": [
-        "TxDb.Hsapiens.UCSC.hg19.knownGene"
+        "Homo.sapiens"
     ],
     "wateRmelon": [
         "methylumi",
@@ -1306,126 +814,70 @@
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "minfi",
         "FDb.InfiniumMethylation.hg19",
-        "TxDb.Hsapiens.UCSC.hg19.knownGene",
-        "GEOquery",
-        "R.utils"
-    ],
-    "YAPSA": [
-        "BSgenome.Hsapiens.UCSC.hg19"
+        "GEOquery"
     ],
     "yarn": [
         "quantro",
         "minfi",
-        "GEOquery",
-        "R.utils"
+        "GEOquery"
     ],
     "repmis": [
-        "R.cache",
-        "R.utils"
-    ],
-    "R.cache": [
-        "R.utils"
-    ],
-    "Homo.sapiens": [
-        "TxDb.Hsapiens.UCSC.hg19.knownGene"
-    ],
-    "FDb.InfiniumMethylation.hg19": [
-        "TxDb.Hsapiens.UCSC.hg19.knownGene"
+        "R.cache"
     ],
     "assertive": [
-        "assertive.types",
         "assertive.strings",
         "assertive.datetimes",
-        "assertive.files",
         "assertive.data",
         "assertive.data.uk",
         "assertive.data.us",
         "assertive.code"
     ],
-    "assertive.strings": [
-        "assertive.types"
-    ],
-    "assertive.datetimes": [
-        "assertive.types"
-    ],
     "assertive.data": [
-        "assertive.strings",
-        "assertive.types"
+        "assertive.strings"
     ],
     "assertive.data.uk": [
-        "assertive.strings",
-        "assertive.types"
+        "assertive.strings"
     ],
     "assertive.data.us": [
-        "assertive.strings",
-        "assertive.types"
-    ],
-    "assertive.code": [
-        "assertive.types"
+        "assertive.strings"
     ],
     "Seurat": [
-        "spatstat.core",
-        "spatstat.geom"
-    ],
-    "spatstat.core": [
-        "spatstat.geom"
+        "spatstat.core"
     ],
     "IlluminaHumanMethylation450kanno.ilmn12.hg19": [
         "minfi",
-        "GEOquery",
-        "R.utils"
+        "GEOquery"
     ],
     "styler": [
-        "R.cache",
-        "R.utils"
-    ],
-    "Mus.musculus": [
-        "TxDb.Mmusculus.UCSC.mm10.knownGene"
-    ],
-    "multipanelfigure": [
-        "assertive.files",
-        "assertive.types"
+        "R.cache"
     ],
     "IlluminaHumanMethylationEPICmanifest": [
         "minfi",
-        "GEOquery",
-        "R.utils"
+        "GEOquery"
     ],
     "IlluminaHumanMethylation450kmanifest": [
         "minfi",
-        "GEOquery",
-        "R.utils"
+        "GEOquery"
     ],
     "IlluminaHumanMethylationEPICanno.ilm10b4.hg19": [
         "minfi",
-        "GEOquery",
-        "R.utils"
+        "GEOquery"
     ],
     "Ecume": [
-        "spatstat.geom",
         "spatstat",
         "spatstat.core",
         "spatstat.linnet"
     ],
     "spatstat": [
-        "spatstat.geom",
         "spatstat.core",
         "spatstat.linnet"
     ],
     "spatstat.linnet": [
-        "spatstat.geom",
         "spatstat.core"
     ],
     "IlluminaHumanMethylationEPICanno.ilm10b2.hg19": [
         "minfi",
-        "GEOquery",
-        "R.utils"
-    ],
-    "cmdfun": [
-        "R.utils"
-    ],
-    "dplR": [
-        "R.utils"
+        "GEOquery"
     ],
     "reldist": [
         "densEstBayes"
@@ -1434,42 +886,22 @@
         "klaR",
         "questionr",
         "styler",
-        "R.cache",
-        "R.utils"
+        "R.cache"
     ],
     "klaR": [
         "questionr",
         "styler",
-        "R.cache",
-        "R.utils"
+        "R.cache"
     ],
     "questionr": [
         "styler",
-        "R.cache",
-        "R.utils"
+        "R.cache"
     ],
     "FlowSorted.Blood.450k": [
         "minfi",
-        "GEOquery",
-        "R.utils"
-    ],
-    "R.matlab": [
-        "R.utils"
-    ],
-    "deconstructSigs": [
-        "BSgenome.Hsapiens.UCSC.hg19"
-    ],
-    "NxtIRFdata": [
-        "R.utils"
-    ],
-    "biomartr": [
-        "R.utils"
-    ],
-    "homologene": [
-        "R.utils"
+        "GEOquery"
     ],
     "aroma.affymetrix": [
-        "R.utils",
         "aroma.core",
         "R.cache",
         "R.devices",
@@ -1481,7 +913,6 @@
         "aroma.light"
     ],
     "aroma.core": [
-        "R.utils",
         "R.filesets",
         "R.devices",
         "R.cache",
@@ -1489,27 +920,17 @@
         "PSCBS",
         "aroma.light"
     ],
-    "R.devices": [
-        "R.utils"
-    ],
     "R.filesets": [
-        "R.utils",
         "R.cache"
     ],
     "aroma.apd": [
-        "R.utils",
         "R.huge"
     ],
     "R.rsp": [
-        "R.utils",
         "R.cache"
     ],
     "PSCBS": [
-        "R.utils",
         "R.cache",
         "aroma.light"
-    ],
-    "R.huge": [
-        "R.utils"
     ]
 }
