@@ -9,7 +9,6 @@
         "ggbio",
         "biovizBase",
         "VariantAnnotation",
-        "OrganismDbi",
         "ensembldb"
     ],
     "AgiMicroRna": [
@@ -19,7 +18,6 @@
         "ggbio",
         "biovizBase",
         "VariantAnnotation",
-        "OrganismDbi",
         "ensembldb"
     ],
     "AllelicImbalance": [
@@ -27,9 +25,6 @@
         "Gviz",
         "ensembldb",
         "biovizBase"
-    ],
-    "AnnotationHubData": [
-        "OrganismDbi"
     ],
     "annotatr": [
         "regioneR"
@@ -53,8 +48,7 @@
         "MafDb.gnomADex.r2.1.hs37d5",
         "COSMIC.67",
         "PolyPhen.Hsapiens.dbSNP131",
-        "SIFT.Hsapiens.dbSNP137",
-        "OrganismDbi"
+        "SIFT.Hsapiens.dbSNP137"
     ],
     "aroma.light": [
         "R.utils"
@@ -65,7 +59,6 @@
         "FDb.InfiniumMethylation.hg19",
         "minfi",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
-        "bumphunter",
         "GEOquery",
         "R.utils"
     ],
@@ -124,7 +117,6 @@
         "FDb.InfiniumMethylation.hg19",
         "minfi",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
-        "bumphunter",
         "GEOquery",
         "R.utils"
     ],
@@ -138,7 +130,6 @@
         "GEOquery",
         "R.utils",
         "FDb.InfiniumMethylation.hg19",
-        "bumphunter",
         "lumi",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "TxDb.Hsapiens.UCSC.hg19.knownGene"
@@ -170,16 +161,13 @@
         "QDNAseq",
         "dmrseq",
         "R.utils",
-        "bumphunter",
         "annotatr",
-        "OrganismDbi",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "TxDb.Mmusculus.UCSC.mm10.knownGene",
         "regioneR"
     ],
     "brainflowprobes": [
         "BSgenome.Hsapiens.UCSC.hg19",
-        "bumphunter",
         "derfinder",
         "derfinderPlot",
         "GenomicState",
@@ -187,7 +175,6 @@
         "ggbio",
         "VariantAnnotation",
         "biovizBase",
-        "OrganismDbi",
         "ensembldb"
     ],
     "branchpointer": [
@@ -208,8 +195,7 @@
         "biovizBase",
         "ggbio",
         "VariantAnnotation",
-        "ensembldb",
-        "OrganismDbi"
+        "ensembldb"
     ],
     "CAGEfightR": [
         "GenomicFiles",
@@ -223,7 +209,6 @@
         "ggbio",
         "biovizBase",
         "VariantAnnotation",
-        "OrganismDbi",
         "ensembldb"
     ],
     "CATALYST": [
@@ -268,7 +253,6 @@
         "wateRmelon",
         "goseq",
         "missMethyl",
-        "bumphunter",
         "bsseq",
         "DSS",
         "Gviz",
@@ -429,7 +413,6 @@
         "IlluminaHumanMethylation450kmanifest",
         "IlluminaHumanMethylationEPICanno.ilm10b2.hg19",
         "IlluminaHumanMethylationEPICmanifest",
-        "bumphunter",
         "GEOquery",
         "R.utils"
     ],
@@ -442,7 +425,6 @@
         "ensembldb"
     ],
     "crisprseekplus": [
-        "CRISPRseek",
         "GUIDEseq",
         "ChIPpeakAnno",
         "ensembldb",
@@ -482,8 +464,7 @@
         "R.utils"
     ],
     "DAMEfinder": [
-        "VariantAnnotation",
-        "bumphunter"
+        "VariantAnnotation"
     ],
     "DaMiRseq": [
         "EDASeq",
@@ -521,18 +502,15 @@
         "R.utils"
     ],
     "derfinder": [
-        "bumphunter",
         "GenomicFiles",
         "VariantAnnotation"
     ],
     "derfinderPlot": [
         "derfinder",
         "ggbio",
-        "bumphunter",
         "GenomicFiles",
         "biovizBase",
         "VariantAnnotation",
-        "OrganismDbi",
         "ensembldb"
     ],
     "DEScan2": [
@@ -573,7 +551,6 @@
         "R.utils",
         "ensembldb",
         "biovizBase",
-        "bumphunter",
         "GEOquery",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
@@ -592,7 +569,6 @@
     ],
     "dmrseq": [
         "bsseq",
-        "bumphunter",
         "annotatr",
         "regioneR",
         "R.utils"
@@ -642,18 +618,15 @@
     "EnMCB": [
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "minfi",
-        "bumphunter",
         "GEOquery",
         "R.utils"
     ],
     "ENmix": [
         "minfi",
-        "bumphunter",
         "GEOquery",
         "R.utils"
     ],
     "enrichTF": [
-        "pipeFrame",
         "motifmatchr",
         "TFBSTools",
         "R.utils",
@@ -670,35 +643,27 @@
     ],
     "epivizr": [
         "epivizrData",
-        "bumphunter",
-        "OrganismDbi",
         "ensembldb"
     ],
     "epivizrChart": [
         "epivizrData",
-        "OrganismDbi",
         "ensembldb"
     ],
     "epivizrData": [
-        "OrganismDbi",
         "ensembldb"
     ],
     "epivizrStandalone": [
         "epivizr",
         "epivizrData",
-        "bumphunter",
-        "OrganismDbi",
         "ensembldb"
     ],
     "erma": [
         "Homo.sapiens",
         "GenomicFiles",
         "VariantAnnotation",
-        "OrganismDbi",
         "TxDb.Hsapiens.UCSC.hg19.knownGene"
     ],
     "esATAC": [
-        "pipeFrame",
         "ChIPseeker",
         "R.utils",
         "TFBSTools",
@@ -713,8 +678,7 @@
         "SGSeq"
     ],
     "ExperimentHubData": [
-        "AnnotationHubData",
-        "OrganismDbi"
+        "AnnotationHubData"
     ],
     "ExperimentSubset": [
         "SpatialExperiment",
@@ -733,7 +697,6 @@
         "FDb.InfiniumMethylation.hg19",
         "minfi",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
-        "bumphunter",
         "GEOquery",
         "R.utils"
     ],
@@ -753,7 +716,6 @@
         "minfi",
         "IlluminaHumanMethylation450kmanifest",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
-        "bumphunter",
         "GEOquery",
         "R.utils"
     ],
@@ -805,7 +767,6 @@
         "ggbio",
         "biovizBase",
         "VariantAnnotation",
-        "OrganismDbi",
         "ensembldb"
     ],
     "genotypeeval": [
@@ -828,7 +789,6 @@
     "ggbio": [
         "biovizBase",
         "VariantAnnotation",
-        "OrganismDbi",
         "ensembldb"
     ],
     "ggspavis": [
@@ -845,16 +805,13 @@
     "gpart": [
         "Homo.sapiens",
         "TxDb.Hsapiens.UCSC.hg38.knownGene",
-        "OrganismDbi",
         "TxDb.Hsapiens.UCSC.hg19.knownGene"
     ],
     "GSReg": [
         "Homo.sapiens",
-        "OrganismDbi",
         "TxDb.Hsapiens.UCSC.hg19.knownGene"
     ],
     "GUIDEseq": [
-        "CRISPRseek",
         "ChIPpeakAnno",
         "ensembldb",
         "regioneR"
@@ -892,9 +849,6 @@
         "BSgenome.Hsapiens.UCSC.hg19",
         "TxDb.Hsapiens.UCSC.hg19.knownGene"
     ],
-    "hiReadsProcessor": [
-        "hiAnnotator"
-    ],
     "HTSeqGenie": [
         "gmapR",
         "VariantAnnotation",
@@ -916,7 +870,6 @@
         "FDb.InfiniumMethylation.hg19",
         "minfi",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
-        "bumphunter",
         "GEOquery",
         "R.utils"
     ],
@@ -950,7 +903,6 @@
         "ggbio",
         "biovizBase",
         "VariantAnnotation",
-        "OrganismDbi",
         "ensembldb"
     ],
     "IntramiRExploreR": [
@@ -996,7 +948,6 @@
         "FDb.InfiniumMethylation.hg19",
         "minfi",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
-        "bumphunter",
         "GEOquery",
         "R.utils"
     ],
@@ -1018,7 +969,6 @@
         "FDb.InfiniumMethylation.hg19",
         "minfi",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
-        "bumphunter",
         "GEOquery",
         "R.utils"
     ],
@@ -1038,7 +988,6 @@
         "Gviz",
         "ensembldb",
         "biovizBase",
-        "OrganismDbi",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "VariantAnnotation"
     ],
@@ -1048,7 +997,6 @@
         "missMethyl",
         "ensembldb",
         "biovizBase",
-        "bumphunter",
         "GEOquery",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
@@ -1063,7 +1011,6 @@
     "MEAT": [
         "minfi",
         "wateRmelon",
-        "bumphunter",
         "GEOquery",
         "methylumi",
         "lumi",
@@ -1106,8 +1053,6 @@
         "epivizr",
         "epivizrData",
         "epivizrStandalone",
-        "bumphunter",
-        "OrganismDbi",
         "ensembldb"
     ],
     "MethCP": [
@@ -1122,7 +1067,6 @@
     ],
     "MethylAid": [
         "minfi",
-        "bumphunter",
         "GEOquery",
         "R.utils"
     ],
@@ -1130,7 +1074,6 @@
         "FlowSorted.Blood.450k",
         "minfi",
         "bsseq",
-        "bumphunter",
         "IlluminaHumanMethylation450kmanifest",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "R.utils",
@@ -1140,11 +1083,9 @@
         "methylclockData",
         "minfi",
         "ExperimentHubData",
-        "bumphunter",
         "GEOquery",
         "AnnotationHubData",
-        "R.utils",
-        "OrganismDbi"
+        "R.utils"
     ],
     "methylGSA": [
         "missMethyl",
@@ -1155,7 +1096,6 @@
         "IlluminaHumanMethylationEPICmanifest",
         "methylumi",
         "FDb.InfiniumMethylation.hg19",
-        "bumphunter",
         "GEOquery",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "R.utils"
@@ -1186,7 +1126,6 @@
         "FDb.InfiniumMethylation.hg19",
         "minfi",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
-        "bumphunter",
         "GEOquery",
         "R.utils"
     ],
@@ -1196,12 +1135,10 @@
         "FDb.InfiniumMethylation.hg19",
         "minfi",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
-        "bumphunter",
         "GEOquery",
         "R.utils"
     ],
     "minfi": [
-        "bumphunter",
         "GEOquery",
         "R.utils"
     ],
@@ -1217,9 +1154,6 @@
         "TCGAbiolinks",
         "R.utils"
     ],
-    "miRSM": [
-        "miRspongeR"
-    ],
     "mirTarRnaSeq": [
         "R.utils"
     ],
@@ -1231,7 +1165,6 @@
         "methylumi",
         "minfi",
         "FDb.InfiniumMethylation.hg19",
-        "bumphunter",
         "GEOquery",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "R.utils"
@@ -1275,12 +1208,10 @@
         "R.utils",
         "biovizBase",
         "VariantAnnotation",
-        "OrganismDbi",
         "ensembldb"
     ],
     "multicrispr": [
         "assertive",
-        "CRISPRseek",
         "karyoploteR",
         "assertive.types",
         "assertive.strings",
@@ -1358,7 +1289,6 @@
         "dasper",
         "derfinder",
         "megadepth",
-        "bumphunter",
         "GenomicFiles",
         "cmdfun",
         "R.utils",
@@ -1447,7 +1377,6 @@
         "VariantAnnotation"
     ],
     "profileplyr": [
-        "soGGi",
         "R.utils",
         "ChIPseeker",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
@@ -1463,7 +1392,6 @@
         "R.utils",
         "derfinder",
         "GEOquery",
-        "bumphunter",
         "GenomicFiles",
         "VariantAnnotation"
     ],
@@ -1493,7 +1421,6 @@
     ],
     "quantro": [
         "minfi",
-        "bumphunter",
         "GEOquery",
         "R.utils"
     ],
@@ -1505,7 +1432,6 @@
         "ggbio",
         "biovizBase",
         "VariantAnnotation",
-        "OrganismDbi",
         "ensembldb"
     ],
     "R453Plus1Toolbox": [
@@ -1540,7 +1466,6 @@
     "recount": [
         "derfinder",
         "GEOquery",
-        "bumphunter",
         "GenomicFiles",
         "R.utils",
         "VariantAnnotation"
@@ -1551,7 +1476,6 @@
     "recountmethylation": [
         "minfi",
         "R.utils",
-        "bumphunter",
         "GEOquery"
     ],
     "REDseq": [
@@ -1562,7 +1486,6 @@
     ],
     "regionReport": [
         "derfinder",
-        "bumphunter",
         "GenomicFiles",
         "VariantAnnotation"
     ],
@@ -1574,7 +1497,6 @@
     ],
     "REMP": [
         "minfi",
-        "bumphunter",
         "GEOquery",
         "R.utils"
     ],
@@ -1583,7 +1505,6 @@
         "ggbio",
         "biovizBase",
         "VariantAnnotation",
-        "OrganismDbi",
         "ensembldb"
     ],
     "rgsepd": [
@@ -1606,7 +1527,6 @@
         "ggbio",
         "biovizBase",
         "VariantAnnotation",
-        "OrganismDbi",
         "ensembldb"
     ],
     "ribosomeProfilingQC": [
@@ -1639,13 +1559,9 @@
         "recount",
         "derfinder",
         "GEOquery",
-        "bumphunter",
         "GenomicFiles",
         "R.utils",
         "VariantAnnotation"
-    ],
-    "rnaEditr": [
-        "bumphunter"
     ],
     "RNAmodR": [
         "Gviz",
@@ -1682,7 +1598,6 @@
         "FDb.InfiniumMethylation.hg19",
         "minfi",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
-        "bumphunter",
         "GEOquery",
         "R.utils"
     ],
@@ -1779,7 +1694,6 @@
         "ggbio",
         "biovizBase",
         "VariantAnnotation",
-        "OrganismDbi",
         "ensembldb"
     ],
     "scTensor": [
@@ -1798,8 +1712,6 @@
         "epivizr",
         "epivizrData",
         "Seurat",
-        "bumphunter",
-        "OrganismDbi",
         "ensembldb",
         "spatstat.core",
         "spatstat.geom"
@@ -1818,14 +1730,12 @@
     ],
     "shinyepico": [
         "minfi",
-        "bumphunter",
         "GEOquery",
         "R.utils"
     ],
     "shinyMethyl": [
         "minfi",
         "IlluminaHumanMethylation450kmanifest",
-        "bumphunter",
         "GEOquery",
         "R.utils"
     ],
@@ -1863,7 +1773,6 @@
         "IlluminaHumanMethylation450kmanifest",
         "minfi",
         "FDb.InfiniumMethylation.hg19",
-        "bumphunter",
         "GEOquery",
         "lumi",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
@@ -1885,7 +1794,6 @@
         "VariantAnnotation",
         "ggbio",
         "biovizBase",
-        "OrganismDbi",
         "ensembldb"
     ],
     "Spaniel": [
@@ -2082,7 +1990,6 @@
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "EnsDb.Hsapiens.v75",
         "EnsDb.Hsapiens.v86",
-        "OrganismDbi",
         "BSgenome.Hsapiens.UCSC.hg19",
         "ensembldb",
         "biovizBase",
@@ -2130,7 +2037,6 @@
         "minfi",
         "FDb.InfiniumMethylation.hg19",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
-        "bumphunter",
         "GEOquery",
         "R.utils"
     ],
@@ -2143,13 +2049,11 @@
         "BSgenome.Hsapiens.UCSC.hg19",
         "ggbio",
         "biovizBase",
-        "OrganismDbi",
         "ensembldb"
     ],
     "yarn": [
         "quantro",
         "minfi",
-        "bumphunter",
         "GEOquery",
         "R.utils"
     ],
@@ -2161,7 +2065,6 @@
         "R.utils"
     ],
     "Homo.sapiens": [
-        "OrganismDbi",
         "TxDb.Hsapiens.UCSC.hg19.knownGene"
     ],
     "COSMIC.67": [
@@ -2216,7 +2119,6 @@
     ],
     "IlluminaHumanMethylation450kanno.ilmn12.hg19": [
         "minfi",
-        "bumphunter",
         "GEOquery",
         "R.utils"
     ],
@@ -2225,11 +2127,9 @@
         "R.utils"
     ],
     "Mus.musculus": [
-        "OrganismDbi",
         "TxDb.Mmusculus.UCSC.mm10.knownGene"
     ],
     "GenomicState": [
-        "bumphunter",
         "derfinder",
         "GenomicFiles",
         "VariantAnnotation"
@@ -2240,19 +2140,16 @@
     ],
     "IlluminaHumanMethylationEPICmanifest": [
         "minfi",
-        "bumphunter",
         "GEOquery",
         "R.utils"
     ],
     "IlluminaHumanMethylation450kmanifest": [
         "minfi",
-        "bumphunter",
         "GEOquery",
         "R.utils"
     ],
     "IlluminaHumanMethylationEPICanno.ilm10b4.hg19": [
         "minfi",
-        "bumphunter",
         "GEOquery",
         "R.utils"
     ],
@@ -2276,7 +2173,6 @@
     ],
     "IlluminaHumanMethylationEPICanno.ilm10b2.hg19": [
         "minfi",
-        "bumphunter",
         "GEOquery",
         "R.utils"
     ],
@@ -2312,14 +2208,12 @@
     ],
     "FlowSorted.Blood.450k": [
         "minfi",
-        "bumphunter",
         "GEOquery",
         "R.utils"
     ],
     "methylclockData": [
         "ExperimentHubData",
-        "AnnotationHubData",
-        "OrganismDbi"
+        "AnnotationHubData"
     ],
     "R.matlab": [
         "R.utils"
