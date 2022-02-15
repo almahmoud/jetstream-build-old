@@ -43,9 +43,7 @@
         "GO.db",
         "ggpubr",
         "data.table",
-        "rstatix",
-        "car",
-        "pbkrtest"
+        "rstatix"
     ],
     "ADImpute": [
         "BiocParallel",
@@ -219,7 +217,6 @@
         "ModelMetrics",
         "recipes",
         "BiocParallel",
-        "lmerTest",
         "data.table",
         "futile.logger",
         "ipred",
@@ -508,8 +505,6 @@
     "BaalChIP": [
         "Rsamtools",
         "GenomicAlignments",
-        "doBy",
-        "pbkrtest",
         "BiocParallel",
         "futile.logger",
         "lambda.r",
@@ -800,10 +795,8 @@
         "BiocParallel",
         "DO.db",
         "fgsea",
-        "car",
         "plotly",
         "futile.logger",
-        "pbkrtest",
         "aplot",
         "ggtree",
         "data.table",
@@ -823,8 +816,6 @@
         "GenomicFeatures",
         "curatedTCGAData",
         "ggpubr",
-        "car",
-        "pbkrtest",
         "rtracklayer",
         "rstatix",
         "Rsamtools",
@@ -911,9 +902,7 @@
         "lambda.r",
         "futile.options",
         "data.table",
-        "statnet.common",
-        "car",
-        "pbkrtest"
+        "statnet.common"
     ],
     "BioNetStat": [
         "pathview",
@@ -1242,9 +1231,7 @@
         "GO.db",
         "lambda.r",
         "futile.options",
-        "statnet.common",
-        "car",
-        "pbkrtest"
+        "statnet.common"
     ],
     "CAGEr": [
         "BiocParallel",
@@ -1291,7 +1278,6 @@
         "drc",
         "FlowSOM",
         "scater",
-        "car",
         "multcomp",
         "CytoML",
         "flowWorkspace",
@@ -1301,7 +1287,6 @@
         "BiocSingular",
         "BiocParallel",
         "futile.logger",
-        "pbkrtest",
         "openCyto",
         "ggcyto",
         "aws.s3",
@@ -1430,10 +1415,8 @@
         "FME",
         "FactoMineR",
         "Hmisc",
-        "car",
         "minpack.lm",
-        "data.table",
-        "pbkrtest"
+        "data.table"
     ],
     "CellMixS": [
         "BiocNeighbors",
@@ -1497,8 +1480,6 @@
         "flowStats",
         "flowClust",
         "R.utils",
-        "car",
-        "pbkrtest",
         "R.oo",
         "R.methodsS3"
     ],
@@ -1531,9 +1512,7 @@
         "fgsea",
         "aplot",
         "ggtree",
-        "car",
         "ggplotify",
-        "pbkrtest",
         "lambda.r",
         "futile.options",
         "tidytree",
@@ -2239,12 +2218,10 @@
         "fgsea",
         "aplot",
         "ggtree",
-        "car",
         "rstatix",
         "R.oo",
         "R.methodsS3",
         "ggplotify",
-        "pbkrtest",
         "lambda.r",
         "futile.options",
         "tidytree",
@@ -2569,9 +2546,7 @@
     "cyanoFilter": [
         "flowDensity",
         "flowClust",
-        "car",
         "flowWorkspace",
-        "pbkrtest",
         "data.table",
         "aws.s3",
         "aws.signature"
@@ -2608,14 +2583,12 @@
         "openCyto",
         "data.table",
         "ggcyto",
-        "car",
         "aws.s3",
         "aws.signature",
         "lambda.r",
         "futile.options",
         "rstatix",
         "ipred",
-        "pbkrtest",
         "prodlim",
         "flowStats",
         "flowClust",
@@ -2637,13 +2610,11 @@
         "ggpubr",
         "bigmemory",
         "bigmemory.sri",
-        "car",
         "lambda.r",
         "futile.options",
         "rstatix",
         "data.table",
         "ipred",
-        "pbkrtest",
         "prodlim",
         "lava",
         "future.apply"
@@ -2693,8 +2664,6 @@
         "aws.s3",
         "aws.signature",
         "rstatix",
-        "car",
-        "pbkrtest",
         "lambda.r",
         "futile.options",
         "flowStats",
@@ -2735,7 +2704,6 @@
         "Hmisc",
         "FactoMineR",
         "caret",
-        "arm",
         "ModelMetrics",
         "recipes",
         "BiocParallel",
@@ -2743,13 +2711,11 @@
         "aroma.light",
         "Rsamtools",
         "GenomicFeatures",
-        "car",
         "data.table",
         "R.methodsS3",
         "R.oo",
         "R.utils",
         "futile.logger",
-        "pbkrtest",
         "rtracklayer",
         "ipred",
         "GenomicAlignments",
@@ -2778,8 +2744,6 @@
         "R.utils",
         "lambda.r",
         "futile.options",
-        "car",
-        "pbkrtest",
         "R.oo",
         "R.methodsS3"
     ],
@@ -2804,11 +2768,9 @@
     "ddPCRclust": [
         "R.utils",
         "flowDensity",
-        "car",
         "flowWorkspace",
         "R.oo",
         "R.methodsS3",
-        "pbkrtest",
         "data.table",
         "aws.s3",
         "aws.signature"
@@ -2877,7 +2839,6 @@
     "deconvR": [
         "data.table",
         "methylKit",
-        "rsq",
         "Rsamtools",
         "rtracklayer",
         "R.utils",
@@ -3078,9 +3039,7 @@
         "ggplot.multistats",
         "VIM",
         "knn.covertree",
-        "car",
-        "data.table",
-        "pbkrtest"
+        "data.table"
     ],
     "DEsubs": [
         "DESeq2",
@@ -3156,8 +3115,6 @@
         "flowStats",
         "flowClust",
         "R.utils",
-        "car",
-        "pbkrtest",
         "R.oo",
         "R.methodsS3"
     ],
@@ -3245,7 +3202,6 @@
     "DMCFB": [
         "BiocParallel",
         "data.table",
-        "arm",
         "rtracklayer",
         "fastDummies",
         "futile.logger",
@@ -3359,10 +3315,8 @@
     "Doscheda": [
         "drc",
         "prodlim",
-        "car",
         "multcomp",
         "lava",
-        "pbkrtest",
         "future.apply",
         "TH.data"
     ],
@@ -3455,8 +3409,6 @@
         "coin",
         "futile.logger",
         "multcomp",
-        "car",
-        "pbkrtest",
         "lambda.r",
         "futile.options",
         "TH.data"
@@ -3494,7 +3446,6 @@
     ],
     "edge": [
         "sva",
-        "snm",
         "BiocParallel",
         "futile.logger",
         "lambda.r",
@@ -3582,9 +3533,7 @@
         "BiocParallel",
         "R.oo",
         "R.methodsS3",
-        "car",
         "futile.logger",
-        "pbkrtest",
         "lambda.r",
         "futile.options"
     ],
@@ -3705,9 +3654,7 @@
         "fgsea",
         "aplot",
         "ggtree",
-        "car",
         "ggplotify",
-        "pbkrtest",
         "data.table",
         "lambda.r",
         "futile.options",
@@ -3753,10 +3700,8 @@
         "rtracklayer",
         "rstatix",
         "ggpubr",
-        "car",
         "Rsamtools",
         "GenomicAlignments",
-        "pbkrtest",
         "BiocParallel",
         "futile.logger",
         "lambda.r",
@@ -3781,8 +3726,6 @@
         "GenomicAlignments",
         "BSgenome",
         "futile.logger",
-        "car",
-        "pbkrtest",
         "lambda.r",
         "futile.options"
     ],
@@ -3971,9 +3914,6 @@
         "futile.logger",
         "lambda.r",
         "futile.options"
-    ],
-    "EWCE": [
-        "ewceData"
     ],
     "ExCluster": [
         "rtracklayer",
@@ -4223,17 +4163,13 @@
     ],
     "flowCut": [
         "flowDensity",
-        "car",
         "flowWorkspace",
-        "pbkrtest",
         "data.table",
         "aws.s3",
         "aws.signature"
     ],
     "flowDensity": [
-        "car",
         "flowWorkspace",
-        "pbkrtest",
         "data.table",
         "aws.s3",
         "aws.signature"
@@ -4245,9 +4181,7 @@
         "flowClust"
     ],
     "flowPloidy": [
-        "car",
-        "minpack.lm",
-        "pbkrtest"
+        "minpack.lm"
     ],
     "FlowSOM": [
         "CytoML",
@@ -4262,8 +4196,6 @@
         "flowStats",
         "flowClust",
         "R.utils",
-        "car",
-        "pbkrtest",
         "R.oo",
         "R.methodsS3"
     ],
@@ -4335,9 +4267,7 @@
         "futile.options"
     ],
     "frenchFISH": [
-        "NHPoisson",
-        "car",
-        "pbkrtest"
+        "NHPoisson"
     ],
     "FunChIP": [
         "GenomicAlignments",
@@ -4414,7 +4344,6 @@
         "Hmisc",
         "FactoMineR",
         "caret",
-        "arm",
         "VennDiagram",
         "ModelMetrics",
         "recipes",
@@ -4423,13 +4352,11 @@
         "aroma.light",
         "Rsamtools",
         "GenomicFeatures",
-        "car",
         "data.table",
         "futile.logger",
         "R.methodsS3",
         "R.oo",
         "R.utils",
-        "pbkrtest",
         "lambda.r",
         "futile.options",
         "rtracklayer",
@@ -4485,9 +4412,7 @@
         "km.ci",
         "ggplotify",
         "tidytree",
-        "treeio",
-        "car",
-        "pbkrtest"
+        "treeio"
     ],
     "genbankr": [
         "GenomicFeatures",
@@ -4503,9 +4428,7 @@
     ],
     "GeneAccord": [
         "ggpubr",
-        "rstatix",
-        "car",
-        "pbkrtest"
+        "rstatix"
     ],
     "geneAttribution": [
         "org.Hs.eg.db",
@@ -4541,10 +4464,8 @@
         "Rsamtools",
         "FactoMineR",
         "data.table",
-        "car",
         "BiocParallel",
         "futile.logger",
-        "pbkrtest",
         "lambda.r",
         "futile.options"
     ],
@@ -4699,9 +4620,7 @@
         "plotly",
         "flextable",
         "data.table",
-        "rstatix",
-        "car",
-        "pbkrtest"
+        "rstatix"
     ],
     "GenomicTuples": [
         "data.table"
@@ -4735,7 +4654,6 @@
         "robust",
         "GeomxTools",
         "data.table",
-        "lmerTest",
         "fit.models"
     ],
     "GEOexplorer": [
@@ -4748,11 +4666,9 @@
         "ggpubr",
         "data.table",
         "R.utils",
-        "car",
         "rstatix",
         "R.oo",
-        "R.methodsS3",
-        "pbkrtest"
+        "R.methodsS3"
     ],
     "GEOmetadb": [
         "GEOquery",
@@ -4762,8 +4678,7 @@
         "R.methodsS3"
     ],
     "GeomxTools": [
-        "data.table",
-        "lmerTest"
+        "data.table"
     ],
     "GEOquery": [
         "data.table",
@@ -4773,10 +4688,6 @@
     ],
     "gespeR": [
         "cellHTS2"
-    ],
-    "GEWIST": [
-        "car",
-        "pbkrtest"
     ],
     "ggbio": [
         "Hmisc",
@@ -4877,9 +4788,7 @@
         "survMisc",
         "rstatix",
         "data.table",
-        "km.ci",
-        "car",
-        "pbkrtest"
+        "km.ci"
     ],
     "gmapR": [
         "Rsamtools",
@@ -5002,10 +4911,8 @@
     "GRmetrics": [
         "drc",
         "plotly",
-        "car",
         "multcomp",
         "data.table",
-        "pbkrtest",
         "TH.data"
     ],
     "groHMM": [
@@ -5526,9 +5433,7 @@
         "Rsamtools",
         "GenomicAlignments",
         "BiocParallel",
-        "car",
         "futile.logger",
-        "pbkrtest",
         "lambda.r",
         "futile.options"
     ],
@@ -5556,9 +5461,7 @@
         "plotly",
         "FactoMineR",
         "ggpubr",
-        "car",
-        "rstatix",
-        "pbkrtest"
+        "rstatix"
     ],
     "IntEREst": [
         "Rsamtools",
@@ -5604,10 +5507,8 @@
         "survMisc",
         "lambda.r",
         "futile.options",
-        "car",
         "data.table",
-        "km.ci",
-        "pbkrtest"
+        "km.ci"
     ],
     "IRISFGM": [
         "org.Hs.eg.db",
@@ -5643,12 +5544,10 @@
         "gamlss.data",
         "gamlss.dist",
         "data.table",
-        "car",
         "spatstat.data",
         "spatstat.utils",
         "spatstat.sparse",
         "ggplotify",
-        "pbkrtest",
         "lambda.r",
         "futile.options",
         "tidytree",
@@ -5709,9 +5608,7 @@
         "ggpubr",
         "survMisc",
         "rstatix",
-        "km.ci",
-        "car",
-        "pbkrtest"
+        "km.ci"
     ],
     "karyoploteR": [
         "regioneR",
@@ -5815,9 +5712,7 @@
         "ggpubr",
         "rio",
         "data.table",
-        "rstatix",
-        "car",
-        "pbkrtest"
+        "rstatix"
     ],
     "lipidr": [
         "data.table",
@@ -5840,7 +5735,6 @@
         "spatstat.data",
         "spatstat.utils",
         "spatstat.sparse",
-        "lmerTest",
         "lambda.r",
         "futile.options"
     ],
@@ -5930,11 +5824,7 @@
         "future.apply"
     ],
     "Maaslin2": [
-        "car",
-        "data.table",
-        "lmerTest",
-        "glmmTMB",
-        "pbkrtest"
+        "data.table"
     ],
     "MACPET": [
         "bigmemory",
@@ -6223,9 +6113,7 @@
     ],
     "MEDME": [
         "drc",
-        "car",
         "multcomp",
-        "pbkrtest",
         "TH.data"
     ],
     "megadepth": [
@@ -6291,10 +6179,8 @@
         "MWASTools",
         "mygene",
         "ensembldb",
-        "car",
         "GenomicFeatures",
         "Hmisc",
-        "pbkrtest",
         "rtracklayer",
         "Rsamtools",
         "data.table",
@@ -6318,8 +6204,6 @@
         "flowStats",
         "flowClust",
         "R.utils",
-        "car",
-        "pbkrtest",
         "R.oo",
         "R.methodsS3"
     ],
@@ -6445,9 +6329,7 @@
     "MethReg": [
         "ggpubr",
         "sesameData",
-        "rstatix",
-        "car",
-        "pbkrtest"
+        "rstatix"
     ],
     "methrix": [
         "data.table",
@@ -6516,11 +6398,9 @@
         "GenomicFeatures",
         "AnnotationHubData",
         "R.utils",
-        "car",
         "Rsamtools",
         "rtracklayer",
         "OrganismDbi",
-        "pbkrtest",
         "lambda.r",
         "futile.options",
         "R.oo",
@@ -6725,9 +6605,7 @@
     "microbiomeExplorer": [
         "DESeq2",
         "heatmaply",
-        "car",
         "plotly",
-        "pbkrtest",
         "BiocParallel",
         "data.table",
         "futile.logger",
@@ -6797,7 +6675,6 @@
         "TH.data"
     ],
     "midasHLA": [
-        "HardyWeinberg",
         "qdapTools",
         "data.table"
     ],
@@ -7079,11 +6956,7 @@
     ],
     "MMUPHin": [
         "Maaslin2",
-        "car",
-        "data.table",
-        "lmerTest",
-        "glmmTMB",
-        "pbkrtest"
+        "data.table"
     ],
     "mnem": [
         "data.table"
@@ -7220,9 +7093,7 @@
     ],
     "MQmetrics": [
         "ggpubr",
-        "rstatix",
-        "car",
-        "pbkrtest"
+        "rstatix"
     ],
     "MsBackendMassbank": [
         "Spectra",
@@ -7284,10 +7155,8 @@
         "VIM",
         "sva",
         "BiocParallel",
-        "car",
         "data.table",
         "futile.logger",
-        "pbkrtest",
         "lambda.r",
         "futile.options"
     ],
@@ -7318,10 +7187,7 @@
         "FactoMineR",
         "rstatix",
         "MSstatsTMT",
-        "dtplyr",
-        "car",
-        "lmerTest",
-        "pbkrtest"
+        "dtplyr"
     ],
     "MSstatsLOBD": [
         "minpack.lm"
@@ -7330,8 +7196,7 @@
         "MSstatsTMT",
         "MSstatsConvert",
         "MSstats",
-        "data.table",
-        "lmerTest"
+        "data.table"
     ],
     "MSstatsSampleSize": [
         "BiocParallel",
@@ -7350,14 +7215,12 @@
         "future.apply"
     ],
     "MSstatsTMT": [
-        "lmerTest",
         "data.table",
         "MSstats",
         "MSstatsConvert"
     ],
     "MSstatsTMTPTM": [
         "MSstatsTMT",
-        "lmerTest",
         "data.table",
         "MSstats",
         "MSstatsConvert"
@@ -7495,8 +7358,6 @@
         "blme",
         "data.table",
         "DESeq2",
-        "glmmTMB",
-        "lmerTest",
         "scater",
         "scuttle",
         "sctransform",
@@ -7505,7 +7366,6 @@
         "BiocNeighbors",
         "BiocSingular",
         "future.apply",
-        "pbkrtest",
         "lambda.r",
         "futile.options"
     ],
@@ -7532,14 +7392,12 @@
         "ggpubr",
         "R.utils",
         "TCGAbiolinksGUI.data",
-        "car",
         "rstatix",
         "R.oo",
         "R.methodsS3",
         "BiocParallel",
         "GenomicAlignments",
         "futile.logger",
-        "pbkrtest",
         "lambda.r",
         "futile.options"
     ],
@@ -7554,10 +7412,6 @@
         "futile.logger",
         "lambda.r",
         "futile.options"
-    ],
-    "MWASTools": [
-        "car",
-        "pbkrtest"
     ],
     "mygene": [
         "GenomicFeatures",
@@ -7653,10 +7507,8 @@
         "futile.options"
     ],
     "NBSplice": [
-        "car",
         "BiocParallel",
         "futile.logger",
-        "pbkrtest",
         "lambda.r",
         "futile.options"
     ],
@@ -7737,7 +7589,6 @@
     ],
     "netOmics": [
         "GO.db",
-        "RandomWalkRestartMH",
         "gprofiler2",
         "plotly",
         "data.table"
@@ -7773,9 +7624,6 @@
         "plotly",
         "data.table"
     ],
-    "nondetects": [
-        "arm"
-    ],
     "NoRCE": [
         "reactome.db",
         "rWikiPathways",
@@ -7791,9 +7639,7 @@
         "futile.options"
     ],
     "NormalyzerDE": [
-        "car",
         "RcmdrMisc",
-        "pbkrtest",
         "Hmisc",
         "data.table"
     ],
@@ -7875,8 +7721,6 @@
         "futile.logger",
         "R.utils",
         "VariantAnnotation",
-        "car",
-        "pbkrtest",
         "lambda.r",
         "futile.options",
         "R.oo",
@@ -7902,9 +7746,7 @@
         "Hmisc",
         "BiocParallel",
         "futile.logger",
-        "car",
         "data.table",
-        "pbkrtest",
         "lambda.r",
         "futile.options"
     ],
@@ -7921,13 +7763,11 @@
         "FactoMineR",
         "data.table",
         "ggpubr",
-        "car",
         "BSgenome",
         "GenomicFeatures",
         "VariantAnnotation",
         "Rsamtools",
         "GenomicAlignments",
-        "pbkrtest",
         "BiocParallel",
         "rstatix",
         "futile.logger",
@@ -7935,9 +7775,7 @@
         "futile.options"
     ],
     "OncoSimulR": [
-        "data.table",
-        "car",
-        "pbkrtest"
+        "data.table"
     ],
     "oneSENSE": [
         "plotly",
@@ -7965,11 +7803,7 @@
     ],
     "OpenStats": [
         "Hmisc",
-        "AICcmodavg",
-        "car",
         "rlist",
-        "unmarked",
-        "pbkrtest",
         "data.table"
     ],
     "oppar": [
@@ -8045,9 +7879,7 @@
         "R.utils",
         "R.cache",
         "R.methodsS3",
-        "R.oo",
-        "car",
-        "pbkrtest"
+        "R.oo"
     ],
     "Oscope": [
         "BiocParallel",
@@ -8092,9 +7924,7 @@
         "futile.options"
     ],
     "padma": [
-        "FactoMineR",
-        "car",
-        "pbkrtest"
+        "FactoMineR"
     ],
     "PADOG": [
         "hgu133plus2.db",
@@ -8231,9 +8061,7 @@
         "rstatix",
         "lava",
         "km.ci",
-        "future.apply",
-        "car",
-        "pbkrtest"
+        "future.apply"
     ],
     "PeacoQC": [
         "flowWorkspace",
@@ -8351,9 +8179,7 @@
         "data.table",
         "spatstat.data",
         "spatstat.utils",
-        "spatstat.sparse",
-        "car",
-        "pbkrtest"
+        "spatstat.sparse"
     ],
     "phenoTest": [
         "Hmisc",
@@ -8362,9 +8188,7 @@
         "data.table"
     ],
     "PhenStat": [
-        "car",
         "logistf",
-        "pbkrtest",
         "formula.tools",
         "operator.tools"
     ],
@@ -8380,9 +8204,7 @@
         "ggpubr",
         "network",
         "rstatix",
-        "statnet.common",
-        "car",
-        "pbkrtest"
+        "statnet.common"
     ],
     "PhyloProfile": [
         "data.table",
@@ -8518,9 +8340,7 @@
         "ggpubr",
         "Hmisc",
         "rstatix",
-        "data.table",
-        "car",
-        "pbkrtest"
+        "data.table"
     ],
     "plyranges": [
         "rtracklayer",
@@ -8663,7 +8483,6 @@
     ],
     "proBatch": [
         "data.table",
-        "pvca",
         "sva",
         "WGCNA",
         "BiocParallel",
@@ -9345,9 +9164,7 @@
     "rexposome": [
         "FactoMineR",
         "Hmisc",
-        "car",
-        "data.table",
-        "pbkrtest"
+        "data.table"
     ],
     "rfaRm": [
         "data.table"
@@ -9712,11 +9529,9 @@
         "DO.db",
         "fgsea",
         "ggpubr",
-        "car",
         "ShortRead",
         "GenomicFeatures",
         "futile.logger",
-        "pbkrtest",
         "aplot",
         "ggtree",
         "data.table",
@@ -9781,9 +9596,7 @@
         "BSgenome"
     ],
     "rqt": [
-        "car",
         "metap",
-        "pbkrtest",
         "mutoss",
         "multcomp",
         "TH.data"
@@ -9821,9 +9634,7 @@
         "ggpubr",
         "survMisc",
         "rstatix",
-        "km.ci",
-        "car",
-        "pbkrtest"
+        "km.ci"
     ],
     "RTCGAToolbox": [
         "data.table",
@@ -9838,23 +9649,17 @@
         "futile.options"
     ],
     "RTN": [
-        "data.table",
-        "car",
-        "pbkrtest"
+        "data.table"
     ],
     "RTNduals": [
         "RTN",
-        "data.table",
-        "car",
-        "pbkrtest"
+        "data.table"
     ],
     "RTNsurvival": [
         "RTN",
         "RTNduals",
         "data.table",
-        "dunn.test",
-        "car",
-        "pbkrtest"
+        "dunn.test"
     ],
     "rtracklayer": [
         "Rsamtools",
@@ -10115,7 +9920,6 @@
     ],
     "scDD": [
         "BiocParallel",
-        "arm",
         "scran",
         "futile.logger",
         "scuttle",
@@ -10354,7 +10158,6 @@
         "plotly",
         "reactome.db",
         "heatmaply",
-        "meshr",
         "GOstats",
         "ReactomePA",
         "DOSE",
@@ -10406,7 +10209,6 @@
     "scTreeViz": [
         "epivizr",
         "data.table",
-        "clustree",
         "scran",
         "epivizrData",
         "scater",
@@ -11024,7 +10826,6 @@
         "GeomxTools",
         "repmis",
         "data.table",
-        "lmerTest",
         "R.cache",
         "R.methodsS3",
         "R.oo",
@@ -11109,7 +10910,6 @@
         "BiocParallel",
         "spatstat.core",
         "spatstat.geom",
-        "lmerTest",
         "data.table",
         "futile.logger",
         "spatstat.data",
@@ -11360,9 +11160,7 @@
         "survMisc",
         "rstatix",
         "data.table",
-        "km.ci",
-        "car",
-        "pbkrtest"
+        "km.ci"
     ],
     "sva": [
         "BiocParallel",
@@ -11410,18 +11208,12 @@
         "tidyverse",
         "plotly",
         "metR",
-        "car",
         "multcomp",
         "data.table",
         "formula.tools",
         "dtplyr",
-        "pbkrtest",
         "operator.tools",
         "TH.data"
-    ],
-    "synlet": [
-        "doBy",
-        "pbkrtest"
     ],
     "systemPipeR": [
         "Rsamtools",
@@ -11467,8 +11259,6 @@
         "R.utils",
         "Rsamtools",
         "future.apply",
-        "car",
-        "pbkrtest",
         "lambda.r",
         "futile.options",
         "R.oo",
@@ -11580,8 +11370,6 @@
         "tidytree",
         "treeio",
         "prodlim",
-        "car",
-        "pbkrtest",
         "lava",
         "future.apply"
     ],
@@ -11764,8 +11552,6 @@
         "R.oo",
         "R.methodsS3",
         "futile.logger",
-        "car",
-        "pbkrtest",
         "lambda.r",
         "futile.options"
     ],
@@ -11912,8 +11698,6 @@
         "flowStats",
         "flowClust",
         "R.utils",
-        "car",
-        "pbkrtest",
         "R.oo",
         "R.methodsS3"
     ],
@@ -12189,8 +11973,6 @@
     ],
     "variancePartition": [
         "BiocParallel",
-        "pbkrtest",
-        "lmerTest",
         "futile.logger",
         "lambda.r",
         "futile.options"
@@ -12365,7 +12147,6 @@
         "futile.options"
     ],
     "waddR": [
-        "arm",
         "BiocParallel",
         "futile.logger",
         "lambda.r",
@@ -12531,16 +12312,7 @@
         "R.methodsS3"
     ],
     "ggpubr": [
-        "rstatix",
-        "car",
-        "pbkrtest"
-    ],
-    "rstatix": [
-        "car",
-        "pbkrtest"
-    ],
-    "car": [
-        "pbkrtest"
+        "rstatix"
     ],
     "Hmisc": [
         "data.table"
@@ -12556,9 +12328,6 @@
         "prodlim",
         "lava",
         "future.apply"
-    ],
-    "GUniFrac": [
-        "lmerTest"
     ],
     "ModelMetrics": [
         "data.table"
@@ -12804,9 +12573,6 @@
         "assertive.properties",
         "assertive.types"
     ],
-    "doBy": [
-        "pbkrtest"
-    ],
     "xgboost": [
         "data.table"
     ],
@@ -12881,9 +12647,7 @@
         "GenomicAlignments"
     ],
     "radiant.data": [
-        "car",
         "plotly",
-        "pbkrtest",
         "data.table"
     ],
     "cgdsr": [
@@ -13014,9 +12778,7 @@
         "operator.tools"
     ],
     "drc": [
-        "car",
         "multcomp",
-        "pbkrtest",
         "TH.data"
     ],
     "aws.s3": [
@@ -13031,10 +12793,6 @@
     ],
     "FME": [
         "minpack.lm"
-    ],
-    "FactoMineR": [
-        "car",
-        "pbkrtest"
     ],
     "GenomicTools": [
         "data.table",
@@ -13223,9 +12981,7 @@
     "factoextra": [
         "FactoMineR",
         "ggpubr",
-        "car",
-        "rstatix",
-        "pbkrtest"
+        "rstatix"
     ],
     "Ecume": [
         "spatstat.geom",
@@ -13310,9 +13066,7 @@
         "bigmemory.sri"
     ],
     "VIM": [
-        "car",
-        "data.table",
-        "pbkrtest"
+        "data.table"
     ],
     "cp4p": [
         "MESS",
@@ -13320,9 +13074,7 @@
     ],
     "imp4p": [
         "missMDA",
-        "FactoMineR",
-        "car",
-        "pbkrtest"
+        "FactoMineR"
     ],
     "tidyverse": [
         "dtplyr",
@@ -13332,9 +13084,7 @@
         "ggformula"
     ],
     "missMDA": [
-        "FactoMineR",
-        "car",
-        "pbkrtest"
+        "FactoMineR"
     ],
     "dtplyr": [
         "data.table"
@@ -13435,10 +13185,6 @@
         "lava",
         "future.apply"
     ],
-    "NHPoisson": [
-        "car",
-        "pbkrtest"
-    ],
     "dplR": [
         "R.utils",
         "R.oo",
@@ -13449,9 +13195,7 @@
         "survMisc",
         "rstatix",
         "data.table",
-        "km.ci",
-        "car",
-        "pbkrtest"
+        "km.ci"
     ],
     "survMisc": [
         "data.table",
@@ -13677,9 +13421,7 @@
         "futile.options"
     ],
     "RcmdrMisc": [
-        "car",
         "Hmisc",
-        "pbkrtest",
         "data.table"
     ],
     "qpcR": [
@@ -13696,9 +13438,6 @@
         "futile.logger",
         "lambda.r",
         "futile.options"
-    ],
-    "AICcmodavg": [
-        "unmarked"
     ],
     "biomartr": [
         "data.table",
