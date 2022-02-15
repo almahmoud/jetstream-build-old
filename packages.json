@@ -1,141 +1,89 @@
 {
     "APAlyzer": [
-        "repmis",
-        "R.cache"
-    ],
-    "appreci8R": [
-        "Homo.sapiens"
+        "repmis"
     ],
     "arrayMvout": [
         "lumi",
-        "methylumi",
-        "FDb.InfiniumMethylation.hg19"
+        "methylumi"
     ],
     "autonomics": [
         "assertive",
-        "assertive.strings",
-        "assertive.datetimes",
         "assertive.data",
         "assertive.data.uk",
-        "assertive.data.us",
-        "assertive.code"
+        "assertive.data.us"
     ],
     "benchdamic": [
         "Seurat",
         "ffpe",
         "lumi",
-        "methylumi",
-        "spatstat.core",
-        "FDb.InfiniumMethylation.hg19"
+        "methylumi"
     ],
     "bigmelon": [
         "wateRmelon",
         "methylumi",
-        "FDb.InfiniumMethylation.hg19",
-        "lumi",
-        "IlluminaHumanMethylation450kanno.ilmn12.hg19"
+        "lumi"
     ],
     "biocthis": [
-        "styler",
-        "R.cache"
-    ],
-    "biscuiteer": [
-        "Mus.musculus",
-        "Homo.sapiens"
+        "styler"
     ],
     "CelliD": [
-        "Seurat",
-        "spatstat.core"
+        "Seurat"
     ],
     "ChAMP": [
         "DMRcate",
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
         "wateRmelon",
         "missMethyl",
-        "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "methylumi",
-        "lumi",
-        "FDb.InfiniumMethylation.hg19"
+        "lumi"
     ],
     "condiments": [
         "Ecume",
         "spatstat",
-        "spatstat.core",
         "spatstat.linnet"
     ],
     "consensusDE": [
         "EDASeq",
-        "RUVSeq",
-        "aroma.light"
+        "RUVSeq"
     ],
     "conumee": [
-        "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "IlluminaHumanMethylationEPICanno.ilm10b2.hg19"
     ],
     "DaMiRseq": [
-        "EDASeq",
-        "aroma.light"
+        "EDASeq"
     ],
     "Dino": [
-        "Seurat",
-        "spatstat.core"
+        "Seurat"
     ],
     "DMRcate": [
         "missMethyl",
-        "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
-        "methylumi",
-        "FDb.InfiniumMethylation.hg19"
-    ],
-    "EDASeq": [
-        "aroma.light"
-    ],
-    "EnMCB": [
-        "IlluminaHumanMethylation450kanno.ilmn12.hg19"
-    ],
-    "erma": [
-        "Homo.sapiens"
+        "methylumi"
     ],
     "ffpe": [
         "lumi",
-        "methylumi",
-        "FDb.InfiniumMethylation.hg19"
-    ],
-    "funtooNorm": [
-        "IlluminaHumanMethylation450kanno.ilmn12.hg19"
+        "methylumi"
     ],
     "GARS": [
         "DaMiRseq",
-        "EDASeq",
-        "aroma.light"
-    ],
-    "gpart": [
-        "Homo.sapiens"
-    ],
-    "GSReg": [
-        "Homo.sapiens"
+        "EDASeq"
     ],
     "HubPub": [
         "biocthis",
-        "styler",
-        "R.cache"
+        "styler"
     ],
     "iCheck": [
         "lumi",
-        "methylumi",
-        "FDb.InfiniumMethylation.hg19"
+        "methylumi"
     ],
     "IRISFGM": [
-        "Seurat",
-        "spatstat.core"
+        "Seurat"
     ],
     "lisaClust": [
-        "spatstat.core",
         "spicyR"
     ],
     "lumi": [
-        "methylumi",
-        "FDb.InfiniumMethylation.hg19"
+        "methylumi"
     ],
     "M3Drop": [
         "reldist",
@@ -143,94 +91,62 @@
     ],
     "MAGAR": [
         "RnBeads",
-        "methylumi",
-        "FDb.InfiniumMethylation.hg19"
-    ],
-    "mCSEA": [
-        "Homo.sapiens"
+        "methylumi"
     ],
     "MEAL": [
         "missMethyl",
-        "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
-        "methylumi",
-        "FDb.InfiniumMethylation.hg19"
+        "methylumi"
     ],
     "MEAT": [
         "wateRmelon",
         "methylumi",
-        "lumi",
-        "IlluminaHumanMethylation450kanno.ilmn12.hg19",
-        "FDb.InfiniumMethylation.hg19"
+        "lumi"
     ],
     "metaseqR2": [
-        "EDASeq",
-        "aroma.light"
+        "EDASeq"
     ],
     "methylCC": [
-        "FlowSorted.Blood.450k",
-        "IlluminaHumanMethylation450kanno.ilmn12.hg19"
+        "FlowSorted.Blood.450k"
     ],
     "methylGSA": [
         "missMethyl",
-        "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
-        "methylumi",
-        "FDb.InfiniumMethylation.hg19"
-    ],
-    "MethylMix": [
-        "R.matlab"
-    ],
-    "methylumi": [
-        "FDb.InfiniumMethylation.hg19"
+        "methylumi"
     ],
     "MineICA": [
         "lumi",
-        "methylumi",
-        "FDb.InfiniumMethylation.hg19"
+        "methylumi"
     ],
     "missMethyl": [
-        "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
-        "methylumi",
-        "FDb.InfiniumMethylation.hg19"
+        "methylumi"
     ],
     "multicrispr": [
         "assertive",
-        "assertive.strings",
-        "assertive.datetimes",
         "assertive.data",
         "assertive.data.uk",
-        "assertive.data.us",
-        "assertive.code"
+        "assertive.data.us"
     ],
     "Nebulosa": [
-        "Seurat",
-        "spatstat.core"
+        "Seurat"
     ],
     "orthogene": [
-        "repmis",
-        "R.cache"
+        "repmis"
     ],
     "PECA": [
         "aroma.affymetrix",
         "aroma.core",
-        "R.cache",
-        "R.devices",
         "R.filesets",
         "aroma.apd",
         "R.rsp",
-        "PSCBS",
-        "R.huge",
-        "aroma.light"
+        "PSCBS"
     ],
     "phemd": [
-        "Seurat",
-        "spatstat.core"
+        "Seurat"
     ],
     "pipeComp": [
-        "Seurat",
-        "spatstat.core"
+        "Seurat"
     ],
     "RiboDiPA": [
         "reldist",
@@ -238,51 +154,40 @@
     ],
     "ribosomeProfilingQC": [
         "EDASeq",
-        "RUVSeq",
-        "aroma.light"
+        "RUVSeq"
     ],
     "RmiR": [
         "RSVGTipsDevice"
     ],
     "RnBeads": [
-        "methylumi",
-        "FDb.InfiniumMethylation.hg19"
+        "methylumi"
     ],
     "RUVSeq": [
-        "EDASeq",
-        "aroma.light"
+        "EDASeq"
     ],
     "scAlign": [
-        "Seurat",
-        "spatstat.core"
+        "Seurat"
     ],
     "scAnnotatR": [
-        "Seurat",
-        "spatstat.core"
+        "Seurat"
     ],
     "scBFA": [
-        "Seurat",
-        "spatstat.core"
+        "Seurat"
     ],
     "scCB2": [
-        "Seurat",
-        "spatstat.core"
+        "Seurat"
     ],
     "scClassifR": [
-        "Seurat",
-        "spatstat.core"
+        "Seurat"
     ],
     "scDataviz": [
-        "Seurat",
-        "spatstat.core"
+        "Seurat"
     ],
     "schex": [
-        "Seurat",
-        "spatstat.core"
+        "Seurat"
     ],
     "scMAGeCK": [
-        "Seurat",
-        "spatstat.core"
+        "Seurat"
     ],
     "scMerge": [
         "M3Drop",
@@ -290,118 +195,64 @@
         "densEstBayes"
     ],
     "scone": [
-        "aroma.light",
         "RUVSeq",
         "EDASeq"
     ],
     "scTensor": [
         "schex",
-        "Seurat",
-        "spatstat.core"
+        "Seurat"
     ],
     "scTGIF": [
         "schex",
-        "Seurat",
-        "spatstat.core"
+        "Seurat"
     ],
     "scTreeViz": [
-        "Seurat",
-        "spatstat.core"
+        "Seurat"
     ],
     "singleCellTK": [
         "scMerge",
         "Seurat",
         "M3Drop",
-        "spatstat.core",
         "reldist",
         "densEstBayes"
     ],
     "skewr": [
         "methylumi",
         "wateRmelon",
-        "FDb.InfiniumMethylation.hg19",
-        "lumi",
-        "IlluminaHumanMethylation450kanno.ilmn12.hg19"
-    ],
-    "sojourner": [
-        "R.matlab"
+        "lumi"
     ],
     "Spaniel": [
-        "Seurat",
-        "spatstat.core"
+        "Seurat"
     ],
     "SpatialDecon": [
-        "repmis",
-        "R.cache"
-    ],
-    "spicyR": [
-        "spatstat.core"
+        "repmis"
     ],
     "systemPipeShiny": [
-        "styler",
-        "R.cache"
+        "styler"
     ],
     "TIN": [
         "aroma.affymetrix",
         "aroma.core",
-        "R.cache",
-        "R.devices",
         "R.filesets",
         "aroma.apd",
-        "R.huge",
         "R.rsp",
-        "PSCBS",
-        "aroma.light"
-    ],
-    "TRONCO": [
-        "R.matlab"
-    ],
-    "uncoverappLib": [
-        "Homo.sapiens"
+        "PSCBS"
     ],
     "wateRmelon": [
         "methylumi",
-        "lumi",
-        "IlluminaHumanMethylation450kanno.ilmn12.hg19",
-        "FDb.InfiniumMethylation.hg19"
-    ],
-    "repmis": [
-        "R.cache"
+        "lumi"
     ],
     "assertive": [
-        "assertive.strings",
-        "assertive.datetimes",
         "assertive.data",
         "assertive.data.uk",
-        "assertive.data.us",
-        "assertive.code"
-    ],
-    "assertive.data": [
-        "assertive.strings"
-    ],
-    "assertive.data.uk": [
-        "assertive.strings"
-    ],
-    "assertive.data.us": [
-        "assertive.strings"
-    ],
-    "Seurat": [
-        "spatstat.core"
-    ],
-    "styler": [
-        "R.cache"
+        "assertive.data.us"
     ],
     "Ecume": [
         "spatstat",
-        "spatstat.core",
         "spatstat.linnet"
     ],
     "spatstat": [
-        "spatstat.core",
         "spatstat.linnet"
-    ],
-    "spatstat.linnet": [
-        "spatstat.core"
     ],
     "reldist": [
         "densEstBayes"
@@ -409,48 +260,25 @@
     "agricolae": [
         "klaR",
         "questionr",
-        "styler",
-        "R.cache"
+        "styler"
     ],
     "klaR": [
         "questionr",
-        "styler",
-        "R.cache"
+        "styler"
     ],
     "questionr": [
-        "styler",
-        "R.cache"
+        "styler"
     ],
     "aroma.affymetrix": [
         "aroma.core",
-        "R.cache",
-        "R.devices",
         "R.filesets",
         "aroma.apd",
-        "R.huge",
         "R.rsp",
-        "PSCBS",
-        "aroma.light"
+        "PSCBS"
     ],
     "aroma.core": [
         "R.filesets",
-        "R.devices",
-        "R.cache",
         "R.rsp",
-        "PSCBS",
-        "aroma.light"
-    ],
-    "R.filesets": [
-        "R.cache"
-    ],
-    "aroma.apd": [
-        "R.huge"
-    ],
-    "R.rsp": [
-        "R.cache"
-    ],
-    "PSCBS": [
-        "R.cache",
-        "aroma.light"
+        "PSCBS"
     ]
 }
