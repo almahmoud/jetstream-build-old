@@ -43,16 +43,12 @@
         "Mus.musculus",
         "Homo.sapiens"
     ],
-    "CATALYST": [
-        "FlowSOM"
-    ],
     "CelliD": [
         "Seurat",
         "spatstat.core"
     ],
     "censcyt": [
-        "diffcyt",
-        "FlowSOM"
+        "diffcyt"
     ],
     "ChAMP": [
         "DMRcate",
@@ -80,18 +76,11 @@
         "IlluminaHumanMethylationEPICanno.ilm10b2.hg19"
     ],
     "CyTOFpower": [
-        "diffcyt",
-        "FlowSOM"
-    ],
-    "CytoTree": [
-        "FlowSOM"
+        "diffcyt"
     ],
     "DaMiRseq": [
         "EDASeq",
         "aroma.light"
-    ],
-    "diffcyt": [
-        "FlowSOM"
     ],
     "Dino": [
         "Seurat",
@@ -180,9 +169,6 @@
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "FDb.InfiniumMethylation.hg19"
     ],
-    "MetaCyto": [
-        "FlowSOM"
-    ],
     "metaseqR2": [
         "EDASeq",
         "aroma.light"
@@ -251,9 +237,6 @@
     "pipeComp": [
         "Seurat",
         "spatstat.core"
-    ],
-    "RiboCrypt": [
-        "ORFik"
     ],
     "RiboDiPA": [
         "reldist",
@@ -377,8 +360,7 @@
         "aroma.light"
     ],
     "treekoR": [
-        "diffcyt",
-        "FlowSOM"
+        "diffcyt"
     ],
     "TRONCO": [
         "R.matlab"
