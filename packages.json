@@ -110,17 +110,13 @@
         "TxDb.Mmusculus.UCSC.mm10.knownGene"
     ],
     "brainflowprobes": [
-        "BSgenome.Hsapiens.UCSC.hg19",
-        "derfinderPlot"
+        "BSgenome.Hsapiens.UCSC.hg19"
     ],
     "branchpointer": [
         "BSgenome.Hsapiens.UCSC.hg38"
     ],
     "bsseq": [
         "R.utils"
-    ],
-    "CAGEfightR": [
-        "GenomicInteractions"
     ],
     "CATALYST": [
         "FlowSOM",
@@ -226,9 +222,6 @@
     ],
     "Cogito": [
         "TxDb.Mmusculus.UCSC.mm9.knownGene"
-    ],
-    "compEpiTools": [
-        "methylPipe"
     ],
     "conclus": [
         "GEOquery",
@@ -503,7 +496,6 @@
         "R.utils"
     ],
     "HiCDCPlus": [
-        "GenomicInteractions",
         "R.utils"
     ],
     "HiLDA": [
@@ -814,9 +806,6 @@
         "TCGAbiolinks",
         "R.utils"
     ],
-    "NADfinder": [
-        "trackViewer"
-    ],
     "NanoMethViz": [
         "bsseq",
         "R.utils"
@@ -1017,15 +1006,6 @@
         "GEOquery",
         "R.utils"
     ],
-    "RNAmodR.AlkAnilineSeq": [
-        "RNAmodR"
-    ],
-    "RNAmodR.ML": [
-        "RNAmodR"
-    ],
-    "RNAmodR.RiboMethSeq": [
-        "RNAmodR"
-    ],
     "RnBeads": [
         "methylumi",
         "FDb.InfiniumMethylation.hg19",
@@ -1196,7 +1176,6 @@
         "R.utils"
     ],
     "spatzie": [
-        "GenomicInteractions",
         "motifmatchr",
         "TFBSTools",
         "CNEr",
@@ -1332,7 +1311,6 @@
         "R.utils"
     ],
     "YAPSA": [
-        "SomaticSignatures",
         "BSgenome.Hsapiens.UCSC.hg19"
     ],
     "yarn": [
