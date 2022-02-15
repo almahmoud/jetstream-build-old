@@ -64,7 +64,7 @@ elif api_response.status.failed is not None:
 else:
     with open(args.statusfile, 'w') as f:
         f.write("runningbuild")
-    print(f'Job "{args.package.lower()}-build" incomplete. status="{str(api_response.status)}"')
+    print(f'Job "{args.package.lower()}-build" incomplete')
 
 
 

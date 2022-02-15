@@ -5,7 +5,7 @@ on:
 jobs:
   jsbuild:
     env:
-      NAMESPACE: testbuild
+      NAMESPACE: newbuild
       PVC: rstudio-r-libraries-pvc
     runs-on: ubuntu-latest
     outputs:
