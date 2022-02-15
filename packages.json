@@ -20,9 +20,6 @@
         "Gviz",
         "biovizBase"
     ],
-    "annotatr": [
-        "regioneR"
-    ],
     "APAlyzer": [
         "repmis",
         "R.cache",
@@ -54,7 +51,6 @@
         "R.utils"
     ],
     "ASpediaFI": [
-        "IVAS",
         "Gviz",
         "biovizBase"
     ],
@@ -63,8 +59,7 @@
         "biovizBase"
     ],
     "ATACseqQC": [
-        "ChIPpeakAnno",
-        "regioneR"
+        "ChIPpeakAnno"
     ],
     "AUCell": [
         "R.utils"
@@ -136,8 +131,7 @@
         "R.utils",
         "annotatr",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
-        "TxDb.Mmusculus.UCSC.mm10.knownGene",
-        "regioneR"
+        "TxDb.Mmusculus.UCSC.mm10.knownGene"
     ],
     "brainflowprobes": [
         "BSgenome.Hsapiens.UCSC.hg19",
@@ -178,8 +172,7 @@
         "R.utils"
     ],
     "cBioPortalData": [
-        "RTCGAToolbox",
-        "TCGAutils"
+        "RTCGAToolbox"
     ],
     "celda": [
         "multipanelfigure",
@@ -208,7 +201,6 @@
         "IlluminaHumanMethylation450kmanifest",
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
         "wateRmelon",
-        "goseq",
         "missMethyl",
         "bsseq",
         "DSS",
@@ -236,9 +228,6 @@
     "ChIPexoQual": [
         "biovizBase"
     ],
-    "ChIPpeakAnno": [
-        "regioneR"
-    ],
     "ChIPQC": [
         "DiffBind",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
@@ -247,8 +236,7 @@
         "TxDb.Mmusculus.UCSC.mm9.knownGene",
         "TxDb.Rnorvegicus.UCSC.rn4.ensGene",
         "TxDb.Celegans.UCSC.ce6.ensGene",
-        "TxDb.Dmelanogaster.UCSC.dm3.ensGene",
-        "GreyListChIP"
+        "TxDb.Dmelanogaster.UCSC.dm3.ensGene"
     ],
     "ChIPseeker": [
         "TxDb.Hsapiens.UCSC.hg19.knownGene"
@@ -274,14 +262,10 @@
     "cleanUpdTSeq": [
         "BSgenome.Drerio.UCSC.danRer7"
     ],
-    "clipper": [
-        "qpgraph"
-    ],
     "CNEr": [
         "R.utils"
     ],
     "CNVfilteR": [
-        "regioneR",
         "karyoploteR",
         "CopyNumberPlots",
         "cn.mops",
@@ -290,7 +274,6 @@
     "CNViz": [
         "karyoploteR",
         "CopyNumberPlots",
-        "regioneR",
         "cn.mops",
         "biovizBase"
     ],
@@ -351,14 +334,12 @@
     ],
     "CopyNumberPlots": [
         "karyoploteR",
-        "regioneR",
         "cn.mops",
         "biovizBase"
     ],
     "crisprseekplus": [
         "GUIDEseq",
-        "ChIPpeakAnno",
-        "regioneR"
+        "ChIPpeakAnno"
     ],
     "crossmeta": [
         "GEOquery",
@@ -429,8 +410,7 @@
         "biovizBase"
     ],
     "DEScan2": [
-        "ChIPpeakAnno",
-        "regioneR"
+        "ChIPpeakAnno"
     ],
     "DEWSeq": [
         "R.utils"
@@ -438,9 +418,6 @@
     "DExMA": [
         "GEOquery",
         "R.utils"
-    ],
-    "DiffBind": [
-        "GreyListChIP"
     ],
     "diffcyt": [
         "FlowSOM",
@@ -477,7 +454,6 @@
     "dmrseq": [
         "bsseq",
         "annotatr",
-        "regioneR",
         "R.utils"
     ],
     "DropletUtils": [
@@ -531,9 +507,6 @@
         "R.utils",
         "CNEr"
     ],
-    "epigraHMM": [
-        "GreyListChIP"
-    ],
     "epivizr": [
         "epivizrData"
     ],
@@ -583,7 +556,6 @@
         "R.utils"
     ],
     "FRASER": [
-        "OUTRIDER",
         "R.utils"
     ],
     "funtooNorm": [
@@ -656,8 +628,7 @@
         "TxDb.Hsapiens.UCSC.hg19.knownGene"
     ],
     "GUIDEseq": [
-        "ChIPpeakAnno",
-        "regioneR"
+        "ChIPpeakAnno"
     ],
     "Gviz": [
         "biovizBase"
@@ -705,12 +676,6 @@
         "CODEX",
         "BSgenome.Hsapiens.UCSC.hg19"
     ],
-    "ideal": [
-        "goseq"
-    ],
-    "IMAS": [
-        "IVAS"
-    ],
     "imcRtools": [
         "SpatialExperiment",
         "DropletUtils",
@@ -740,7 +705,6 @@
         "tximeta"
     ],
     "karyoploteR": [
-        "regioneR",
         "biovizBase"
     ],
     "kissDE": [
@@ -838,8 +802,7 @@
         "R.utils"
     ],
     "MetaboSignal": [
-        "EnsDb.Hsapiens.v75",
-        "mygene"
+        "EnsDb.Hsapiens.v75"
     ],
     "MetaCyto": [
         "FlowSOM",
@@ -889,7 +852,6 @@
     "methylclock": [
         "methylclockData",
         "minfi",
-        "ExperimentHubData",
         "GEOquery",
         "R.utils"
     ],
@@ -1019,7 +981,6 @@
         "assertive.data.uk",
         "assertive.data.us",
         "assertive.code",
-        "regioneR",
         "biovizBase"
     ],
     "multiHiCcompare": [
@@ -1047,7 +1008,6 @@
         "ATACseqQC",
         "ChIPpeakAnno",
         "Gviz",
-        "regioneR",
         "biovizBase"
     ],
     "NanoMethViz": [
@@ -1240,8 +1200,7 @@
     ],
     "REDseq": [
         "BSgenome.Celegans.UCSC.ce2",
-        "ChIPpeakAnno",
-        "regioneR"
+        "ChIPpeakAnno"
     ],
     "regionReport": [
         "derfinder",
@@ -1260,9 +1219,6 @@
         "R.utils",
         "ggbio",
         "biovizBase"
-    ],
-    "rgsepd": [
-        "goseq"
     ],
     "RiboCrypt": [
         "ORFik",
@@ -1285,15 +1241,11 @@
     ],
     "RIPAT": [
         "karyoploteR",
-        "regioneR",
         "biovizBase"
     ],
     "RITAN": [
         "BgeeDB",
         "R.utils"
-    ],
-    "RLSeq": [
-        "regioneR"
     ],
     "RmiR": [
         "RSVGTipsDevice"
@@ -1338,9 +1290,6 @@
     "Rqc": [
         "biovizBase",
         "GenomicFiles"
-    ],
-    "RTCGAToolbox": [
-        "TCGAutils"
     ],
     "RUVSeq": [
         "EDASeq",
@@ -1404,7 +1353,6 @@
     "scmeth": [
         "bsseq",
         "annotatr",
-        "regioneR",
         "R.utils"
     ],
     "scone": [
@@ -1465,7 +1413,6 @@
         "celda",
         "DropletUtils",
         "R.utils",
-        "scRNAseq",
         "multipanelfigure",
         "M3Drop",
         "spatstat.core",
@@ -1490,9 +1437,6 @@
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "R.utils"
-    ],
-    "SMITE": [
-        "goseq"
     ],
     "sojourner": [
         "R.matlab",
@@ -1543,7 +1487,6 @@
     ],
     "SpidermiR": [
         "TCGAbiolinks",
-        "MAGeCKFlute",
         "R.utils"
     ],
     "SPLINTER": [
@@ -1566,7 +1509,6 @@
     "StarBioTrek": [
         "SpidermiR",
         "TCGAbiolinks",
-        "MAGeCKFlute",
         "R.utils"
     ],
     "strandCheckR": [
@@ -1657,7 +1599,6 @@
         "Organism.dplyr"
     ],
     "UMI4Cats": [
-        "regioneR",
         "R.utils",
         "TxDb.Hsapiens.UCSC.hg19.knownGene"
     ],
@@ -1693,9 +1634,7 @@
     "vulcan": [
         "ChIPpeakAnno",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
-        "DiffBind",
-        "regioneR",
-        "GreyListChIP"
+        "DiffBind"
     ],
     "wateRmelon": [
         "methylumi",
@@ -1856,9 +1795,6 @@
         "minfi",
         "GEOquery",
         "R.utils"
-    ],
-    "methylclockData": [
-        "ExperimentHubData"
     ],
     "R.matlab": [
         "R.utils"
