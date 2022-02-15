@@ -22,7 +22,7 @@ def create_build_job(package, libraries_pvc, workers, namespace="default"):
     k8s_client = client.ApiClient()
     with open("job-template.yaml", "r") as f:
         tpl = f.read()
-    tpl = tpl.replace("PACKAGENAMELOWER", package.lower()).replace("PACKAGENAME", package).replace("LIBRARIESCLAIM", libraries_pvc).replace("NAMESPACE", namespace).replace("WORKERNODES", workers)
+    tpl = tpl.replace("PACKAGENAMELOWER", ''.join(filter(str.isalnum, package.lower()))).replace("PACKAGENAME", package).replace("LIBRARIESCLAIM", libraries_pvc).replace("NAMESPACE", namespace).replace("WORKERNODES", workers)
     with open(f'{args.manifest}/{package}.yaml', "w") as f:
         f.write(tpl)
     utils.create_from_yaml(k8s_client, f'{args.manifest}/{package}.yaml')

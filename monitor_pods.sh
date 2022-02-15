@@ -12,7 +12,7 @@ if [ -z "$namespace" ];
     exit;
 fi
 
-while [ -s lists/todo ]; do
+while true; do
 	echo "$(date) jobs running: $(($(kubectl get pods -n $namespace | grep "build" | grep -i running | wc -l)))"
 	echo "$(date) jobs completed: $(($(kubectl get pods -n $namespace | grep "build" | grep -i completed | wc -l)))"
 	echo "$(date) jobs failing: $(($(kubectl get pods -n $namespace | grep "build" | grep -i crash | wc -l)+$(kubectl get pods -n $namespace | grep "build" | grep -i error | wc -l)))"
