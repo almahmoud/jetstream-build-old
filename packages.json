@@ -44,8 +44,7 @@
     ],
     "biscuiteer": [
         "Mus.musculus",
-        "Homo.sapiens",
-        "dmrseq"
+        "Homo.sapiens"
     ],
     "CATALYST": [
         "FlowSOM",
@@ -62,19 +61,13 @@
     ],
     "ChAMP": [
         "DMRcate",
-        "IlluminaHumanMethylationEPICmanifest",
-        "IlluminaHumanMethylation450kmanifest",
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
         "wateRmelon",
         "missMethyl",
-        "DSS",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "methylumi",
         "lumi",
         "FDb.InfiniumMethylation.hg19"
-    ],
-    "chromVAR": [
-        "TFBSTools"
     ],
     "condiments": [
         "Ecume",
@@ -89,9 +82,7 @@
     ],
     "conumee": [
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
-        "IlluminaHumanMethylation450kmanifest",
-        "IlluminaHumanMethylationEPICanno.ilm10b2.hg19",
-        "IlluminaHumanMethylationEPICmanifest"
+        "IlluminaHumanMethylationEPICanno.ilm10b2.hg19"
     ],
     "CyTOFpower": [
         "diffcyt",
@@ -115,38 +106,20 @@
         "spatstat.core"
     ],
     "DMRcate": [
-        "DSS",
         "missMethyl",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
-        "IlluminaHumanMethylation450kmanifest",
-        "IlluminaHumanMethylationEPICmanifest",
         "methylumi",
         "FDb.InfiniumMethylation.hg19"
     ],
     "EDASeq": [
         "aroma.light"
     ],
-    "enhancerHomologSearch": [
-        "motifmatchr",
-        "TFBSTools"
-    ],
     "EnMCB": [
         "IlluminaHumanMethylation450kanno.ilmn12.hg19"
     ],
-    "enrichTF": [
-        "motifmatchr",
-        "TFBSTools"
-    ],
     "erma": [
         "Homo.sapiens"
-    ],
-    "esATAC": [
-        "TFBSTools",
-        "motifmatchr"
-    ],
-    "ExperimentSubset": [
-        "SpatialExperiment"
     ],
     "ffpe": [
         "lumi",
@@ -157,16 +130,12 @@
         "CytoML"
     ],
     "funtooNorm": [
-        "IlluminaHumanMethylation450kmanifest",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19"
     ],
     "GARS": [
         "DaMiRseq",
         "EDASeq",
         "aroma.light"
-    ],
-    "ggspavis": [
-        "SpatialExperiment"
     ],
     "gpart": [
         "Homo.sapiens"
@@ -184,15 +153,9 @@
         "methylumi",
         "FDb.InfiniumMethylation.hg19"
     ],
-    "imcRtools": [
-        "SpatialExperiment"
-    ],
     "IRISFGM": [
         "Seurat",
         "spatstat.core"
-    ],
-    "kissDE": [
-        "DSS"
     ],
     "lisaClust": [
         "spatstat.core",
@@ -211,9 +174,6 @@
         "methylumi",
         "FDb.InfiniumMethylation.hg19"
     ],
-    "MatrixRider": [
-        "TFBSTools"
-    ],
     "mCSEA": [
         "Homo.sapiens"
     ],
@@ -221,8 +181,6 @@
         "missMethyl",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
-        "IlluminaHumanMethylation450kmanifest",
-        "IlluminaHumanMethylationEPICmanifest",
         "methylumi",
         "FDb.InfiniumMethylation.hg19"
     ],
@@ -238,32 +196,22 @@
         "CytoML"
     ],
     "metaseqR2": [
-        "DSS",
         "EDASeq",
         "aroma.light"
     ],
-    "MethCP": [
-        "DSS"
-    ],
     "methylCC": [
         "FlowSorted.Blood.450k",
-        "IlluminaHumanMethylation450kmanifest",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19"
     ],
     "methylGSA": [
         "missMethyl",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
-        "IlluminaHumanMethylation450kmanifest",
-        "IlluminaHumanMethylationEPICmanifest",
         "methylumi",
         "FDb.InfiniumMethylation.hg19"
     ],
     "MethylMix": [
         "R.matlab"
-    ],
-    "methylSig": [
-        "DSS"
     ],
     "methylumi": [
         "FDb.InfiniumMethylation.hg19"
@@ -276,16 +224,8 @@
     "missMethyl": [
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
-        "IlluminaHumanMethylation450kmanifest",
-        "IlluminaHumanMethylationEPICmanifest",
         "methylumi",
         "FDb.InfiniumMethylation.hg19"
-    ],
-    "monaLisa": [
-        "TFBSTools"
-    ],
-    "motifmatchr": [
-        "TFBSTools"
     ],
     "multicrispr": [
         "assertive",
@@ -296,23 +236,13 @@
         "assertive.data.us",
         "assertive.code"
     ],
-    "multiHiCcompare": [
-        "HiCcompare"
-    ],
     "Nebulosa": [
         "Seurat",
         "spatstat.core"
     ],
-    "ODER": [
-        "dasper"
-    ],
     "orthogene": [
         "repmis",
         "R.cache"
-    ],
-    "pageRank": [
-        "motifmatchr",
-        "TFBSTools"
     ],
     "PECA": [
         "aroma.affymetrix",
@@ -333,9 +263,6 @@
     "pipeComp": [
         "Seurat",
         "spatstat.core"
-    ],
-    "primirTSS": [
-        "TFBSTools"
     ],
     "RiboCrypt": [
         "ORFik"
@@ -416,13 +343,9 @@
         "Seurat",
         "spatstat.core"
     ],
-    "shinyMethyl": [
-        "IlluminaHumanMethylation450kmanifest"
-    ],
     "singleCellTK": [
         "scMerge",
         "Seurat",
-        "celda",
         "M3Drop",
         "spatstat.core",
         "reldist",
@@ -431,7 +354,6 @@
     "skewr": [
         "methylumi",
         "wateRmelon",
-        "IlluminaHumanMethylation450kmanifest",
         "FDb.InfiniumMethylation.hg19",
         "lumi",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19"
@@ -443,35 +365,16 @@
         "Seurat",
         "spatstat.core"
     ],
-    "spatialDE": [
-        "SpatialExperiment"
-    ],
     "SpatialDecon": [
         "repmis",
         "R.cache"
     ],
-    "spatzie": [
-        "motifmatchr",
-        "TFBSTools"
-    ],
-    "SpectralTAD": [
-        "HiCcompare"
-    ],
     "spicyR": [
         "spatstat.core"
-    ],
-    "StarBioTrek": [
-        "SpidermiR"
     ],
     "systemPipeShiny": [
         "styler",
         "R.cache"
-    ],
-    "TADCompare": [
-        "HiCcompare"
-    ],
-    "TCGAbiolinksGUI": [
-        "ELMER"
     ],
     "TIN": [
         "aroma.affymetrix",
@@ -501,9 +404,6 @@
         "lumi",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "FDb.InfiniumMethylation.hg19"
-    ],
-    "yarn": [
-        "quantro"
     ],
     "repmis": [
         "R.cache"
