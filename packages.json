@@ -2223,7 +2223,6 @@
     "CONFESS": [
         "contrast",
         "data.table",
-        "flowMerge",
         "rms",
         "Hmisc",
         "multcomp",
